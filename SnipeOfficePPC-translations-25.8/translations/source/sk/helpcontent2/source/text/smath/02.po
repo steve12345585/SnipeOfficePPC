@@ -1,0 +1,26 @@
+#: 03010000.xhp#tit.help.text
+msgctxt "03010000.xhp#tit.help.text"
+msgid "Formula Cursor"
+msgstr "Kurzor pre vzorce"
+
+#: 03010000.xhp#bm_id3149500.help.text
+msgid "<bookmark_value>formula cursor in $[officename] Math</bookmark_value><bookmark_value>cursor; in $[officename] Math</bookmark_value>"
+msgstr "<bookmark_value>kurzor pre vzorce v $[officename] Math</bookmark_value><bookmark_value>kurzor; v $[officename] Math</bookmark_value>"
+
+#: 03010000.xhp#hd_id3149500.1.help.text
+msgctxt "03010000.xhp#hd_id3149500.1.help.text"
+msgid "Formula Cursor"
+msgstr "Kurzor pre vzorce"
+
+#: 03010000.xhp#par_id3153916.2.help.text
+#, fuzzy
+msgid "<variable id=\"cursor\"><ahelp hid=\"SID_FORMULACURSOR\">Use this icon on the Tools bar to turn the Formula Cursor on or off.</ahelp> The part of the formula where the cursor is positioned in the <emph>Commands</emph> window is marked with a thin border when the formula cursor is active.</variable>"
+msgstr "<variable id=\"cursor\"><ahelp hid=\"SID_FORMULACURSOR\">Kliknutím na túto ikonu v paneli nástrojov môžte zapnúť alebo vypnúť zvýraznenie prvkov.</ahelp> Ak je zvýraznenie aktívne, potom je časť vzorca v <emph>príkazovom okne </emph> označená tenkým okrajom.</variable>"
+
+#: 03010000.xhp#par_id3150048.14.help.text
+msgid "You can also click a position in the document to move the cursor to its corresponding position in the <emph>Commands</emph> window."
+msgstr "Kliknutím na určité miesto v dokumente môžte premiestniť kurzor na zodpovedajúce miesto v <emph>príkazovom okne </emph>."
+
+#: 03010000.xhp#par_id3146966.15.help.text
+msgid "Double-clicking a character or symbol in the document moves the focus of the cursor to the <emph>Commands</emph> window and highlights its respective position. "
+msgstr "Dvojklikom na znak nebo symbol v dokumente premiestnite kurzor do <emph>príkazového okna </emph> a poloha kurzora sa následne zvýrazní."

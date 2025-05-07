@@ -1,0 +1,253 @@
+#. extracted from svtools/source/filter.oo
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+svtools%2Fsource%2Ffilter.oo&subcomponent=ui\n"
+"POT-Creation-Date: 2012-11-15 15:34+0200\n"
+"PO-Revision-Date: 2012-11-20 12:23+0000\n"
+"Last-Translator: Ákos <nagy.akos@libreoffice.ro>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Accelerator-Marker: ~\n"
+"X-POOTLE-MTIME: 1353414183.0\n"
+
+#: exportdialog.src#DLG_EXPORT_TITLE.string.text
+msgid " Options"
+msgstr "Opțiuni"
+
+#: exportdialog.src#DLG_EXPORT.FL_EXPORT_SIZE.fixedline.text
+msgid "Size"
+msgstr "Mărime"
+
+#: exportdialog.src#DLG_EXPORT.FT_SIZEX.fixedtext.text
+msgid "Width:"
+msgstr "Lățime:"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEX.1.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEX.1.stringlist.text"
+msgid "inches"
+msgstr "țoli"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEX.2.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEX.2.stringlist.text"
+msgid "cm"
+msgstr "cm"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEX.3.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEX.3.stringlist.text"
+msgid "mm"
+msgstr "ll"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEX.4.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEX.4.stringlist.text"
+msgid "points"
+msgstr "puncte"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEX.5.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEX.5.stringlist.text"
+msgid "pixels"
+msgstr "pixeli"
+
+#: exportdialog.src#DLG_EXPORT.FT_SIZEY.fixedtext.text
+msgid "Height:"
+msgstr "Înălțime:"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEY.1.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEY.1.stringlist.text"
+msgid "inches"
+msgstr "țoli"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEY.2.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEY.2.stringlist.text"
+msgid "cm"
+msgstr "cm"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEY.3.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEY.3.stringlist.text"
+msgid "mm"
+msgstr "ll"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEY.4.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEY.4.stringlist.text"
+msgid "points"
+msgstr "puncte"
+
+#: exportdialog.src#DLG_EXPORT.LB_SIZEY.5.stringlist.text
+msgctxt "exportdialog.src#DLG_EXPORT.LB_SIZEY.5.stringlist.text"
+msgid "pixels"
+msgstr "pixeli"
+
+#: exportdialog.src#DLG_EXPORT.FT_RESOLUTION.fixedtext.text
+msgid "Resolution:"
+msgstr "Rezoluție:"
+
+#: exportdialog.src#DLG_EXPORT.LB_RESOLUTION.1.stringlist.text
+msgid "pixels/cm"
+msgstr "pixeli/cm"
+
+#: exportdialog.src#DLG_EXPORT.LB_RESOLUTION.2.stringlist.text
+msgid "pixels/inch"
+msgstr "pixeli/inch"
+
+#: exportdialog.src#DLG_EXPORT.LB_RESOLUTION.3.stringlist.text
+msgid "pixels/meter"
+msgstr "pixeli/metru"
+
+#: exportdialog.src#DLG_EXPORT.FL_COLOR_DEPTH.fixedline.text
+msgid "Color Depth"
+msgstr "Adâncimea cu&lorii"
+
+#: exportdialog.src#DLG_EXPORT.STR_1BIT_THRESHOLD.string.text
+msgid "1 bit threshold"
+msgstr "Prag de 1 bit"
+
+#: exportdialog.src#DLG_EXPORT.STR_1BIT_DITHERED.string.text
+msgid "1 bit dithered"
+msgstr "Oscilație de 1 bit"
+
+#: exportdialog.src#DLG_EXPORT.STR_4BIT_GRAYSCALE.string.text
+msgid "4 bit grayscale"
+msgstr "scală de gri 4 biți"
+
+#: exportdialog.src#DLG_EXPORT.STR_4BIT_COLOR_PALETTE.string.text
+msgid "4 bit color"
+msgstr "culoare 4 biți"
+
+#: exportdialog.src#DLG_EXPORT.STR_8BIT_GRAYSCALE.string.text
+msgid "8 bit grayscale"
+msgstr "Scală de gri 8 biți"
+
+#: exportdialog.src#DLG_EXPORT.STR_8BIT_COLOR_PALETTE.string.text
+msgid "8 bit color"
+msgstr "culoare 8 biți"
+
+#: exportdialog.src#DLG_EXPORT.STR_24BIT_TRUE_COLOR.string.text
+msgid "24 bit true color"
+msgstr "Culoare adevărată 24 biți"
+
+#: exportdialog.src#DLG_EXPORT.FL_JPG_QUALITY.fixedline.text
+msgid "Quality"
+msgstr "Calitate"
+
+#: exportdialog.src#DLG_EXPORT.FL_COMPRESSION.fixedline.text
+msgid "Compression"
+msgstr "Compresie"
+
+#: exportdialog.src#DLG_EXPORT.FL_MODE.fixedline.text
+msgid "Mode"
+msgstr "Mod"
+
+#: exportdialog.src#DLG_EXPORT.FL_PBM_OPTIONS.fixedline.text
+msgid "File Format"
+msgstr "Format fișier"
+
+#: exportdialog.src#DLG_EXPORT.FT_JPG_MIN.fixedtext.text
+msgid "1 is minimum Quality and smallest file size."
+msgstr "1 este calitate minimă și cea mai mică dimensiune a fișierului."
+
+#: exportdialog.src#DLG_EXPORT.FT_JPG_MAX.fixedtext.text
+msgid "100 is maximum Quality and biggest file size."
+msgstr "100 este calitate maximă și cea mai mare dimensiune a fișierului."
+
+#: exportdialog.src#DLG_EXPORT.FT_PNG_MIN.fixedtext.text
+msgid "0 is biggest file size and fastest loading."
+msgstr "0 este mărimea fișierului cel mai mare cu cea mai rapidă încărcare."
+
+#: exportdialog.src#DLG_EXPORT.FT_PNG_MAX.fixedtext.text
+msgid "9 is smallest file size and slowest loading."
+msgstr "9 este mărimea fișierului cea mai mică cu cea mai lentă încărcare."
+
+#: exportdialog.src#DLG_EXPORT.CB_JPG_PREVIEW.checkbox.text
+msgctxt "exportdialog.src#DLG_EXPORT.CB_JPG_PREVIEW.checkbox.text"
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: exportdialog.src#DLG_EXPORT.CB_INTERLACED.checkbox.text
+msgid "Interlaced"
+msgstr "Întrețesut"
+
+#: exportdialog.src#DLG_EXPORT.CB_RLE_ENCODING.checkbox.text
+msgid "RLE encoding"
+msgstr "Codare RLE"
+
+#: exportdialog.src#DLG_EXPORT.FL_GIF_DRAWING_OBJECTS.fixedline.text
+msgid "Drawing Objects"
+msgstr "Obiecte de desen"
+
+#: exportdialog.src#DLG_EXPORT.CB_SAVE_TRANSPARENCY.checkbox.text
+msgid "Save transparency"
+msgstr "Salvează transparență"
+
+#: exportdialog.src#DLG_EXPORT.RB_BINARY.radiobutton.text
+msgid "Binary"
+msgstr "Binar"
+
+#: exportdialog.src#DLG_EXPORT.RB_TEXT.radiobutton.text
+msgid "Text"
+msgstr "Text"
+
+#: exportdialog.src#DLG_EXPORT.FL_EPS_PREVIEW.fixedline.text
+msgctxt "exportdialog.src#DLG_EXPORT.FL_EPS_PREVIEW.fixedline.text"
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: exportdialog.src#DLG_EXPORT.CB_EPS_PREVIEW_TIFF.checkbox.text
+msgid "Image Preview (TIFF)"
+msgstr "Previzualizare imagine (TIFF)"
+
+#: exportdialog.src#DLG_EXPORT.CB_EPS_PREVIEW_EPSI.checkbox.text
+msgid "Interchange (EPSI)"
+msgstr "Interschimb (EPSI)"
+
+#: exportdialog.src#DLG_EXPORT.FL_EPS_VERSION.fixedline.text
+msgid "Version"
+msgstr "Versiunea"
+
+#: exportdialog.src#DLG_EXPORT.RB_EPS_LEVEL1.radiobutton.text
+msgid "Level 1"
+msgstr "Nivelul 1"
+
+#: exportdialog.src#DLG_EXPORT.RB_EPS_LEVEL2.radiobutton.text
+msgid "Level 2"
+msgstr "Nivelul 2"
+
+#: exportdialog.src#DLG_EXPORT.FL_EPS_COLOR_FORMAT.fixedline.text
+msgid "Color format"
+msgstr "Format de culoare"
+
+#: exportdialog.src#DLG_EXPORT.RB_EPS_COLOR_FORMAT1.radiobutton.text
+msgid "Color"
+msgstr "Culoare"
+
+#: exportdialog.src#DLG_EXPORT.RB_EPS_COLOR_FORMAT2.radiobutton.text
+msgid "Grayscale"
+msgstr "Cenușiu"
+
+#: exportdialog.src#DLG_EXPORT.RB_EPS_COMPRESSION_LZW.radiobutton.text
+msgid "LZW encoding"
+msgstr "Codare LZW"
+
+#: exportdialog.src#DLG_EXPORT.RB_EPS_COMPRESSION_NONE.radiobutton.text
+msgid "None"
+msgstr "Nici unul(a)"
+
+#: exportdialog.src#DLG_EXPORT.STR_ESTIMATED_SIZE_PIX_1.string.text
+msgid "The picture needs about %1 KB of memory."
+msgstr "Imaginea necesită aproximativ %1 KB de memorie."
+
+#: exportdialog.src#DLG_EXPORT.STR_ESTIMATED_SIZE_PIX_2.string.text
+msgid ""
+"The picture needs about %1 KB of memory,\n"
+" the file size is %2 KB."
+msgstr ""
+"Imaginea necesită aproximativ %1 KB de memorie,\n"
+" dimensiunea fișierului este de %2 KB."
+
+#: exportdialog.src#DLG_EXPORT.STR_ESTIMATED_SIZE_VEC.string.text
+msgid "The file size is %1 KB."
+msgstr "Dimensiunea fișierului este de %1 KB."
