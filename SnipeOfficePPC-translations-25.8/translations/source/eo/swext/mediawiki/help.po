@@ -1,7 +1,7 @@
 #. extracted from swext/mediawiki/help.oo
 msgid ""
 msgstr ""
-"Project-Id-Version: LibreOffice 3.5.x\n"
+"Project-Id-Version: SnipeOffice 3.5.x\n"
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+swext%2Fmediawiki%2Fhelp.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-11-15 15:33+0200\n"
 "PO-Revision-Date: 2012-01-14 11:42+0200\n"
@@ -290,8 +290,8 @@ msgid "Joined Cells"
 msgstr "Kunligitaj ĉeloj"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument kaj precipe LibreOffice reprezentas tabelojn kiuj havas kunigitajn ĉelojn kiuj ampleksas iujn vicojn kiel tabelojn kun ingitaj tabeloj. Kontraste, la vikia modelo de tabelo estas deklari kolumnajn kaj vicajn ampleksojn por tiaj kunigitaj ĉeloj."
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument kaj precipe SnipeOffice reprezentas tabelojn kiuj havas kunigitajn ĉelojn kiuj ampleksas iujn vicojn kiel tabelojn kun ingitaj tabeloj. Kontraste, la vikia modelo de tabelo estas deklari kolumnajn kaj vicajn ampleksojn por tiaj kunigitaj ĉeloj."
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

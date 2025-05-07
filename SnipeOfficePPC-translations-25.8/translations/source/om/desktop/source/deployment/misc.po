@@ -27,5 +27,5 @@ msgid "Extension does not support OpenOffice.org reference versions greater than
 msgstr "Dabalatini OpenOffice.org lakkoofsa gosa %VERSION caalu waliin waliif hin galuu"
 
 #: dp_misc.src#RID_DEPLOYMENT_DEPENDENCIES_LO_MIN.string.text
-msgid "Extension requires at least LibreOffice version %VERSION"
+msgid "Extension requires at least SnipeOffice version %VERSION"
 msgstr "Dabalanni OpenOffice lakkoofsa gosa %VERSION kanaa oli barbaada"

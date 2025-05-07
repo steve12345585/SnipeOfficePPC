@@ -5103,8 +5103,8 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "如果使用 OpenOffice.org 3.2、StarSuite 9.2 或更新版本对某个文档进行签名，然后在该软件的较旧版本中打开此文档，则签名会显示为“无效”。如果使用该软件的较旧版本创建了签名，然后在较新版本中加载该签名，则签名会被标记为“仅对部分文档进行了签名”。"
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
-msgstr "加载 ODF 文档时，您可能会看到对话框的状态栏和状态字段显示该文件仅部分签署的图标。此状在 签名和证书有效，但是是通过 OpenOffice.org 3.2 或更低版本或低于 9.2 的 StarSuite 9.2 创建的。在低于 3.0 的 OpenOffice.org 或低于 9.0 的 StarOffice 中，文档签名仅应用到主内容、图片以及嵌入对象，而像宏等内容却没有签署。在 OpenOffice.org 3.0 与 StarOffice 9.0 中，文档签名应用到大多数内容，包括宏。然而，mime 类型与 META-INF 文件夹的内容却没有签署。在 OpenOffice.org 3.2、StarSuite 9.2，以及所有版本的 LibreOffice 中，所有内容，除签名文件本身（META-INF/documentsignatures.xml），都经过签署。"
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgstr "加载 ODF 文档时，您可能会看到对话框的状态栏和状态字段显示该文件仅部分签署的图标。此状在 签名和证书有效，但是是通过 OpenOffice.org 3.2 或更低版本或低于 9.2 的 StarSuite 9.2 创建的。在低于 3.0 的 OpenOffice.org 或低于 9.0 的 StarOffice 中，文档签名仅应用到主内容、图片以及嵌入对象，而像宏等内容却没有签署。在 OpenOffice.org 3.0 与 StarOffice 9.0 中，文档签名应用到大多数内容，包括宏。然而，mime 类型与 META-INF 文件夹的内容却没有签署。在 OpenOffice.org 3.2、StarSuite 9.2，以及所有版本的 SnipeOffice 中，所有内容，除签名文件本身（META-INF/documentsignatures.xml），都经过签署。"
 
 #: digital_signatures.xhp#hd_id9354228.help.text
 msgid "Security Warnings"
@@ -5537,8 +5537,8 @@ msgstr "如果您是从 %PRODUCTNAME 主网站上下载 %PRODUCTNAME 包的，�
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "打开您的网络浏览器并输入 <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "打开您的网络浏览器并输入 <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869502.help.text
 msgctxt "language_select.xhp#par_id7869502.help.text"
@@ -5556,8 +5556,8 @@ msgstr "安装语言包。解压 tar.gz 文件并按您平台上的标准方法�
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "打开您的网络浏览器并输入 <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "打开您的网络浏览器并输入 <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869503.help.text
 msgctxt "language_select.xhp#par_id7869503.help.text"
@@ -7081,8 +7081,8 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "选择<emph>帮助 - 关于 $[officename]</emph>，将打开一个包含程序信息的对话框。"
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
-msgstr "可到 LibreOffice 网站 <link href=\"http://www.libreoffice.org/about-us/credits/\">查看代码与 Wiki 贡献者名单</link>。"
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
+msgstr "可到 SnipeOffice 网站 <link href=\"http://snipeoffice.org/snipeoffice-credits/\">查看代码与 Wiki 贡献者名单</link>。"
 
 #: imagemap.xhp#tit.help.text
 msgid "Adding Clickable Hotspots to Images"

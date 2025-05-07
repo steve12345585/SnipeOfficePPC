@@ -760,7 +760,7 @@ void BackendImpl::PackageImpl::processPackage_(
 #if !defined(ANDROID) && !defined(IOS)
         if (!that->removeFromConfigmgrIni(m_isSchema, url, xCmdEnv) &&
             that->m_registeredPackages.get()) {
-            // Obsolete package database handling - should be removed for LibreOffice 4.0
+            // Obsolete package database handling - should be removed for SnipeOffice 4.0
             t_string2string_map entries(
                 that->m_registeredPackages->getEntries());
             for (t_string2string_map::iterator i(entries.begin());

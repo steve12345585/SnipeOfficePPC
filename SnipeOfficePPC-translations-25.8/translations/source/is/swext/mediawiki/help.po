@@ -290,8 +290,8 @@ msgid "Joined Cells"
 msgstr "Sameinaðir reitir"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument og sérstaklega LibreOffice setja fram töflur með reitum sem sameinaðir eru yfir raðir, sem töflur með innfelldum töflum. Aftur á móti notar wiki-módelið sérstakar merkingar til að tilgreina spönnun slíkra sameinaðra reita. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument og sérstaklega SnipeOffice setja fram töflur með reitum sem sameinaðir eru yfir raðir, sem töflur með innfelldum töflum. Aftur á móti notar wiki-módelið sérstakar merkingar til að tilgreina spönnun slíkra sameinaðra reita. "
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

@@ -1414,12 +1414,12 @@ msgstr "色の表を保存するには、<emph>色の表を保存</emph> ボタ�
 
 #: palette_files.xhp#bm_id3149871.help.text
 #, fuzzy
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
 msgstr "<bookmark_value>表計算ドキュメント; 関数を表示しない</bookmark_value><bookmark_value>非表示; 行</bookmark_value><bookmark_value>非表示; 列</bookmark_value><bookmark_value>非表示; シート</bookmark_value><bookmark_value>シート; 非表示</bookmark_value><bookmark_value>列; 非表示</bookmark_value><bookmark_value>行; 非表示</bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
-msgstr "CMYK リストは印刷時の色に最適化されています。Web および HTML リストの色は256色の解像度をもつディスプレイに最適化されています。パレット libreoffice.soc および tango.soc はそれぞれ公式の LibreOffice および Tango の色を含みます。"
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
+msgstr "CMYK リストは印刷時の色に最適化されています。Web および HTML リストの色は256色の解像度をもつディスプレイに最適化されています。パレット libreoffice.soc および tango.soc はそれぞれ公式の SnipeOffice および Tango の色を含みます。"
 
 #: palette_files.xhp#hd_id3150435.78.help.text
 msgid "To load a gradient list:"

@@ -123,7 +123,7 @@ msgstr "XML de Microsoft PowerPoint 2007/2010"
 
 #: impress_OOXML_Template_ui.xcu#Impress_Office_Open_XML_Template.UIName.value.text
 msgid "Office Open XML Presentation Template"
-msgstr "Ŝablono de LibreOffice XML-prezentaĵo"
+msgstr "Ŝablono de SnipeOffice XML-prezentaĵo"
 
 #: impress_OOXML_ui.xcu#Impress_Office_Open_XML.UIName.value.text
 msgid "Office Open XML Presentation"

@@ -28,24 +28,24 @@ msgid "This release was supplied by %OOOVENDOR"
 msgstr "이 제품은 %OOOVENDOR 에 의해 제공됩니다."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
-msgstr "LibreOffice 저작권(© 2000 - 2012 )은 모든 기여자와 각 기여자의 소속팀에 있습니다."
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
+msgstr "LibreOffice 저작권(© 2025 )은 모든 기여자와 각 기여자의 소속팀에 있습니다."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
 msgid "LibreOffice was based on OpenOffice.org"
 msgstr "LibreOffice는 OpenOffice.org를 기반으로 한 제품입니다."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
-msgstr "%PRODUCTNAME은(는) OpenOffice.org를 기반으로 한 LibreOffice 의 제품입니다."
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
+msgstr "%PRODUCTNAME은(는) OpenOffice.org를 기반으로 한 SnipeOffice 의 제품입니다."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
 msgid "(Build ID: $BUILDID)"
 msgstr "(Build ID: $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
-msgstr "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
+msgstr "http://snipeoffice.org/snipeoffice-credits/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text
 msgid "Credits"

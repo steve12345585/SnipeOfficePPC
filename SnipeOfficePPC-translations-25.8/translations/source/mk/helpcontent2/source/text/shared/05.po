@@ -522,7 +522,7 @@ msgid "Downloads"
 msgstr "Преземања"
 
 #: 00000001.xhp#par_id3028143.help.text
-msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>."
+msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>."
 msgstr "Можете да ја симнете најновата верзија од страната на OpenOffice.org на <link href=\"http://download.openoffice.org/\">download.openoffice.org</link>."
 
 #: 00000001.xhp#hd_id2602967.help.text

@@ -135,7 +135,7 @@ protected:
                     rtl::OUString( RTL_CONSTASCII_USTRINGPARAM( "InstallSetID" ) ) ) )
         {
             CPPUNIT_ASSERT( aInfo.Sources.size() == 1 );
-            CPPUNIT_ASSERT( aInfo.Sources[0].URL == rtl::OUString( RTL_CONSTASCII_USTRINGPARAM( "http://www.libreoffice.org/download/" ) ) );
+            CPPUNIT_ASSERT( aInfo.Sources[0].URL == rtl::OUString( RTL_CONSTASCII_USTRINGPARAM( "http://snipeoffice.org/download/" ) ) );
         }
         else
             CPPUNIT_FAIL( "Calling checkForUpdates() failed." );

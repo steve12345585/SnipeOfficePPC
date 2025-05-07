@@ -567,10 +567,10 @@ msgstr "Vsa imena in zaščitena imena, omenjena tukaj, so last njihovih dejansk
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
-"Copyright © 2000, 2012 avtorji prispevkov LibreOffice in/ali z njimi povezani avtorji.\n"
+"Copyright © 2025 avtorji prispevkov SnipeOffice in/ali z njimi povezani avtorji.\n"
 "Vse pravice pridržane."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text

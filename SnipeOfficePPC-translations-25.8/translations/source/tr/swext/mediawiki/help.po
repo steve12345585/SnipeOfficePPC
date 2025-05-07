@@ -291,8 +291,8 @@ msgid "Joined Cells"
 msgstr "Birleştirilmiş Hücreler"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument ve özellikle LibreOffice birleştirilmiş hücreleri, birbirlerine geçmiş satırları ve karmaşık tabloları gösterebilir. Bunun tersine Wiki tablo modellemesinde birleştirilmiş hücreler ve birbirine geçmiş satırların belirtilmiş olması gerekir. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument ve özellikle SnipeOffice birleştirilmiş hücreleri, birbirlerine geçmiş satırları ve karmaşık tabloları gösterebilir. Bunun tersine Wiki tablo modellemesinde birleştirilmiş hücreler ve birbirine geçmiş satırların belirtilmiş olması gerekir. "
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

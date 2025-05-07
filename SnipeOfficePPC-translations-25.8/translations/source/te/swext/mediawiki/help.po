@@ -290,7 +290,7 @@ msgid "Joined Cells"
 msgstr "కలిపిన అరలు"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
 msgstr "OpenDocument మరియు ప్రత్యేకించి LibreOffice, పునరావృత పట్టికలతో అడ్డువరుసలను పట్టికలుగా చేయ అరల సంధాన పట్టికలను ప్రస్పుటించును. వికీ రీతిలో పట్టిక అనగా నిలువువరుసను మరియు అడ్డువరుసను అర సంధానంతో నిర్వచించుట."
 
 #: wikiformats.xhp#par_id8163090.help.text

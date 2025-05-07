@@ -519,7 +519,7 @@ msgid "We hope you enjoy working with the new ${PRODUCTNAME} ${PRODUCTVERSION} a
 msgstr "${PRODUCTNAME} ${PRODUCTVERSION} isa haaraadhaan fayyadamuudhaan akka itti gammaddee fi karaarra akka nutti makamtu abdii qabna."
 
 #: readme.xrm#credits2.credits2.readmeitem.text
-msgid "The LibreOffice Community"
+msgid "The SnipeOffice Community"
 msgstr ""
 
 #: readme.xrm#sdffd23r3cefwefew.sdffd23r3cefwefew.readmeitem.text

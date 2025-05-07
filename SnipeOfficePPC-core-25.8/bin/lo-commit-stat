@@ -473,8 +473,8 @@ sub usage()
           "                     parameters might be, for example, --after=\"2010-09-27\" or\n" .
           "                     TAG..HEAD; with the option --rev-list, useful might be, for\n" .
           "                     example origin/master ^origin/libreoffice-3-3; with the option\n" .
-          "                     --rev-list, useful might be, for example libreoffice-3.6.3.2\n" .
-          "                     libreoffice-3.6.4.1\n";
+          "                     --rev-list, useful might be, for example snipeoffice-3.6.3.2\n" .
+          "                     snipeoffice-3.6.4.1\n";
 }
 
 

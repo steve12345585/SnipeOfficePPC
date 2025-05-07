@@ -11,7 +11,7 @@
     "version": 1, 
     "wikis(deprecated)": [
         {
-            "baseurl": "http://help.libreoffice.org/", 
+            "baseurl": "http://help.snipeoffice.org/", 
             "imagesize": 800, 
             "keep_tmpfiles": false, 
             "script_extension": ".php", 

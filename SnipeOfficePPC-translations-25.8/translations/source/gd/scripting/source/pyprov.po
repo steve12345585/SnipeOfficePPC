@@ -20,5 +20,5 @@ msgid "Script provider for Python"
 msgstr "Solaraiche sgriobt airson Python"
 
 #: description.xml#extdesc.extdesc.description.text
-msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a LibreOffice installation, and also in loaded documents.\n"
-msgstr "Cuiridh seo ris taic airson Python slighe an Scripting Framework, rud a bheir comas do sgriobtaichean Python ann an eòlairean cleachdaiche is co-roinnte de stàladh LibreOffice agus ann an sgrìobhainnean a chaidh an luchdadh.\n"
+msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a SnipeOffice installation, and also in loaded documents.\n"
+msgstr "Cuiridh seo ris taic airson Python slighe an Scripting Framework, rud a bheir comas do sgriobtaichean Python ann an eòlairean cleachdaiche is co-roinnte de stàladh SnipeOffice agus ann an sgrìobhainnean a chaidh an luchdadh.\n"

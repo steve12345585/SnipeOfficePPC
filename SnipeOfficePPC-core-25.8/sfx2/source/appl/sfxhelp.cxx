@@ -669,14 +669,14 @@ sal_Bool SfxHelp::Start( const String& rURL, const Window* pWindow )
     return Start_Impl( rURL, pWindow, String() );
 }
 
-/// Redirect the vnd.sun.star.help:// urls to http://help.libreoffice.org
+/// Redirect the vnd.sun.star.help:// urls to http://help.snipeoffice.org
 static bool impl_showOnlineHelp( const String& rURL )
 {
     String aInternal( "vnd.sun.star.help://"  );
     if ( rURL.Len() <= aInternal.Len() || rURL.Copy( 0, aInternal.Len() ) != aInternal )
         return false;
 
-    rtl::OUString aHelpLink( "http://help.libreoffice.org/"  );
+    rtl::OUString aHelpLink( "http://help.snipeoffice.org/"  );
     aHelpLink += rURL.Copy( aInternal.Len() );
     try
     {

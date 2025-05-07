@@ -1325,7 +1325,7 @@ void OdgGeneratorPrivate::_writeGraphicsStyle()
             mGraphicsGradientStyles.push_back(pDrawGradientElement);
             mGraphicsGradientStyles.push_back(new TagCloseElement("draw:gradient"));
 
-            // Work around a mess in LibreOffice where both opacities of 100% are interpreted as complete transparency
+            // Work around a mess in SnipeOffice where both opacities of 100% are interpreted as complete transparency
             // Nevertheless, when one is different, immediately, they are interpreted correctly
             if (mxStyle["libwpg:start-opacity"] && mxStyle["libwpg:end-opacity"]
                     && (mxStyle["libwpg:start-opacity"]->getDouble() != 1.0 || mxStyle["libwpg:end-opacity"]->getDouble() != 1.0))

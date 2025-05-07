@@ -290,7 +290,7 @@ msgid "Joined Cells"
 msgstr "ಜೋಡಿಸಲಾದ ಕೋಶಗಳು"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
 msgstr "OpenDocument ಮತ್ತು ವಿಶೇಷವಾಗಿ LibreOffice, ಕೋಷ್ಟಕಗಳನ್ನು ಹೊಂದಿರುವ ಕೋಷ್ಟಕಗಳಾದ ಅಡ್ಡಸಾಲುಗಳಲ್ಲಿ ಕೋಶಗಳು ಸೇರಿಕೊಂಡು  ಉಂಟಾಗುವ ಕೋಷ್ಟಕವನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಇದಕ್ಕೆ ವಿರುದ್ಧವಾಗಿ, ಕೋಷ್ಟಕದ ವಿಕಿ ಮಾದರಿಯು ಸೇರಿಸಲಾದ ಅಂತಹ ಕೋಶಗಳಿಗಾಗಿನ ಉದ್ದಸಾಲು ಮತ್ತು ಅಡ್ಡಸಾಲಿನ ಹರಡುವಿಕೆಯನ್ನು ಕೋಷ್ಟಕವಾಗಿ ಪ್ರತಿನಿಧಿಸುತ್ತದೆ."
 
 #: wikiformats.xhp#par_id8163090.help.text

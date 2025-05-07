@@ -291,7 +291,7 @@ msgid "Joined Cells"
 msgstr "Celdas unidas"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
 msgstr "OpenDocument, y especialmente LibreOffice, representa a las tablas que contienen celdas combinadas que ocupan múltiples filas como tablas anidadas. Por el contrario, el modelo de tabla de una wiki define extensiones sobre filas o columnas para esas combinaciones de celdas. "
 
 #: wikiformats.xhp#par_id8163090.help.text

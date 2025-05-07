@@ -5915,7 +5915,7 @@ msgstr "İyileştirme Programı bazı kullanıcı etkileşimlerini kaydeder ve b
 
 #: improvement.xhp#par_id0526200903594966.help.text
 msgid "The Improvement Program was initiated by the User Experience project to improve the usability of %PRODUCTNAME. The User Experience project can be found at the OpenOffice.org web site: <link href=\"http://ux.openoffice.org/\">http://ux.openoffice.org/</link>."
-msgstr "İyileştirme Programı, Kullanıcı Deneyimi projesi tarafından %PRODUCTNAME'in kullanılabilirliğini artırmak için başlatılmıştır. Kullanıcı deneyimi Projesine, LibreOffice web sitesinde <link href=\"http://www.libreoffice.org/get-involved/ux-visual-designers/\">http://www.libreoffice.org/get-involved/ux-visual-designers/</link> erişilebilir."
+msgstr "İyileştirme Programı, Kullanıcı Deneyimi projesi tarafından %PRODUCTNAME'in kullanılabilirliğini artırmak için başlatılmıştır. Kullanıcı deneyimi Projesine, SnipeOffice web sitesinde <link href=\"http://www.libreoffice.org/get-involved/ux-visual-designers/\">http://www.libreoffice.org/get-involved/ux-visual-designers/</link> erişilebilir."
 
 #: improvement.xhp#par_id0526200903594946.help.text
 msgid "The second time you start your new %PRODUCTNAME software, you see a window that gives information about the Improvement Program. "

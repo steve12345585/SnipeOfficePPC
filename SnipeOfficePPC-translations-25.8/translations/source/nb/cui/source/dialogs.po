@@ -29,7 +29,7 @@ msgid "This release was supplied by %OOOVENDOR"
 msgstr "Dette produktet ble utgitt av %OOOVENDOR"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
 msgstr "Opphavsrett © 2000 – 2012 LibreOffices bidragsytere og/eller deres partnere"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
@@ -37,7 +37,7 @@ msgid "LibreOffice was based on OpenOffice.org"
 msgstr "LibreOffice er basert på OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
 msgstr "%PRODUCTNAME er avledet fra LibreOffice, som er basert på OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
@@ -45,8 +45,8 @@ msgid "(Build ID: $BUILDID)"
 msgstr "(Bygg-ID: $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
-msgstr "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
+msgstr "http://snipeoffice.org/snipeoffice-credits/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text
 msgid "Credits"

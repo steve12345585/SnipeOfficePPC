@@ -516,8 +516,8 @@ msgid "We hope you enjoy working with the new ${PRODUCTNAME} ${PRODUCTVERSION} a
 msgstr "Reméljük, élvezni fogja a munkát az új ${PRODUCTNAME} ${PRODUCTVERSION} szoftvercsomaggal, és csatlakozik hozzánk az interneten."
 
 #: readme.xrm#credits2.credits2.readmeitem.text
-msgid "The LibreOffice Community"
-msgstr "A LibreOffice Közösség"
+msgid "The SnipeOffice Community"
+msgstr "A SnipeOffice Közösség"
 
 #: readme.xrm#sdffd23r3cefwefew.sdffd23r3cefwefew.readmeitem.text
 msgid "Used / Modified Source Code"

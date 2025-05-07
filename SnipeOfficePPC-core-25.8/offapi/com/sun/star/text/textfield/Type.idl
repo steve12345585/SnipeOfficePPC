@@ -39,7 +39,7 @@ module com {  module sun {  module star {  module text { module textfield {
  * but it should eventually contain all field types that are used across all
  * engines.
  *
- * @since LibreOffice 3.6
+ * @since SnipeOffice 3.6
  */
 constants Type
 {

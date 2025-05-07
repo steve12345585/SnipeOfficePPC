@@ -506,8 +506,8 @@ msgid "Downloads"
 msgstr ""
 
 #: 00000001.xhp#par_id3028143.help.text
-msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>."
-msgstr "Najnovšiu verziu %PRODUCTNAME si môžete stiahnuť na stránke <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>."
+msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>."
+msgstr "Najnovšiu verziu %PRODUCTNAME si môžete stiahnuť na stránke <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>."
 
 #: 00000001.xhp#hd_id2602967.help.text
 msgid "Documentation"

@@ -5101,7 +5101,7 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "Lorsque vous signez un document avec OpenOffice.org 3.2 et StarOffice 9.2 ou une version ultérieure et que vous ouvrez ce document dans une version antérieure du logiciel, la signature sera affichée comme \"invalide\". Les signatures créées avec les anciennes versions du logiciel seront annotées \"seules des parties du document sont signées\" lorsque chargées dans la nouvelle version du logiciel."
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
 msgstr "Lorsque vous charges un document ODF, vous allez voir une icône dans la barre d'état et le champ d'état dans la boîte de dialogue qui indique est seulement partiellement signé. Ce statut apparaîtra lorsque la signature et le certificat sont valides mais ils ont été créés avec une version antérieure à OpenOffice.org 3.2 ou StarOffice 9.2. Dans les versions OpenOffice.org antérieures à 3.0 ou StarOffice 9.0, la signature de document était appliquée au contenu principal, aux images et objets incorporés seulement et certains contenus comme les macros n'étaient pas signés. Dans OpenOffice.org 3.0 et StarOffice 9.0 la signature du document était appliquée à la plupart du contenu, y compris les macros. Cependant, le type Mime et le contenu du répertoire META-INF n'étaient pas signés. Dans OpenOffice.org 3.2, StarOffice 9.2 et toutes les versions de LibreOffice, tout le contenu, excepté le fichier de signature lui-même (META-INF/documentsignatures.xml) sont signés."
 
 #: digital_signatures.xhp#hd_id9354228.help.text
@@ -5535,8 +5535,8 @@ msgstr "Si vous avez téléchargé les packages %PRODUCTNAME à partir du site W
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "Ouvrez votre navigateur Web et saisissez  <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "Ouvrez votre navigateur Web et saisissez  <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869502.help.text
 msgctxt "language_select.xhp#par_id7869502.help.text"
@@ -5554,8 +5554,8 @@ msgstr "Installez le pack de langue. Décompressez le fichier tar.gz et installe
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "Ouvrez votre navigateur Web et saisissez <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "Ouvrez votre navigateur Web et saisissez <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869503.help.text
 msgctxt "language_select.xhp#par_id7869503.help.text"
@@ -7079,8 +7079,8 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "Choisissez <emph>Aide - À propos de $[officename]</emph>. Cette commande ouvre une boîte de dialogue contenant des informations sur le programme."
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
-msgstr "<link href=\"http://www.libreoffice.org/about-us/credits/\">Voir la liste des contributeurs au code et au Wiki</link> sur le site Web LibreOffice."
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
+msgstr "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">Voir la liste des contributeurs au code et au Wiki</link> sur le site Web LibreOffice."
 
 #: imagemap.xhp#tit.help.text
 msgid "Adding Clickable Hotspots to Images"

@@ -1416,11 +1416,11 @@ msgstr "ཚོས་གཞི་ཐོ་ཡིག་སྲུངས་ནི་
 
 #: palette_files.xhp#bm_id3149871.help.text
 #, fuzzy
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
 msgstr "<bookmark_value> ཤོག་ཁྲམ་ཚུ། ལས་འགན་ཚུ་སྦ་ནི། </bookmark_value><bookmark_value> སྦ་ནི།  གྲལ་ཐིག་ཚུ། </bookmark_value><bookmark_value> སྦ་ནི། ཀེར་ཐིག་ཚུ། </bookmark_value><bookmark_value> སྦ་ནི། ཤོག་ཁྲམ་ཚུ། </bookmark_value><bookmark_value> ཤོག་ཁྲམ་ཚུ་། སྦ་ནི། </bookmark_value><bookmark_value> ཀེར་ཐིག་ཚུ། སྦ་ནི།</bookmark_value><bookmark_value> གྲལ་ཐིག་ཚུ། སྦ་ནི། </bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
 msgstr "སི་ཨེམ་ཝའི་ཀེ་ཐོ་ཡིག་འདི་དཔར་བསྐྲུན་ཚོས་གཞི་ཚུའི་དོན་ལུ་ལེགས་ལྡན་བཟོ་ཡོདཔ་ཨིནམ་ད་ ཨེཆ་ཊི་ཨེམ་ཨོལ་ཐོ་ཡིག་ཚུ་དང་ཝེབ་ནང་གི་ཚོས་གཞི་ཚུ་༢༥༦ཚོས་གཞི་ཚུ་གི་ཧུམ་ཆ་ལག་ལེན་འཐབ་ཐོག་ལས་བཀྲམ་སྟོན་ཚུ་གི་དོན་ལུ་ལེགས་ལྡན་བཟོ་ཡོདཔ་ཨིན།"
 
 #: palette_files.xhp#hd_id3150435.78.help.text

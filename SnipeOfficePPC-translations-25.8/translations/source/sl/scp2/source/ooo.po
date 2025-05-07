@@ -2487,7 +2487,7 @@ msgstr "Odpri dokument"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
 msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "Pisarniški paket LibreOffice zagotavlja The Document Foundation. Oglejte si http://www.documentfoundation.org"
+msgstr "Pisarniški paket SnipeOffice zagotavlja The Document Foundation. Oglejte si http://www.documentfoundation.org"
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text
 msgid "Information"

@@ -2200,7 +2200,7 @@ msgstr "ইনস্টলেষণ ডাটাবেইচ "
 
 #: SIS.ulf#OOO_SIS_COMMENT.LngText.text
 msgid "This installer database contains the logic and data required to install LibreOffice."
-msgstr "এই ইনস্টলাৰ ডাটাবেইচে LibreOffice ইনস্টল কৰাৰ যুক্তি আৰু তথ্য অন্তৰ্ভুক্ত কৰে।"
+msgstr "এই ইনস্টলাৰ ডাটাবেইচে SnipeOffice ইনস্টল কৰাৰ যুক্তি আৰু তথ্য অন্তৰ্ভুক্ত কৰে।"
 
 #: SIS.ulf#OOO_SIS_KEYWORDS.LngText.text
 msgid "Install,MSI"

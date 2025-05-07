@@ -21,5 +21,5 @@ msgid "Script provider for Python"
 msgstr "Python 用のスクリプトプロバイダー"
 
 #: description.xml#extdesc.extdesc.description.text
-msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a LibreOffice installation, and also in loaded documents.\n"
-msgstr "ユーザーディレクトリや LibreOffice の共有ディレクトリと、読み込まれたドキュメントに含まれる Python スクリプトを有効にするため、スクリプトフレームワークを使用した Python サポートを追加します。\n"
+msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a SnipeOffice installation, and also in loaded documents.\n"
+msgstr "ユーザーディレクトリや SnipeOffice の共有ディレクトリと、読み込まれたドキュメントに含まれる Python スクリプトを有効にするため、スクリプトフレームワークを使用した Python サポートを追加します。\n"

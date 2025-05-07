@@ -5106,8 +5106,8 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "Cuando se robla un documentu en OpenOffice.org 3.2 o StarOffice 9.2 o una versión posterior y ábrese dichu documentu nuna versión más antigua del software, la firma va amosase como \"non válida\". Les firmes creaes con versiones de software más antigües van marcar con \"namái se roblaron partes del documentu\" cuando se carguen nel software más recién."
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
-msgstr "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgstr "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
 
 #: digital_signatures.xhp#hd_id9354228.help.text
 msgid "Security Warnings"
@@ -5540,8 +5540,8 @@ msgstr ""
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "Abra'l so restolador Web ya introduza <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "Abra'l so restolador Web ya introduza <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869502.help.text
 msgctxt "language_select.xhp#par_id7869502.help.text"
@@ -5559,8 +5559,8 @@ msgstr ""
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "Abra'l so restoladore Web ya escriba <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "Abra'l so restoladore Web ya escriba <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869503.help.text
 msgctxt "language_select.xhp#par_id7869503.help.text"
@@ -7090,7 +7090,7 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "Escueya <emph>Ayuda - Información sobre $[officename]</emph>. va abrise un diálogu con información sobre'l programa."
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
 msgstr ""
 
 #: imagemap.xhp#tit.help.text

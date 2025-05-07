@@ -516,7 +516,7 @@ msgid "We hope you enjoy working with the new ${PRODUCTNAME} ${PRODUCTVERSION} a
 msgstr "नवीन ${PRODUCTNAME} ${PRODUCTVERSION} बरोबर काम करताना आपल्याला आनंद वाटला अशी आम्ही आशा करतो आणि आपण चालू असताना आमच्यात सामिल व्हाल."
 
 #: readme.xrm#credits2.credits2.readmeitem.text
-msgid "The LibreOffice Community"
+msgid "The SnipeOffice Community"
 msgstr "LibreOffice समूह"
 
 #: readme.xrm#sdffd23r3cefwefew.sdffd23r3cefwefew.readmeitem.text

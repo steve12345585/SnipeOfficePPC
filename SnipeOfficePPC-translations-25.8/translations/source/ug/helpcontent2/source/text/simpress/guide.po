@@ -1414,12 +1414,12 @@ msgstr ""
 
 #: palette_files.xhp#bm_id3149871.help.text
 #, fuzzy
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
 msgstr "<bookmark_value>ئەمەل; فورمۇلادا</bookmark_value><bookmark_value>ستاتىستىكا فونكسىيە</bookmark_value><bookmark_value>ئۈچبۇلۇڭ فونكسىيە</bookmark_value><bookmark_value>بەت;سانى</bookmark_value><bookmark_value>ئۆزگەرگۈچى مىقدار;پۈتۈك خاسلىقى</bookmark_value><bookmark_value>فورمۇلادىكى ھېساب ئەمەللىرى</bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
-msgstr "CMYK تىزىملىكى بېسىش رەڭگىگە ئەلالاشتۇرۇلغان. Web ۋە HTML تىزىملىكىدىكى رەڭ 256 خىل پەرق ئېتىش نىسبىتىدە ئەلالاشتۇرۇلغان. libreoffice.soc ۋە tango.soc رەڭ تاختىسى ئايرىم-ئايرىم ھالدا LibreOffice ۋە Tango نىڭ ئەسلى رەڭ لايىھىسىنى ئۆز ئىچىگە ئالغان."
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
+msgstr "CMYK تىزىملىكى بېسىش رەڭگىگە ئەلالاشتۇرۇلغان. Web ۋە HTML تىزىملىكىدىكى رەڭ 256 خىل پەرق ئېتىش نىسبىتىدە ئەلالاشتۇرۇلغان. libreoffice.soc ۋە tango.soc رەڭ تاختىسى ئايرىم-ئايرىم ھالدا SnipeOffice ۋە Tango نىڭ ئەسلى رەڭ لايىھىسىنى ئۆز ئىچىگە ئالغان."
 
 #: palette_files.xhp#hd_id3150435.78.help.text
 msgid "To load a gradient list:"

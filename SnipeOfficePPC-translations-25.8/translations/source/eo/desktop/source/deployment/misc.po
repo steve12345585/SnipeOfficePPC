@@ -1,7 +1,7 @@
 #. extracted from desktop/source/deployment/misc.oo
 msgid ""
 msgstr ""
-"Project-Id-Version: LibreOffice 3.5.x\n"
+"Project-Id-Version: SnipeOffice 3.5.x\n"
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+desktop%2Fsource%2Fdeployment%2Fmisc.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-11-15 15:34+0200\n"
 "PO-Revision-Date: 2011-12-16 05:12+0200\n"
@@ -28,5 +28,5 @@ msgid "Extension does not support OpenOffice.org reference versions greater than
 msgstr "La kromprogramo ne subtenas referencajn versiojn pli ol %VERSION de OpenOffice.org"
 
 #: dp_misc.src#RID_DEPLOYMENT_DEPENDENCIES_LO_MIN.string.text
-msgid "Extension requires at least LibreOffice version %VERSION"
+msgid "Extension requires at least SnipeOffice version %VERSION"
 msgstr "La kromprogramo bezonas almenaŭ version %VERSION de LibreOffice"

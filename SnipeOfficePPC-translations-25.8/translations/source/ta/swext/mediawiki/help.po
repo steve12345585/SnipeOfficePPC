@@ -290,8 +290,8 @@ msgid "Joined Cells"
 msgstr "இணைக்கப்பட்ட அறைகள்"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument, குறிப்பாக LibreOffice பல வரிசைகளில் அமைந்துள்ள கலங்களை இணைத்து உருவாக்கப்படும் அட்டவணைகளை அட்டவணைகளில் உள்ளடங்கிய அட்டவணைகளாகக் காண்பிக்கிறது. மாறாக, அவ்வாறு இணைக்கப்பட்ட கலங்களுக்கு உரிய நெடுவரிசைகளையும் வரிசைகளையும் முன்னுரைப்பதே wiki இன் அட்டவணை மாதிரியாகும். "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument, குறிப்பாக SnipeOffice பல வரிசைகளில் அமைந்துள்ள கலங்களை இணைத்து உருவாக்கப்படும் அட்டவணைகளை அட்டவணைகளில் உள்ளடங்கிய அட்டவணைகளாகக் காண்பிக்கிறது. மாறாக, அவ்வாறு இணைக்கப்பட்ட கலங்களுக்கு உரிய நெடுவரிசைகளையும் வரிசைகளையும் முன்னுரைப்பதே wiki இன் அட்டவணை மாதிரியாகும். "
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

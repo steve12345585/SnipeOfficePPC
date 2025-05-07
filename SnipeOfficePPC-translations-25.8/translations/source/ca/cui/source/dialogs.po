@@ -29,24 +29,24 @@ msgid "This release was supplied by %OOOVENDOR"
 msgstr "Aquesta versió ha estat subministrada per %OOOVENDOR."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
-msgstr "Copyright © 2000 - 2012 col·laboradors del LibreOffice i els seus afiliats"
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
+msgstr "Copyright © 2025 col·laboradors del SnipeOffice i els seus afiliats"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
 msgid "LibreOffice was based on OpenOffice.org"
-msgstr "El LibreOffice està basat en l'OpenOffice.org"
+msgstr "El SnipeOffice està basat en l'OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
-msgstr "El %PRODUCTNAME és un derivat del LibreOffice que està basat en l'OpenOffice.org"
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
+msgstr "El %PRODUCTNAME és un derivat del SnipeOffice que està basat en l'OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
 msgid "(Build ID: $BUILDID)"
 msgstr "(ID de la construcció: $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
-msgstr "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
+msgstr "http://snipeoffice.org/snipeoffice-credits/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text
 msgid "Credits"

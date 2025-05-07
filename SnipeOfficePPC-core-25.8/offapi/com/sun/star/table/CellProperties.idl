@@ -246,7 +246,7 @@ published service CellProperties
         lines are at the edges of the entire range, not at the edges of
         the individual cell.</p>
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     [optional, property] com::sun::star::table::TableBorder2 TableBorder2;
 
@@ -255,7 +255,7 @@ published service CellProperties
     /** contains a description of the top border line of each cell.
         Preferred over <type>BorderLine</type> <member>TopBorder</member>.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     [optional, property] com::sun::star::table::BorderLine2 TopBorder2;
 
@@ -264,7 +264,7 @@ published service CellProperties
     /** contains a description of the bottom border line of each cell.
         Preferred over <type>BorderLine</type> <member>BottomBorder</member>.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
     */
     [optional, property] com::sun::star::table::BorderLine2 BottomBorder2;
 
@@ -273,7 +273,7 @@ published service CellProperties
     /** contains a description of the left border line of each cell.
         Preferred over <type>BorderLine</type> <member>LeftBorder</member>.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     [optional, property] com::sun::star::table::BorderLine2 LeftBorder2;
 
@@ -282,7 +282,7 @@ published service CellProperties
     /** contains a description of the right border line of each cell.
         Preferred over <type>BorderLine</type> <member>RightBorder</member>.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     [optional, property] com::sun::star::table::BorderLine2 RightBorder2;
 
@@ -291,7 +291,7 @@ published service CellProperties
     /** contains a description of the top left to bottom right diagonal line of each cell.
         Preferred over <type>BorderLine</type> <member>DiagonalTLBR</member>.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     [optional, property] com::sun::star::table::BorderLine2 DiagonalTLBR2;
 
@@ -300,7 +300,7 @@ published service CellProperties
     /** contains a description of the bottom left to top right diagonal line of each cell.
         Preferred over <type>BorderLine</type> <member>DiagonalBLTR</member>.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     [optional, property] com::sun::star::table::BorderLine2 DiagonalBLTR2;
 

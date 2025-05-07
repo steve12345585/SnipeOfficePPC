@@ -2484,7 +2484,7 @@ msgstr "Če ste prenesli pakete %PRODUCTNAME z glavnega spletnega mesta %PRODUCT
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 msgstr "Odprite spletni brskalnik in vnesite povezavo <link href=\"http://sl.libreoffice.org/prenosi/\">http://sl.libreoffice.org/prenosi/</link>"
 
 #: language_select.xhp#par_id7869502.help.text
@@ -2503,7 +2503,7 @@ msgstr "Namestite jezikovni paket. Razpakirajte datoteko tar.gz in namestite pak
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 msgstr "Odprite spletni brskalnik in vnesite povezavo <link href=\"http://sl.libreoffice.org/prenosi/\">http://sl.libreoffice.org/prenosi/</link>"
 
 #: language_select.xhp#par_id7869503.help.text
@@ -3244,8 +3244,8 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "Izberite <emph>Pomoč - O programu $[officename]</emph>. S tem odprete pogovorno okno, ki vsebuje podatke o programu."
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
-msgstr "<link href=\"http://www.libreoffice.org/about-us/credits/\">Oglejte si sezname avtorjev prispevkov kode in wikija</link> na spletišču LibreOffice (v angl.)."
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
+msgstr "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">Oglejte si sezname avtorjev prispevkov kode in wikija</link> na spletišču SnipeOffice (v angl.)."
 
 #: redlining_enter.xhp#tit.help.text
 msgid "Recording Changes"
@@ -7780,7 +7780,7 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "Ko dokument podpišete s programom OpenOffice.org 3.2 ali StarOffice 9.2 ali novejšimi različicami, potem pa ta dokument odprete s starejšo različico teh paketov, bo podpis prikazan kot \"neveljaven\". Digitalni podpisi, ustvarjeni s starejšimi različicami teh paketov bodo označeni kot \"podpisani so le deli dokumentov\", če jih boste naložili z novimi paketi."
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
 msgstr "Ko naložite dokument ODF, boste morda v vrstici stanja in v polju stanja v pogovornem oknu videli ikono, ki pomeni, da je dokument digitalno podpisan samo delno. To stanje se prikaže, če sta digitalni podpis in potrdilo veljavna, a sta bila ustvarjena s paketom OpenOffice.org pred različico 3.2 ali StarOffice pred različico 9.2. V različicah paketa pred OpenOffice.org 3.0 ali StarOffice 9.0 je bil podpis dokumenta uporabljen le za glavno vsebino, slike in vdelane predmete, del vsebine, kot so makri, pa ni bil podpisan. V OpenOffice.org 3.0 in StarOffice 9.0 pa se digitalni podpis uporablja za večino vsebine, tudi za makre, le vrsta datoteke MIME in vsebina mape META-INF nista bili podpisani. V OpenOffice.org 3.2 in StarOffice 9.2 pa je podpisana vsa vsebina, z izjemo same datoteke podpisa (META-INF/documentsignatures.xml)."
 
 #: digital_signatures.xhp#hd_id9354228.help.text

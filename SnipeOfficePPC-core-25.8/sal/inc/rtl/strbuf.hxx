@@ -156,7 +156,7 @@ public:
 
     /**
         @overload
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
 #ifdef HAVE_SFINAE_ANONYMOUS_BROKEN // see the OString ctors
     OStringBuffer( const char* value )
@@ -192,7 +192,7 @@ public:
       If there are any embedded \0's in the string literal, the result is undefined.
       Use the overload that explicitly accepts length.
 
-      @since LibreOffice 3.6
+      @since SnipeOffice 3.6
 
       @param    literal       a string literal
     */
@@ -388,7 +388,7 @@ public:
 
       @return a reference to the character at the given index.
 
-      @since LibreOffice 3.5
+      @since SnipeOffice 3.5
     */
     sal_Char & operator [](sal_Int32 index) { return pData->buffer[index]; }
 
@@ -448,7 +448,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @since SnipeOffice 3.6
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, OStringBuffer& >::Type append( T& literal )
@@ -637,7 +637,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @since SnipeOffice 3.6
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, OStringBuffer& >::Type insert( sal_Int32 offset, T& literal )

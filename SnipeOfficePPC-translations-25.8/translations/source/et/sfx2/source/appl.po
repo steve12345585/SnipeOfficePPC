@@ -402,10 +402,10 @@ msgstr ""
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
-"Autoriõigus © 2000, 2012 LibreOffice'i kaastöötajad ja/või nende partnerid. Kõik õigused\n"
+"Autoriõigus © 2025 LibreOffice'i kaastöötajad ja/või nende partnerid. Kõik õigused\n"
 "kaitstud."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text

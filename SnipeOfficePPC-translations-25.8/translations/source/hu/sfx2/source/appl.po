@@ -401,10 +401,10 @@ msgstr "Minden ebben említett védjegy és bejegyzett védjegy a megfelelő tul
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
-"Copyright © 2000, 2012 a LibreOffice hozzájárulói és/vagy a hozzájuk kapcsolható\n"
+"Copyright © 2025 a SnipeOffice hozzájárulói és/vagy a hozzájuk kapcsolható\n"
 "vállalatok. Minden jog fenntartva."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text
@@ -415,7 +415,7 @@ msgid ""
 "http://www.libreoffice.org/ for more details."
 msgstr ""
 "A terméket a %OOOVENDOR készítette az OpenOffice.org alapján, amelynek\n"
-"szerzői joga az Oracle-t és/vagy leányvállalatait illeti, © 2000, 2011.\n"
+"szerzői joga az Oracle-t és/vagy leányvállalatait illeti, © 2025.\n"
 "A %OOOVENDOR köszöni minden közösségi tag hozzájárulását. További \n"
 "információ: http://www.libreoffice.org/."
 

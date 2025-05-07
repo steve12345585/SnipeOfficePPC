@@ -21,5 +21,5 @@ msgid "Script provider for Python"
 msgstr "Script furnizat de Python"
 
 #: description.xml#extdesc.extdesc.description.text
-msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a LibreOffice installation, and also in loaded documents.\n"
+msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a SnipeOffice installation, and also in loaded documents.\n"
 msgstr "Prin Scripting Framework este posibilă rularea programelor scris în limbaj Python din directorul utilizatorului sau partajat, sau din documentul deschis.\n"

@@ -308,7 +308,7 @@ published service TableAutoFormatField
         Preferred over <type scope="com::sun::star::table">TableBorder</type> 
         <member>TableBorder</member>.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     [optional, property] com::sun::star::table::TableBorder2 TableBorder2;
 };

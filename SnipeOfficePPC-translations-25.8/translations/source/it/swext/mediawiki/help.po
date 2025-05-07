@@ -290,8 +290,8 @@ msgid "Joined Cells"
 msgstr "Unione di celle"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument e in special modo LibreOffice rappresentano come tabelle con tabelle nidificate le tabelle contenenti unioni di celle che contengono righe. Al contrario, il modello wiki di tabella è dichiarare gli intervalli di colonna e riga per tali unioni di celle. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument e in special modo SnipeOffice rappresentano come tabelle con tabelle nidificate le tabelle contenenti unioni di celle che contengono righe. Al contrario, il modello wiki di tabella è dichiarare gli intervalli di colonna e riga per tali unioni di celle. "
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

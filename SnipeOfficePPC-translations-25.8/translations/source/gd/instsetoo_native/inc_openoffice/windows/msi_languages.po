@@ -2200,7 +2200,7 @@ msgstr "Stòr-dàta an stàlaidh"
 
 #: SIS.ulf#OOO_SIS_COMMENT.LngText.text
 msgid "This installer database contains the logic and data required to install LibreOffice."
-msgstr "Tha an loidig agus an dàta air a bheil feum gus LibreOffice a stàladh aig stòr-dàta an stàlaicheir seo."
+msgstr "Tha an loidig agus an dàta air a bheil feum gus SnipeOffice a stàladh aig stòr-dàta an stàlaicheir seo."
 
 #: SIS.ulf#OOO_SIS_KEYWORDS.LngText.text
 msgid "Install,MSI"

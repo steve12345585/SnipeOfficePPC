@@ -678,7 +678,7 @@ msgstr "<variable id=\"adnsei\">Wählen Sie im Menü <emph>Format - Folienlayout
 
 #: 00000405.xhp#par_id3152874.11.help.text
 msgid "In a Draw document, right-click a layer tab and choose <emph>Modify Layer</emph>"
-msgstr "Wählen Sie im Kontextmenü einer Registerzungen <emph>Ebene ändern...</emph> (nur in LibreOffice Draw)."
+msgstr "Wählen Sie im Kontextmenü einer Registerzungen <emph>Ebene ändern...</emph> (nur in SnipeOffice Draw)."
 
 #: 00000405.xhp#par_id3154765.17.help.text
 msgid "Choose <emph>Format - Layer</emph> (only $[officename] Draw)"

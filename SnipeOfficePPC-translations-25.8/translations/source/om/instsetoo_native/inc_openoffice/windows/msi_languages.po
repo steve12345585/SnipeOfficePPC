@@ -590,7 +590,7 @@ msgstr "Kuusdeetaa ijaarsaa"
 
 #: SIS.ulf#OOO_SIS_COMMENT.LngText.text
 msgid "This installer database contains the logic and data required to install LibreOffice."
-msgstr "Ijaaran kuusa daata kun loogiki fi daata LibreOffice ijaaruf barbaachisu qaba."
+msgstr "Ijaaran kuusa daata kun loogiki fi daata SnipeOffice ijaaruf barbaachisu qaba."
 
 #: SIS.ulf#OOO_SIS_KEYWORDS.LngText.text
 msgid "Install,MSI"

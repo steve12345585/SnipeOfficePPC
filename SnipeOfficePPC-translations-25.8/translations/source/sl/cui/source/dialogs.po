@@ -550,15 +550,15 @@ msgid "This release was supplied by %OOOVENDOR"
 msgstr "Ta izdelek je dal na voljo %OOOVENDOR."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
-msgstr "Copyright © 2000 - 2012 avtorji prispevkov LibreOffice in/ali z njimi povezani avtorji."
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
+msgstr "Copyright © 2025 avtorji prispevkov SnipeOffice in/ali z njimi povezani avtorji."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
 msgid "LibreOffice was based on OpenOffice.org"
 msgstr "LibreOffice je nastal iz pisarniškega paketa OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
 msgstr "%PRODUCTNAME izhaja iz pisarniškega paketa LibreOffice, ki je bil zasnovana na pisarniškem paketu OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
@@ -566,7 +566,7 @@ msgid "(Build ID: $BUILDID)"
 msgstr "(ID gradnje: $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
 msgstr "http://sl.libreoffice.org/o-nas/zasluge/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text

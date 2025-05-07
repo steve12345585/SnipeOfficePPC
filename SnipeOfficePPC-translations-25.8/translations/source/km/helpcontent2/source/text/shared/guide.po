@@ -5103,8 +5103,8 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "នៅពេល​អ្នក​ចុះហត្ថលេខា​ឯកសារ​ជា​មួយ​នឹង OpenOffice.org ៣.២ ឬ StarOffice ៩.២ ឬ​កំណែ​ក្រោយ ហើយ​អ្នក​បើក​ឯកសារ​នោះ​​ក្នុង​កំណែ​ចាស់​របស់​កម្មវិធី ហត្ថលេខា​នឹង​ត្រូវ​បានបង្ហាញ​ថា \"មិន​ត្រឹមត្រូវ\" ។ ហត្ថលេខា​បានបង្កើត​ជា​មួយ​នឹង​កំណែ​ចាស់​របស់​កម្មវិធី​នឹង​ត្រូវ​បាន​សម្គាល់​ជា​មួយ \"មានតែ​ផ្នែក​របស់ឯកសារ​ត្រូវ​បានចុះហត្ថលេខា\" នៅពេល​បាន​ផ្ទុក​ក្នុង​កម្មវិធី​ថ្មី ។"
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
-msgstr "នៅ​ពេល​អ្នក​ផ្ទុក​ឯកសារ ODF អ្នក​អាច​មើល​រូបតំណាង​នៅ​ក្នុង​របា​ស្ថានភាព និង​វាល​ស្ថានភាព​នៅ​ក្នុង​ប្រអប់​ដែល​បង្ហាញ​ថា​ឯកសារ​​ត្រូវ​​បាន​ចុះ​ហត្ថលេខា​ដោយភាគ​តែប៉ុណ្ណោះ ។ ស្ថានភាព​នេះ​នឹង​លេចឡើង នៅ​ពេល​ហត្ថលេខា និង​វិញ្ញាបនបត្រ​គឺ​ត្រឹមត្រូវ ប៉ុន្តែ​ពួកយើង​បាន​បង្កើត​ដោយ​មាន​កំណែ OpenOffice.org មុន 3.2 ឬ StarOffice មុន 9.2 ។ នៅ​ក្នុង​កំណែ OpenOffice.org មុន 3.0 ឬ StarOffice មុន 9.0, ហត្ថលេខា​ឯកសារ​ត្រូវ​បាន​អនុវត្ត​មាតិកា​ចម្បង រូបភាព និង​វត្ថុ​ដែល​បង្កប់ និង​មាតិកា​មួយ​ចំនួន ដូច​ជា macros, មិន​ត្រូវ​បាន​ចុះ​ហត្ថលេខា ។ នៅ​ក្នុង OpenOffice.org 3.0 និង StarOffice 9.0 ឯកសារ​ចុះ​ហត្ថលេខា​ត្រូវបាន​អនុវត្ត​មាតិកា​ជា​ច្រើន រួម​បញ្ចូល​នឹង macros ។ ទោះបី​យ៉ាងណាក៏ដោយ  mimetype និង​មាតិកា​របស់​ថត META-INF មិន​ត្រូវ​បាន​ចុះ​ហត្ថលេខា​ឡើយ ។ ហើយ​នៅ​ក្នុង OpenOffice.org 3.2, StarOffice 9.2, និង​កំណែ​ទាំងអស់​របស់​​​​មាតិកា​របស់ LibreOffice  លើកលែង​តែ​ឯកសារ​អត្ថលេខា​ខ្លួន​ឯង (META-INF/documentsignatures.xml), ត្រូវ​បាន​ចុះ​អត្ថលេខា ។"
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgstr "នៅ​ពេល​អ្នក​ផ្ទុក​ឯកសារ ODF អ្នក​អាច​មើល​រូបតំណាង​នៅ​ក្នុង​របា​ស្ថានភាព និង​វាល​ស្ថានភាព​នៅ​ក្នុង​ប្រអប់​ដែល​បង្ហាញ​ថា​ឯកសារ​​ត្រូវ​​បាន​ចុះ​ហត្ថលេខា​ដោយភាគ​តែប៉ុណ្ណោះ ។ ស្ថានភាព​នេះ​នឹង​លេចឡើង នៅ​ពេល​ហត្ថលេខា និង​វិញ្ញាបនបត្រ​គឺ​ត្រឹមត្រូវ ប៉ុន្តែ​ពួកយើង​បាន​បង្កើត​ដោយ​មាន​កំណែ OpenOffice.org មុន 3.2 ឬ StarOffice មុន 9.2 ។ នៅ​ក្នុង​កំណែ OpenOffice.org មុន 3.0 ឬ StarOffice មុន 9.0, ហត្ថលេខា​ឯកសារ​ត្រូវ​បាន​អនុវត្ត​មាតិកា​ចម្បង រូបភាព និង​វត្ថុ​ដែល​បង្កប់ និង​មាតិកា​មួយ​ចំនួន ដូច​ជា macros, មិន​ត្រូវ​បាន​ចុះ​ហត្ថលេខា ។ នៅ​ក្នុង OpenOffice.org 3.0 និង StarOffice 9.0 ឯកសារ​ចុះ​ហត្ថលេខា​ត្រូវបាន​អនុវត្ត​មាតិកា​ជា​ច្រើន រួម​បញ្ចូល​នឹង macros ។ ទោះបី​យ៉ាងណាក៏ដោយ  mimetype និង​មាតិកា​របស់​ថត META-INF មិន​ត្រូវ​បាន​ចុះ​ហត្ថលេខា​ឡើយ ។ ហើយ​នៅ​ក្នុង OpenOffice.org 3.2, StarOffice 9.2, និង​កំណែ​ទាំងអស់​របស់​​​​មាតិកា​របស់ SnipeOffice  លើកលែង​តែ​ឯកសារ​អត្ថលេខា​ខ្លួន​ឯង (META-INF/documentsignatures.xml), ត្រូវ​បាន​ចុះ​អត្ថលេខា ។"
 
 #: digital_signatures.xhp#hd_id9354228.help.text
 msgid "Security Warnings"
@@ -5537,8 +5537,8 @@ msgstr "ប្រសិនបើ​អ្នក​បាន​ទាញ​យក
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "បើក​កម្មវិធី​រុករក​បណ្ដាញ​របស់​អ្នក ហើយ​បញ្ចូល <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "បើក​កម្មវិធី​រុករក​បណ្ដាញ​របស់​អ្នក ហើយ​បញ្ចូល <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869502.help.text
 msgctxt "language_select.xhp#par_id7869502.help.text"
@@ -5556,8 +5556,8 @@ msgstr "ដំឡើង​កញ្ចប់​ភាសា ។ ​ស្រា�
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "បើក​កម្មវិធី​រុករក​បណ្ដាញ​របស់​អ្នក ហើយ​បញ្ចូល <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "បើក​កម្មវិធី​រុករក​បណ្ដាញ​របស់​អ្នក ហើយ​បញ្ចូល <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869503.help.text
 msgctxt "language_select.xhp#par_id7869503.help.text"
@@ -7081,8 +7081,8 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "ជ្រើស <emph>ជំនួយ - អំពី $[officename]</emph> ។ នេះ​បើក​ប្រអប់​ដែល​មាន​ព័ត៌មាន​អំពី​កម្មវិធី ។"
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
-msgstr "<link href=\"http://www.libreoffice.org/about-us/credits/\">មើល​បញ្ជី​កូដ និង​អ្នក​ចែកចាយ​វិគី</link> លើ​បណ្ដាញ LibreOffice ។"
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
+msgstr "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">មើល​បញ្ជី​កូដ និង​អ្នក​ចែកចាយ​វិគី</link> លើ​បណ្ដាញ SnipeOffice ។"
 
 #: imagemap.xhp#tit.help.text
 msgid "Adding Clickable Hotspots to Images"

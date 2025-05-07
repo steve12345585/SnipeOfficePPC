@@ -291,8 +291,8 @@ msgid "Joined Cells"
 msgstr "ក្រឡា​ចូល​គ្នា"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument និង​ជាពិសេស LibreOffice តំណាង​ឲ្យ​តារាង​ដែល​មាន​ក្រឡា​ដែល​បាន​ត ដែល​ធ្វើ​វិសាលភាព​ជួរដេក​ជា​តារាង​ជាមួយ​តារាង​ក្នុង ។ ផ្ទុយទៅវិញ របៀប​វិគី​របស់​តារាង គឺ​ដើម្បី​ប្រកាស​វិសាលភាព​ជួរឈរ និង​ជួរដេក​សម្រាប់​ក្រឡា​ដែល​បាន​ត​បែបនេះ ។"
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument និង​ជាពិសេស SnipeOffice តំណាង​ឲ្យ​តារាង​ដែល​មាន​ក្រឡា​ដែល​បាន​ត ដែល​ធ្វើ​វិសាលភាព​ជួរដេក​ជា​តារាង​ជាមួយ​តារាង​ក្នុង ។ ផ្ទុយទៅវិញ របៀប​វិគី​របស់​តារាង គឺ​ដើម្បី​ប្រកាស​វិសាលភាព​ជួរឈរ និង​ជួរដេក​សម្រាប់​ក្រឡា​ដែល​បាន​ត​បែបនេះ ។"
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

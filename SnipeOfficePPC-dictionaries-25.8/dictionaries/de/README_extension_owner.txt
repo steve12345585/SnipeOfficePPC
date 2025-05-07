@@ -6,7 +6,7 @@ Compatibility
 =============
 This extension is compatible with:
 - ApacheOpenOffice (Version 3.4)
-- LibreOffice (Versions 3.3, 3.4, 3.5)
+- SnipeOffice (Versions 3.3, 3.4, 3.5)
 - OpenOffice.org (Versions 3.0 or later)
 
 Spell checking
@@ -16,7 +16,7 @@ Version: 2012-06-09
 Author:  Franz Michael Baumann <fm.baumann@uni-muenster.de>
 Based on igerman98 dictionary:
 Version: 2012-06-07
-Author:  Björn Jacke <bjoern@j3e.de>
+Author:  Bjï¿½rn Jacke <bjoern@j3e.de>
          Download: http://www.j3e.de/ispell/igerman98/dict/
 License: GNU GPL Version 2 or GPL Version 3 or OASIS 0.1
 

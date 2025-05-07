@@ -289,7 +289,7 @@ msgid "Joined Cells"
 msgstr "ਜੁਆਇੰਨ ਕੀਤੇ ਸੈੱਲ"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
 msgstr "ਓਪਨਡੌਕੂਮੈਂਟ ਅਤੇ ਖਾਸ ਤੌਰ ਉੱਤੇ ਲਿਬਰੇਆਫਿਸ ਟੇਬਲ ਦਰਸਾਉਂਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਸੈੱਲ ਜੁਆਇੰਨ ਕੀਤੇ ਹਨ, ਜਿੱਥੇ ਅੰਦਰੂਨੀ ਟੇਬਲਾਂ ਨਾਲ ਟੇਬਲਾਂ ਨੂੰ ਰਲਾਈਆਂ ਕਤਾਰਾਂ ਵਜੋਂ ਹਨ। ਇਸ ਦੇ ਉਲਟ ਟੇਬਲ ਦੇ ਵਿਕਿ ਮਾਡਲ ਵਿੱਚ ਹਰੇਕ ਜੁਆਇੰਨ ਕੀਤੇ ਸੈੱਲ ਲਈ ਕਾਲਮ ਅਤੇ ਕਤਾਰ ਸਪੇਨਸ (span) ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ।"
 
 #: wikiformats.xhp#par_id8163090.help.text

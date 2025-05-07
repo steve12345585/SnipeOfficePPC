@@ -1414,12 +1414,12 @@ msgstr "색상 목록을 저장하려면 <emph>색상 목록 저장</emph> 버�
 
 #: palette_files.xhp#bm_id3149871.help.text
 #, fuzzy
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
 msgstr "<bookmark_value>스프레드시트; 함수 숨기기</bookmark_value><bookmark_value>숨기기; 행</bookmark_value><bookmark_value>숨기기; 열</bookmark_value><bookmark_value>숨기기; 시트</bookmark_value><bookmark_value>시트;숨기기</bookmark_value><bookmark_value>열;숨기기</bookmark_value><bookmark_value>행;숨기기</bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
-msgstr "CMYK 목록은 인쇄 색상에 최적화되어 있습니다. Web이나 HTML 목록은 256 색상의 해상도를 이용하여 표시하는 데 최적화되어 있습니다. libreoffice.soc 및 tango.soc 팔레트는 각각 공식적인 LibreOffice 및 Tango 색상을 포함하고 있습니다."
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
+msgstr "CMYK 목록은 인쇄 색상에 최적화되어 있습니다. Web이나 HTML 목록은 256 색상의 해상도를 이용하여 표시하는 데 최적화되어 있습니다. libreoffice.soc 및 tango.soc 팔레트는 각각 공식적인 SnipeOffice 및 Tango 색상을 포함하고 있습니다."
 
 #: palette_files.xhp#hd_id3150435.78.help.text
 msgid "To load a gradient list:"

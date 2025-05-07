@@ -1417,11 +1417,11 @@ msgstr "रङ सूची बचत गर्नका लागि, <emph>र
 
 #: palette_files.xhp#bm_id3149871.help.text
 #, fuzzy
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
 msgstr "<bookmark_value>स्प्रेडसिटहरू; लुकेका प्रकार्यहरू</bookmark_value><bookmark_value>लुकेका; पङ्क्तिहरू</bookmark_value><bookmark_value>लुकेका; स्तम्भहरू</bookmark_value><bookmark_value>लुकेका;पानाहरू</bookmark_value><bookmark_value>पानाहरू;लुकेका</bookmark_value><bookmark_value>स्तम्भहरू;लुकेका</bookmark_value><bookmark_value> पङ्क्तिहरू;लुकेका</bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
 msgstr "CMYK सूची मुद्रण रङहरूका लागि अप्टिमाइज हुन्छ, जहाँ रङहरू वेबमा र HTML सूचीहरूमा २५६ रङहरूको रिजोल्युसन प्रयोग गरि अप्टिमाइज गरिन्छ ।"
 
 #: palette_files.xhp#hd_id3150435.78.help.text

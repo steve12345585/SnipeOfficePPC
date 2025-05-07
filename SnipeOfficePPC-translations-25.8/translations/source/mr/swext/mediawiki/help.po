@@ -290,7 +290,7 @@ msgid "Joined Cells"
 msgstr "जोडलेले कप्पे"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
 msgstr "ओपनडॉक्युमेंट व विशेषतः लिब्रेऑफिस, तक्ता प्रस्तुत करते ज्याचे कप्पे जुळलेले असतात जे अंतर्भुतीय तक्तांसह तक्त्यांना ओळींसह स्पॅन करतात. या उलट, या जुळलेल्या कप्प्यांकरीता तक्त्याचे विकि मॉडल स्तंभ व ओळ स्पॅन्स् ठरवतो. "
 
 #: wikiformats.xhp#par_id8163090.help.text

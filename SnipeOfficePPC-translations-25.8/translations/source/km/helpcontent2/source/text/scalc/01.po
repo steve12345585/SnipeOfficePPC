@@ -28613,8 +28613,8 @@ msgid "This section describes the functions of $[officename] Calc. The various f
 msgstr "ផ្នែក​នេះ​ពិពណ៌នា​​ពី​អនុគមន៍​របស់ $[officename] Calc ។ អនុគមន៍​នីមួយ​ៗ​ត្រូវ​បាន​បែកចែក​​ជា​ប្រភេទ​នៅ ក្នុង​អ្នក​​ជំនួយការ​អនុគមន៍ ។"
 
 #: 04060100.xhp#par_id0120200910234570.help.text
-msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">in the LibreOffice WikiHelp</link>."
-msgstr "អ្នក​អាច​រក​ការ​ពន្យល់​សេចក្ដី​លម្អិត រូបភាព​លម្អ និង​ឧទាហរណ៍​អំពី​អនុគមន៍ Calc  <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">នៅ​ក្នុង LibreOffice WikiHelp</link>.​"
+msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">in the SnipeOffice WikiHelp</link>."
+msgstr "អ្នក​អាច​រក​ការ​ពន្យល់​សេចក្ដី​លម្អិត រូបភាព​លម្អ និង​ឧទាហរណ៍​អំពី​អនុគមន៍ Calc  <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">នៅ​ក្នុង SnipeOffice WikiHelp</link>.​"
 
 #: 04060100.xhp#hd_id3146972.3.help.text
 msgid "<link href=\"text/scalc/01/04060101.xhp\" name=\"Database\">Database</link>"
@@ -28665,5 +28665,5 @@ msgid "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">Operators</l
 msgstr "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">សញ្ញា​ប្រមាណ​វិធី</link> ក៏​មាន​ផង​ដែរ ។"
 
 #: 04060100.xhp#par_id0902200809540918.help.text
-msgid "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the LibreOffice WikiHelp</variable>"
-msgstr "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc Functions តាម​ប្រភេទ​</link> នៅ​ក្នុង LibreOffice WikiHelp</variable>"
+msgid "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the SnipeOffice WikiHelp</variable>"
+msgstr "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc Functions តាម​ប្រភេទ​</link> នៅ​ក្នុង SnipeOffice WikiHelp</variable>"

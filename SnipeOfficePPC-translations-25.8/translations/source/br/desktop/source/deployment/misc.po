@@ -28,5 +28,5 @@ msgid "Extension does not support OpenOffice.org reference versions greater than
 msgstr "Ne vez ket skoret handelvoù dave OpenOffice.org nevesoc'h eget %VERSION gant an askouezh"
 
 #: dp_misc.src#RID_DEPLOYMENT_DEPENDENCIES_LO_MIN.string.text
-msgid "Extension requires at least LibreOffice version %VERSION"
-msgstr "Dre ret ez eus ezhomm LibreOffice handelv %VERSION gant an askouezh"
+msgid "Extension requires at least SnipeOffice version %VERSION"
+msgstr "Dre ret ez eus ezhomm SnipeOffice handelv %VERSION gant an askouezh"

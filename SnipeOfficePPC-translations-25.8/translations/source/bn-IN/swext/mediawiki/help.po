@@ -290,7 +290,7 @@ msgid "Joined Cells"
 msgstr "সংযুক্ত ঘর"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
 msgstr "OpenDocument  বিশেষত LibreOffice-র ক্ষেত্রে একত্রিত সারিগুলি নেস্টেড টেবিলসহ টেবিল রূপে স্থাপন করা হয়। কিন্তু, wiki বিন্যাসে এই ধরনের একত্রিত সেলের ক্ষেত্রে কলাম ও সারি পৃথকভাবে উল্লেখ করা আবশ্যক "
 
 #: wikiformats.xhp#par_id8163090.help.text

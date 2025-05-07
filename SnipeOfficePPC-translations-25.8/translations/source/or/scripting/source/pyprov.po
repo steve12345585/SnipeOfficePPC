@@ -20,5 +20,5 @@ msgid "Script provider for Python"
 msgstr "Python ପାଇଁ ସ୍କ୍ରିପ୍ଟ ପ୍ରଦାନକାରୀ"
 
 #: description.xml#extdesc.extdesc.description.text
-msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a LibreOffice installation, and also in loaded documents.\n"
-msgstr "ସ୍କ୍ରିପ୍ଟିଙ୍ଗ ଫ୍ରେମୱର୍କ ମାଧ୍ଯମରେ Python ସ୍କ୍ରିପ୍ଟକୁ ସକ୍ରିୟ କରିବାକୁ LibreOffice ସ୍ଥାପନର ବ୍ୟବହାରକାରୀ ଏବଂ ସହଭାଗୀ ଡିରେକ୍ଟୋରୀରେ Python  ପାଇଁ  ସହାୟତା ଯୋଗ କରନ୍ତୁ, ଏବଂ ଧାରଣ ହୋଇଥିବା ଦଲିଲରେ ମଧ୍ଯ।\n"
+msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a SnipeOffice installation, and also in loaded documents.\n"
+msgstr "ସ୍କ୍ରିପ୍ଟିଙ୍ଗ ଫ୍ରେମୱର୍କ ମାଧ୍ଯମରେ Python ସ୍କ୍ରିପ୍ଟକୁ ସକ୍ରିୟ କରିବାକୁ SnipeOffice ସ୍ଥାପନର ବ୍ୟବହାରକାରୀ ଏବଂ ସହଭାଗୀ ଡିରେକ୍ଟୋରୀରେ Python  ପାଇଁ  ସହାୟତା ଯୋଗ କରନ୍ତୁ, ଏବଂ ଧାରଣ ହୋଇଥିବା ଦଲିଲରେ ମଧ୍ଯ।\n"

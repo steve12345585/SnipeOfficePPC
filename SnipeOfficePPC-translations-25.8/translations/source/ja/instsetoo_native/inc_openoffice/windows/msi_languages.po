@@ -2200,7 +2200,7 @@ msgstr "インストールデータベース"
 
 #: SIS.ulf#OOO_SIS_COMMENT.LngText.text
 msgid "This installer database contains the logic and data required to install LibreOffice."
-msgstr "このインストーラーデータベースには LibreOffice をインストールするために必要なロジックとデータが含まれています。"
+msgstr "このインストーラーデータベースには SnipeOffice をインストールするために必要なロジックとデータが含まれています。"
 
 #: SIS.ulf#OOO_SIS_KEYWORDS.LngText.text
 msgid "Install,MSI"

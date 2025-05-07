@@ -74,7 +74,7 @@ if test -z "$start_dir" ; then
 fi
 
 if ! test -f $start_dir/Repository.mk -a -f $start_dir/solenv/inc/target.mk ; then
-    echo "Error: $start_dir is not a valid LibreOffice core source directory"
+    echo "Error: $start_dir is not a valid SnipeOffice core source directory"
     exit 1;
 fi
 

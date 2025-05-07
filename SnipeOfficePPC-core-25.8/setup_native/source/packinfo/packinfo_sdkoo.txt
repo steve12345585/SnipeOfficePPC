@@ -35,7 +35,7 @@ requires = "%BASISPACKAGEPREFIX%PRODUCTVERSION-core01"
 copyright = "1999-2009 by OpenOffice.org Community"
 solariscopyright = "solariscopyrightfile"
 vendor = "The Document Foundation"
-description = "Software Development Kit for LibreOffice %PRODUCTVERSION"
+description = "Software Development Kit for SnipeOffice %PRODUCTVERSION"
 destpath = "/opt"
 packageversion = "%PACKAGEVERSION"
 End

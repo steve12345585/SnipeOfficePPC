@@ -28,24 +28,24 @@ msgid "This release was supplied by %OOOVENDOR"
 msgstr "Gant %OOOVENDOR eo bet pourchaset ar c'henderc'had-mañ"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
-msgstr "Copyright © 2000 - 2012 tud o deus kemeret perzh e LibreOffice pe/hag o stalioù mibien"
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
+msgstr "Copyright © 2025 tud o deus kemeret perzh e SnipeOffice pe/hag o stalioù mibien"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
 msgid "LibreOffice was based on OpenOffice.org"
 msgstr "Diazezet war OpenOffice.org eo LibreOffice"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
-msgstr "Un eilkenderc'had eus LibreOffice hag a oa diazezet war OpenOffice.org eo %PRODUCTNAME"
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
+msgstr "Un eilkenderc'had eus SnipeOffice hag a oa diazezet war OpenOffice.org eo %PRODUCTNAME"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
 msgid "(Build ID: $BUILDID)"
 msgstr "(ID ar savadur : $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
-msgstr "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
+msgstr "http://snipeoffice.org/snipeoffice-credits/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text
 msgid "Credits"

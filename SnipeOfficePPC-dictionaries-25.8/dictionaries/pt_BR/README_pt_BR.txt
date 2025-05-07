@@ -1,11 +1,11 @@
 Autor/Author: Raimundo Moura <raimundo.smoura@gmail.com>
 
-pt-BR: Este dicionário está em desenvolvimento por Raimundo Moura e sua equipe.
-Ele está licenciado sob os termos da Licença Pública Geral Menor versão 3 (LGPLv3),
+pt-BR: Este dicionï¿½rio estï¿½ em desenvolvimento por Raimundo Moura e sua equipe.
+Ele estï¿½ licenciado sob os termos da Licenï¿½a Pï¿½blica Geral Menor versï¿½o 3 (LGPLv3),
 como publicado pela Free Software Foundation e pela Mozilla Public License como
-publicado pela Mozilla Foundation . Os créditos estão disponíveis em
+publicado pela Mozilla Foundation . Os crï¿½ditos estï¿½o disponï¿½veis em
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
-e você pode encontrar novas versões em
+e vocï¿½ pode encontrar novas versï¿½es em
 
 en-US: This dictionary is under development by Raimundo Moura and his team. It is
 licensed under the terms of the GNU Lesser General Public License version 3 (LGPLv3),
@@ -17,188 +17,188 @@ and you can find new releases at
 Copyright (C) 2006 - 2012 por/by Raimundo Santos Moura <raimundo.smoura@gmail.com>
 
 =============
-APRESENTAÇÃO
+APRESENTAï¿½ï¿½O
 =============
 
-O Projeto Verificador Ortográfico do LibreOffice é um projeto
+O Projeto Verificador Ortogrï¿½fico  SnipeOffice e ï¿½ um projeto
 colaborativo desenvolvido pela comunidade Brasileira.
-A relação completa dos colaboradores deste projeto está em:
+A relaï¿½ï¿½o completa dos colaboradores deste projeto estï¿½ em:
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
 ***********************************************************************
-* Este é um dicionário para correção ortográfica da língua Portuguesa *
+* Este ï¿½ um dicionï¿½rio para correï¿½ï¿½o ortogrï¿½fica da lï¿½ngua Portuguesa *
 * para o Hunspell.                                                    *
-* Este programa é livre e pode ser redistribuído e/ou modificado nos  *
-* termos da GNU Lesser General Public License (LGPL) versão 3 e a     *
+* Este programa ï¿½ livre e pode ser redistribuï¿½do e/ou modificado nos  *
+* termos da GNU Lesser General Public License (LGPL) versï¿½o 3 e a     *
 * Mozilla Public License, como publicado pela Mozilla Foundation.     *
 *                                                                     *
 ***********************************************************************
 
 ======================
-SOBRE ESTA ATUALIZAÇÃO
+SOBRE ESTA ATUALIZAï¿½ï¿½O
 ======================
-. Inclusão do Corretor Gramatical baseado no Lightproof;
-. Na versão 2.1.0, modificações para melhoria de uma regra (terminações mento)
+. Inclusï¿½o do Corretor Gramatical baseado no Lightproof;
+. Na versï¿½o 2.1.0, modificaï¿½ï¿½es para melhoria de uma regra (terminaï¿½ï¿½es mento)
   ocasionaram o desaparecimento de algumas as palavras 'carreamento',
   'compartilhamento', 'deslocamento', 'desfolhamento', 'estreitamento',
   'disciplinamento', 'estiramento', 'georreferenciamento', 'patenteamento'
-  e 'sequenciamento',  sanadas na Versão 2.1.1. 
-. Exclusão de: alem. Colaboração de Eduardo Mundim; 
-. Inclusão de:  Justinópolis, macrodantina, micropapilar, normotensa,
-  pré-jantar, reexplicado, reexplicar e tibiofibular.  Colaboração de
+  e 'sequenciamento',  sanadas na Versï¿½o 2.1.1. 
+. Exclusï¿½o de: alem. Colaboraï¿½ï¿½o de Eduardo Mundim; 
+. Inclusï¿½o de:  Justinï¿½polis, macrodantina, micropapilar, normotensa,
+  prï¿½-jantar, reexplicado, reexplicar e tibiofibular.  Colaboraï¿½ï¿½o de
   Eduardo Mundim;
-. Inclusão de: intrapartidário e  irressarcida. Colaboração de João
+. Inclusï¿½o de: intrapartidï¿½rio e  irressarcida. Colaboraï¿½ï¿½o de Joï¿½o
   Eduardo Strottmann;
-. Inclusão de nomes bíblicos: Abias, Abiud, Acaz, Aminadab, Arfaxad,
-  Booz, Eber, Eleazar, Eliacim, Eliud, Elmadão, Esron, Faleg, Henoc,
-  Henós, Hesli, Jané, Jared, Jonão, Lamec, Maat, Malaleel, Matat,
-  Naasson, Nacor, Nagé, Obed, Raab, Ragau, Resa, Sadoc, Salmon, Sarug,
-  Semei. Colaboração de Eduardo Mundim;
-. Inclusão de: isoecoico, pleomórfico, subterapêutico, transabdominal.
-  Colaboração de Eduardo Mundim;
-. Inclusão de: microtubo e antiasfixiante. Colaboração de Guilherme
+. Inclusï¿½o de nomes bï¿½blicos: Abias, Abiud, Acaz, Aminadab, Arfaxad,
+  Booz, Eber, Eleazar, Eliacim, Eliud, Elmadï¿½o, Esron, Faleg, Henoc,
+  Henï¿½s, Hesli, Janï¿½, Jared, Jonï¿½o, Lamec, Maat, Malaleel, Matat,
+  Naasson, Nacor, Nagï¿½, Obed, Raab, Ragau, Resa, Sadoc, Salmon, Sarug,
+  Semei. Colaboraï¿½ï¿½o de Eduardo Mundim;
+. Inclusï¿½o de: isoecoico, pleomï¿½rfico, subterapï¿½utico, transabdominal.
+  Colaboraï¿½ï¿½o de Eduardo Mundim;
+. Inclusï¿½o de: microtubo e antiasfixiante. Colaboraï¿½ï¿½o de Guilherme
   Rebecchi;
-. Inclusão das abreviatursa: abrev., Adv.º, adv.º, cm², cm³, cód., cx.,
-  depto., dpto., Drs., DST, bras., exp., ext., ff., fg., públ., fl.,
-  cf., dep. e Dra. Colaboração de Guilherme Rebecchi;
-. Inclusão do verbo cofundar, e das palavras cardiolipídico, 
-  extra-acadêmica, coadequar e botucatuense.  Colaboração de
+. Inclusï¿½o das abreviatursa: abrev., Adv.ï¿½, adv.ï¿½, cmï¿½, cmï¿½, cï¿½d., cx.,
+  depto., dpto., Drs., DST, bras., exp., ext., ff., fg., pï¿½bl., fl.,
+  cf., dep. e Dra. Colaboraï¿½ï¿½o de Guilherme Rebecchi;
+. Inclusï¿½o do verbo cofundar, e das palavras cardiolipï¿½dico, 
+  extra-acadï¿½mica, coadequar e botucatuense.  Colaboraï¿½ï¿½o de
   Guilherme Rebecchi;
-. Inclusão de: reestilizar, reesposado, reesposar, reespumas,
+. Inclusï¿½o de: reestilizar, reesposado, reesposar, reespumas,
   reestabelecer, reestimulado, reestimulante, reestimular,
-  reestipulação, reestipulado, reestipulador, reestipular.
-  Colaboração de Guilherme Rebecchi;
-. Inclusão de: decupagem, decupável, motoventilador,  motoboy,
-  motor-ocular. Colaboração de Guilherme Rebecchi.
-. Inclusão de: endócrino-metabólico, pré-requisitado e
-  primoinfecção. Colaboração de Eduardo Mundim;
-. Inclusão de anti-héctico, anti-helênico, anti-hélice, anti-hético,
-  anti-hidrotropina, anti-iberístico, anti-igualitário, anti-igualitarismo,
-  anti-igualitarista, anti-igualitarístico, anti-iluminístico, anti-inatismo,
-  anti-íneo, anti-infabilístico, anti-infalibilístico, anti-integralístico,
+  reestipulaï¿½ï¿½o, reestipulado, reestipulador, reestipular.
+  Colaboraï¿½ï¿½o de Guilherme Rebecchi;
+. Inclusï¿½o de: decupagem, decupï¿½vel, motoventilador,  motoboy,
+  motor-ocular. Colaboraï¿½ï¿½o de Guilherme Rebecchi.
+. Inclusï¿½o de: endï¿½crino-metabï¿½lico, prï¿½-requisitado e
+  primoinfecï¿½ï¿½o. Colaboraï¿½ï¿½o de Eduardo Mundim;
+. Inclusï¿½o de anti-hï¿½ctico, anti-helï¿½nico, anti-hï¿½lice, anti-hï¿½tico,
+  anti-hidrotropina, anti-iberï¿½stico, anti-igualitï¿½rio, anti-igualitarismo,
+  anti-igualitarista, anti-igualitarï¿½stico, anti-iluminï¿½stico, anti-inatismo,
+  anti-ï¿½neo, anti-infabilï¿½stico, anti-infalibilï¿½stico, anti-integralï¿½stico,
   anti-interferencial, anticolonista, anticontagionista, antidreyfusista,
-  antievolucionário, antifens, antimanicomial, antissocialístico, antissofístico,
-  antissorologia, antissorológico, antissovietismo, antissovietista,
-  antissovietístico, correpetidora, ântia, astros-reis, correpetição,
-  correpetir, cré, creaseyita, crêmbalo, crênea, crênico, desleucocitação,
-  guiratinga, hemocomponentes, lesma-de-conchinha, microcuveta, moto-contínuo,
-  moto-perpétuo, moto-próprio, motos-contínuos, motos-perpétuos, motos-próprios,
-  pilularmente, primo-infeção, rioclarense, trifacetado.
-  Colaboração de Guilherme Rebecchi.
-. Inclusão de nomes próprios: Alcemar, Alfredinho, Amon-Rá, Camilinha, Cavalheira,
-  Dulcimar, Elza, Fibonacci, Flogêncio, Geldásio, Gotemburgo, Lemaitre, Liane,
-  Lispector, Monique, Rousseff, Talia, Tutmósis.
-. Inclusão de: acadêmico-científico, adesivação, agente-motorista, agrorreformista, almocinho,
-  amassos, americano-canadense, anabela, angioimunoblástico, anglo-nubiano, Ano-Novo, anti-intrusão,
-  antiatrito, antidistúrbio, antienchente, antiferromagnético, antimaçã, antiquark, antiquíssima,
-  antropometricamente, Apicum-Açu, asilo-colônia, astrobiologista, audio-oral, audiocomunicação,
-  audiolingual, auto-outorga, autoafastamento, autoamarrar, autoaquecer, autocicatrização,
-  autocicatrizante, autocicatrizar, autocorrigir, autodefensor, autodesligar, autoimportância,
-  autorizatário, autorresfriar, autossegregação, autossimilar, autotransplante, aventuresco,
-  barocalórico, basco-espanhol, benefício-custo, biobateria, biocélula, biocompósito,
-  biocopo, bioeletrodo, biogerador, biomáscara, biomemória, bionanotecnologia, bioneon,
-  bioviolino, birradical, boias-frias, boreto, Bose-Einstein, branco-amarelado, cães-guias,
-  cambrique, carreamento, carregadíssimo, caxotão, celão, célula-semente, células-T,
-  ciberarma, cibercondríaco, ciberdoutor, ciceronear, ciência-cidadã, científico-cultural,
-  circumbinário, clínico-patológico, cloraminação, coautoral, coevento, cogência,
-  consultor-geral, contrachapa, contrainsurgência, contraplacado, contrarrotação,
-  corpão, criptoassinatura, CTI, data-marco, dB, decotão, decretos-lei, dedo-duro,
-  defletora, desobsessão, destipificação, diarileteno, diarileteno, diarinho, didático-científico,
-  Dif., disciplinamento, Disneylândia, domo, econômico-contributivo, elegantérimo,
-  eletrônico-quântico, engraxadeira, equanimemente, espectropolarimetria, espírito-cultural,
-  espraiamento, estado-nação, estado-proprietário, Estados-Membros, exproprianda, 
-  extrassociedade, ferromagneto, firmezinho, físico-ambiental, físico-operacional,
-  fivelinha, fotodetectora, ganha-ganha, georreferenciamento, geossocialização,
+  antievolucionï¿½rio, antifens, antimanicomial, antissocialï¿½stico, antissofï¿½stico,
+  antissorologia, antissorolï¿½gico, antissovietismo, antissovietista,
+  antissovietï¿½stico, correpetidora, ï¿½ntia, astros-reis, correpetiï¿½ï¿½o,
+  correpetir, crï¿½, creaseyita, crï¿½mbalo, crï¿½nea, crï¿½nico, desleucocitaï¿½ï¿½o,
+  guiratinga, hemocomponentes, lesma-de-conchinha, microcuveta, moto-contï¿½nuo,
+  moto-perpï¿½tuo, moto-prï¿½prio, motos-contï¿½nuos, motos-perpï¿½tuos, motos-prï¿½prios,
+  pilularmente, primo-infeï¿½ï¿½o, rioclarense, trifacetado.
+  Colaboraï¿½ï¿½o de Guilherme Rebecchi.
+. Inclusï¿½o de nomes prï¿½prios: Alcemar, Alfredinho, Amon-Rï¿½, Camilinha, Cavalheira,
+  Dulcimar, Elza, Fibonacci, Flogï¿½ncio, Geldï¿½sio, Gotemburgo, Lemaitre, Liane,
+  Lispector, Monique, Rousseff, Talia, Tutmï¿½sis.
+. Inclusï¿½o de: acadï¿½mico-cientï¿½fico, adesivaï¿½ï¿½o, agente-motorista, agrorreformista, almocinho,
+  amassos, americano-canadense, anabela, angioimunoblï¿½stico, anglo-nubiano, Ano-Novo, anti-intrusï¿½o,
+  antiatrito, antidistï¿½rbio, antienchente, antiferromagnï¿½tico, antimaï¿½ï¿½, antiquark, antiquï¿½ssima,
+  antropometricamente, Apicum-Aï¿½u, asilo-colï¿½nia, astrobiologista, audio-oral, audiocomunicaï¿½ï¿½o,
+  audiolingual, auto-outorga, autoafastamento, autoamarrar, autoaquecer, autocicatrizaï¿½ï¿½o,
+  autocicatrizante, autocicatrizar, autocorrigir, autodefensor, autodesligar, autoimportï¿½ncia,
+  autorizatï¿½rio, autorresfriar, autossegregaï¿½ï¿½o, autossimilar, autotransplante, aventuresco,
+  barocalï¿½rico, basco-espanhol, benefï¿½cio-custo, biobateria, biocï¿½lula, biocompï¿½sito,
+  biocopo, bioeletrodo, biogerador, biomï¿½scara, biomemï¿½ria, bionanotecnologia, bioneon,
+  bioviolino, birradical, boias-frias, boreto, Bose-Einstein, branco-amarelado, cï¿½es-guias,
+  cambrique, carreamento, carregadï¿½ssimo, caxotï¿½o, celï¿½o, cï¿½lula-semente, cï¿½lulas-T,
+  ciberarma, cibercondrï¿½aco, ciberdoutor, ciceronear, ciï¿½ncia-cidadï¿½, cientï¿½fico-cultural,
+  circumbinï¿½rio, clï¿½nico-patolï¿½gico, cloraminaï¿½ï¿½o, coautoral, coevento, cogï¿½ncia,
+  consultor-geral, contrachapa, contrainsurgï¿½ncia, contraplacado, contrarrotaï¿½ï¿½o,
+  corpï¿½o, criptoassinatura, CTI, data-marco, dB, decotï¿½o, decretos-lei, dedo-duro,
+  defletora, desobsessï¿½o, destipificaï¿½ï¿½o, diarileteno, diarileteno, diarinho, didï¿½tico-cientï¿½fico,
+  Dif., disciplinamento, Disneylï¿½ndia, domo, econï¿½mico-contributivo, elegantï¿½rimo,
+  eletrï¿½nico-quï¿½ntico, engraxadeira, equanimemente, espectropolarimetria, espï¿½rito-cultural,
+  espraiamento, estado-naï¿½ï¿½o, estado-proprietï¿½rio, Estados-Membros, exproprianda, 
+  extrassociedade, ferromagneto, firmezinho, fï¿½sico-ambiental, fï¿½sico-operacional,
+  fivelinha, fotodetectora, ganha-ganha, georreferenciamento, geossocializaï¿½ï¿½o,
   giga-hertz, giromodelo, globinho, gluconolactona, grupo-base, hackeado,
-  helicóptero-espião, heliotérmico, hidrofilicidade, hidrofobicidade, hidrogerador,
-  histórico-antropológico, histórico-crítico, histórico-econômico, homem-borracha,
-  homem-elástico, homem-radioativo, hospital-colônia, hospital-escola, ignocelulósico,
-  indedutibilidade, inescondível, inexpropriabilidade, infracionário, ininterruptividade,
-  intercambista, interdição-relâmpago, interruptora, intradomiciliar, intraministeriais,
-  intraurbano, jogos-treino, jurídico-agrário, kandoriano, kryptoniano, lesa-cultura,
-  lesa-democracia, lesa-inteligência, lesa-língua, lesa-natureza, lesa-propriedade,
-  linguístico-comunicativa, maçarico-do-papo-vermelho, macroárea, magneto-óptico,
-  magnetorresistivo, manjelão, máquina-robô, máquinas-robôs, mata-leão, 
-  médico-odontológico, medinho, megaepisódio, megatendência, meritoriamente,
-  meta-análise, meta-humano, mexilhão-dourado, microbomba, microbraço, microcromatografia,
-  microescala, microescala, microfabricação, microfoguete, microlaboratório, microlente,
-  micromúsculo, micropinça, microrressonador, microrrobótico, microválvula, mili-elétron-volt,
-  miniarmarinho, minibolinho, minidocumentário, minissequenciador, molécula-motor,
-  molhável, motorredutor, muletante, mulher-aranha, multicombustível, multiferroico,
-  multipá, município-sede, municípios-sede, nano-orelha, nano-ouvido, nanobioeletrodo,
+  helicï¿½ptero-espiï¿½o, heliotï¿½rmico, hidrofilicidade, hidrofobicidade, hidrogerador,
+  histï¿½rico-antropolï¿½gico, histï¿½rico-crï¿½tico, histï¿½rico-econï¿½mico, homem-borracha,
+  homem-elï¿½stico, homem-radioativo, hospital-colï¿½nia, hospital-escola, ignocelulï¿½sico,
+  indedutibilidade, inescondï¿½vel, inexpropriabilidade, infracionï¿½rio, ininterruptividade,
+  intercambista, interdiï¿½ï¿½o-relï¿½mpago, interruptora, intradomiciliar, intraministeriais,
+  intraurbano, jogos-treino, jurï¿½dico-agrï¿½rio, kandoriano, kryptoniano, lesa-cultura,
+  lesa-democracia, lesa-inteligï¿½ncia, lesa-lï¿½ngua, lesa-natureza, lesa-propriedade,
+  linguï¿½stico-comunicativa, maï¿½arico-do-papo-vermelho, macroï¿½rea, magneto-ï¿½ptico,
+  magnetorresistivo, manjelï¿½o, mï¿½quina-robï¿½, mï¿½quinas-robï¿½s, mata-leï¿½o, 
+  mï¿½dico-odontolï¿½gico, medinho, megaepisï¿½dio, megatendï¿½ncia, meritoriamente,
+  meta-anï¿½lise, meta-humano, mexilhï¿½o-dourado, microbomba, microbraï¿½o, microcromatografia,
+  microescala, microescala, microfabricaï¿½ï¿½o, microfoguete, microlaboratï¿½rio, microlente,
+  micromï¿½sculo, micropinï¿½a, microrressonador, microrrobï¿½tico, microvï¿½lvula, mili-elï¿½tron-volt,
+  miniarmarinho, minibolinho, minidocumentï¿½rio, minissequenciador, molï¿½cula-motor,
+  molhï¿½vel, motorredutor, muletante, mulher-aranha, multicombustï¿½vel, multiferroico,
+  multipï¿½, municï¿½pio-sede, municï¿½pios-sede, nano-orelha, nano-ouvido, nanobioeletrodo,
   nanocamada, nanocarro, nanocircuito, nanoconcha, nanocristalino, nanodiamante,
-  nanoelétrico, nanoendoscópio, nanofábrica, nanoferramenta, nanofotônico, nanolâmpada,
-  nanomagneto, nanomemória, nanomicrofone, nanorrendimento, nanorrobô, nanotrem,
-  nanotrilho, nanoveículo, nanowatts, nascitura, neuropsicossocial, objeto-partícula,
-  objetos-partícula, obstacularizador, oculoplástico, oftalmogeneticista, oportunistamente,
-  optoquântico, organizatório-funcional, ouvintismo, ouvintizado, país-parceiro, países-parceiros,
-  papuano, para-fiscal, patenteamento, pavilhão-escola, periodozinho, pervasivo, peso-leve,
-  pica-pau-bico-de-marfim, piso-guia, plasmônico, plasmônico, plásmons, poderes-deveres,
-  político-democrático, pombagira, popozudo, Pré-Amazônia, pré-constituído, pré-cozimento,
-  pré-dimensionamento, pré-estadual, pré-incubação, pré-pessoal, pré-político, pré-regulado,
-  pré-texto, prediozinho, prevalecentemente, promissária-compradora, pseudo-obstrução,
-  quântico-eletrônico, quantílico, quasicristal, qubit, reinfestação, reizinho, 
-  relacionamento-relâmpago, reptílico, rigatone, robô-bebê, robô-gêmeo, romance-relâmpago,
-  rubisco, sanfônica, sapo-pulga, sapos-pulga, sarjetão, semicartunesco, semimaterial,
-  sensorial-motora, sequenciamento, sequestro-relâmpago, silício-germânio, site, skate,
-  socioantropológico, socioassistencial, socioespacial, subaglomeração, subaglomerado, 
-  subartigo, subcoleção, subcompacto, substância-traço, sucroenergético, super-hidrofílico,
-  super-hidrofóbico, superanimal, superarcaico, superburaco, supercavalo, superciborgue,
-  superconfidencial, supercriminoso, superemocionado, superesforçado, superestudioso,
-  superfluido, supergigante, supermoço, supermulher, supermutante, superpreciso, supersaga,
-  supertrança, supertrançado, supertratamento, supraétnico, suprarrelacionado, surdocego,
-  surdocegueira, suspeitíssimo, tartalete, teleológico-funcional, teoria-M, teórico-doutrinário,
-  transversalização, tricloroisocianúrico, turbocompressor, ultradenso, ultraminiaturizado,
-  ultraportabilidade, ultrapreciso, ultrapreciso, ultrapreciso, ultrarreligioso, ultras, urbanitário,
-  UTI, Vale-Alimentação, vale-alimentação, Vancouver, vermelho-alaranjado, vertedoura,
-  videodocumentário, vitrocerâmico e Wh.
+  nanoelï¿½trico, nanoendoscï¿½pio, nanofï¿½brica, nanoferramenta, nanofotï¿½nico, nanolï¿½mpada,
+  nanomagneto, nanomemï¿½ria, nanomicrofone, nanorrendimento, nanorrobï¿½, nanotrem,
+  nanotrilho, nanoveï¿½culo, nanowatts, nascitura, neuropsicossocial, objeto-partï¿½cula,
+  objetos-partï¿½cula, obstacularizador, oculoplï¿½stico, oftalmogeneticista, oportunistamente,
+  optoquï¿½ntico, organizatï¿½rio-funcional, ouvintismo, ouvintizado, paï¿½s-parceiro, paï¿½ses-parceiros,
+  papuano, para-fiscal, patenteamento, pavilhï¿½o-escola, periodozinho, pervasivo, peso-leve,
+  pica-pau-bico-de-marfim, piso-guia, plasmï¿½nico, plasmï¿½nico, plï¿½smons, poderes-deveres,
+  polï¿½tico-democrï¿½tico, pombagira, popozudo, Prï¿½-Amazï¿½nia, prï¿½-constituï¿½do, prï¿½-cozimento,
+  prï¿½-dimensionamento, prï¿½-estadual, prï¿½-incubaï¿½ï¿½o, prï¿½-pessoal, prï¿½-polï¿½tico, prï¿½-regulado,
+  prï¿½-texto, prediozinho, prevalecentemente, promissï¿½ria-compradora, pseudo-obstruï¿½ï¿½o,
+  quï¿½ntico-eletrï¿½nico, quantï¿½lico, quasicristal, qubit, reinfestaï¿½ï¿½o, reizinho, 
+  relacionamento-relï¿½mpago, reptï¿½lico, rigatone, robï¿½-bebï¿½, robï¿½-gï¿½meo, romance-relï¿½mpago,
+  rubisco, sanfï¿½nica, sapo-pulga, sapos-pulga, sarjetï¿½o, semicartunesco, semimaterial,
+  sensorial-motora, sequenciamento, sequestro-relï¿½mpago, silï¿½cio-germï¿½nio, site, skate,
+  socioantropolï¿½gico, socioassistencial, socioespacial, subaglomeraï¿½ï¿½o, subaglomerado, 
+  subartigo, subcoleï¿½ï¿½o, subcompacto, substï¿½ncia-traï¿½o, sucroenergï¿½tico, super-hidrofï¿½lico,
+  super-hidrofï¿½bico, superanimal, superarcaico, superburaco, supercavalo, superciborgue,
+  superconfidencial, supercriminoso, superemocionado, superesforï¿½ado, superestudioso,
+  superfluido, supergigante, supermoï¿½o, supermulher, supermutante, superpreciso, supersaga,
+  supertranï¿½a, supertranï¿½ado, supertratamento, supraï¿½tnico, suprarrelacionado, surdocego,
+  surdocegueira, suspeitï¿½ssimo, tartalete, teleolï¿½gico-funcional, teoria-M, teï¿½rico-doutrinï¿½rio,
+  transversalizaï¿½ï¿½o, tricloroisocianï¿½rico, turbocompressor, ultradenso, ultraminiaturizado,
+  ultraportabilidade, ultrapreciso, ultrapreciso, ultrapreciso, ultrarreligioso, ultras, urbanitï¿½rio,
+  UTI, Vale-Alimentaï¿½ï¿½o, vale-alimentaï¿½ï¿½o, Vancouver, vermelho-alaranjado, vertedoura,
+  videodocumentï¿½rio, vitrocerï¿½mico e Wh.
 
 =======================================================
 COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE
 =======================================================
 
-O VERO vem dentro do pacote de instalação do Português do Brasil do
-LibreOffice, como uma extensão de instalação. Ele é automaticamente instalado.
+O VERO vem dentro do pacote de instalaï¿½ï¿½o do Portuguï¿½s do Brasil do
+LibreOffice, como uma extensï¿½o de instalaï¿½ï¿½o. Ele ï¿½ automaticamente instalado.
 
-Caso ele não tenha sido instalado na versão de seu LibreOffice (por exemplo, se sua
-versão é de outro idioma) você pode instalá-lo como uma extensão do LibreOffice. 
+Caso ele nï¿½o tenha sido instalado na versï¿½o de SnipeOffice ice (por exemplo, se sua
+versï¿½o ï¿½ de outro idioma) vocï¿½ pode instalï¿½-lo como uma extensï¿½o do LibreOffice. 
 Baixe-o de http://extensions.libreoffice.org
 
 ===================
-DÚVIDAS FREQUENTES
+Dï¿½VIDAS FREQUENTES
 ===================
 
-Os arquivos foram copiados mas o Verificador não está funcionando.
-O Verificador Ortográfico não deve estar configurado corretamente,
+Os arquivos foram copiados mas o Verificador nï¿½o estï¿½ funcionando.
+O Verificador Ortogrï¿½fico nï¿½o deve estar configurado corretamente,
 isto pode ocorrer por um dos seguintes motivos:
 
-1- O dicionário provavelmente não está instalado.
+1- O dicionï¿½rio provavelmente nï¿½o estï¿½ instalado.
 
-Para se certificar de que está utilizando o idioma correto confira como
-estão as informações em: Ferramentas >> Opções >>   Configurações de
-Idioma >> Idiomas. O item Ocidental deve apresentar o dicionário
+Para se certificar de que estï¿½ utilizando o idioma correto confira como
+estï¿½o as informaï¿½ï¿½es em: Ferramentas >> Opï¿½ï¿½es >>   Configuraï¿½ï¿½es de
+Idioma >> Idiomas. O item Ocidental deve apresentar o dicionï¿½rio
 selecionado (deve aparecer um logo "Abc" do lado do idioma).
 
-Se não estiver Português (Brasil) mude para esse idioma. Após
+Se nï¿½o estiver Portuguï¿½s (Brasil) mude para esse idioma. Apï¿½s
 configurado clique em 'OK'.
-Feche o LibreOffice, inclusive o Iniciador Rápido,  e em seguida reabra-o;
+Feche o LibreOffice, inclusive o Iniciador Rï¿½pido,  e em seguida reabra-o;
 
 
-2 - O verificador não está configurado para verificar texto ao digitar.
-Neste caso confira como estão as informações em:
+2 - O verificador nï¿½o estï¿½ configurado para verificar texto ao digitar.
+Neste caso confira como estï¿½o as informaï¿½ï¿½es em:
 
-(Até a Versão 3.0.X)
-Ferramentas >> Opções>> Configurações de Idiomas >> Recursos de Verificação
-Ortográfica e, no campo opções deste formulário marque a opção 'Verificar
+(Atï¿½ a Versï¿½o 3.0.X)
+Ferramentas >> Opï¿½ï¿½es>> Configuraï¿½ï¿½es de Idiomas >> Recursos de Verificaï¿½ï¿½o
+Ortogrï¿½fica e, no campo opï¿½ï¿½es deste formulï¿½rio marque a opï¿½ï¿½o 'Verificar
 texto ao digitar';
 
-(Versão 3.1 em diante)
-Ferramentas >> Opções >> Configurações de Idiomas >> Recursos para redação e,
-no campo opções deste formulário marque a opção 'Verificar ortografia ao digitar
+(Versï¿½o 3.1 em diante)
+Ferramentas >> Opï¿½ï¿½es >> Configuraï¿½ï¿½es de Idiomas >> Recursos para redaï¿½ï¿½o e,
+no campo opï¿½ï¿½es deste formulï¿½rio marque a opï¿½ï¿½o 'Verificar ortografia ao digitar
 
 
-Novas atualizações estarão disponíveis no site do LibreOffice, na
-página do Verificador Ortográfico.
+Novas atualizaï¿½ï¿½es estarï¿½o disponï¿½veis no site do LibreOffice, na
+pï¿½gina do Verificador Ortogrï¿½fico.
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 
 
@@ -206,7 +206,7 @@ http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
 INTRODUCTION
 ============
 
-The LibreOffice Spell Checker is a colaborative project developed
+The SnipeOffice Spell Checker is a colaborative project developed
 by the Brazilian community.
 The complete list of participants in this project is at
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
@@ -228,7 +228,7 @@ ABOUT THIS UPDATE
 HOW TO INSTALL THE BRAZILIAN SPELL CHECKER IN LIBREOFFICE
 ==============================================================
 
-The spell checker is included in the pt-BR packages of LibreOffice and
+The spell checker is included in the pt-BR packages of SnipeOffice and
 should install automatically.
 
 If this is not the case you can install VERO as an extension. Please
@@ -245,20 +245,20 @@ configured correctly, this may be due to one of the following reasons:
 1- The dictionary is probably not installed.
 
 To make sure that you are using the right language, check the information at
-Ferramentas >> Opções >>  Configurações de Idioma >> Idiomas.
+Ferramentas >> Opï¿½ï¿½es >>  Configuraï¿½ï¿½es de Idioma >> Idiomas.
 The item "Ocidental" must present the selected dictionary (a logo "Abc" should
 appear beside the language).
-If the language selected is not "Português (Brasil)" change to this language.
+If the language selected is not "Portuguï¿½s (Brasil)" change to this language.
 After the configuration is correct, click on 'OK'.
 Close BrOffice and the fast start, and open it afterwards;
 
 2 - The checker is not configured to verify the orthography on typing. For this
 
 problem, check the information at
-"Ferramentas >> Opções >> Configurações de Idiomas >> Recursos de Verificação Ortográfica"
-and, in the field "Opções" of this form, check the option ''Verificar texto ao digitar';
+"Ferramentas >> Opï¿½ï¿½es >> Configuraï¿½ï¿½es de Idiomas >> Recursos de Verificaï¿½ï¿½o Ortogrï¿½fica"
+and, in the field "Opï¿½ï¿½es" of this form, check the option ''Verificar texto ao digitar';
 
-New updates will be available at the LibreOffice website, on the page of the
+New updates will be available at the SnipeOffice website, on the page of the
 Spell Checker.
 
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/

@@ -2102,7 +2102,7 @@ sub zenity_tooltip {
 
     if (zenity_enabled()) {
         my $text = shift;
-        print $zenity_in "tooltip: LibreOffice Build: $text\n";
+        print $zenity_in "tooltip: SnipeOffice Build: $text\n";
     };
 };
 

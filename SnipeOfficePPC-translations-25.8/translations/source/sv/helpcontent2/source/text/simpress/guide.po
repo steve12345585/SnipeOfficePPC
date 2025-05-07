@@ -1414,11 +1414,11 @@ msgstr "Om du vill spara en färgtabell klickar du på knappen <emph>Spara färg
 
 #: palette_files.xhp#bm_id3149871.help.text
 #, fuzzy
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
 msgstr "<bookmark_value>Kalkylblad; dölja funktioner</bookmark_value><bookmark_value>Dölja; rader</bookmark_value><bookmark_value>Dölja; kolumner</bookmark_value><bookmark_value>Dölja; tabeller</bookmark_value><bookmark_value>Tabeller; dölja</bookmark_value><bookmark_value>Kolumner; dölja</bookmark_value><bookmark_value>Rader; dölja</bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
 msgstr "CMYK-listan är optimerad för utskriftsfärger, och färgerna i listorna Webb och HTML är optimerade för en upplösning med 256 färger."
 
 #: palette_files.xhp#hd_id3150435.78.help.text

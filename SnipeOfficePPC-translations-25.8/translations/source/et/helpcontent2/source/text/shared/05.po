@@ -522,8 +522,8 @@ msgid "Downloads"
 msgstr "Allalaadimised"
 
 #: 00000001.xhp#par_id3028143.help.text
-msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>."
-msgstr "%PRODUCTNAME'i uusima versiooni saad alla laadida aadressilt <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>."
+msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>."
+msgstr "%PRODUCTNAME'i uusima versiooni saad alla laadida aadressilt <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>."
 
 #: 00000001.xhp#hd_id2602967.help.text
 msgid "Documentation"

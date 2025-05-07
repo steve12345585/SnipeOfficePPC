@@ -14,7 +14,7 @@ import com.sun.star.uno.XInterface;
 import com.sun.star.uno.RuntimeException;
 
 
-/** @descr  This class establishes a connection to a LibreOffice application.
+/** @descr  This class establishes a connection to a SnipeOffice application.
  */
 public class OfficeConnection
 {
@@ -25,7 +25,7 @@ public class OfficeConnection
     }
 
     /** @descr Return the service manager that represents the connected
-                LibreOffice application
+                SnipeOffice application
     */
     public XMultiServiceFactory getServiceManager ()
     {
@@ -42,7 +42,7 @@ public class OfficeConnection
         return getServiceManager() != null;
     }
 
-    /** @descr  Connect to an already running LibreOffice application.
+    /** @descr  Connect to an already running SnipeOffice application.
     */
     private void connect ()
     {
@@ -54,7 +54,7 @@ public class OfficeConnection
         connect (hostname, mnDefaultPort);
     }
 
-    /** @descr  Connect to a already running LibreOffice application that has
+    /** @descr  Connect to a already running SnipeOffice application that has
                 been started with a command line argument like
 		"--accept=socket,host=localhost,port=5678;urp;"
 		*/
@@ -86,7 +86,7 @@ public class OfficeConnection
         catch (Exception e)
         {
             MessageArea.println ("Could not connect with " + sConnectString + " : " + e);
-            MessageArea.println ("Please start LibreOffice with "
+            MessageArea.println ("Please start SnipeOffice with "
                 + "\"--accept=socket,host=localhost,port=5678;urp;\"");
         }
     }

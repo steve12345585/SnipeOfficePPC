@@ -254,7 +254,7 @@ sub create_epm_header
     my $line = "";
     my $infoline = "";
 
-    # %product LibreOffice Software
+    # %product SnipeOffice Software
     # %version 2.0
     # %description A really great software
     # %copyright 1999-2003 by OOo

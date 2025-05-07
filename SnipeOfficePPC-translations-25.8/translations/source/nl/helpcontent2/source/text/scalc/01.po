@@ -28596,8 +28596,8 @@ msgid "This section describes the functions of $[officename] Calc. The various f
 msgstr "Dit gedeelte beschrijft de functies van $[officename] Calc. De verschillende functies zijn in de Functie-Assistent opgedeeld in categorieën."
 
 #: 04060100.xhp#par_id0120200910234570.help.text
-msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">in the LibreOffice WikiHelp</link>."
-msgstr "U kunt gedetailleerde uitleg, toelichtingen en voorbeelden van Calc-functies vinden <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">in the LibreOffice Wiki Help</link>."
+msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">in the SnipeOffice WikiHelp</link>."
+msgstr "U kunt gedetailleerde uitleg, toelichtingen en voorbeelden van Calc-functies vinden <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">in the SnipeOffice Wiki Help</link>."
 
 #: 04060100.xhp#hd_id3146972.3.help.text
 msgid "<link href=\"text/scalc/01/04060101.xhp\" name=\"Database\">Database</link>"
@@ -28648,5 +28648,5 @@ msgid "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">Operators</l
 msgstr "Er zijn ook <link href=\"text/scalc/01/04060199.xhp\" name=\"Operatoren\">operatoren</link> beschikbaar."
 
 #: 04060100.xhp#par_id0902200809540918.help.text
-msgid "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the LibreOffice WikiHelp</variable>"
-msgstr "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc-functies per categorie</link> in the LibreOffice WikiHelp</variable>"
+msgid "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the SnipeOffice WikiHelp</variable>"
+msgstr "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc-functies per categorie</link> in the SnipeOffice WikiHelp</variable>"

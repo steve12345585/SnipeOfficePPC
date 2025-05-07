@@ -63,7 +63,7 @@ PATCH_FILES += db-4.7.25.NC-mingw32hack.patch
     # otherwise, db-4.7.25.NC/dist/configure decides for _FILE_OFFSET_BITS=64,
     # which causes /usr/i686-w64-mingw32/sys-root/mingw/include/_mingw.h to not
     # define _USE_32BIT_TIME_T, so that berkeleydb uses a 64 bit time_t while
-    # the rest of LibreOffice uses a 32 bit time_t, which causes problems as
+    # the rest of SnipeOffice uses a 32 bit time_t, which causes problems as
     # there is e.g. a member time_t timestamp of struct __db in db.h; see
     # <http://sourceforge.net/support/tracker.php?aid=3513251> "_mingw.h: size
     # of time_t depends on _FILE_OFFSET_BITS"

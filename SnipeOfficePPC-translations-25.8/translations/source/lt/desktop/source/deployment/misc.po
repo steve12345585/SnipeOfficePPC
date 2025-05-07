@@ -29,5 +29,5 @@ msgid "Extension does not support OpenOffice.org reference versions greater than
 msgstr "Plėtinys nesuderinamas su naujesne nei „OpenOffice.org %VERSION“ atitinkančia versija"
 
 #: dp_misc.src#RID_DEPLOYMENT_DEPENDENCIES_LO_MIN.string.text
-msgid "Extension requires at least LibreOffice version %VERSION"
+msgid "Extension requires at least SnipeOffice version %VERSION"
 msgstr "Plėtiniui reikalinga ne senesnė „LibreOffice“ versija nei %VERSION"

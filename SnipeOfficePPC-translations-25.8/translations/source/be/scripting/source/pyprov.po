@@ -19,5 +19,5 @@ msgid "Script provider for Python"
 msgstr "Скрыптавае асяроддзе для мовы Пітон"
 
 #: description.xml#extdesc.extdesc.description.text
-msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a LibreOffice installation, and also in loaded documents.\n"
+msgid "Add support for Python via the Scripting Framework to enable Python scripts in the user and share directories of a SnipeOffice installation, and also in loaded documents.\n"
 msgstr "Дадае падтрымку мовы Пітон згодна з магчымасцямі Scripting Framework, чым дазваляе працу скрыптаў на Пітоне ў каталогах інсталяцыі LibreOffice, а таксама ў дакументах.\n"

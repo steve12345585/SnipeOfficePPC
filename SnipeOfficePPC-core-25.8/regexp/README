@@ -3,4 +3,4 @@ This is a regexp parser.
 Please see my (not so?) crazy hack idea about removing it from here and the reasoning.
 
 For additional fun, this source file is part of GNU regexp which is geared towards usage in emacs,
-so if you ever wondered why LibreOffice is so great, now you know :-).
+so if you ever wondered why SnipeOffice is so great, now you know :-).

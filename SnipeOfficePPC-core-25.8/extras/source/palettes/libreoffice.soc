@@ -3,7 +3,7 @@
 <!-- Black and white -->
 <draw:color draw:name="Black" draw:color="#000000" />
 <draw:color draw:name="White" draw:color="#ffffff" />
-<!-- LibreOffice colors -->
+<!-- SnipeOffice colors -->
 <!-- http://wiki.documentfoundation.org/Marketing/Branding#Colors -->
   <draw:color draw:name="Green 0" draw:color="#106802"/>
   <draw:color draw:name="Green 1 (LibreOffice Main Color)" draw:color="#18a303"/>

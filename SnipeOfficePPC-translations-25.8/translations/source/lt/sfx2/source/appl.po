@@ -404,9 +404,9 @@ msgstr "Visi čia paminėti prekių ženklai ir registruoti prekių ženklai yra
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
-msgstr "© 2000, 2012 „LibreOffice“ bendruomenė ir (arba) jos partneriai. Visos teisės saugomos."
+msgstr "© 2025 „LibreOffice“ bendruomenė ir (arba) jos partneriai. Visos teisės saugomos."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text
 msgid ""
@@ -416,7 +416,7 @@ msgid ""
 "http://www.libreoffice.org/ for more details."
 msgstr ""
 "Šį produktą sukūrė „%OOOVENDOR“ „OpenOffice.org“ pagrindu.\n"
-"© 2000, 2011 „Oracle“ ir (arba) jos partneriai.\n"
+"© 2025 „Oracle“ ir (arba) jos partneriai.\n"
 "„%OOOVENDOR“ dėkoja visiems bendruomenės nariams, žr. http://www.libreoffice.org."
 
 #: app.src#DLG_HELP_LICENSING.PB_LICENSING_SHOW.okbutton.text

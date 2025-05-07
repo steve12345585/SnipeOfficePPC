@@ -1196,15 +1196,15 @@ msgstr ""
 "தமிழாக்கம்: தமிழா குழுவினர்"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
-msgstr "பதிப்புரிமை © 2000 - 2012 லீப்ரெ ஓபிஸ் பங்களிப்பாளர்களும் அல்லது அவர்களுடன் சேர்ந்தவர்களும்"
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
+msgstr "பதிப்புரிமை © 2025 லீப்ரெ ஓபிஸ் பங்களிப்பாளர்களும் அல்லது அவர்களுடன் சேர்ந்தவர்களும்"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
 msgid "LibreOffice was based on OpenOffice.org"
 msgstr "லீப்ரெஓபிஸ் OpenOffice.org ஐ அடிப்படையாகக் கொண்டது"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
 msgstr "%PRODUCTNAME OpenOffice.org ஐ அடிப்படையாகக் கொண்டுள்ள லீப்ரேஓபிஸிருந்து உருவாக்கப்பட்டது"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
@@ -1212,8 +1212,8 @@ msgid "(Build ID: $BUILDID)"
 msgstr "(உருவாக்க ID: $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
-msgstr "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
+msgstr "http://snipeoffice.org/snipeoffice-credits/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text
 msgid "Credits"

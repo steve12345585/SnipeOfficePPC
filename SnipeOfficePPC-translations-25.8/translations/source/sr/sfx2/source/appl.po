@@ -425,9 +425,9 @@ msgstr ""
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
-msgstr "Ауторска права © 2000, 2012 Либреофис заједница. Сва права задржана."
+msgstr "Ауторска права © 2025 Либреофис заједница. Сва права задржана."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text
 msgid ""

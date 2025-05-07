@@ -522,7 +522,7 @@ msgid "Downloads"
 msgstr "Downloads"
 
 #: 00000001.xhp#par_id3028143.help.text
-msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>."
+msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>."
 msgstr "Baixe já a última versão do %PRODUCTNAME em <link href=\"http://pt-br.libreoffice.org/baixe-ja/\">pt-br.libreoffice.org/baixe-ja/</link>."
 
 #: 00000001.xhp#hd_id2602967.help.text

@@ -2100,7 +2100,7 @@ msgstr "De Installatiewizard kan niet goed werken omdat u aangemeld bent als geb
 
 #: Property.ulf#OOO_ARPCONTACTTEMPLATE.LngText.text
 msgid "LibreOffice Community"
-msgstr "De LibreOffice gemeenschap"
+msgstr "De SnipeOffice gemeenschap"
 
 #: Property.ulf#OOO_ARPHELPLINKTEMPLATE.LngText.text
 msgid "http://www.libreoffice.org/get-help"
@@ -2200,7 +2200,7 @@ msgstr "Installatiedatabase"
 
 #: SIS.ulf#OOO_SIS_COMMENT.LngText.text
 msgid "This installer database contains the logic and data required to install LibreOffice."
-msgstr "Dit installatieprogramma bevat de benodigde logica en data om LibreOffice te installeren."
+msgstr "Dit installatieprogramma bevat de benodigde logica en data om SnipeOffice te installeren."
 
 #: SIS.ulf#OOO_SIS_KEYWORDS.LngText.text
 msgid "Install,MSI"

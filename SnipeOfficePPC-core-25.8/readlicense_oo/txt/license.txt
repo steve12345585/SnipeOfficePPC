@@ -2568,7 +2568,7 @@ zlib
    3. This notice may not be removed or altered from any source
    distribution.
 
-   LibreOffice uses unzip.c from zlib's contrib/minizip directory. This file
+   SnipeOffice uses unzip.c from zlib's contrib/minizip directory. This file
    was derived from Info-ZIP's unzip.c, which is under the Info-ZIP License:
    
    This is version 2007-Mar-4 of the Info-ZIP license.
@@ -2636,7 +2636,7 @@ zlib
                                    Extensions
 
    Only third party extensions are listed here whose source code is not in
-   the LibreOffice tree.
+   the SnipeOffice tree.
 
 Barcode
 

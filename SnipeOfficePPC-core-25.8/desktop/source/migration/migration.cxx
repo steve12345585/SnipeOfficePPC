@@ -559,7 +559,7 @@ install_info MigrationImpl::findInstallation(const strings_v& rVersions)
             // the 'old' config dir etc. ) - currently we just use the returned config dir.
             // If XDG_CONFIG_HOME is NOT set;
             // assume then we should now using the default $HOME/,config config location for
-            // our user profiles, however *all* previous libreoffice and openoffice.org
+            // our user profiles, however *all* previous snipeoffice and openoffice.org
             // configurations will be in the 'old' config directory and that's where we need
             // to search - we convert the returned config dir to the 'old' dir
             if ( !pXDGCfgHome && aUserInst.endsWithAsciiL( XDG_CONFIG_PART, sizeof( XDG_CONFIG_PART ) - 1 )  )

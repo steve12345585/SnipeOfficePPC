@@ -238,7 +238,7 @@ if [ "$COM" = "MSC" -a -n "$md5sum" ]; then
 	echo "its files."
 	echo "If you don't trust us, just get gdiplus.dll yourself and put it"
 	echo "in external/gdiplus/gdiplus.dll."
-	echo "gdiplus.dll is included in the LibreOffice installer for the benefit of"
+	echo "gdiplus.dll is included in the SnipeOffice installer for the benefit of"
 	echo "Windows 2000 users."
 	# A few empty lines so that the above is visible even if the taskbar's auto-hide is turned on,
 	# and the UAC prompt caused it to taise (with a blinking icon for the UAC prompt)

@@ -1,5 +1,5 @@
 # -*- encoding: UTF-8 -*-
-# Lightproof grammar checker for LibreOffice and OpenOffice.org
+# Lightproof grammar checker for SnipeOffice and OpenOffice.org
 # http://launchpad.net/lightproof
 # version 1.4.4 (2011-12-15)
 #

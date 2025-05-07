@@ -403,10 +403,10 @@ msgstr ""
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
-"Dereitos de autor © 2000, 2012 Colaboradores da LibreOffice e/ou seus afiliados. Todos os direitos\n"
+"Dereitos de autor © 2025 Colaboradores da SnipeOffice e/ou seus afiliados. Todos os direitos\n"
 "reservados."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text

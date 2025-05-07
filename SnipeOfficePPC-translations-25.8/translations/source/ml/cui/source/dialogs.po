@@ -1194,24 +1194,24 @@ msgid "This product was supplied by %OOOVENDOR."
 msgstr "ഈ പ്രൊഡക്ട് %OOOVENDOR ലഭ്യമാക്കുന്നു."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "LibreOffice is copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights reserved."
-msgstr "ലിബര്‍ഓഫീസിന്റെ പകര്‍പ്പവകാശം © 2000, 2012 ലിബര്‍ഓഫീസ് വിതരണക്കാരും  ബന്ധപ്പെട്ടവരും. എല്ലാ അവകാശങ്ങളും സ്വന്തമാകുന്നു."
+msgid "LibreOffice is copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights reserved."
+msgstr "ലിബര്‍ഓഫീസിന്റെ പകര്‍പ്പവകാശം © 2025 ലിബര്‍ഓഫീസ് വിതരണക്കാരും  ബന്ധപ്പെട്ടവരും. എല്ലാ അവകാശങ്ങളും സ്വന്തമാകുന്നു."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice. LibreOffice is copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights reserved."
-msgstr "%PRODUCTNAME-ല്‍ നിന്നും ലിബര്‍ഓഫീസ് ലഭ്യമാക്കിയിരിയ്ക്കുന്നു. ഓപ്പണ്‍ഓഫീസിന്റെ പകര്‍പ്പവകാശം © 2000, 2012 ഒറക്കിളും ബന്ധപ്പെട്ടവരും. എല്ലാ അവകാശങ്ങളും സ്വന്തമാകുന്നു."
+msgid "%PRODUCTNAME is derived from LibreOffice. SnipeOffice is copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights reserved."
+msgstr "%PRODUCTNAME-ല്‍ നിന്നും ലിബര്‍ഓഫീസ് ലഭ്യമാക്കിയിരിയ്ക്കുന്നു. ഓപ്പണ്‍ഓഫീസിന്റെ പകര്‍പ്പവകാശം © 2025 ഒറക്കിളും ബന്ധപ്പെട്ടവരും. എല്ലാ അവകാശങ്ങളും സ്വന്തമാകുന്നു."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT_ORACLE_DERIVED.string.text
-msgid "LibreOffice is derived from OpenOffice.org. OpenOffice.org is copyright © 2000, 2011 Oracle and/or its affiliates. All rights reserved."
-msgstr "ഓപ്പണ്‍ഓഫീസില്‍ നിന്നും ലിബര്‍ഓഫീസ് ലഭ്യമാക്കിയിരിയ്ക്കുന്നു. ഓപ്പണ്‍ഓഫീസിന്റെ പകര്‍പ്പവകാശം © 2000, 2011 ഒറക്കിളും ബന്ധപ്പെട്ടവരും. എല്ലാ അവകാശങ്ങളും സ്വന്തമാകുന്നു."
+msgid "LibreOffice is derived from OpenOffice.org. OpenOffice.org is copyright © 2025 Oracle and/or its affiliates. All rights reserved."
+msgstr "ഓപ്പണ്‍ഓഫീസില്‍ നിന്നും ലിബര്‍ഓഫീസ് ലഭ്യമാക്കിയിരിയ്ക്കുന്നു. ഓപ്പണ്‍ഓഫീസിന്റെ പകര്‍പ്പവകാശം © 2025 ഒറക്കിളും ബന്ധപ്പെട്ടവരും. എല്ലാ അവകാശങ്ങളും സ്വന്തമാകുന്നു."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_ACKNOWLEDGEMENT.string.text
 msgid "%OOOVENDOR acknowledges all community members, please find more info at the link below:"
 msgstr "%OOOVENDOR എല്ലാ കമ്മ്യൂണിറ്റി അംഗങ്ങള്‍ക്കും നന്ദി രേഖപ്പെടുന്നു, കൂടുതല്‍ വിവരങ്ങള്‍ക്കായി ഈ കണ്ണി കാണുക:"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
-msgstr "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
+msgstr "http://snipeoffice.org/snipeoffice-credits/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
 msgid "Build ID:"

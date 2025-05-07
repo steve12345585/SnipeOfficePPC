@@ -291,8 +291,8 @@ msgid "Joined Cells"
 msgstr "Caxelles xuníes"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument y n'especial LibreOffice representen les tables que tienen caxelles xuntes qu'ocupen fileres como tables con tables añeraes. En contraste, el modelu wiki de tabla ye declarar les columnes y fileres qu'ocupen eses caxelles xuntaes. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument y n'especial SnipeOffice representen les tables que tienen caxelles xuntes qu'ocupen fileres como tables con tables añeraes. En contraste, el modelu wiki de tabla ye declarar les columnes y fileres qu'ocupen eses caxelles xuntaes. "
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

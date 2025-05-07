@@ -1413,12 +1413,12 @@ msgid "To save a color list, click the <emph>Save Color List</emph> button, ente
 msgstr "若要儲存顏色清單，請按一下<emph>[儲存顏色表]</emph>按鈕，輸入檔案名稱，然後按一下<emph>[儲存]</emph>。"
 
 #: palette_files.xhp#bm_id3149871.help.text
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
-msgstr "<bookmark_value>色彩; 預設色彩</bookmark_value><bookmark_value>色彩; LibreOffice 色彩</bookmark_value><bookmark_value>LibreOffice 色彩</bookmark_value><bookmark_value>色彩; Tango 色彩</bookmark_value><bookmark_value>Tango 色彩</bookmark_value><bookmark_value>色彩; 網頁</bookmark_value><bookmark_value>色彩; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgstr "<bookmark_value>色彩; 預設色彩</bookmark_value><bookmark_value>色彩; SnipeOffice 色彩</bookmark_value><bookmark_value>LibreOffice 色彩</bookmark_value><bookmark_value>色彩; Tango 色彩</bookmark_value><bookmark_value>Tango 色彩</bookmark_value><bookmark_value>色彩; 網頁</bookmark_value><bookmark_value>色彩; CMYK</bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
-msgstr "CMYK 清單針對印刷色彩進行最佳化。Web 與 HTML 清單內的色彩則針對使用 256 色解析度的顯示器最佳化。libreoffice.soc 與 tango.soc 色版分別包含 LibreOffice 與 Tango 的標準色彩。"
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
+msgstr "CMYK 清單針對印刷色彩進行最佳化。Web 與 HTML 清單內的色彩則針對使用 256 色解析度的顯示器最佳化。libreoffice.soc 與 tango.soc 色版分別包含 SnipeOffice 與 Tango 的標準色彩。"
 
 #: palette_files.xhp#hd_id3150435.78.help.text
 msgid "To load a gradient list:"

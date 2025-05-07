@@ -55,7 +55,7 @@ Options:
 -f      Do not create subdirs in the autoloader's dir. This option is only
         used during build.
 -h      Show this help text.
--i dir  The dir where libreoffice is installed. Defaults to whatever -a is.
+-i dir  The dir where snipeoffice is installed. Defaults to whatever -a is.
 -L      Create symlinks to autoloaders already present in the build tree.
         Only makes sense for dev. installation.
 -p dir  The dir where pretty printers are placed.

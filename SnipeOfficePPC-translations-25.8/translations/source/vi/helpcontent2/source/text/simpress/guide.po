@@ -1414,12 +1414,12 @@ msgstr "Để lưu một danh sách màu sắc, nhấn vào cái nút <emph>Lưu
 
 #: palette_files.xhp#bm_id3149871.help.text
 #, fuzzy
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
 msgstr "<bookmark_value>bảng tính; ẩn hàm</bookmark_value><bookmark_value>ẩn; hàng</bookmark_value><bookmark_value>ẩn; cột</bookmark_value><bookmark_value>ẩn; trang tính</bookmark_value><bookmark_value>trang tính;ẩn</bookmark_value><bookmark_value>cột;ẩn</bookmark_value><bookmark_value>hàng;ẩn</bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
-msgstr "Giá trị CMYK được tối ưu hóa cho việc in màu. Giá trị màu cho Web và HTML được tối ưu hóa cho hiển thị với độ phân giải 256 màu. Các mẫu libreoffice.soc và tango.soc chứa giá trị màu của LibreOffice và Tango."
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
+msgstr "Giá trị CMYK được tối ưu hóa cho việc in màu. Giá trị màu cho Web và HTML được tối ưu hóa cho hiển thị với độ phân giải 256 màu. Các mẫu libreoffice.soc và tango.soc chứa giá trị màu của SnipeOffice và Tango."
 
 #: palette_files.xhp#hd_id3150435.78.help.text
 msgid "To load a gradient list:"

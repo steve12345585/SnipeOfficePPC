@@ -378,7 +378,7 @@ public:
 
       @return a reference to the character at the given index.
 
-      @since LibreOffice 3.5
+      @since SnipeOffice 3.5
     */
     sal_Unicode & operator [](sal_Int32 index) { return pData->buffer[index]; }
 
@@ -445,7 +445,7 @@ public:
     /**
         @overload
         This function accepts an ASCII string literal as its argument.
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, OUStringBuffer& >::Type append( T& literal )
@@ -527,7 +527,7 @@ public:
         @param   c   an ASCII <code>char</code>.
         @return  this string buffer.
 
-        @since LibreOffice 3.5
+        @since SnipeOffice 3.5
      */
     OUStringBuffer & append(char c)
     {
@@ -705,7 +705,7 @@ public:
     /**
         @overload
         This function accepts an ASCII string literal as its argument.
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, OUStringBuffer& >::Type insert( sal_Int32 offset, T& literal )
@@ -754,7 +754,7 @@ public:
         @param      c        a <code>char</code>.
         @return     this string buffer.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     OUStringBuffer & insert(sal_Int32 offset, char c)
     {

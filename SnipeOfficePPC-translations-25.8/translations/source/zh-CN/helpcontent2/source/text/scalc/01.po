@@ -28596,8 +28596,8 @@ msgid "This section describes the functions of $[officename] Calc. The various f
 msgstr "本部分介绍 $[officename] Calc 函数。各种函数在函数向导中被划分为不同的类别。"
 
 #: 04060100.xhp#par_id0120200910234570.help.text
-msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">in the LibreOffice WikiHelp</link>."
-msgstr "您可以在<link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">LibreOffice 帮助 Wiki</link>中找到关于 Calc 函数的更加详细的解释，插图和示例。"
+msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">in the SnipeOffice WikiHelp</link>."
+msgstr "您可以在<link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">LibreOffice 帮助 Wiki</link>中找到关于 Calc 函数的更加详细的解释，插图和示例。"
 
 #: 04060100.xhp#hd_id3146972.3.help.text
 msgid "<link href=\"text/scalc/01/04060101.xhp\" name=\"Database\">Database</link>"
@@ -28648,5 +28648,5 @@ msgid "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">Operators</l
 msgstr "<link href=\"text/scalc/01/04060199.xhp\" name=\"运算符\">运算符</link>也可用。"
 
 #: 04060100.xhp#par_id0902200809540918.help.text
-msgid "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the LibreOffice WikiHelp</variable>"
-msgstr "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc函数分类</link> 在LibreOffice 帮助维基</variable>"
+msgid "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the SnipeOffice WikiHelp</variable>"
+msgstr "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc函数分类</link> 在LibreOffice 帮助维基</variable>"

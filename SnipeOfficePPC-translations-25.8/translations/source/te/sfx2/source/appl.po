@@ -421,10 +421,10 @@ msgstr ""
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
-"కాపీరైట్ © 2000, 2012  LibreOffice లో పాలు పంచుకున్నవారు \n"
+"కాపీరైట్ © 2025  SnipeOffice లో పాలు పంచుకున్నవారు \n"
 " మరియు/లేక వారి సంబంధిత సంస్థలు. అన్ని హక్కులు భుక్తములైనవి."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text

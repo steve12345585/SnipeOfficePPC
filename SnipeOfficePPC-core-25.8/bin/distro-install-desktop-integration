@@ -164,7 +164,7 @@ add_wrapper loimpress      soffice "--impress"    "libreoffice" "libreoffice-imp
 add_wrapper loweb          soffice "--web"        "libreoffice" ""                                "gid_Module_Brand_Prg_Wrt"
 add_wrapper lowriter       soffice "--writer"     "libreoffice" "libreoffice-writer.desktop"      "gid_Module_Brand_Prg_Wrt"
 add_wrapper lofromtemplate soffice ".uno:NewDoc"  "libreoffice" ""                                "gid_Module_Root_Brand"
-add_wrapper libreoffice    soffice ""            "libreoffice" "libreoffice-startcenter.desktop" "gid_Module_Root_Brand"
+add_wrapper snipeoffice    soffice ""            "libreoffice" "libreoffice-startcenter.desktop" "gid_Module_Root_Brand"
 add_wrapper loffice        soffice ""            "libreoffice" ""                                "gid_Module_Root_Brand"
 add_wrapper unopkg         unopkg  ""            "unopkg"      ""                                "gid_Module_Root_Brand"
 

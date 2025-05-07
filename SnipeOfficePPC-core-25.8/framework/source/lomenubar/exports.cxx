@@ -2,7 +2,7 @@
 /*
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
- * A LibreOffice extension to send the menubar structure through DBusMenu
+ * A SnipeOffice extension to send the menubar structure through DBusMenu
  *
  * Copyright 2011 Canonical, Ltd.
  * Authors:

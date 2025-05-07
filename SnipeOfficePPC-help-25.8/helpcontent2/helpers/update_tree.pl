@@ -137,7 +137,7 @@ update_tree.pl
    localized tree files are written based on the English tree
    file and the localized help topic titles.
 
-   Requires a valid LibreOffice build environment.
+   Requires a valid SnipeOffice build environment.
 MSG
    print "$msg\n";
    exit( -1 );

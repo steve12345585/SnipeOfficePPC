@@ -4123,7 +4123,7 @@ msgstr "Um den Navigator zu öffnen, wählen Sie <emph>Ansicht - Navigator</emph
 
 #: 02110000.xhp#par_id3149490.79.help.text
 msgid "Click the plus sign (+) next to a category in the Navigator to view the items in the category. To view the number of items in a category, rest your mouse pointer over the category in the Navigator. To jump to an item in the document, double-click the item in the Navigator."
-msgstr "Klicken Sie auf das Pluszeichen (+) neben einer Kategorie im Navigator, um die darin enthaltenen Elemente anzuzeigen. Um die Anzahl der Elemente in einer Kategorie anzuzeigen, stellen Sie sicher, dass <emph>Tipps</emph> unter <emph>Extras – Optionen... – LibreOffice – Allgemein</emph> im Abschnitt <emph>Hilfe</emph> aktiviert ist, und lassen dann den Mauszeiger kurze Zeit über der gewünschten Navigator-Kategorie ruhen. Um zu einem Element im Dokument zu springen, doppelklicken Sie auf das Element im Navigator."
+msgstr "Klicken Sie auf das Pluszeichen (+) neben einer Kategorie im Navigator, um die darin enthaltenen Elemente anzuzeigen. Um die Anzahl der Elemente in einer Kategorie anzuzeigen, stellen Sie sicher, dass <emph>Tipps</emph> unter <emph>Extras – Optionen... – SnipeOffice – Allgemein</emph> im Abschnitt <emph>Hilfe</emph> aktiviert ist, und lassen dann den Mauszeiger kurze Zeit über der gewünschten Navigator-Kategorie ruhen. Um zu einem Element im Dokument zu springen, doppelklicken Sie auf das Element im Navigator."
 
 #: 02110000.xhp#par_id3149106.64.help.text
 msgid "To jump to the next or previous item in a document, click the <link href=\"text/swriter/01/02110100.xhp\" name=\"Navigation\">Navigation</link> icon to open the Navigation toolbar, click the item category, and then click the up or down arrows."

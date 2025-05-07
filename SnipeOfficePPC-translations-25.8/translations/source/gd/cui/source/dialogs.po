@@ -28,23 +28,23 @@ msgid "This release was supplied by %OOOVENDOR"
 msgstr "Chaidh am bathar seo a sholar le %OOOVENDOR"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
-msgstr "Còir-lethbhreac © 2000 - 2012 Com-pàirtichean LibreOffice agus/no an cuid buill chleamhnach"
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
+msgstr "Còir-lethbhreac © 2025 Com-pàirtichean SnipeOffice agus/no an cuid buill chleamhnach"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
 msgid "LibreOffice was based on OpenOffice.org"
-msgstr "Bha LibreOffice stèidhichte air OpenOffice.org"
+msgstr "Bha SnipeOffice stèidhichte air OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
-msgstr "Tha %PRODUCTNAME stèidhichte air LibreOffice a tha e fhèin stèidhichte air OpenOffice.org"
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
+msgstr "Tha %PRODUCTNAME stèidhichte air SnipeOffice a tha e fhèin stèidhichte air OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
 msgid "(Build ID: $BUILDID)"
 msgstr "(Build ID: $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
 msgstr "http://gd.libreoffice.org/mu-libreoffice/creideisean/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text

@@ -5102,8 +5102,8 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "Ha OpenOffice.org 3.2-ben, StarOffice 9.2-ben vagy egy későbbi verzióban aláír egy dokumentumot, és ezt a szoftver egy régebbi verziójával nyitja meg, az aláírás „érvénytelennek” fog látszani. A régebbi verziókkal aláírt dokumentumok „csak egyes dokumentumrészletek vannak aláírva” megjelöléssel fog megnyílni az újabb szoftverben."
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
-msgstr "Egy ODF-dokumentum betöltésekor láthatja az állapotsoron és a párbeszédablak állapotjelző mezőjében azt az ikont, amely jelzi, hogy a dokumentum csak részben van aláírva. Ez az állapot jelenik meg, ha az aláírás és a tanúsítvány érvényes, de az OpenOffice.org 3.2, illetve a StarOffice 9.2 előtti verzióval készült. Az OpenOffice.org 3.0 és a StarOffice 9.0 előtti verziók csak a fő tartalmat, a képeket és a beágyazott objektumokat írták alá, és egyes tartalmak, például a makrók, nem voltak aláírva. Az OpenOffice.org 3.0-ban és a StarOffice 9.0-ban a dokumentum-aláírás már a legtöbb tartalomra vonatkozott, beleértve a makrókat is. Mindazonáltal a MIME-típus és a META-INF tartalma nem volt aláírva. Az OpenOffice.org 3.2, a StarOffice 9.2 és a LibreOffice összes verziójában minden tartalom, kivéve magát az aláírásfájlt (META-INF/documentsignatures.xml), aláíródik."
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgstr "Egy ODF-dokumentum betöltésekor láthatja az állapotsoron és a párbeszédablak állapotjelző mezőjében azt az ikont, amely jelzi, hogy a dokumentum csak részben van aláírva. Ez az állapot jelenik meg, ha az aláírás és a tanúsítvány érvényes, de az OpenOffice.org 3.2, illetve a StarOffice 9.2 előtti verzióval készült. Az OpenOffice.org 3.0 és a StarOffice 9.0 előtti verziók csak a fő tartalmat, a képeket és a beágyazott objektumokat írták alá, és egyes tartalmak, például a makrók, nem voltak aláírva. Az OpenOffice.org 3.0-ban és a StarOffice 9.0-ban a dokumentum-aláírás már a legtöbb tartalomra vonatkozott, beleértve a makrókat is. Mindazonáltal a MIME-típus és a META-INF tartalma nem volt aláírva. Az OpenOffice.org 3.2, a StarOffice 9.2 és a SnipeOffice összes verziójában minden tartalom, kivéve magát az aláírásfájlt (META-INF/documentsignatures.xml), aláíródik."
 
 #: digital_signatures.xhp#hd_id9354228.help.text
 msgid "Security Warnings"
@@ -5536,8 +5536,8 @@ msgstr "Ha a %PRODUCTNAME csomagjait a %PRODUCTNAME weboldaláról töltötte le
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "Nyissa meg a webböngészőt, és írja be a <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link> címet."
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "Nyissa meg a webböngészőt, és írja be a <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link> címet."
 
 #: language_select.xhp#par_id7869502.help.text
 msgctxt "language_select.xhp#par_id7869502.help.text"
@@ -5555,8 +5555,8 @@ msgstr "Telepítse a nyelvi csomagot. Bontsa ki a tar.gz fájlt, és telepítse 
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "Nyissa meg a webböngészőt, és írja be a <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link> címet."
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "Nyissa meg a webböngészőt, és írja be a <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link> címet."
 
 #: language_select.xhp#par_id7869503.help.text
 msgctxt "language_select.xhp#par_id7869503.help.text"
@@ -7080,8 +7080,8 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "Válassza a <emph>Súgó - A $[officename] névjegye</emph> menüparancsot. Ez megnyitja a programmal kapcsolatos információkat tartalmazó párbeszédablakot."
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
-msgstr "<link href=\"http://www.libreoffice.org/about-us/credits/\">A kódhoz és a wikihez hozzájárulók listáját</link> lásd a LibreOffice webhelyén."
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
+msgstr "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">A kódhoz és a wikihez hozzájárulók listáját</link> lásd a SnipeOffice webhelyén."
 
 #: imagemap.xhp#tit.help.text
 msgid "Adding Clickable Hotspots to Images"

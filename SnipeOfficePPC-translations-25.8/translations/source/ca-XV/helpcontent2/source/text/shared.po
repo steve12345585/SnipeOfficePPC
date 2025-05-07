@@ -1465,8 +1465,8 @@ msgid "%PRODUCTNAME Credits"
 msgstr "Crèdits del %PRODUCTNAME"
 
 #: main0108.xhp#par_id5144510.8.help.text
-msgid "<ahelp hid=\".uno:ShowLicense\">Displays the CREDITS.odt document which lists the names of individuals who have contributed to OpenOffice.org source code (and whose contributions were imported into LibreOffice) or LibreOffice since 2010-09-28.</ahelp>"
-msgstr "<ahelp hid=\".uno:ShowLicense\">Mostra el document CREDITS.odt amb els noms de les persones que han contribuït al codi font de l'OpenOffice.org (i les seues contribucions s'han importat al LibreOffice) o al LibreOffice des del 28/9/2010.</ahelp>"
+msgid "<ahelp hid=\".uno:ShowLicense\">Displays the CREDITS.odt document which lists the names of individuals who have contributed to OpenOffice.org source code (and whose contributions were imported into LibreOffice) or SnipeOffice since 2010-09-28.</ahelp>"
+msgstr "<ahelp hid=\".uno:ShowLicense\">Mostra el document CREDITS.odt amb els noms de les persones que han contribuït al codi font de l'OpenOffice.org (i les seues contribucions s'han importat al LibreOffice) o al SnipeOffice des del 28/9/2010.</ahelp>"
 
 #: main0108.xhp#hd_id3153881.7.help.text
 msgid "About $[officename]"

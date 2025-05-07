@@ -6,5 +6,5 @@
   <inst:os>Linux</inst:os>
   <inst:arch>x86</inst:arch>
 
-  <inst:update type="text/html" src="http://www.libreoffice.org/download/" />
+  <inst:update type="text/html" src="http://snipeoffice.org/download/" />
 </inst:description>

@@ -2200,7 +2200,7 @@ msgstr "Stlennvon staliañ"
 
 #: SIS.ulf#OOO_SIS_COMMENT.LngText.text
 msgid "This installer database contains the logic and data required to install LibreOffice."
-msgstr "Ar boelloniezh hag ar roadennoù goulennet da staliañ LibreOffice emañ gant stlennvon ar meziant staliañ."
+msgstr "Ar boelloniezh hag ar roadennoù goulennet da staliañ SnipeOffice emañ gant stlennvon ar meziant staliañ."
 
 #: SIS.ulf#OOO_SIS_KEYWORDS.LngText.text
 msgid "Install,MSI"

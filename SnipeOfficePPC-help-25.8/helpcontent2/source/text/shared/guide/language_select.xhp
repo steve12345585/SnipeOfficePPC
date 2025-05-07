@@ -185,7 +185,7 @@
       <paragraph xml-lang="en-US" id="par_id9852904" role="paragraph" l10n="CHG">If you downloaded %PRODUCTNAME packages from the main %PRODUCTNAME Web site, follow the steps below.</paragraph>
       <list type="ordered">
          <listitem>
-            <paragraph xml-lang="en-US" id="par_id2216559" role="paragraph" l10n="NEW">Open your Web browser and enter <link href="http://www.libreoffice.org/download/">http://www.libreoffice.org/download/</link></paragraph>
+            <paragraph xml-lang="en-US" id="par_id2216559" role="paragraph" l10n="NEW">Open your Web browser and enter <link href="http://snipeoffice.org/download/">http://snipeoffice.org/download/</link></paragraph>
          </listitem>
          <listitem>
             <paragraph xml-lang="en-US" id="par_id7869502" role="paragraph" l10n="CHG">Select and download the correct language pack for your version of %PRODUCTNAME software.</paragraph>
@@ -201,7 +201,7 @@
       <case select="MAC">
       <list type="ordered">
          <listitem>
-            <paragraph xml-lang="en-US" id="par_id221655a" role="paragraph" l10n="NEW">Open your Web browser and enter <link href="http://www.libreoffice.org/download/">http://www.libreoffice.org/download/</link></paragraph>
+            <paragraph xml-lang="en-US" id="par_id221655a" role="paragraph" l10n="NEW">Open your Web browser and enter <link href="http://snipeoffice.org/download/">http://snipeoffice.org/download/</link></paragraph>
          </listitem>
          <listitem>
             <paragraph xml-lang="en-US" id="par_id7869503" role="paragraph" l10n="CHG">Select and download the correct language pack for your version of %PRODUCTNAME software.</paragraph>

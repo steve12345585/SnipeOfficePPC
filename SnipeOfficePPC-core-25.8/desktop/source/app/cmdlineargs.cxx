@@ -522,7 +522,7 @@ bool CommandLineArgs::InterpretCommandLineParameter( const ::rtl::OUString& aArg
 #endif
 #ifdef WIN32
     /* fdo#57203 ignore -Embedding on Windows
-       when LibreOffice is launched by COM+
+       when SnipeOffice is launched by COM+
      */
     else if ( oArg == "Embedding" )
     {

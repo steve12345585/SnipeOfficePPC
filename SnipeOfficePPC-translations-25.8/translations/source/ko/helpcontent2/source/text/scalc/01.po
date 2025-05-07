@@ -28703,7 +28703,7 @@ msgid "This section describes the functions of $[officename] Calc. The various f
 msgstr "이 절에서는 $[officename] Calc의 함수에 대해 설명합니다. 함수 마법사에는 다양한 함수가 범주별로 구성되어 있습니다."
 
 #: 04060100.xhp#par_id0120200910234570.help.text
-msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">in the LibreOffice WikiHelp</link>."
+msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">in the SnipeOffice WikiHelp</link>."
 msgstr ""
 
 #: 04060100.xhp#hd_id3146972.3.help.text
@@ -28755,5 +28755,5 @@ msgid "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">Operators</l
 msgstr "또한 <link href=\"text/scalc/01/04060199.xhp\" name=\"연산자\">연산자</link>를 사용할 수 있습니다."
 
 #: 04060100.xhp#par_id0902200809540918.help.text
-msgid "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the LibreOffice WikiHelp</variable>"
+msgid "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the SnipeOffice WikiHelp</variable>"
 msgstr ""

@@ -62,7 +62,7 @@
 # libxslt debug memdump
 .memdump
 
-# LibreOffice lock files
+# SnipeOffice lock files
 .~lock.*#
 
 # Everyone loves patching

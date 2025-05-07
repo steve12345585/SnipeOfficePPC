@@ -39,7 +39,7 @@ module com { module sun { module star { module configuration {
 
    <p>This interface is still unpublished and unstable.</p>
 
-   @since LibreOffice 3.6
+   @since SnipeOffice 3.6
 */
 interface XReadWriteAccess {
     interface com::sun::star::container::XHierarchicalNameReplace;

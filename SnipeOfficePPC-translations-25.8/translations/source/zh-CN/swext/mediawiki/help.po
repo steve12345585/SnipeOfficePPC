@@ -290,8 +290,8 @@ msgid "Joined Cells"
 msgstr "组合单元格"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument，尤其是 LibreOffice 将含有跨行合并单元格的表格作为嵌套表格对待。相反，wiki 的表格模型是声明此类合并单元格所跨的列数与行数。"
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument，尤其是 SnipeOffice 将含有跨行合并单元格的表格作为嵌套表格对待。相反，wiki 的表格模型是声明此类合并单元格所跨的列数与行数。"
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

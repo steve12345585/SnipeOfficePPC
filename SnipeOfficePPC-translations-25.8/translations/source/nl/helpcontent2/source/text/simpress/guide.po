@@ -1413,12 +1413,12 @@ msgid "To save a color list, click the <emph>Save Color List</emph> button, ente
 msgstr "Als u een kleurenlijst wilt opslaan, klikt u op de knop <emph>Kleurenlijst opslaan</emph>, typt u een bestandsnaam en klikt u vervolgens op <emph>Opslaan</emph>."
 
 #: palette_files.xhp#bm_id3149871.help.text
-msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; LibreOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
-msgstr "<bookmark_value>kleuren; standaard kleuren colors</bookmark_value><bookmark_value>kleuren; LibreOffice kleuren</bookmark_value><bookmark_value>LibreOffice kleuren</bookmark_value><bookmark_value>kleuren; Tango kleuren</bookmark_value><bookmark_value>Tango kleuren</bookmark_value><bookmark_value>kleuren; web</bookmark_value><bookmark_value>kleuren; CMYK</bookmark_value>"
+msgid "<bookmark_value>colors; default colors</bookmark_value><bookmark_value>colors; SnipeOffice colors</bookmark_value><bookmark_value>LibreOffice colors</bookmark_value><bookmark_value>colors; Tango colors</bookmark_value><bookmark_value>Tango colors</bookmark_value><bookmark_value>colors; web</bookmark_value><bookmark_value>colors; CMYK</bookmark_value>"
+msgstr "<bookmark_value>kleuren; standaard kleuren colors</bookmark_value><bookmark_value>kleuren; SnipeOffice kleuren</bookmark_value><bookmark_value>LibreOffice kleuren</bookmark_value><bookmark_value>kleuren; Tango kleuren</bookmark_value><bookmark_value>Tango kleuren</bookmark_value><bookmark_value>kleuren; web</bookmark_value><bookmark_value>kleuren; CMYK</bookmark_value>"
 
 #: palette_files.xhp#par_id3149871.71.help.text
-msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official LibreOffice and Tango colors respectively."
-msgstr "De CMYK-lijst is geoptimaliseerd voor afdrukkleuren. De kleuren in de Web- en HTML-lijsten zijn geoptimaliseerd voor schermen met een resolutie van 256 kleuren. De paletten libreoffice.soc en tango.soc bevatten respectievelijk de officiële kleuren van LibreOffice en Tango."
+msgid "The CMYK list is optimized for print colors. The colors in the Web and the HTML lists are optimized for displays using a resolution of 256 colors. The palettes libreoffice.soc and tango.soc contain the official SnipeOffice and Tango colors respectively."
+msgstr "De CMYK-lijst is geoptimaliseerd voor afdrukkleuren. De kleuren in de Web- en HTML-lijsten zijn geoptimaliseerd voor schermen met een resolutie van 256 kleuren. De paletten libreoffice.soc en tango.soc bevatten respectievelijk de officiële kleuren van SnipeOffice en Tango."
 
 #: palette_files.xhp#hd_id3150435.78.help.text
 msgid "To load a gradient list:"

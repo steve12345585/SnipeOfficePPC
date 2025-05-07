@@ -290,7 +290,7 @@ msgid "Joined Cells"
 msgstr "ချိတ်ဆက်ထားသည့်ဆဲလ်အကွက်များ"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
 msgstr ""
 
 #: wikiformats.xhp#par_id8163090.help.text

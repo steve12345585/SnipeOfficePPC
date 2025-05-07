@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# script to generate LibreOffice bash_completion file for the main applications
+# script to generate SnipeOffice bash_completion file for the main applications
 # written by Rene Engelhard <rene@debian.org>, Public Domain
 # updated for libreoffice-build by Petr Mladek <pmladek@suse.cz>, Public Domain
 # yes, this script probably is not real good code :) but still easier
@@ -196,7 +196,7 @@ sub print_suffixes_checks {
         if ($app eq "calc")     { print_suffixes_check ($APPS{$app}, @CALCDOCS); }
         if ($app eq "master")   { print_suffixes_check ($APPS{$app}, @MASTERDOCS); }
         if ($app eq "template") { print_suffixes_check ($APPS{$app}, @TEMPLATES); }
-        # libreoffice should contain all...
+        # snipeoffice should contain all...
         if (($app eq "office") || ($app eq "office_short"))
                                 { print_suffixes_check ($APPS{$app}, @DRAWDOCS, @WRITERDOCS, @MATHDOCS, @IMPRESSDOCS, @BASEDOCS, @CALCDOCS, @MASTERDOCS, @TEMPLATES, @WEBDOCS); }
 	# unopkg is a standalone tool

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # add-modelines, a simple script to add comments to
-# the beginning and end of source files for LibreOffice devs
+# the beginning and end of source files for SnipeOffice devs
 
 # Blame goes to Jesse Adelman (at least at first)
 # someone AT boldandbusted dotty-dot com

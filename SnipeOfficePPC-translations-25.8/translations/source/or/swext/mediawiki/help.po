@@ -290,8 +290,8 @@ msgid "Joined Cells"
 msgstr "ମିଳିତ କୋଷଗୁଡିକ"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "ଖୋଲା ଦଲିଲ ଏବଂ ବିଶେଷକରି LibreOffice ସାରଣୀ ଉପସ୍ଥାପନ କରିଥାଏ ଯାହାକି କୋଷଗୁଡ଼ିକରେ ଯୋଗକରିଥାଏ ଯାହାକି ଧାଡ଼ିଗୁଡ଼ିକୁ ସମ୍ପୃକ୍ତ ସାରଣୀ ସହିତ ଯୋଗଦାନ କରିଥାଏ। ଏହା ବ୍ୟତୀତ, ସାରଣୀର ୱିକି ମଡେଲ ସ୍ତମ୍ଭ ସହିତ ଯୋଗଦାନ କରିଥାଏ।"
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "ଖୋଲା ଦଲିଲ ଏବଂ ବିଶେଷକରି SnipeOffice ସାରଣୀ ଉପସ୍ଥାପନ କରିଥାଏ ଯାହାକି କୋଷଗୁଡ଼ିକରେ ଯୋଗକରିଥାଏ ଯାହାକି ଧାଡ଼ିଗୁଡ଼ିକୁ ସମ୍ପୃକ୍ତ ସାରଣୀ ସହିତ ଯୋଗଦାନ କରିଥାଏ। ଏହା ବ୍ୟତୀତ, ସାରଣୀର ୱିକି ମଡେଲ ସ୍ତମ୍ଭ ସହିତ ଯୋଗଦାନ କରିଥାଏ।"
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

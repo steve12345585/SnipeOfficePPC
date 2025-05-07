@@ -888,7 +888,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_string_newFromStr_WithLength( rtl_String ** newS
 
 /**
  @internal
- @since LibreOffice 3.6
+ @since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_string_newFromLiteral( rtl_String ** newStr, const sal_Char * value, sal_Int32 len, sal_Int32 allocExtra ) SAL_THROW_EXTERN_C();
 
@@ -1031,7 +1031,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_string_newReplace(
     function its value is the index into the original string at which the
     replacement took place or -1 if no replacement took place
 
-    @since LibreOffice 3.6
+    @since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_string_newReplaceFirst(
     rtl_String ** newStr, rtl_String * str, char const * from,
@@ -1059,7 +1059,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_string_newReplaceFirst(
 
     @param toLength  the length of the \p to substring; must be non-negative
 
-    @since LibreOffice 3.6
+    @since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_string_newReplaceAll(
     rtl_String ** newStr, rtl_String * str, char const * from,

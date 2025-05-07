@@ -403,10 +403,10 @@ msgstr ""
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
-"© 2000-2012 сътрудниците на LibreOffice и/или техните партньори.\n"
+"© 2025 сътрудниците на SnipeOffice и/или техните партньори.\n"
 "Всички права запазени."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text
@@ -417,7 +417,7 @@ msgid ""
 "http://www.libreoffice.org/ for more details."
 msgstr ""
 "Този продукт е създаден от %OOOVENDOR на базата на OpenOffice.org,\n"
-"© 2000-2011 Oracle и/или нейните партньори.\n"
+"© 2025 Oracle и/или нейните партньори.\n"
 "%OOOVENDOR благодари на всички членове на общността, вижте\n"
 "http://www.libreoffice.org/ за подробна информация."
 

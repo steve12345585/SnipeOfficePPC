@@ -48,7 +48,7 @@ module com { module sun { module star { module i18n {
     scope="::com::sun::star::i18n">Calendar2</type> elements available
     for that locale.
 
-    @since LibreOffice 3.5
+    @since SnipeOffice 3.5
  */
 
 published interface XLocaleData3 : com::sun::star::i18n::XLocaleData2

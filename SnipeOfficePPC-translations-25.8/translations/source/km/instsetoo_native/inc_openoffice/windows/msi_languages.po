@@ -593,7 +593,7 @@ msgstr "មូលដ្ឋាន​ទិន្នន័យ​នៃ​ការ
 
 #: SIS.ulf#OOO_SIS_COMMENT.LngText.text
 msgid "This installer database contains the logic and data required to install LibreOffice."
-msgstr "មូលដ្ឋាន​ទិន្នន័យ​កម្មវិធី​ដំឡើង​នេះ​មាន​ទិន្នន័យ និង​តក្ក​ដែលបាន​ទាមទារ ដើម្បី​ដំឡើង LibreOffice ។"
+msgstr "មូលដ្ឋាន​ទិន្នន័យ​កម្មវិធី​ដំឡើង​នេះ​មាន​ទិន្នន័យ និង​តក្ក​ដែលបាន​ទាមទារ ដើម្បី​ដំឡើង SnipeOffice ។"
 
 #: SIS.ulf#OOO_SIS_KEYWORDS.LngText.text
 msgid "Install,MSI"

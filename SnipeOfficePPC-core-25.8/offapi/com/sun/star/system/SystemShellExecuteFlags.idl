@@ -51,7 +51,7 @@ published constants SystemShellExecuteFlags
 
     /** Only allows opening of absolute URI references.
 
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
      */
     const long URIS_ONLY = 2;
 };

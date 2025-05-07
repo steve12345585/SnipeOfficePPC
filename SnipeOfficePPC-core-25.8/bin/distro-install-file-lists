@@ -491,7 +491,7 @@ else
         move_wrappers pkg/libreoffice-math oomath
         move_wrappers pkg/libreoffice-draw oodraw
     fi
-    move_wrappers pkg/libreoffice-common libreoffice lofromtemplate
+    move_wrappers pkg/libreoffice-common snipeoffice lofromtemplate
     move_wrappers pkg/libreoffice-base lobase
     move_wrappers pkg/libreoffice-writer lowriter loweb
     move_wrappers pkg/libreoffice-calc localc

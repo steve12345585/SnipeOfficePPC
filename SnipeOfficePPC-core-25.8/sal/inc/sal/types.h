@@ -481,7 +481,7 @@ template< typename T1, typename T2 > inline T1 static_int_cast(T2 n) {
 
     without a SAL_UNUSED_PARAMETER annotation.
 
-    @since LibreOffice 3.6
+    @since SnipeOffice 3.6
  */
 #if defined __cplusplus
 #if defined __GNUC__

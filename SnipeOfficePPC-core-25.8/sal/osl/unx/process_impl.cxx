@@ -131,19 +131,19 @@ oslProcessError SAL_CALL osl_bootstrap_getExecutableFile_Impl (
 #ifdef ANDROID
     /* On Android we in theory want the address of the "lo_main()"
      * function, as that is what corresponds to "main()" in
-     * LibreOffice programs on normal desktop OSes.
+     * SnipeOffice programs on normal desktop OSes.
      *
      * But that is true only for apps with a "native activity", using
      * <sal/main.h> and the org.libreoffice.android.Bootstrap
      * mechanism. For more normal (?) Android apps that just use
-     * LibreOffice libraries (components) where the main program is in
-     * Java, that just use LibreOffice libraries, there is no
+     * SnipeOffice libraries (components) where the main program is in
+     * Java, that just use SnipeOffice libraries, there is no
      * lo_main(). (Note that we don't know for sure yet how
      * complicated it might be to write such Android apps...)
      *
      * Maybe best to just pick some function in liblo-bootstrap.so
      * which also such Java apps *must* load as the very first
-     * LibreOffice native library. We store all LibreOffice native
+     * SnipeOffice native library. We store all SnipeOffice native
      * shared libraries an app uses in the same folder anyway, so it
      * doesn't really matter.
      */

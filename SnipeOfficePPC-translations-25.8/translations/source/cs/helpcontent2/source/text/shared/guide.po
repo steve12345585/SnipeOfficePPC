@@ -5102,8 +5102,8 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "Když podepíšete dokument v OpenOffice.org 3.2 nebo StarOffice 9.2 nebo v novějších verzích a otevřete tento dokument ve starší verzi, podpis se vyhodnotí jako \"neplatný\". Podpisy vytvořené ve starších verzích budou při načtení v novějších verzích označeny jako \"podepsány jsou jenom části dokumentu\"."
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
-msgstr "Při načítání dokumentu ODF se může objevit ikona ve stavovém řádku a pole v dialogu, které oznamuje, že dokument je podepsaný jenom částečně. To nastává tehdy, když jsou podpis a certifikát platné, ale byly vytvořeny ve verzi OpenOffice.org starší než 3.2 nebo StarOffice starší než 9.2. Ve verzích OpenOffice.org starších než 3.0 nebo StarOffice starších než 9.0 se podpis dokumentu používal pouze na hlavní obsah, obrázky a vložené objekty, zatímco jiný obsah jako makra podepsán nebyl. V OpenOffice.org 3.0 or StarOffice 9.0 byl podpis dokumentu použit na většinu obsahu včetně maker, přesto nebyly podepsány mimetype a obsah složky META-INF. V OpenOffice.org 3.2, StarOffice 9.2 a ve všech verzích LibreOffice je podepsán veškerý obsah s výjimkou samotného souboru s podpisem (META-INF/documentsignatures.xml)."
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgstr "Při načítání dokumentu ODF se může objevit ikona ve stavovém řádku a pole v dialogu, které oznamuje, že dokument je podepsaný jenom částečně. To nastává tehdy, když jsou podpis a certifikát platné, ale byly vytvořeny ve verzi OpenOffice.org starší než 3.2 nebo StarOffice starší než 9.2. Ve verzích OpenOffice.org starších než 3.0 nebo StarOffice starších než 9.0 se podpis dokumentu používal pouze na hlavní obsah, obrázky a vložené objekty, zatímco jiný obsah jako makra podepsán nebyl. V OpenOffice.org 3.0 or StarOffice 9.0 byl podpis dokumentu použit na většinu obsahu včetně maker, přesto nebyly podepsány mimetype a obsah složky META-INF. V OpenOffice.org 3.2, StarOffice 9.2 a ve všech verzích SnipeOffice je podepsán veškerý obsah s výjimkou samotného souboru s podpisem (META-INF/documentsignatures.xml)."
 
 #: digital_signatures.xhp#hd_id9354228.help.text
 msgid "Security Warnings"
@@ -5536,7 +5536,7 @@ msgstr "Pokud jste stáhli balíky %PRODUCTNAME z hlavní webové stránky %PROD
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 msgstr "Otevřete webový prohlížeč a zadejte <link href=\"http://cs.libreoffice.org/stahnout/\">http://cs.libreoffice.org/stahnout/</link>"
 
 #: language_select.xhp#par_id7869502.help.text
@@ -5555,7 +5555,7 @@ msgstr "Nainstalujte jazykový balík. Rozbalte soubor tar.gz a nainstalujte bal
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 msgstr "Otevřete webový prohlížeč a zadejte <link href=\"http://cs.libreoffice.org/stahnout/\">http://cs.libreoffice.org/stahnout/</link>"
 
 #: language_select.xhp#par_id7869503.help.text
@@ -7080,8 +7080,8 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "Vyberte <emph>Nápověda - O aplikaci $[officename]</emph>. Otevře se dialog obsahující informace o programu."
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
-msgstr "Na webu LibreOffice se podívejte na <link href=\"http://www.libreoffice.org/about-us/credits/\">seznamy přispěvatelů do kódu a na wiki stránky</link>."
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
+msgstr "Na webu SnipeOffice se podívejte na <link href=\"http://snipeoffice.org/snipeoffice-credits/\">seznamy přispěvatelů do kódu a na wiki stránky</link>."
 
 #: imagemap.xhp#tit.help.text
 msgid "Adding Clickable Hotspots to Images"

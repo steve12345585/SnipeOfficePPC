@@ -1167,7 +1167,7 @@ void GtkSalGraphics::updateSettings( AllSettings& rSettings )
     aStyleSet.SetFieldRolloverTextColor( aTextColor );
 
     // FIXME: each gtk3 theme needs to define a set of well-known
-    // color names for LibreOffice eg.
+    // color names for SnipeOffice eg.
     // @define-color tooltip_bg_color #343434;
     GdkRGBA tooltip_bg_color;
     if( gtk_style_context_lookup_color( pStyle, "tooltip_bg_color", &tooltip_bg_color ) )

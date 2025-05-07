@@ -1,7 +1,7 @@
 #. extracted from readlicense_oo/docs/readme.oo
 msgid ""
 msgstr ""
-"Project-Id-Version: LibreOffice 3.5.x\n"
+"Project-Id-Version: SnipeOffice 3.5.x\n"
 "Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+readlicense_oo%2Fdocs%2Freadme.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-11-15 15:34+0200\n"
 "PO-Revision-Date: 2012-08-19 23:15+0200\n"
@@ -516,7 +516,7 @@ msgid "We hope you enjoy working with the new ${PRODUCTNAME} ${PRODUCTVERSION} a
 msgstr "Ni esperas, ke vi ĝojos labori per la nova ${PRODUCTNAME} ${PRODUCTVERSION} kaj kuniĝu kun ni interrete."
 
 #: readme.xrm#credits2.credits2.readmeitem.text
-msgid "The LibreOffice Community"
+msgid "The SnipeOffice Community"
 msgstr "La komunumo de LibreOffice"
 
 #: readme.xrm#sdffd23r3cefwefew.sdffd23r3cefwefew.readmeitem.text

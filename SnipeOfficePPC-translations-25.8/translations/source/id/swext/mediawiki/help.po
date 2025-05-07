@@ -290,8 +290,8 @@ msgid "Joined Cells"
 msgstr "Sel Gabungan"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "OpenDocument dan khususnya LibreOffice menyajikan tabel yang memiliki sel tergabung yang melingkupi beberapa baris sebagai tabel dengan tabel bersusun. Sebaliknya, model wiki dari tabel adalah dengan menyatakan cakupan kolom dan baris bagi sel tergabung tersebut. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "OpenDocument dan khususnya SnipeOffice menyajikan tabel yang memiliki sel tergabung yang melingkupi beberapa baris sebagai tabel dengan tabel bersusun. Sebaliknya, model wiki dari tabel adalah dengan menyatakan cakupan kolom dan baris bagi sel tergabung tersebut. "
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

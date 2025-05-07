@@ -27,5 +27,5 @@ msgid "Extension does not support OpenOffice.org reference versions greater than
 msgstr "ਐਕਸਟੈਂਸ਼ਨ OpenOffice.org ਹਵਾਲਾ ਵਰਜਨ ਨੂੰ ਸਹਿਯੋਗ ਨਹੀਂ ਦਿੰਦੀ ਜੋ %VERSION ਤੋਂ ਜਿਆਦਾ ਹੈ"
 
 #: dp_misc.src#RID_DEPLOYMENT_DEPENDENCIES_LO_MIN.string.text
-msgid "Extension requires at least LibreOffice version %VERSION"
-msgstr "ਐਕਸਟੈਂਸ਼ਨ ਲਈ ਘੱਟੋ-ਘੱਟ LibreOffice ਵਰਜਨ %VERSION ਦੀ ਲੋੜ ਹੈ"
+msgid "Extension requires at least SnipeOffice version %VERSION"
+msgstr "ਐਕਸਟੈਂਸ਼ਨ ਲਈ ਘੱਟੋ-ਘੱਟ SnipeOffice ਵਰਜਨ %VERSION ਦੀ ਲੋੜ ਹੈ"

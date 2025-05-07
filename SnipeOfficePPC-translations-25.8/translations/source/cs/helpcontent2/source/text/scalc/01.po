@@ -28596,8 +28596,8 @@ msgid "This section describes the functions of $[officename] Calc. The various f
 msgstr "Tato sekce popisuje funkce $[officename] Calc. Všechny funkce jsou v Průvodci funkcí rozděleny podle kategorií."
 
 #: 04060100.xhp#par_id0120200910234570.help.text
-msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">in the LibreOffice WikiHelp</link>."
-msgstr "Podrobná vysvětlení, ukázky a příklady naleznete na <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">wiki nápovědě LibreOffice</link>."
+msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">in the SnipeOffice WikiHelp</link>."
+msgstr "Podrobná vysvětlení, ukázky a příklady naleznete na <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">wiki nápovědě LibreOffice</link>."
 
 #: 04060100.xhp#hd_id3146972.3.help.text
 msgid "<link href=\"text/scalc/01/04060101.xhp\" name=\"Database\">Database</link>"
@@ -28648,5 +28648,5 @@ msgid "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">Operators</l
 msgstr "K dispozici jsou také <link href=\"text/scalc/01/04060199.xhp\" name=\"Operátory\">Operátory</link>."
 
 #: 04060100.xhp#par_id0902200809540918.help.text
-msgid "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the LibreOffice WikiHelp</variable>"
-msgstr "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Funkce Calcu podle kategorie</link> na wiki nápovědě LibreOffice</variable>"
+msgid "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the SnipeOffice WikiHelp</variable>"
+msgstr "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Funkce Calcu podle kategorie</link> na wiki nápovědě LibreOffice</variable>"

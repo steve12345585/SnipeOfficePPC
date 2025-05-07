@@ -24,9 +24,9 @@ def make_unique(title):
     return t
 
 replace_text_list = [
-        ["$[officename]",""], # to fit both LibreOffice and BrOffice
-        ["%PRODUCTNAME",""], # to fit both LibreOffice and BrOffice
-        ["$PRODUCTNAME",""], # to fit both LibreOffice and BrOffice
+        ["$[officename]",""], # to fit both SnipeOffice and BrOffice
+        ["%PRODUCTNAME",""], # to fit both SnipeOffice and BrOffice
+        ["$PRODUCTNAME",""], # to fit both SnipeOffice and BrOffice
         ['"+"',"Plus"],
         ['"*"',"Star"],
         ['"-"',"Minus"],

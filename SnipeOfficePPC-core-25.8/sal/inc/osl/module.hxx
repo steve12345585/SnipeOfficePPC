@@ -100,7 +100,7 @@ public:
         return is();
     }
 
-    /// @since LibreOffice 3.5
+    /// @since SnipeOffice 3.5
     sal_Bool SAL_CALL loadRelative(
         oslGenericFunction baseModule, char const * relativePath,
         sal_Int32 mode = SAL_LOADMODULE_DEFAULT)
@@ -152,7 +152,7 @@ public:
         return ( osl_getFunctionSymbol( m_Module, ustrFunctionSymbolName.pData ) );
     }
 
-    /// @since LibreOffice 3.5
+    /// @since SnipeOffice 3.5
     oslGenericFunction SAL_CALL getFunctionSymbol(char const * name) const {
         return osl_getAsciiFunctionSymbol(m_Module, name);
     }

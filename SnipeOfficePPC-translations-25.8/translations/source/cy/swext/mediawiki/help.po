@@ -290,8 +290,8 @@ msgid "Joined Cells"
 msgstr "Celloed wedi eu Huno"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
-msgstr "Mae OpenDocument ac yn enwedig LibreOffice yn cynrychioli tablau sydd â chelloedd wedi eu huno ac sy'n ymestyn rhesi fel tablau gyda thablau nythu. Mewn cyferbyniad, mae model tabl y wiki yn datgan ystod colofn a rhes ar gyfer celloedd cyfun o'r fath. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgstr "Mae OpenDocument ac yn enwedig SnipeOffice yn cynrychioli tablau sydd â chelloedd wedi eu huno ac sy'n ymestyn rhesi fel tablau gyda thablau nythu. Mewn cyferbyniad, mae model tabl y wiki yn datgan ystod colofn a rhes ar gyfer celloedd cyfun o'r fath. "
 
 #: wikiformats.xhp#par_id8163090.help.text
 msgid "If only columns of the same row are joined, the result of the transformation resembles the source document very well."

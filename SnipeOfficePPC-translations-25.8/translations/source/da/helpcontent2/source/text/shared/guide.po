@@ -5102,8 +5102,8 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "Når du signerer et dokument med OpenOffice.org 3.2 eller StarOffice 9.2 (eller senere versioner), og du åbner dokumentet i en ældre version af programmet, vil signaturen blive vist som \"ugyldig\". Signaturer, som er oprettet med ældre versioner vil være markerede med \"kun dele af dokumenter er signeret\" når det bliver indlæst i den nyere software."
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
-msgstr "Når du åbner et ODF-dokument, ser du muligvis et ikon i statuslinje og statusfeltet i dialogen, som indikerer at dokumentet kun er delvist signeret. Denne status vises, når signaturen og certifikatet er valide, men hvor signaturen er oprettet med versioner af OpenOffice.org før 3.2 eller StarOffice før 9.2. I versioner af OpenOffice.org før 3.0 eller StarOffice før 9.0, blev dokumentsignaturen kun knyttet til hovedindholdet, billeder og indlejrede objekter, og visse dele, f.eks. makroer, blev ikke signeret. I OpenOffice.org 3.0 og StarOffice 9.0 blev dokumentsignaturen knyttet til det meste af indholdet, herunder makroer. Dog blev Mimetypen og indholdet af META_INF folderen ikke signeret. I OpenOffice.org 3.2, StarOffice 9.2 og alle versioner af LibreOffice bliver alt indhold, undtaget signaturfilen selv (META-INF/documentsignatures.xml), signeret."
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgstr "Når du åbner et ODF-dokument, ser du muligvis et ikon i statuslinje og statusfeltet i dialogen, som indikerer at dokumentet kun er delvist signeret. Denne status vises, når signaturen og certifikatet er valide, men hvor signaturen er oprettet med versioner af OpenOffice.org før 3.2 eller StarOffice før 9.2. I versioner af OpenOffice.org før 3.0 eller StarOffice før 9.0, blev dokumentsignaturen kun knyttet til hovedindholdet, billeder og indlejrede objekter, og visse dele, f.eks. makroer, blev ikke signeret. I OpenOffice.org 3.0 og StarOffice 9.0 blev dokumentsignaturen knyttet til det meste af indholdet, herunder makroer. Dog blev Mimetypen og indholdet af META_INF folderen ikke signeret. I OpenOffice.org 3.2, StarOffice 9.2 og alle versioner af SnipeOffice bliver alt indhold, undtaget signaturfilen selv (META-INF/documentsignatures.xml), signeret."
 
 #: digital_signatures.xhp#hd_id9354228.help.text
 msgid "Security Warnings"
@@ -5536,8 +5536,8 @@ msgstr "Hvis du downloadede %PRODUCTNAME pakker fra %PRODUCTNAME hovedwebsted, s
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "Åbn din webbrowser og tast <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "Åbn din webbrowser og tast <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869502.help.text
 msgctxt "language_select.xhp#par_id7869502.help.text"
@@ -5555,8 +5555,8 @@ msgstr "Installer sprogpakken. Pak filen tar.gz ud og installer pakkerne ifølge
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
-msgstr "Åben din webbrowser og tast <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
+msgstr "Åben din webbrowser og tast <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 
 #: language_select.xhp#par_id7869503.help.text
 msgctxt "language_select.xhp#par_id7869503.help.text"
@@ -7080,8 +7080,8 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "Vælg <emph>Hjælp - om $[officename]</emph>. Det åbner en dialog med information om programmet."
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
-msgstr "<link href=\"http://www.libreoffice.org/about-us/credits/\">Se en liste af kode og Wiki-bidragsydere</link> på LibreOffice website."
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
+msgstr "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">Se en liste af kode og Wiki-bidragsydere</link> på SnipeOffice website."
 
 #: imagemap.xhp#tit.help.text
 msgid "Adding Clickable Hotspots to Images"

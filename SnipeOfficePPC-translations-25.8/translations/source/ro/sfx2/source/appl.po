@@ -397,10 +397,10 @@ msgstr "Toate mărcile înregistrate menționate în acest document sunt proprie
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
-"Copyright © 2000, 2012 LibreOffice contribuitorii și/sau afiliați. Toate drepturile\n"
+"Copyright © 2025 SnipeOffice contribuitorii și/sau afiliați. Toate drepturile\n"
 "rezervate."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text

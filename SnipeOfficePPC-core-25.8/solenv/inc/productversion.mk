@@ -25,7 +25,7 @@
 #
 #*************************************************************************
 
-PRODUCTLIST = libreoffice lodev oxygenoffice
+PRODUCTLIST = snipeoffice lodev oxygenoffice
 
 # default values to minimize maintainance effort
 PRODUCTVERSION = 3.6

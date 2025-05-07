@@ -46,7 +46,7 @@ namespace test {
 
 // Class to do lots of heavy-lifting UNO & environment
 // bootstrapping for unit tests, such that we can use
-// almost an entire LibreOffice during compile - so
+// almost an entire SnipeOffice during compile - so
 // that we can get pieces of code alone to beat them up.
 
 // NB. this class is instantiated multiple times during a

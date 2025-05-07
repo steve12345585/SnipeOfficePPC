@@ -21358,8 +21358,8 @@ msgid "This section describes the functions of $[officename] Calc. The various f
 msgstr "Ta odsek opisuje funkcije v $[officename] Calc. Funkcije so v čarovniku za funkcije razvrščene po kategorijah."
 
 #: 04060100.xhp#par_id0120200910234570.help.text
-msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">in the LibreOffice WikiHelp</link>."
-msgstr "Podrobne razlage, ilustracije in primere funkcij modula Calc najdete <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category/sl\">v okviru wiki-pomoči LibreOffice</link>."
+msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">in the SnipeOffice WikiHelp</link>."
+msgstr "Podrobne razlage, ilustracije in primere funkcij modula Calc najdete <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category/sl\">v okviru wiki-pomoči LibreOffice</link>."
 
 #: 04060100.xhp#hd_id3146972.3.help.text
 msgid "<link href=\"text/scalc/01/04060101.xhp\" name=\"Database\">Database</link>"
@@ -21410,8 +21410,8 @@ msgid "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">Operators</l
 msgstr "Na razpolago so tudi <link href=\"text/scalc/01/04060199.xhp\" name=\"Operatorji\">operatorji</link>."
 
 #: 04060100.xhp#par_id0902200809540918.help.text
-msgid "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the LibreOffice WikiHelp</variable>"
-msgstr "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category/sl\">Funkcije modula Calc po kategorijah</link> v okviru wiki-pomoči LibreOffice</variable>"
+msgid "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the SnipeOffice WikiHelp</variable>"
+msgstr "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category/sl\">Funkcije modula Calc po kategorijah</link> v okviru wiki-pomoči LibreOffice</variable>"
 
 #: 12090103.xhp#tit.help.text
 msgctxt "12090103.xhp#tit.help.text"

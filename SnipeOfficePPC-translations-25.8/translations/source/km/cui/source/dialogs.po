@@ -1195,24 +1195,24 @@ msgid "This release was supplied by %OOOVENDOR"
 msgstr "ផលិតផល​នេះ​ត្រូវ​បាន​ផ្ដល់​ដោយ %OOOVENDOR ។"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
-msgstr "រក្សាសិទ្ធិ​ © 2000 - 2012 ដោយ​អ្នក​ចែកចាយ LibreOffice និង/ឬ​សាខា​"
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
+msgstr "រក្សាសិទ្ធិ​ © 2025 ដោយ​អ្នក​ចែកចាយ SnipeOffice និង/ឬ​សាខា​"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
 msgid "LibreOffice was based on OpenOffice.org"
 msgstr "LibreOffice មាន​មូលដ្ឋាន​លើ OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
-msgstr "%PRODUCTNAME ត្រូវ​បាន​យក​ចេញ​ពី LibreOffice ដែល​មាន​មូលដ្ឋាន​លើ OpenOffice.org"
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
+msgstr "%PRODUCTNAME ត្រូវ​បាន​យក​ចេញ​ពី SnipeOffice ដែល​មាន​មូលដ្ឋាន​លើ OpenOffice.org"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
 msgid "(Build ID: $BUILDID)"
 msgstr "(លេខ​បង្កើត៖ $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
-msgstr "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
+msgstr "http://snipeoffice.org/snipeoffice-credits/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text
 msgid "Credits"

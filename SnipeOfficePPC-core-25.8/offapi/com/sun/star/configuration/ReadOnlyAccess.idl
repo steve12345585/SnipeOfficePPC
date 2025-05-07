@@ -38,7 +38,7 @@ module com { module sun { module star { module configuration {
 
    <p>This singleton is still unpublished and unstable.</p>
 
-   @since LibreOffice 3.6
+   @since SnipeOffice 3.6
 */
 singleton ReadOnlyAccess: com::sun::star::container::XHierarchicalNameAccess;
 

@@ -77,7 +77,7 @@ VS_VERSION_INFO versioninfo
 				value "ProductVersion",		PPS(VER_LEVEL) "\0"
 				value "OriginalFilename",	"SOREPORT.EXE\0"
 				value "InternalName", 		"CrashReport\0"
-				value "LegalCopyright", 	S_CRIGHT " LibreOffice contributors and/or their affiliates. All rights reserved.\0"
+				value "LegalCopyright", 	S_CRIGHT " SnipeOffice contributors and/or their affiliates. All rights reserved.\0"
 			}
 		}
 

@@ -25,14 +25,14 @@ access all the interfaces implemented by the two jobs exported.
 GLib Integration 
 ----------------
 This extension assumes the presence of the GLib mainloop in the application,
-it is not recommended its installation on LibreOffice deployments that do not
+it is not recommended its installation on SnipeOffice deployments that do not
 provide integration with the glib mainloop.
 
 g_type_init() is called in DesktopJob for safety.
 
 DesktopJob
 ----------
-This class is a XJob that is instantiated and executed on LibreOffice startup
+This class is a XJob that is instantiated and executed on SnipeOffice startup
 just once during the lifetime of the process.
 
 This class does nothing but trying to acquire the "org.libreoffice.dbusmenu"

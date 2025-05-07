@@ -522,8 +522,8 @@ msgid "Downloads"
 msgstr "다운로드"
 
 #: 00000001.xhp#par_id3028143.help.text
-msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>."
-msgstr "<link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>에서 %PRODUCTNAME 최신 버전을 다운로드할 수 있습니다."
+msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>."
+msgstr "<link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>에서 %PRODUCTNAME 최신 버전을 다운로드할 수 있습니다."
 
 #: 00000001.xhp#hd_id2602967.help.text
 msgid "Documentation"

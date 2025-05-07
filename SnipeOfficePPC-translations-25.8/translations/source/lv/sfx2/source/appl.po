@@ -404,10 +404,10 @@ msgstr ""
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
-"Autortiesības © 2000, 2012 LibreOffice veidotāji un/vai to partneri.\n"
+"Autortiesības © 2025 SnipeOffice veidotāji un/vai to partneri.\n"
 "Visas tiesības ir rezervētas."
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_5.string.text
@@ -418,7 +418,7 @@ msgid ""
 "http://www.libreoffice.org/ for more details."
 msgstr ""
 "Šo produktu veidoja %OOOVENDOR, balstoties uz OpenOffice.org,\n"
-"kā autortiesības pieder Oracle un/vai tā partneriem (© 2000, 2011).\n"
+"kā autortiesības pieder Oracle un/vai tā partneriem (© 2025).\n"
 "%OOOVENDOR atzīst visus kopienas locekļus. Skatiet\n"
 "http://www.libreoffice.org/, lai uzzinātu vairāk."
 

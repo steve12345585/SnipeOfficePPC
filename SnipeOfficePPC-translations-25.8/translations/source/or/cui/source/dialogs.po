@@ -1194,24 +1194,24 @@ msgid "This release was supplied by %OOOVENDOR"
 msgstr "ଏହି ପ୍ରକାଶନଟି %OOOVENDOR ଦ୍ୱାରା ପ୍ରଦତ୍ତ"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT.string.text
-msgid "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
-msgstr "Copyright © 2000 - 2012 LibreOffice contributors and/or their affiliates"
+msgid "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
+msgstr "Copyright © 2025 SnipeOffice contributors and/or their affiliates"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED.string.text
 msgid "LibreOffice was based on OpenOffice.org"
 msgstr "LibreOffice ଟି OpenOffice.org ଉପରେ ଆଧାରିତ"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BASED_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org"
-msgstr "%PRODUCTNAME ଟି LibreOffice ରୁ ଆସିଅଛି ଯାହାକି OpenOffice.org ଉପରେ ଆଧାରିତ"
+msgid "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org"
+msgstr "%PRODUCTNAME ଟି SnipeOffice ରୁ ଆସିଅଛି ଯାହାକି OpenOffice.org ଉପରେ ଆଧାରିତ"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_BUILD.string.text
 msgid "(Build ID: $BUILDID)"
 msgstr "(ନିର୍ମାଣ ID: $BUILDID)"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_LINK_CREDITS.string.text
-msgid "http://www.libreoffice.org/about-us/credits/"
-msgstr "http://www.libreoffice.org/about-us/credits/"
+msgid "http://snipeoffice.org/snipeoffice-credits/"
+msgstr "http://snipeoffice.org/snipeoffice-credits/"
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_BTN_CREDITS.pushbutton.text
 msgid "Credits"

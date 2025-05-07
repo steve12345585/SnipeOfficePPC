@@ -2200,7 +2200,7 @@ msgstr "Telepítési adatbázis"
 
 #: SIS.ulf#OOO_SIS_COMMENT.LngText.text
 msgid "This installer database contains the logic and data required to install LibreOffice."
-msgstr "Ez a telepítő-adatbázis tartalmazza a LibreOffice telepítéséhez szükséges programot és adatokat."
+msgstr "Ez a telepítő-adatbázis tartalmazza a SnipeOffice telepítéséhez szükséges programot és adatokat."
 
 #: SIS.ulf#OOO_SIS_KEYWORDS.LngText.text
 msgid "Install,MSI"

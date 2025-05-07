@@ -5102,8 +5102,8 @@ msgid "When you sign a document with OpenOffice.org 3.2 or StarOffice 9.2 or a l
 msgstr "Wenn sie ein Dokument mit OpenOffice.org 3.2 oder StarOffice 9.2 oder einer neueren Version signieren und Sie das Dokument in einer älteren Version der Software öffnen, wird die Unterschrift als \"ungültig\" angezeigt. Signaturen, die mit älteren Softwareversionen erzeugt wurden, werden beim Öffnen in einer neueren Version mit \"Nicht alle Teile des Dokuments sind signiert\" gekennzeichnet."
 
 #: digital_signatures.xhp#par_id2008200911583098.help.text
-msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of LibreOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
-msgstr "Wenn Sie ein ODF-Dokument laden, sehen Sie möglicherweise ein Symbol in der Statusleiste und das Status-Feld im Dialog, welche Ihnen anzeigen, dass das Dokument nur teilweise signiert ist. Dieser Status wird angezeigt, wenn die Signatur und das Zertifikat gültig sind, sie aber mit OpenOffice.org in einer Version vor 3.2 oder mit StarOffice in einer Version vor 9.2 erstellt wurden. In OpenOffice.org bei Versionen vor 3.0 oder StarOffice bei Versionen vor 9.0 wurde die Dokumentsignatur nur auf die wichtigsten Inhalte, Bilder und eingebetteten Objekte angewendet und einige Inhalte, wie Makros, wurden nicht signiert. Ab OpenOffice.org 3.0 und StarOffice 9.0 wurde die Dokumentsignatur für die meisten Inhalte angewendet, einschließlich Makros. Allerdings wurden der MIME-Typ und der Inhalt der META-INF-Ordner nicht unterzeichnet. Und ab OpenOffice.org 3.2 und StarOffice 9.2 sowie für alle Versionen von LibreOffice werden allen Inhalten, außer der Signatur-Datei selbst (META-INF/documentsignatures.xml), unterzeichnet."
+msgid "When you load an ODF document, you might see an icon in the status bar and the status field in the dialog that indicates that the document is only partially signed. This status will appear when the signature and certificate are valid, but they were created with a version of OpenOffice.org before 3.2 or StarOffice before 9.2. In versions of OpenOffice.org before 3.0 or StarOffice before 9.0, the document signature was applied to the main contents, pictures and embedded objects only and some contents, like macros, were not signed. In OpenOffice.org 3.0 and StarOffice 9.0 the document signature was applied to most content, including macros. However, the mimetype and the content of the META-INF folder were not signed. And in OpenOffice.org 3.2, StarOffice 9.2, and all versions of SnipeOffice all contents, except the signature file itself (META-INF/documentsignatures.xml), are signed."
+msgstr "Wenn Sie ein ODF-Dokument laden, sehen Sie möglicherweise ein Symbol in der Statusleiste und das Status-Feld im Dialog, welche Ihnen anzeigen, dass das Dokument nur teilweise signiert ist. Dieser Status wird angezeigt, wenn die Signatur und das Zertifikat gültig sind, sie aber mit OpenOffice.org in einer Version vor 3.2 oder mit StarOffice in einer Version vor 9.2 erstellt wurden. In OpenOffice.org bei Versionen vor 3.0 oder StarOffice bei Versionen vor 9.0 wurde die Dokumentsignatur nur auf die wichtigsten Inhalte, Bilder und eingebetteten Objekte angewendet und einige Inhalte, wie Makros, wurden nicht signiert. Ab OpenOffice.org 3.0 und StarOffice 9.0 wurde die Dokumentsignatur für die meisten Inhalte angewendet, einschließlich Makros. Allerdings wurden der MIME-Typ und der Inhalt der META-INF-Ordner nicht unterzeichnet. Und ab OpenOffice.org 3.2 und StarOffice 9.2 sowie für alle Versionen von SnipeOffice werden allen Inhalten, außer der Signatur-Datei selbst (META-INF/documentsignatures.xml), unterzeichnet."
 
 #: digital_signatures.xhp#hd_id9354228.help.text
 msgid "Security Warnings"
@@ -5536,7 +5536,7 @@ msgstr "Wenn Sie %PRODUCTNAME von der %PRODUCTNAME-Webseite heruntergeladen habe
 
 #: language_select.xhp#par_id2216559.help.text
 msgctxt "language_select.xhp#par_id2216559.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 msgstr "Öffnen Sie Ihren Webbrowser und geben Sie <link href=\"http://de.libreoffice.org/download/\">http://de.libreoffice.org/download/</link> ein."
 
 #: language_select.xhp#par_id7869502.help.text
@@ -5555,7 +5555,7 @@ msgstr "Installieren Sie das Sprachpaket. Entpacken Sie die tar.gz-Datei und ins
 
 #: language_select.xhp#par_id221655a.help.text
 msgctxt "language_select.xhp#par_id221655a.help.text"
-msgid "Open your Web browser and enter <link href=\"http://www.libreoffice.org/download/\">http://www.libreoffice.org/download/</link>"
+msgid "Open your Web browser and enter <link href=\"http://snipeoffice.org/download/\">http://snipeoffice.org/download/</link>"
 msgstr "Öffnen Sie Ihren Webbrowser und geben Sie <link href=\"http://de.libreoffice.org/download/\">http://de.libreoffice.org/download</link> ein."
 
 #: language_select.xhp#par_id7869503.help.text
@@ -7080,8 +7080,8 @@ msgid "Choose <emph>Help - About $[officename]</emph>. This opens a dialog conta
 msgstr "Wählen Sie <emph>Hilfe - Info über $[officename]</emph>. Dadurch wird ein Dialog mit Angaben zum Programm geöffnet."
 
 #: version_number.xhp#par_id3147008.3.help.text
-msgid "<link href=\"http://www.libreoffice.org/about-us/credits/\">See lists of code and Wiki contributors</link> on the LibreOffice website."
-msgstr "Schauen Sie sich die <link href=\"http://www.libreoffice.org/about-us/credits/\">Liste der zum Code und Wiki Beitragenden</link> auf der LibreOffice-Webseite an."
+msgid "<link href=\"http://snipeoffice.org/snipeoffice-credits/\">See lists of code and Wiki contributors</link> on the SnipeOffice website."
+msgstr "Schauen Sie sich die <link href=\"http://snipeoffice.org/snipeoffice-credits/\">Liste der zum Code und Wiki Beitragenden</link> auf der LibreOffice-Webseite an."
 
 #: imagemap.xhp#tit.help.text
 msgid "Adding Clickable Hotspots to Images"

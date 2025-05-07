@@ -743,7 +743,7 @@ public:
         True if it's a directory, False otherwise.
 
         @see getFileType
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
     */
     inline sal_Bool isDirectory() const
     {
@@ -758,7 +758,7 @@ public:
         @see getFileType
         @see isFile
         @see isLink
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
     */
     inline sal_Bool isRegular() const
     {
@@ -771,7 +771,7 @@ public:
         True if it's a link, False otherwise.
 
         @see getFileType
-        @since LibreOffice 3.6
+        @since SnipeOffice 3.6
     */
     inline sal_Bool isLink() const
     {
@@ -1592,7 +1592,7 @@ public:
 
     @see osl_getDirectoryItem()
 
-    @since LibreOffice 3.6
+    @since SnipeOffice 3.6
 */
     inline sal_Bool isIdenticalTo( const DirectoryItem &pOther )
     {

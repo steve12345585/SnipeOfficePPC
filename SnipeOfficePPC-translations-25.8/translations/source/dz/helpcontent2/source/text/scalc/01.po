@@ -28708,7 +28708,7 @@ msgid "This section describes the functions of $[officename] Calc. The various f
 msgstr "དབྱེ་ཚན་དེ་ཚུ་གིས་  $[officename]  སི་ཨེལ་ཨེལ་སི་གི་ལས་འགན་ཚུ་འགྲེལ་བཤད་བརྐྱབ་ཨིན།  འདྲ་མིན་སྣ་ཚོགས་ཀྱི་ལས་འགན་ཚུ་  ལས་འགན་ཝི་ཛརཌི་ནང་དབྱེ་རིམ་སྦེ་བགོ་བཏུབ་ཨིན།"
 
 #: 04060100.xhp#par_id0120200910234570.help.text
-msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">in the LibreOffice WikiHelp</link>."
+msgid "You can find detailed explanations, illustrations, and examples of Calc functions <link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">in the SnipeOffice WikiHelp</link>."
 msgstr ""
 
 #: 04060100.xhp#hd_id3146972.3.help.text
@@ -28760,5 +28760,5 @@ msgid "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\">Operators</l
 msgstr "<link href=\"text/scalc/01/04060199.xhp\" name=\"Operators\"> བཀོལ་སྤྱོདཔ་ཚུ་ </link> ཡང་འཐོབ་ཚུགས་པས།are also available."
 
 #: 04060100.xhp#par_id0902200809540918.help.text
-msgid "<variable id=\"drking\"><link href=\"http://help.libreoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the LibreOffice WikiHelp</variable>"
+msgid "<variable id=\"drking\"><link href=\"http://help.snipeoffice.org/Calc/Functions_by_Category\">Calc Functions By Category</link> in the SnipeOffice WikiHelp</variable>"
 msgstr ""

@@ -527,8 +527,8 @@ msgid "Downloads"
 msgstr "چۈشۈرۈش"
 
 #: 00000001.xhp#par_id3028143.help.text
-msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link>."
-msgstr "%PRODUCTNAME نىڭ ئەڭ يېڭى نەشرىنى <link href=\"http://www.libreoffice.org/download/\">www.libreoffice.org/download/</link> دىن چۈشۈرەلەيسىز."
+msgid "You can download the latest version of %PRODUCTNAME at <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link>."
+msgstr "%PRODUCTNAME نىڭ ئەڭ يېڭى نەشرىنى <link href=\"http://snipeoffice.org/download/\">www.libreoffice.org/download/</link> دىن چۈشۈرەلەيسىز."
 
 #: 00000001.xhp#hd_id2602967.help.text
 msgid "Documentation"

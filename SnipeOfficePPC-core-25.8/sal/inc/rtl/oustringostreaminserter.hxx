@@ -55,7 +55,7 @@ namespace rtl {
 
     The rtl::OUString is converted to UTF-8.
 
-    @since LibreOffice 3.5.
+    @since SnipeOffice 3.5.
 */
 template< typename charT, typename traits > std::basic_ostream<charT, traits> &
 operator <<(

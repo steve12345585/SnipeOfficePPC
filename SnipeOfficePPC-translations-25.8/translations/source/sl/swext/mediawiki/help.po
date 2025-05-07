@@ -357,7 +357,7 @@ msgid "Joined Cells"
 msgstr "Spojene celice"
 
 #: wikiformats.xhp#par_id8253730.help.text
-msgid "OpenDocument and especially LibreOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
+msgid "OpenDocument and especially SnipeOffice represent tables that have joined cells that span rows as tables with nested tables. In contrast, the wiki model of table is to declare column and row spans for such joined cells. "
 msgstr "OpenDocument in še posebej LibreOffice.org uporabljajo tabele s spojenimi celicami, ki se lahko raztezajo čez vrstice, kot tabele z gnezdenimi tabelami. Nasprotno s tem modeli tabel wiki vsebujejo deklaracije razpona stolpcev in vrstic v tako spojenih celicah. "
 
 #: wikiformats.xhp#par_id8163090.help.text

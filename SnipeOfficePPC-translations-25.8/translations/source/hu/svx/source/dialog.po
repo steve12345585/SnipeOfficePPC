@@ -2314,7 +2314,7 @@ msgstr "Felhasználói"
 
 #: sdstring.src#RID_SVXSTR_LIBRE_GREEN_1.string.text
 msgid "Green 1 (LibreOffice Main Color)"
-msgstr "Zöld 1 (a LibreOffice főszíne)"
+msgstr "Zöld 1 (a SnipeOffice főszíne)"
 
 #: sdstring.src#RID_SVXSTR_LIBRE_GREEN_ACCENT.string.text
 msgid "Green Accent"

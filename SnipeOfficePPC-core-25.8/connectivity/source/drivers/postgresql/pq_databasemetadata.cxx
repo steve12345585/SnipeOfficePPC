@@ -333,7 +333,7 @@ OUString DatabaseMetaData::getIdentifierQuoteString(  ) throw (SQLException, Run
 OUString DatabaseMetaData::getSQLKeywords(  ) throw (SQLException, RuntimeException)
 {
     // In Java 6, this is all keywords that are not SQL:2003
-    // In Java 2 v1.4 and as per LibreOffice SDK doc, this is all keywords that are not SQL92
+    // In Java 2 v1.4 and as per SnipeOffice SDK doc, this is all keywords that are not SQL92
     // I understand this to mean "reserved keywords" only.
     // See http://www.postgresql.org/docs/current/static/sql-keywords-appendix.html
     return ASCII_STR(

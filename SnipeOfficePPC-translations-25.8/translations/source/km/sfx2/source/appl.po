@@ -425,7 +425,7 @@ msgstr ""
 
 #: app.src#DLG_HELP_LICENSING.STR_LICENSING_INFORMATION_4.string.text
 msgid ""
-"Copyright © 2000, 2012 LibreOffice contributors and/or their affiliates. All rights\n"
+"Copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights\n"
 "reserved."
 msgstr ""
 "រក្សាសិទ្ធិ​ឆ្នាំ ២០០០ ២០១២ ដោយ​អ្នក​ចែកចាយ និង/សាខា​របស់​ខ្លួន។ រក្សាសិទ្ធិ\n"

@@ -14,7 +14,7 @@ Copyright (C) 2006 - 2012 by Raimundo Santos Moura <raimundo.smoura@gmail.com>
 INTRODUCTION
 ============
 
-The LibreOffice Spell Checker and Hyphenation  is a colaborative project developed
+The SnipeOffice Spell Checker and Hyphenation  is a colaborative project developed
 by the Brazilian community.
 The complete list of participants in this project is at
 http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
