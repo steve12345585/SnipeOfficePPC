@@ -133,17 +133,23 @@ downloaditem()
     if [ "$1" != "" ]; then
         if [ ! -f "../$2" ]; then
             echo $2
-            if [ ! -z "$wget" ]; then
-                $wget --progress=dot:mega -N $1/$2 2>&1 | tee -a $logfile
+            # First check if file exists in local mirror
+            if [ -f "$TARFILE_LOCATION/mirror/$2" ]; then
+                echo "Found $2 in local mirror"
+                cp "$TARFILE_LOCATION/mirror/$2" .
             else
-                echo fetching $2
-                $curl $file_date_check -O $1/$2 2>&1 | tee -a $logfile
-            fi
-            wret=$?
-            if [ $wret -ne 0 ]; then
-                mv $2 ${i}_broken
-                # failed="$failed $2"
-                wret=0
+                if [ ! -z "$wget" ]; then
+                    $wget --progress=dot:mega -N $1/$2 2>&1 | tee -a $logfile
+                else
+                    echo fetching $2
+                    $curl $file_date_check -O $1/$2 2>&1 | tee -a $logfile
+                fi
+                wret=$?
+                if [ $wret -ne 0 ]; then
+                    mv $2 ${i}_broken
+                    # failed="$failed $2"
+                    wret=0
+                fi
             fi
             if [ -f $2 -a -n "$3" -a -n "$md5sum" ]; then
                 sum=`$md5sum $md5special $2 | sed "s/ .*//"`
