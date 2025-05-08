@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: guide\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-07-04 16:40+0200\n"
 "PO-Revision-Date: 2012-01-13 09:39+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
@@ -870,8 +870,8 @@ msgid "Python"
 msgstr "Python"
 
 #: scripting.xhp#par_idN1091F.help.text
-msgid "In addition, developers can use high-level languages, for example Java programming language, to control %PRODUCTNAME externally. The API reference is online at <link href=\"http://api.libreoffice.org/\">api.libreoffice.org</link>."
-msgstr "លើស​ពីនេះ អ្នក​អភិវឌ្ឍន៍​អាច​ប្រើ​ភាសា​កម្រិត​ខ្ពស់​​ ឧទាហរណ៍​ភាសា​សរសេរ​កម្មវិធី Java ដើម្បី​ពិនិត្យ​មើល %PRODUCTNAME នៅ​ខាងក្រៅ ។ សេចក្ដី​យោង API ​លើ​បណ្ដាញ <link href=\"http://api.libreoffice.org/\">api.libreoffice.org</link> ។"
+msgid "In addition, developers can use high-level languages, for example Java programming language, to control %PRODUCTNAME externally. The API reference is online at <link href=\"http://snipeoffice.org/api-ppc-2025/\">snipeoffice.org/api-ppc-2025</link>."
+msgstr "លើស​ពីនេះ អ្នក​អភិវឌ្ឍន៍​អាច​ប្រើ​ភាសា​កម្រិត​ខ្ពស់​​ ឧទាហរណ៍​ភាសា​សរសេរ​កម្មវិធី Java ដើម្បី​ពិនិត្យ​មើល %PRODUCTNAME នៅ​ខាងក្រៅ ។ សេចក្ដី​យោង API ​លើ​បណ្ដាញ <link href=\"http://snipeoffice.org/api-ppc-2025/\">snipeoffice.org/api-ppc-2025</link> ។"
 
 #: scripting.xhp#par_idN10751.help.text
 msgid "To assign a script to a new menu entry"
@@ -6648,8 +6648,8 @@ msgid "Starts in invisible mode."
 msgstr "ចាប់​ផ្តើម​ក្នុង​របៀប​មើល​មិន​ឃើញ ។"
 
 #: start_parameters.xhp#par_id3148914.17.help.text
-msgid "Neither the start-up logo nor the initial program window will be visible. However, the $[officename] software can be controlled and documents and dialogs opened via the <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>. "
-msgstr "ទាំង​​​​​រូប​សញ្ញា​ចាប់​ផ្ដើម​ ឬ​បង្អួច​កម្មវិធី​ដើម​នឹង​មើល​ឃើញ​ ។ ទោះ​​យ៉ាង​ណា​​​ កម្មវិធី $[officename] អាច​ត្រូវ​បាន​ត្រួតពិនិត្យ​ ឯកសារ​ និង​​ប្រអប់​បាន​បើក​តាមរយៈ <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>. "
+msgid "Neither the start-up logo nor the initial program window will be visible. However, the $[officename] software can be controlled and documents and dialogs opened via the <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>. "
+msgstr "ទាំង​​​​​រូប​សញ្ញា​ចាប់​ផ្ដើម​ ឬ​បង្អួច​កម្មវិធី​ដើម​នឹង​មើល​ឃើញ​ ។ ទោះ​​យ៉ាង​ណា​​​ កម្មវិធី $[officename] អាច​ត្រូវ​បាន​ត្រួតពិនិត្យ​ ឯកសារ​ និង​​ប្រអប់​បាន​បើក​តាមរយៈ <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>. "
 
 #: start_parameters.xhp#par_id3147341.18.help.text
 msgid "When the $[officename] software has been started with this parameter, it can only be ended using the taskmanager (Windows) or the <emph>kill </emph>command (UNIX-like systems)."
@@ -6810,8 +6810,8 @@ msgid "Starts in \"headless mode\" which allows using the application without us
 msgstr "ចាប់​ផ្តើម​ក្នុង​ \"របៀប​គ្មាន​ក្បាល\" ដែល​អនុញ្ញាត​ឲ្យ​ប្រើ​កម្មវិធី​ដោយ​គ្មាន​ចំណុច​​ប្រទាក់​អ្នក​ប្រើ​ ។"
 
 #: start_parameters.xhp#par_id3156353.58.help.text
-msgid "This special mode can be used when the application is controlled by external clients via the <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>."
-msgstr "របៀប​ពិសេស​នេះ​អាច​ត្រូវ​បាន​ប្រើ​ ពេល​កម្មវិធី​ត្រូវ​បាន​ត្រួត​ពិនិត្យ​ដោយ​អតិថិជន​ខាង​ក្រៅ​​តាម​រយៈ​ <link href=\"http://api.libreoffice.org\" name=\"API\">API</link> ។"
+msgid "This special mode can be used when the application is controlled by external clients via the <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>."
+msgstr "របៀប​ពិសេស​នេះ​អាច​ត្រូវ​បាន​ប្រើ​ ពេល​កម្មវិធី​ត្រូវ​បាន​ត្រួត​ពិនិត្យ​ដោយ​អតិថិជន​ខាង​ក្រៅ​​តាម​រយៈ​ <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link> ។"
 
 #: start_parameters.xhp#par_id314959o.56.help.text
 msgid "--infilter={filter}"

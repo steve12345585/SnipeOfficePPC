@@ -128,7 +128,7 @@ void TestBreakIterator::testLineBreaking()
     }
 }
 
-//See http://qa.openoffice.org/issues/show_bug.cgi?id=111152
+//See http://snipeoffice.org/qa/issues/show_bug.cgi?id=111152
 //See https://bugs.freedesktop.org/show_bug.cgi?id=40292
 void TestBreakIterator::testGraphemeIteration()
 {

@@ -125,7 +125,7 @@ public class FormatValueUtility
         }
         else if (value instanceof java.sql.Date)
         {
-            if ("float".equals(valueType))//@see http://qa.openoffice.org/issues/show_bug.cgi?id=108954
+            if ("float".equals(valueType))//@see http://snipeoffice.org/qa/issues/show_bug.cgi?id=108954
             {
                 variableSection.setAttribute(OfficeNamespaces.OFFICE_NS, VALUE, HSSFDateUtil.getExcelDate((Date) value, false, 2).toString());
             }

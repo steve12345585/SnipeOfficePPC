@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-07-04 16:40+0200\n"
 "PO-Revision-Date: 2012-11-15 21:19+0000\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
@@ -872,8 +872,8 @@ msgid "Python"
 msgstr "Python"
 
 #: scripting.xhp#par_idN1091F.help.text
-msgid "In addition, developers can use high-level languages, for example Java programming language, to control %PRODUCTNAME externally. The API reference is online at <link href=\"http://api.libreoffice.org/\">api.libreoffice.org</link>."
-msgstr "Lisaks saavad arendajad kasutada kõrgtaseme keeli (nt Javat) %PRODUCTNAME'i väliseks juhtimiseks. API käsiraamat on võrgus aadressil <link href=\"http://api.libreoffice.org/\">api.libreoffice.org</link>."
+msgid "In addition, developers can use high-level languages, for example Java programming language, to control %PRODUCTNAME externally. The API reference is online at <link href=\"http://snipeoffice.org/api-ppc-2025/\">snipeoffice.org/api-ppc-2025</link>."
+msgstr "Lisaks saavad arendajad kasutada kõrgtaseme keeli (nt Javat) %PRODUCTNAME'i väliseks juhtimiseks. API käsiraamat on võrgus aadressil <link href=\"http://snipeoffice.org/api-ppc-2025/\">snipeoffice.org/api-ppc-2025</link>."
 
 #: scripting.xhp#par_idN10751.help.text
 msgid "To assign a script to a new menu entry"
@@ -6712,7 +6712,7 @@ msgid "Starts in invisible mode."
 msgstr "Käivitub nähtamatus režiimis."
 
 #: start_parameters.xhp#par_id3148914.17.help.text
-msgid "Neither the start-up logo nor the initial program window will be visible. However, the $[officename] software can be controlled and documents and dialogs opened via the <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>. "
+msgid "Neither the start-up logo nor the initial program window will be visible. However, the $[officename] software can be controlled and documents and dialogs opened via the <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>. "
 msgstr "Näha pole ei käivituslogo ega esialgset programmiakent. Siiski saab $[officename]'it juhtida ning dokumente ja dialooge avada <link href=\"http://api.openoffice.org\" name=\"API\">API</link> vahendusel. "
 
 #: start_parameters.xhp#par_id3147341.18.help.text
@@ -6874,8 +6874,8 @@ msgid "Starts in \"headless mode\" which allows using the application without us
 msgstr "Käivitumine toimub \"aknata režiimis\", mis võimaldab kasutada rakendust ilma kasutajaliideseta."
 
 #: start_parameters.xhp#par_id3156353.58.help.text
-msgid "This special mode can be used when the application is controlled by external clients via the <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>."
-msgstr "Seda režiimi kasutatakse siis, kui rakendust juhivad <link href=\"http://api.libreoffice.org\" name=\"API\">API</link> kaudu välised klientprogrammid."
+msgid "This special mode can be used when the application is controlled by external clients via the <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>."
+msgstr "Seda režiimi kasutatakse siis, kui rakendust juhivad <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link> kaudu välised klientprogrammid."
 
 #: start_parameters.xhp#par_id314959o.56.help.text
 msgid "--infilter={filter}"

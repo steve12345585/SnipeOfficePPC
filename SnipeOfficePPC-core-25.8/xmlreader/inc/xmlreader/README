@@ -25,7 +25,7 @@
 #
 #***********************************************************************/
 
-<http://qa.openoffice.org/issues/show_bug.cgi?id=115203>: "Issue 113189
+<http://snipeoffice.org/qa/issues/show_bug.cgi?id=115203>: "Issue 113189
 extracted xmlreader from configmgr, to make the former available within URE.
 The xmlreader library is for now considered a private part of URE (cf.
 ure/source/README), for simplicity uses OOO_DLLPUBLIC_XMLREADER-based symbol

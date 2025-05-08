@@ -557,7 +557,7 @@ sal_Bool KDESalGraphics::drawNativeControl( ControlType type, ControlPart part,
         lcl_drawFrame( QStyle::PE_Frame, m_image,
                        vclStateValue2StateFlag(nControlState, value) );
 
-        // draw just the border, see http://qa.openoffice.org/issues/show_bug.cgi?id=107945
+        // draw just the border, see http://snipeoffice.org/qa/issues/show_bug.cgi?id=107945
         int fw = getFrameWidth();
         clipRegion = new QRegion( QRegion( widgetRect ).subtracted( widgetRect.adjusted( fw, fw, -fw, -fw )));
     }

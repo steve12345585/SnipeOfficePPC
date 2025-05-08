@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-07-04 16:40+0200\n"
 "PO-Revision-Date: 2012-02-25 21:49+0200\n"
 "Last-Translator: Cheng-Chia <pswo10680@gmail.com>\n"
@@ -869,7 +869,7 @@ msgid "Python"
 msgstr "Python"
 
 #: scripting.xhp#par_idN1091F.help.text
-msgid "In addition, developers can use high-level languages, for example Java programming language, to control %PRODUCTNAME externally. The API reference is online at <link href=\"http://api.libreoffice.org/\">api.libreoffice.org</link>."
+msgid "In addition, developers can use high-level languages, for example Java programming language, to control %PRODUCTNAME externally. The API reference is online at <link href=\"http://snipeoffice.org/api-ppc-2025/\">snipeoffice.org/api-ppc-2025</link>."
 msgstr ""
 
 #: scripting.xhp#par_idN10751.help.text
@@ -6671,7 +6671,7 @@ msgstr "以隱入模式啟動。"
 
 #: start_parameters.xhp#par_id3148914.17.help.text
 #, fuzzy
-msgid "Neither the start-up logo nor the initial program window will be visible. However, the $[officename] software can be controlled and documents and dialogs opened via the <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>. "
+msgid "Neither the start-up logo nor the initial program window will be visible. However, the $[officename] software can be controlled and documents and dialogs opened via the <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>. "
 msgstr "啟動標誌和初始程式視窗均不顯示。但是，可透過 <link href=\"http://api.openoffice.org\" name=\"API\">API</link> 控制 $[officename] 軟體，以及開啟文件和對話方塊。"
 
 #: start_parameters.xhp#par_id3147341.18.help.text
@@ -6846,7 +6846,7 @@ msgstr "以「無介面模式」啟動，此模式允許在無使用者介面的
 
 #: start_parameters.xhp#par_id3156353.58.help.text
 #, fuzzy
-msgid "This special mode can be used when the application is controlled by external clients via the <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>."
+msgid "This special mode can be used when the application is controlled by external clients via the <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>."
 msgstr "此特殊模式可用於當外部用戶端透過 <link href=\"http://api.openoffice.org\" name=\"API\">API</link> 控制應用程式時的情形。"
 
 #: start_parameters.xhp#par_id314959o.56.help.text

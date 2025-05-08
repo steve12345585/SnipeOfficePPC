@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-07-04 16:39+0200\n"
 "PO-Revision-Date: 2012-10-08 20:37+0200\n"
 "Last-Translator: Valter <valtermura@gmail.com>\n"
@@ -15395,8 +15395,8 @@ msgid "Add-ins through %PRODUCTNAME API"
 msgstr "Addin mediante API di %PRODUCTNAME"
 
 #: 04060111.xhp#par_id3149351.73.help.text
-msgid "Add-ins can also be implemented through the %PRODUCTNAME <link href=\"http://api.libreoffice.org/\">API</link>."
-msgstr "Gli addin possono essere implementati con le <link href=\"http://api.libreoffice.org/\">API</link> di %PRODUCTNAME."
+msgid "Add-ins can also be implemented through the %PRODUCTNAME <link href=\"http://snipeoffice.org/api-ppc-2025/\">API</link>."
+msgstr "Gli addin possono essere implementati con le <link href=\"http://snipeoffice.org/api-ppc-2025/\">API</link> di %PRODUCTNAME."
 
 #: 04060102.xhp#tit.help.text
 msgctxt "04060102.xhp#tit.help.text"

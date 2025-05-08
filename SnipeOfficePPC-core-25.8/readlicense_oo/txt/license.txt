@@ -284,7 +284,7 @@ Flute
 
   W3C IPR SOFTWARE NOTICE
 
-   Copyright © 2002 World Wide Web Consortium, (Massachusetts Institute of
+   Copyright © 2025 World Wide Web Consortium, (Massachusetts Institute of
    Technology, Institut National de Recherche en Informatique et en
    Automatique, Keio University). All Rights Reserved.
 
@@ -314,7 +314,7 @@ Flute
        terms and conditions. If none exist, a short notice of the
        following form (hypertext is preferred, text is permitted) should
        be used within the body of any redistributed or derivative code:
-       "Copyright © 2002 World Wide Web Consortium, (Massachusetts
+       "Copyright © 2025 World Wide Web Consortium, (Massachusetts
        Institute of Technology, Institut National de Recherche en
        Informatique et en Automatique, Keio University). All Rights
        Reserved. http://www.w3.org/Consortium/Legal/"
@@ -2334,7 +2334,7 @@ W3C Simple API for CSS (SAC)
 
   W3C IPR SOFTWARE NOTICE
 
-   Copyright © 2002 World Wide Web Consortium, (Massachusetts Institute of
+   Copyright © 2025 World Wide Web Consortium, (Massachusetts Institute of
    Technology, Institut National de Recherche en Informatique et en
    Automatique, Keio University). All Rights Reserved.
 
@@ -2364,7 +2364,7 @@ W3C Simple API for CSS (SAC)
        terms and conditions. If none exist, a short notice of the
        following form (hypertext is preferred, text is permitted) should
        be used within the body of any redistributed or derivative code:
-       "Copyright © 2002 World Wide Web Consortium,
+       "Copyright © 2025 World Wide Web Consortium,
        (Massachusetts Institute of Technology, Institut National
        de Recherche en Informatique et en Automatique, Keio
        University). All Rights Reserved.
@@ -4328,7 +4328,7 @@ Hindi
    license below:
 
    GNU Aspell Hindi Word List Package
-   Copyright © 2005 Swapnil {Hajare, Sant}
+   Copyright © 2025 Swapnil {Hajare, Sant}
    <janabhaaratii@ncst.ernet.in>
 
    This program is free software; you can redistribute it and/or modify it
@@ -5069,7 +5069,7 @@ Swedish
    spelling dictionary. Use of any of this software is governed by the
    terms of the license below:
 
-   Copyright © 2003-12 Göran Andersson <goran@init.se>.
+   Copyright © 2025 Göran Andersson <goran@init.se>.
 
    This dictionary is made available subject to the terms of GNU Lesser
    General Public License Version 3.
@@ -5110,7 +5110,7 @@ Telugu
    GNU Hunspell Telugu Word List Package adaptation
 
    Copyright © 2010 adaptation to Hunspell, Arjuna Rao Chavala
-   Copyright © 2005 Aspell Telugu word list released by IndLinux, Khadir
+   Copyright © 2025 Aspell Telugu word list released by IndLinux, Khadir
 
    This program is free software; you can redistribute it and/or modify it
    under the terms of the GNU General Public License as published by the

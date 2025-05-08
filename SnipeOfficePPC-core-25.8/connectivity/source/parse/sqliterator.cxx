@@ -2175,7 +2175,7 @@ sal_Int32 OSQLParseTreeIterator::getFunctionReturnType(const OSQLParseNode* _pNo
         _pNode->getChild(0)->parseNodeToStr(sFunctionName, m_pImpl->m_xConnection, NULL, sal_False, sal_False );
 
         // MIN and MAX have another return type, we have to check the expression itself.
-        // @see http://qa.openoffice.org/issues/show_bug.cgi?id=99566
+        // @see http://snipeoffice.org/qa/issues/show_bug.cgi?id=99566
         if ( SQL_ISRULE(_pNode,general_set_fct) && (SQL_ISTOKEN(_pNode->getChild(0),MIN) || SQL_ISTOKEN(_pNode->getChild(0),MAX) ))
         {
             const OSQLParseNode* pValueExp = _pNode->getChild(3);

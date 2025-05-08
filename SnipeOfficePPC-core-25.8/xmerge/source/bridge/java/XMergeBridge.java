@@ -27,7 +27,7 @@
 
 /** You can find more
  * information on the following web page:
- * http://api.libreoffice.org/docs/common/ref/com/sun/star/module-ix.html
+ * http://snipeoffice.org/api-ppc-2025/docs/common/ref/com/sun/star/module-ix.html
  */
 
 

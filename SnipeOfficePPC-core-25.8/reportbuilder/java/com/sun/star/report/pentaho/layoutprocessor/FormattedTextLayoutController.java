@@ -142,7 +142,7 @@ public class FormattedTextLayoutController
                 {
                     target.processContent(df);
                 }
-                else //@see http://qa.openoffice.org/issues/show_bug.cgi?id=108954
+                else //@see http://snipeoffice.org/qa/issues/show_bug.cgi?id=108954
                 {
                     Element cell = getParentTableCell();
                     if (cell != null && "string".equals(cell.getAttribute(OfficeNamespaces.OFFICE_NS, FormatValueUtility.VALUE_TYPE)))

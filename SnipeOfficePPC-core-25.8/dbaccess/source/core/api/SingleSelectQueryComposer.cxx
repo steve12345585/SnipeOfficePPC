@@ -843,7 +843,7 @@ Reference< XNameAccess > SAL_CALL OSingleSelectQueryComposer::getColumns(  ) thr
         }
         catch( const Exception& )
         {
-            //@see issue http://qa.openoffice.org/issues/show_bug.cgi?id=110111
+            //@see issue http://snipeoffice.org/qa/issues/show_bug.cgi?id=110111
             // access returns a different order of column names when executing select * from
             // and asking the columns from the metadata.
             Reference< XParameters > xParameters( xPreparedStatement, UNO_QUERY_THROW );

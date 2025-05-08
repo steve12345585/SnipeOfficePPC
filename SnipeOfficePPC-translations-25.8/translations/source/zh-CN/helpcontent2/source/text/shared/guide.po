@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared%2Fguide.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-07-04 16:40+0200\n"
 "PO-Revision-Date: 2012-12-06 03:22+0000\n"
 "Last-Translator: Dean <xslidian@gmail.com>\n"
@@ -870,8 +870,8 @@ msgid "Python"
 msgstr "Python"
 
 #: scripting.xhp#par_idN1091F.help.text
-msgid "In addition, developers can use high-level languages, for example Java programming language, to control %PRODUCTNAME externally. The API reference is online at <link href=\"http://api.libreoffice.org/\">api.libreoffice.org</link>."
-msgstr "此外，开发者还可以使用高阶语言，例如 Java 编程语言，从外部控制 %PRODUCTNAME。API 参考资料可到 <link href=\"http://api.libreoffice.org/\">api.libreoffice.org</link> 在线查阅。"
+msgid "In addition, developers can use high-level languages, for example Java programming language, to control %PRODUCTNAME externally. The API reference is online at <link href=\"http://snipeoffice.org/api-ppc-2025/\">snipeoffice.org/api-ppc-2025</link>."
+msgstr "此外，开发者还可以使用高阶语言，例如 Java 编程语言，从外部控制 %PRODUCTNAME。API 参考资料可到 <link href=\"http://snipeoffice.org/api-ppc-2025/\">snipeoffice.org/api-ppc-2025</link> 在线查阅。"
 
 #: scripting.xhp#par_idN10751.help.text
 msgid "To assign a script to a new menu entry"
@@ -6648,8 +6648,8 @@ msgid "Starts in invisible mode."
 msgstr "以隐藏模式启动。"
 
 #: start_parameters.xhp#par_id3148914.17.help.text
-msgid "Neither the start-up logo nor the initial program window will be visible. However, the $[officename] software can be controlled and documents and dialogs opened via the <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>. "
-msgstr "启动徽标和初始程序窗口均将不可见。但是可以通过 <link href=\"http://api.libreoffice.org\" name=\"API\">API</link> 控制 $[officename] 软件，以及打开文档和对话框。"
+msgid "Neither the start-up logo nor the initial program window will be visible. However, the $[officename] software can be controlled and documents and dialogs opened via the <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>. "
+msgstr "启动徽标和初始程序窗口均将不可见。但是可以通过 <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link> 控制 $[officename] 软件，以及打开文档和对话框。"
 
 #: start_parameters.xhp#par_id3147341.18.help.text
 msgid "When the $[officename] software has been started with this parameter, it can only be ended using the taskmanager (Windows) or the <emph>kill </emph>command (UNIX-like systems)."
@@ -6810,8 +6810,8 @@ msgid "Starts in \"headless mode\" which allows using the application without us
 msgstr "以“无界面模式”启动，此模式允许不通过用户界面使用应用程序。"
 
 #: start_parameters.xhp#par_id3156353.58.help.text
-msgid "This special mode can be used when the application is controlled by external clients via the <link href=\"http://api.libreoffice.org\" name=\"API\">API</link>."
-msgstr "当外部客户端通过 <link href=\"http://api.libreoffice.org\" name=\"API\">API</link> 控制应用程序时，可以使用此特殊模式。"
+msgid "This special mode can be used when the application is controlled by external clients via the <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link>."
+msgstr "当外部客户端通过 <link href=\"http://snipeoffice.org/api-ppc-2025\" name=\"API\">API</link> 控制应用程序时，可以使用此特殊模式。"
 
 #: start_parameters.xhp#par_id314959o.56.help.text
 msgid "--infilter={filter}"

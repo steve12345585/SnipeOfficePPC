@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smoketest\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+scp2%2Fsource%2Fsmoketest.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+scp2%2Fsource%2Fsmoketest.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-02-20 21:07+0200\n"
 "PO-Revision-Date: 2012-06-19 11:55+0530\n"
 "Last-Translator: \n"

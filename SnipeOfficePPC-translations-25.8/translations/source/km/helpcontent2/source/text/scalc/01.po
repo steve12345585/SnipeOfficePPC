@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 01\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fscalc%2F01.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-07-04 16:39+0200\n"
 "PO-Revision-Date: 2012-01-13 04:43+0200\n"
 "Last-Translator: khem <khoemsokhem@khmeros.info>\n"
@@ -15409,8 +15409,8 @@ msgid "Add-ins through %PRODUCTNAME API"
 msgstr "រូបមន្ត​បន្ថែម​តាម​រយៈ %PRODUCTNAME API"
 
 #: 04060111.xhp#par_id3149351.73.help.text
-msgid "Add-ins can also be implemented through the %PRODUCTNAME <link href=\"http://api.libreoffice.org/\">API</link>."
-msgstr "រូបមន្ត​បន្ថែម​ក៏​អាច​ត្រូវ​បាន​អនុវត្ត​តាម​រយៈ %PRODUCTNAME %PRODUCTNAME <link href=\"http://api.libreoffice.org/\">API</link> ផងដែរ ។"
+msgid "Add-ins can also be implemented through the %PRODUCTNAME <link href=\"http://snipeoffice.org/api-ppc-2025/\">API</link>."
+msgstr "រូបមន្ត​បន្ថែម​ក៏​អាច​ត្រូវ​បាន​អនុវត្ត​តាម​រយៈ %PRODUCTNAME %PRODUCTNAME <link href=\"http://snipeoffice.org/api-ppc-2025/\">API</link> ផងដែរ ។"
 
 #: 04060102.xhp#tit.help.text
 msgctxt "04060102.xhp#tit.help.text"

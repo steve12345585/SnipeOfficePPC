@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-06-26 09:53+0200\n"
 "PO-Revision-Date: 2012-01-08 17:03+0100\n"
 "Last-Translator: Andras Timar <timar@fsf.hu>\n"
@@ -1497,8 +1497,8 @@ msgid "$[officename] provides an Application Programming Interface (API) that en
 msgstr "A $[officename] egy alkalmazásprogramozási felületet (API-t) biztosít, amely lehetővé teszi a $[officename] összetevőinek vezérlését különféle programozási nyelvekből. A programozási felülethez elérhető a $[officename] Software Development Kit."
 
 #: main0600.xhp#par_id3156346.15.help.text
-msgid "For more information about $[officename] API reference, please visit http://api.libreoffice.org/"
-msgstr "A $[officename] API referenciával kapcsolatos további információkért látogasson el a http://api.libreoffice.org/ címre."
+msgid "For more information about $[officename] API reference, please visit http://snipeoffice.org/api-ppc-2025/"
+msgstr "A $[officename] API referenciával kapcsolatos további információkért látogasson el a http://snipeoffice.org/api-ppc-2025/ címre."
 
 #: main0600.xhp#par_id3153825.13.help.text
 msgid "Macros created with $[officename] Basic based on the old programming interface will no longer be supported by the current version."

@@ -371,7 +371,7 @@ BackendImpl::ComponentPackageImpl::getRDB() const
     //This is to prevent problems when running several
     //instances of OOo with root rights in parallel. This
     //would otherwise cause problems when copying the rdbs.
-    //See  http://qa.openoffice.org/issues/show_bug.cgi?id=99257
+    //See  http://snipeoffice.org/qa/issues/show_bug.cgi?id=99257
     {
         const ::osl::MutexGuard guard( getMutex() );
         if (!that->bSwitchedRdbFiles)

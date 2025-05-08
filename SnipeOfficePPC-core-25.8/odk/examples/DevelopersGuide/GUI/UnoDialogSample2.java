@@ -121,10 +121,10 @@ public class UnoDialogSample2 extends UnoDialogSample {
             oUnoDialogSample2.insertHorizontalFixedLine(0, nButtonPosY - nControlMargin - 4, nDialogWidth, "");
             // create the windowpeer;
             // it must be kept in mind that it must be created after the insertion of the controls
-            // (see http://qa.openoffice.org/issues/show_bug.cgi?id=75129)
+            // (see http://snipeoffice.org/qa/issues/show_bug.cgi?id=75129)
             oUnoDialogSample2.createWindowPeer();
             // add the roadmap control. Note that the roadmap may not be created before the windowpeer of the dialog exists
-            // (see http://qa.openoffice.org/issues/show_bug.cgi?id=67369)
+            // (see http://snipeoffice.org/qa/issues/show_bug.cgi?id=67369)
             oUnoDialogSample2.addRoadmap(oUnoDialogSample2.getRoadmapItemStateChangeListener());
             oUnoDialogSample2.insertRoadmapItem(0, true, "Introduction", 1);
             oUnoDialogSample2.insertRoadmapItem(1, true, "Supported Services", 2);

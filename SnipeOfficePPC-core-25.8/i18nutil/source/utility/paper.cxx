@@ -479,11 +479,11 @@ PaperInfo PaperInfo::getDefaultPaperForLocale(
         !rLocale.Country.compareToAscii("CL") ||
         //Mexico:
         //    http://unicode.org/cldr/trac/ticket/1710
-        //    http://qa.openoffice.org/issues/show_bug.cgi?id=49739
+        //    http://snipeoffice.org/qa/issues/show_bug.cgi?id=49739
         !rLocale.Country.compareToAscii("MX") ||
         //Colombia:
         //    http://unicode.org/cldr/trac/ticket/1710
-        //    http://qa.openoffice.org/issues/show_bug.cgi?id=69703
+        //    http://snipeoffice.org/qa/issues/show_bug.cgi?id=69703
         !rLocale.Country.compareToAscii("CO") ||
         //Philippines:
         //    http://unicode.org/cldr/trac/ticket/1710

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-06-26 09:53+0200\n"
 "PO-Revision-Date: 2012-02-15 14:15+0200\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
@@ -1497,8 +1497,8 @@ msgid "$[officename] provides an Application Programming Interface (API) that en
 msgstr "$[officename] pakub rakenduste programmeerimise keskkonda (API), mis võimaldab juhtida $[officename]'i komponente mitmete programmeerimiskeelte abil. Programmeerimisvahendid sisalduvad $[officename]'i tarkvara arenduskomplektis (SDK)."
 
 #: main0600.xhp#par_id3156346.15.help.text
-msgid "For more information about $[officename] API reference, please visit http://api.libreoffice.org/"
-msgstr "Rohkema teabe saamiseks $[officename]'i API dokumentatsiooni kohta külasta veebilehte http://api.libreoffice.org/"
+msgid "For more information about $[officename] API reference, please visit http://snipeoffice.org/api-ppc-2025/"
+msgstr "Rohkema teabe saamiseks $[officename]'i API dokumentatsiooni kohta külasta veebilehte http://snipeoffice.org/api-ppc-2025/"
 
 #: main0600.xhp#par_id3153825.13.help.text
 msgid "Macros created with $[officename] Basic based on the old programming interface will no longer be supported by the current version."

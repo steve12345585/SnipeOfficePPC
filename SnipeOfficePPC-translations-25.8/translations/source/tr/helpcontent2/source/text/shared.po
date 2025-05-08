@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-06-26 09:53+0200\n"
 "PO-Revision-Date: 2012-12-10 09:35+0000\n"
 "Last-Translator: deniz <gurcudeniz@gmail.com>\n"
@@ -1498,8 +1498,8 @@ msgid "$[officename] provides an Application Programming Interface (API) that en
 msgstr "$[officename] Uygulama Programlama Arayüzü (API) sağlar, bu şekilde $[officename] bileşenlerini çeşitli programlama dillerini kullanarak kontrol edebilirsiniz. Bir $[officename] Program Geliştirme Kiti (SDK) programlama arayüzü mevcuttur."
 
 #: main0600.xhp#par_id3156346.15.help.text
-msgid "For more information about $[officename] API reference, please visit http://api.libreoffice.org/"
-msgstr "$[officename] API hakkında daha fazla bilgi almak için, http://api.libreoffice.org/ adresini ziyaret edin."
+msgid "For more information about $[officename] API reference, please visit http://snipeoffice.org/api-ppc-2025/"
+msgstr "$[officename] API hakkında daha fazla bilgi almak için, http://snipeoffice.org/api-ppc-2025/ adresini ziyaret edin."
 
 #: main0600.xhp#par_id3153825.13.help.text
 msgid "Macros created with $[officename] Basic based on the old programming interface will no longer be supported by the current version."

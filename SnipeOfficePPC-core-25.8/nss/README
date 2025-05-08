@@ -76,4 +76,4 @@ tools if they use system libraries which are linked with the system
 sqlite. Therefore we deliver it into lib/sqlite on unix systems.
 
 See also issue
-http://qa.openoffice.org/issues/show_bug.cgi?id=106132
+http://snipeoffice.org/qa/issues/show_bug.cgi?id=106132

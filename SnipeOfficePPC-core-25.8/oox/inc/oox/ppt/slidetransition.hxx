@@ -70,7 +70,7 @@ namespace oox { namespace ppt {
         ::sal_Bool  mbTransitionDirectionNormal;
         ::sal_Int16 mnAnimationSpeed;
         ::sal_Int32 mnFadeColor;
-        ::sal_Bool  mbMode; /**< http://api.libreoffice.org/docs/common/ref/com/sun/star/animations/XTransitionFilter.html Mode property */
+        ::sal_Bool  mbMode; /**< http://snipeoffice.org/api-ppc-2025/docs/common/ref/com/sun/star/animations/XTransitionFilter.html Mode property */
         ::sal_Int32 mnAdvanceTime;
     };
 

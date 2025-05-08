@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-06-26 09:53+0200\n"
 "PO-Revision-Date: 2011-04-06 00:23+0200\n"
 "Last-Translator: Anonymous Pootle User\n"
@@ -1510,7 +1510,7 @@ msgstr "$[officename] обезбедува интерфејс за програ�
 
 #: main0600.xhp#par_id3156346.15.help.text
 #, fuzzy
-msgid "For more information about $[officename] API reference, please visit http://api.libreoffice.org/"
+msgid "For more information about $[officename] API reference, please visit http://snipeoffice.org/api-ppc-2025/"
 msgstr "За повеќе информации за $[officename] API референците, ве молиме посетете ја http://api.openoffice.org/"
 
 #: main0600.xhp#par_id3153825.13.help.text

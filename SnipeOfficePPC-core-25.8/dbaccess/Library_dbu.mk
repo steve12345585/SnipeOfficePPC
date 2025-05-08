@@ -279,7 +279,7 @@ $(eval $(call gb_Library_add_exception_objects,dbu,\
 ))
 endif
 
-# workaround for issue http://qa.openoffice.org/issues/show_bug.cgi?id=102305 Linux specific
+# workaround for issue http://snipeoffice.org/qa/issues/show_bug.cgi?id=102305 Linux specific
 ifeq ($(COM),GCC)
 $(eval $(call gb_Library_add_cxxobjects,dbu,\
     dbaccess/source/ui/uno/copytablewizard \

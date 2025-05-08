@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fshared.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-06-26 09:53+0200\n"
 "PO-Revision-Date: 2012-07-10 11:08+0200\n"
 "Last-Translator: Abduqadir <Sahran@live.com>\n"
@@ -1497,7 +1497,7 @@ msgid "$[officename] provides an Application Programming Interface (API) that en
 msgstr "$[officename] تەمىنلىگەن قوللىنىشچان پروگراممىغا پروگرامما تۈزۈش ئېغىزى (API)  سىزنىڭ كۆپ خىل پروگرامما تۈزۈش تىلى ئارقىلىق $[officename] بۆلەكلىرىنى كونترول قىلالايسىز. بۇ پروگرامما تۈزۈش ئېغىزى يەنە  $[officename] يۇمشاق دېتال ئېچىش بوغچىسىنى تەمىنلىگەن."
 
 #: main0600.xhp#par_id3156346.15.help.text
-msgid "For more information about $[officename] API reference, please visit http://api.libreoffice.org/"
+msgid "For more information about $[officename] API reference, please visit http://snipeoffice.org/api-ppc-2025/"
 msgstr "$[officename] API غا ئائىت نەقىل ئۇچۇرلىرىنى http://api.openoffice.org/ دىن زىيارەت قىلىڭ."
 
 #: main0600.xhp#par_id3153825.13.help.text

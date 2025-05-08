@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fsbasic%2Fshared.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fsbasic%2Fshared.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-06-26 09:53+0200\n"
 "PO-Revision-Date: 2011-04-05 19:28+0200\n"
 "Last-Translator: Anonymous Pootle User\n"
@@ -1484,7 +1484,7 @@ msgstr "བྱ་སྒོའི་ལམ་ལུགས་ཞབས་ཏོག
 
 #: 03132500.xhp#par_idN10593.help.text
 #, fuzzy
-msgid "This runtime function returns the default component context to be used, if instantiating services via XmultiServiceFactory. See the <item type=\"literal\">Professional UNO</item> chapter in the <item type=\"literal\">Developer's Guide</item> on <link href=\"http://api.libreoffice.org\">api.libreoffice.org</link> for more information."
+msgid "This runtime function returns the default component context to be used, if instantiating services via XmultiServiceFactory. See the <item type=\"literal\">Professional UNO</item> chapter in the <item type=\"literal\">Developer's Guide</item> on <link href=\"http://snipeoffice.org/api-ppc-2025\">snipeoffice.org/api-ppc-2025</link> for more information."
 msgstr "འ་ནི་རཱན་ཊའིམ་ལས་འགན་གྱིས་ལག་ལེན་འཐབ་ནི་ཨིན་མི་སྔོན་སྒྲིག་ཆ་ཤས་སྐབས་དོན་དེ་ འཕྲལ་མྱུར་ཞབས་ཏོག་ཚུ་བརྒྱུད་དེ་ཨེགསི་སྣ་མང་ཞབས་ཏོག་འཁྲུལ་ཁང་ཨིན་པ་ཅིན་སླར་ལོགཔ་ཨིན། ཁྱད་ལས་ ཡུ་ཨེན་ཨོ་ <item type=\"literal\">ལེའུ་</item> བཟོ་མི་ལམ་སྟོན་ནང་ <item type=\"literal\">api.openoffice.org</item> གུ་<link href=\"http://api.openoffice.org\">བརད་དོན་ཧེང་བཀལ་དོན་ལུ་</link> བལྟ།"
 
 #: 03104200.xhp#tit.help.text
@@ -10181,7 +10181,7 @@ msgstr "<link href=\"text/sbasic/shared/main0601.xhp\" name=\"$[officename] Basi
 
 #: main0601.xhp#par_id3153894.4.help.text
 #, fuzzy
-msgid "%PRODUCTNAME %PRODUCTVERSION provides an Application Programming Interface (API) that allows controlling the $[officename] components with different programming languages by using the $[officename] Software Development Kit (SDK). For more information about the $[officename] API and the Software Development Kit, visit <link href=\"http://api.libreoffice.org/\" name=\"http://api.libreoffice.org\">http://api.libreoffice.org</link>"
+msgid "%PRODUCTNAME %PRODUCTVERSION provides an Application Programming Interface (API) that allows controlling the $[officename] components with different programming languages by using the $[officename] Software Development Kit (SDK). For more information about the $[officename] API and the Software Development Kit, visit <link href=\"http://snipeoffice.org/api-ppc-2025/\" name=\"http://snipeoffice.org/api-ppc-2025\">http://snipeoffice.org/api-ppc-2025</link>"
 msgstr "%PRODUCTNAME %PRODUCTVERSION གིས་ལས་རིམ་ངོས་འདྲ་བའཇུག་སྤྱོད་ (API) དེ་གིས་ཚད་འཛིན་འབད་བཅུགཔ་ $[officename]  ཆ་ཤས་ཚུ་དང་གཅིག་ཁར་ཁ་སྐད་སོ་སོ་ལས་རིམ་བཟོ་ནི་$[officename] མཉེན་ཆས་གོང་འཕེལ་ལག་ཆས་སྒྲོམ་ལག་ལེན་འཐབ་དེ་ (SDK)འབད་མཅུགཔ་ཨིན། བརྡ་དོན་་རྒྱས་བཤད་དོན་ལུ་ $[officename] ཨེ་པི་ཨའི་སྐོར་ལས་དང་མཉེན་ཆས་གོང་འཕེལ་ལག་ཆས་སྒྲོམ་དོན་ལུ་  <link href=\"http://api.openoffice.org/\" name=\"http://api.openoffice.org\">http://api.openoffice.org</link>བལྟ་སྤྱོད་འབད་གནང་།"
 
 #: main0601.xhp#par_id3147226.10.help.text
@@ -23315,7 +23315,7 @@ msgstr "ཨོ་ཞབས་ཏོག་=ཡུ་ཨེན་ཨོ་ཞབ�
 
 #: 03131600.xhp#par_idN1060F.help.text
 #, fuzzy
-msgid "For a list of available services, go to: http://api.libreoffice.org/docs/common/ref/com/sun/star/module-ix.html"
+msgid "For a list of available services, go to: http://snipeoffice.org/api-ppc-2025/docs/common/ref/com/sun/star/module-ix.html"
 msgstr "འཐོབ་ཚུགས་པའི་ཞབས་ཏོག་ཐོ་ཡིག་ཚུ་གི་དོན་ལུ་ : http://api.openoffice.org/docs/common/ref/com/sun/star/module-ix.html ལུ་འགྱོ།"
 
 #: 03131600.xhp#hd_id3151111.5.help.text

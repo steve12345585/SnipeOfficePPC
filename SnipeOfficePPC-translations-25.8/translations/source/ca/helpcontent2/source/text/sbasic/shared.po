@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://qa.openoffice.org/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fsbasic%2Fshared.oo&subcomponent=ui\n"
+"Report-Msgid-Bugs-To: http://snipeoffice.org/qa/issues/enter_bug.cgi?comment=&component=l10n&form_name=enter_issue&short_desc=Localization+issue+in+file%3A+helpcontent2%2Fsource%2Ftext%2Fsbasic%2Fshared.oo&subcomponent=ui\n"
 "POT-Creation-Date: 2012-07-04 16:39+0200\n"
 "PO-Revision-Date: 2012-11-25 16:39+0000\n"
 "Last-Translator: Jordi <jordis@softcatala.cat>\n"
@@ -1482,8 +1482,8 @@ msgid "Returns the default context of the process service factory, if existent, 
 msgstr "Torna el context per defecte de la fàbrica de servei de procés, si existeix; en cas contrari, torna una referència nul·la. "
 
 #: 03132500.xhp#par_idN10593.help.text
-msgid "This runtime function returns the default component context to be used, if instantiating services via XmultiServiceFactory. See the <item type=\"literal\">Professional UNO</item> chapter in the <item type=\"literal\">Developer's Guide</item> on <link href=\"http://api.libreoffice.org\">api.libreoffice.org</link> for more information."
-msgstr "Aquesta funció d'execució torna el context per defecte del component que cal utilitzar, si s'instancien els serveis via XmultiServiceFactory. Vegeu el capítol <item type=\"literal\">Professional UNO</item> al document <item type=\"literal\">Developer's Guide</item> (en anglès) a <link href=\"http://api.libreoffice.org\">api.libreoffice.org</link> per obtenir més informació."
+msgid "This runtime function returns the default component context to be used, if instantiating services via XmultiServiceFactory. See the <item type=\"literal\">Professional UNO</item> chapter in the <item type=\"literal\">Developer's Guide</item> on <link href=\"http://snipeoffice.org/api-ppc-2025\">snipeoffice.org/api-ppc-2025</link> for more information."
+msgstr "Aquesta funció d'execució torna el context per defecte del component que cal utilitzar, si s'instancien els serveis via XmultiServiceFactory. Vegeu el capítol <item type=\"literal\">Professional UNO</item> al document <item type=\"literal\">Developer's Guide</item> (en anglès) a <link href=\"http://snipeoffice.org/api-ppc-2025\">snipeoffice.org/api-ppc-2025</link> per obtenir més informació."
 
 #: 03104200.xhp#tit.help.text
 msgid "Array Function [Runtime]"
@@ -10129,8 +10129,8 @@ msgid "<link href=\"text/sbasic/shared/main0601.xhp\" name=\"$[officename] Basic
 msgstr "<link href=\"text/sbasic/shared/main0601.xhp\" name=\"Ajuda del $[officename] Basic\">Ajuda del %PRODUCTNAME Basic</link>"
 
 #: main0601.xhp#par_id3153894.4.help.text
-msgid "%PRODUCTNAME %PRODUCTVERSION provides an Application Programming Interface (API) that allows controlling the $[officename] components with different programming languages by using the $[officename] Software Development Kit (SDK). For more information about the $[officename] API and the Software Development Kit, visit <link href=\"http://api.libreoffice.org/\" name=\"http://api.libreoffice.org\">http://api.libreoffice.org</link>"
-msgstr "El %PRODUCTNAME %PRODUCTVERSION proporciona una Interfície de Programació de l'Aplicació (API, en anglès) que permet controlar els components del $[officename] a través de diversos llenguatges de programació amb el Conjunt d'eines de Desenvolupament de Programari (SDK) del $[officename]. Per obtenir més informació sobre l'API del $[officename] i el Conjunt d'eines de Desenvolupament de Programari, visiteu <link href=\"http://api.libreoffice.org/\" name=\"http://api.libreoffice.org\">http://api.libreoffice.org</link>"
+msgid "%PRODUCTNAME %PRODUCTVERSION provides an Application Programming Interface (API) that allows controlling the $[officename] components with different programming languages by using the $[officename] Software Development Kit (SDK). For more information about the $[officename] API and the Software Development Kit, visit <link href=\"http://snipeoffice.org/api-ppc-2025/\" name=\"http://snipeoffice.org/api-ppc-2025\">http://snipeoffice.org/api-ppc-2025</link>"
+msgstr "El %PRODUCTNAME %PRODUCTVERSION proporciona una Interfície de Programació de l'Aplicació (API, en anglès) que permet controlar els components del $[officename] a través de diversos llenguatges de programació amb el Conjunt d'eines de Desenvolupament de Programari (SDK) del $[officename]. Per obtenir més informació sobre l'API del $[officename] i el Conjunt d'eines de Desenvolupament de Programari, visiteu <link href=\"http://snipeoffice.org/api-ppc-2025/\" name=\"http://snipeoffice.org/api-ppc-2025\">http://snipeoffice.org/api-ppc-2025</link>"
 
 #: main0601.xhp#par_id3147226.10.help.text
 msgid "This help section explains the most common runtime functions of %PRODUCTNAME Basic. For more in-depth information please refer to the <link href=\"http://wiki.documentfoundation.org/Documentation/BASIC_Guide\">OpenOffice.org BASIC Programming Guide</link> on the Wiki."
@@ -23091,8 +23091,8 @@ msgid "oService = CreateUnoService( Uno service name )"
 msgstr "oService = CreateUnoService( Uno service name )"
 
 #: 03131600.xhp#par_idN1060F.help.text
-msgid "For a list of available services, go to: http://api.libreoffice.org/docs/common/ref/com/sun/star/module-ix.html"
-msgstr "Per obtenir una llista de serveis disponibles, aneu a: http://api.libreoffice.org/docs/common/ref/com/sun/star/module-ix.html"
+msgid "For a list of available services, go to: http://snipeoffice.org/api-ppc-2025/docs/common/ref/com/sun/star/module-ix.html"
+msgstr "Per obtenir una llista de serveis disponibles, aneu a: http://snipeoffice.org/api-ppc-2025/docs/common/ref/com/sun/star/module-ix.html"
 
 #: 03131600.xhp#hd_id3151111.5.help.text
 msgctxt "03131600.xhp#hd_id3151111.5.help.text"

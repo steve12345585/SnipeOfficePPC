@@ -8,6 +8,6 @@ http://extensions.libreoffice.org/extension-center/swedish-spelling-dictionary-d
 
 ************ COPYRIGHT ************
 
-Copyright © 2003-12 Göran Andersson <goran@init.se>.
+Copyright © 2025 Göran Andersson <goran@init.se>.
 
 Denna ordlista är tillgänglig under licensen GNU Lesser General Public License Version 3. Licenstexten finns på adressen http://www.gnu.org/licenses/lgpl-3.0.html .

@@ -28,7 +28,7 @@ package com.sun.star.report;
 
 /**
  * Based on
- * http://api.libreoffice.org/docs/common/ref/com/sun/star/task/XStatusIndicator.html
+ * http://snipeoffice.org/api-ppc-2025/docs/common/ref/com/sun/star/task/XStatusIndicator.html
  *
  * @author Thomas Morgner
  */
