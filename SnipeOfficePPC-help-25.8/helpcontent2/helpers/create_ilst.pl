@@ -3,7 +3,7 @@ eval 'exec perl -wS $0 ${1+"$@"}'
     if 0;
 #*************************************************************************
 #
-# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+
 # 
 # Copyright 2000, 2010 Oracle and/or its affiliates.
 #

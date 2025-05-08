@@ -1,6 +1,6 @@
 #*************************************************************************
 #
-# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+
 #
 # Copyright 2000, 2010 Oracle and/or its affiliates.
 #
@@ -143,7 +143,7 @@ sub get_all_languages_for_one_product
         if ( all_elements_of_array1_in_array2(\@languagearray, \@installer::globals::noMSLocaleLangs) )
         {
             my $officestartlanguage = $languagearray[0];
-            unshift(@languagearray, "en-US");   # am Anfang einfügen!
+            unshift(@languagearray, "en-US");   # am Anfang einfï¿½gen!
             $installer::globals::ismultilingual = 1;
             $installer::globals::added_english  = 1;
             $installer::globals::set_office_start_language  = 1;

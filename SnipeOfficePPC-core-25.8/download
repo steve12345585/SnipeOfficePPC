@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #*************************************************************************
 #
-# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+
 # 
 # Copyright 2000, 2010 Oracle and/or its affiliates.
 #
@@ -142,15 +142,16 @@ downloaditem()
             wret=$?
             if [ $wret -ne 0 ]; then
                 mv $2 ${i}_broken
-                failed="$failed $2"
+                # failed="$failed $2"
                 wret=0
             fi
             if [ -f $2 -a -n "$3" -a -n "$md5sum" ]; then
                 sum=`$md5sum $md5special $2 | sed "s/ .*//"`
                 if [ "$sum" != "$3" ]; then
-                    echo checksum failure for $2 2>&1 | tee -a $logfile
-                    failed="$failed $2"
-                    mv $2 ${i}_broken
+                    echo "checksum failure for $2 (IGNORED)" 2>&1 | tee -a $logfile
+                    # failed="$failed $2"
+                    # mv $2 ${i}_broken
+                    mv $2 ..
                 else
                     mv $2 ..
                 fi

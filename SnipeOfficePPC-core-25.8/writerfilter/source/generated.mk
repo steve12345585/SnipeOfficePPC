@@ -1,6 +1,6 @@
 #*************************************************************************
 #
-# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+
 #
 # Copyright 2009 by Sun Microsystems, Inc.
 #

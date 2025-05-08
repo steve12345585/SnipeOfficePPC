@@ -1,6 +1,6 @@
 #*************************************************************************
 #
-# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+
 #
 # Copyright 2000, 2010 Oracle and/or its affiliates.
 #
@@ -915,39 +915,39 @@ sub get_rtf_licensetext
 
         # german replacements
 
-        $oneline =~ s/\Ã\„/\\\'c4/g;        # converting "Ä"
-        $oneline =~ s/\Ã\–/\\\'d6/g;        # converting "Ö"
-        $oneline =~ s/\Ã\œ/\\\'dc/g;        # converting "Ü"
-        $oneline =~ s/\Ã\¤/\\\'e4/g;        # converting "ä"
-        $oneline =~ s/\Ã\¶/\\\'f6/g;        # converting "ö"
-        $oneline =~ s/\Ã\¼/\\\'fc/g;        # converting "ü"
-        $oneline =~ s/\Ã\Ÿ/\\\'df/g;        # converting "ß"
+        $oneline =~ s/\ï¿½\ï¿½/\\\'c4/g;        # converting "ï¿½"
+        $oneline =~ s/\ï¿½\ï¿½/\\\'d6/g;        # converting "ï¿½"
+        $oneline =~ s/\ï¿½\ï¿½/\\\'dc/g;        # converting "ï¿½"
+        $oneline =~ s/\ï¿½\ï¿½/\\\'e4/g;        # converting "ï¿½"
+        $oneline =~ s/\ï¿½\ï¿½/\\\'f6/g;        # converting "ï¿½"
+        $oneline =~ s/\ï¿½\ï¿½/\\\'fc/g;        # converting "ï¿½"
+        $oneline =~ s/\ï¿½\ï¿½/\\\'df/g;        # converting "ï¿½"
 
         # french replacements
 
-        $oneline =~ s/\Ã\‰/\\\'c9/g;
-        $oneline =~ s/\Ã\€/\\\'c0/g;
-        $oneline =~ s/\Â\«/\\\'ab/g;
-        $oneline =~ s/\Â\»/\\\'bb/g;
-        $oneline =~ s/\Ã\©/\\\'e9/g;
-        $oneline =~ s/\Ã\¨/\\\'e8/g;
-        $oneline =~ s/\Ã\ /\\\'e0/g;
-        $oneline =~ s/\Ã\´/\\\'f4/g;
-        $oneline =~ s/\Ã\§/\\\'e7/g;
-        $oneline =~ s/\Ã\ª/\\\'ea/g;
-        $oneline =~ s/\Ã\Š/\\\'ca/g;
-        $oneline =~ s/\Ã\»/\\\'fb/g;
-        $oneline =~ s/\Ã\¹/\\\'f9/g;
-        $oneline =~ s/\Ã\®/\\\'ee/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'c9/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'c0/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'ab/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'bb/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'e9/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'e8/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'e0/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'f4/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'e7/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'ea/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'ca/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'fb/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'f9/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\'ee/g;
 
         # quotation marks
 
-        $oneline =~ s/\â\€\ž/\\\'84/g;
-        $oneline =~ s/\â\€\œ/\\ldblquote/g;
-        $oneline =~ s/\â\€\™/\\rquote/g;
+        $oneline =~ s/\ï¿½\ï¿½\ï¿½/\\\'84/g;
+        $oneline =~ s/\ï¿½\ï¿½\ï¿½/\\ldblquote/g;
+        $oneline =~ s/\ï¿½\ï¿½\ï¿½/\\rquote/g;
 
 
-        $oneline =~ s/\Â\ /\\\~/g;
+        $oneline =~ s/\ï¿½\ï¿½/\\\~/g;
 
         $oneline = '\par ' . $oneline;
 

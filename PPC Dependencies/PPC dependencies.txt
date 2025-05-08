@@ -12,3 +12,110 @@ next If building on a PPC with Mac OSX 10.5.8 You will need to install the follo
 6. Install gettext-0.17.tar.gz
 7. Install glib-2.16.6.tar.gz
 8. Install libIDL-0.8.14.tar.gz
+9. Install zip30.tag.gz
+10 set zip Path ****export PATH="/usr/local/bin:$PATH"**** in X11FS
+11. Install doxygen-1.7.6.1.src.tar.gz
+
+PPC Dependencies Setup Instructions
+
+This project includes all required dependencies in the "PPC Dependencies" folder for building on Mac OS X 10.5.8 (PowerPC).
+**No internet access is required** if you have this folder.
+
+**Before you begin:**
+- Make sure you have Xcode installed (found in the "Extras" folder on your original Mac OS X install DVD).
+
+---
+
+**Step-by-step installation:**
+
+1. Open the "PPC Dependencies" folder on your Mac.
+2. Open Terminal (X11 or Terminal.app).
+3. Change to the dependencies folder:
+   ```sh
+   cd ~/Desktop/PPC\ Dependencies
+   ```
+4. Install the following, in order:
+
+   1. **PPCAppStore.dmg**
+      - Double-click to mount and install as needed.
+
+   2. **TenFourFox7450-FPR32-5.app.zip**
+      - Double-click to unzip, then drag the app to your Applications folder.
+
+   3. **Fink-0.9.0-PowerPC-Installer.dmg**
+      - Double-click to mount and run the installer.
+
+   4. **MacPorts-2.10.7-10.5-Leopard.dmg**
+      - Double-click to mount and run the installer.
+
+   5. **pkg-config-0.25.tar.gz**
+      ```sh
+      tar xzf pkg-config-0.25.tar.gz
+      cd pkg-config-0.25
+      ./configure
+      make
+      sudo make install
+      cd ..
+      ```
+
+   6. **gettext-0.17.tar.gz**
+      ```sh
+      tar xzf gettext-0.17.tar.gz
+      cd gettext-0.17
+      ./configure
+      make
+      sudo make install
+      cd ..
+      ```
+
+   7. **glib-2.16.6.tar.gz**
+      ```sh
+      tar xzf glib-2.16.6.tar.gz
+      cd glib-2.16.6
+      ./configure
+      make
+      sudo make install
+      cd ..
+      ```
+
+   8. **libIDL-0.8.14.tar.gz**
+      ```sh
+      tar xzf libIDL-0.8.14.tar.gz
+      cd libIDL-0.8.14
+      ./configure
+      make
+      sudo make install
+      cd ..
+      ```
+
+   9. **zip30.tar.gz**
+      ```sh
+      tar xzf zip30.tar.gz
+      cd zip30
+      make -f unix/Makefile generic
+      sudo cp zip /usr/local/bin/
+      cd ..
+      ```
+
+   10. **Set the correct zip path**
+       ```sh
+       export PATH="/usr/local/bin:$PATH"
+       ```
+       (To make this permanent, add the above line to your `~/.bash_profile` or `~/.profile`.)
+
+   11. **doxygen-1.7.6.1.src.tar.gz**
+       ```sh
+       tar xzf doxygen-1.7.6.1.src.tar.gz
+       cd doxygen-1.7.6.1
+       ./configure
+       make
+       sudo make install
+       cd ..
+       ```
+
+---
+
+**After all dependencies are installed, you can proceed to build the main project as described in its README.**
+
+**Tip:**
+If you encounter errors, check that you are in the correct directory and that each command completes without errors before moving to the next step.
