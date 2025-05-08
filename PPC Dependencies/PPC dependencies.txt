@@ -1,0 +1,14 @@
+PPC dependencies.
+
+First you need xcode you will find it in the extras on your disk
+
+next If building on a PPC with Mac OSX 10.5.8 You will need to install the following dependencies
+
+1. Install PPCAppStore.dmg
+2. Install TenFourFox7450-FPR32-5.app.zip (if you dont have a current browser)
+3. Install Fink-0.9.0-PowerPC-Installer.dmg
+4. Install MacPorts-2.10.7-10.5-Leopard.dmg
+5. Install pkg-config-0.25.tar.gz
+6. Install gettext-0.17.tar.gz
+7. Install glib-2.16.6.tar.gz
+8. Install libIDL-0.8.14.tar.gz
