@@ -1162,11 +1162,10 @@ sal_Bool ScDocShell::ConvertFrom( SfxMedium& rMedium )
             if ( !bOptInit )
             {
                 //  default for ascii import (from API without options):
-                //  ISO8859-1/MS_1252 encoding, comma, double quotes
+                //  UTF-8 encoding with BOM, comma, double quotes
 
-                aOptions.SetCharSet( RTL_TEXTENCODING_MS_1252 );
-                aOptions.SetFieldSeps( (sal_Unicode) ',' );
-                aOptions.SetTextSep( (sal_Unicode) '"' );
+                ScImportOptions aDefOptions( ',', '"', RTL_TEXTENCODING_UTF8 );
+                sItStr = aDefOptions.BuildString();
             }
 
             FltError eError = eERR_OK;
@@ -2181,9 +2180,9 @@ sal_Bool ScDocShell::ConvertTo( SfxMedium &rMed )
             if ( sItStr.Len() == 0 )
             {
                 //  default for ascii export (from API without options):
-                //  ISO8859-1/MS_1252 encoding, comma, double quotes
+                //  UTF-8 encoding with BOM, comma, double quotes
 
-                ScImportOptions aDefOptions( ',', '"', RTL_TEXTENCODING_MS_1252 );
+                ScImportOptions aDefOptions( ',', '"', RTL_TEXTENCODING_UTF8 );
                 sItStr = aDefOptions.BuildString();
             }
 

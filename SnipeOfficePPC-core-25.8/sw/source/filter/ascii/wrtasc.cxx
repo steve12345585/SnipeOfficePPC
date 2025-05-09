@@ -124,6 +124,10 @@ sal_uLong SwASCWriter::WriteStream()
         (RTL_TEXTENCODING_UCS2 == GetAsciiOptions().GetCharSet() ||
         RTL_TEXTENCODING_UTF8 == GetAsciiOptions().GetCharSet());
 
+    // Always write BOM for UTF-8
+    if (RTL_TEXTENCODING_UTF8 == GetAsciiOptions().GetCharSet())
+        bWriteSttTag = sal_True;
+
     rtl_TextEncoding eOld = Strm().GetStreamCharSet();
     Strm().SetStreamCharSet( GetAsciiOptions().GetCharSet() );
 
