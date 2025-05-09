@@ -234,8 +234,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Base - Gestion de bancas de donadas, creacion de requèstas e rapòrts."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "La seguida burotica compatibla amb lo format de document ODF estandardisada e dobèrt. Presa en carga per The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "La seguida burotica compatibla amb lo format de document ODF estandardisada e dobèrt. Presa en carga per SnipeSearch."
 
 #: launcher_genericname.ulf#writer.LngText.text
 msgid "Word Processor"

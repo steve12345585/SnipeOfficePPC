@@ -4109,8 +4109,8 @@ msgid "            <emph>Sigma</emph> (optional) is the known standard deviation
 msgstr "            <emph>Sigma</emph> (optional) ist die bekannte Standardabweichung der Menge. Wenn dieser Parameter fehlt, wird die Standardabweichung der gegeben Probe genommen."
 
 #: 04060182.xhp#par_id0305200911372999.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
-msgstr "Sehen Sie auch auf der <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki-Seite</link> nach."
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
+msgstr "Sehen Sie auch auf der <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki-Seite</link> nach."
 
 #: 04060182.xhp#bm_id3153623.help.text
 msgid "<bookmark_value>HARMEAN function</bookmark_value>         <bookmark_value>means;harmonic</bookmark_value>"
@@ -8544,8 +8544,8 @@ msgstr "<ahelp hid=\".\">Die Funktion ASC wandelt ASCII- und Katakana-Zeichen no
 
 #: 04060110.xhp#par_id9912411.help.text
 msgctxt "04060110.xhp#par_id9912411.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "Siehe <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> für eine Umrechnungstabelle."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "Siehe <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> für eine Umrechnungstabelle."
 
 #: 04060110.xhp#hd_id9204992.help.text
 msgctxt "04060110.xhp#hd_id9204992.help.text"
@@ -9034,8 +9034,8 @@ msgstr "<ahelp hid=\".\">Die Funktion JIS wandelt ASCII- und Katakana-Zeichen ha
 
 #: 04060110.xhp#par_id1551561.help.text
 msgctxt "04060110.xhp#par_id1551561.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "Siehe <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> für eine Umrechnungstabelle."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "Siehe <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> für eine Umrechnungstabelle."
 
 #: 04060110.xhp#hd_id2212897.help.text
 msgctxt "04060110.xhp#hd_id2212897.help.text"
@@ -21215,8 +21215,8 @@ msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNA
 msgstr "Wählen Sie <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Eigenschaften</caseinline><defaultinline>Extras - Optionen</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\">%PRODUCTNAME Calc - Berechnen</link> um zu festzulegen, wie $[officename] Calc beim Suchen mit identischen Einträgen verfahren soll."
 
 #: 04060101.xhp#par_id3882869.help.text
-msgid "See also the Wiki page about <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
-msgstr "Siehe auch die Wiki-Seite über <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">konditionales Zählen und Addieren</link>."
+msgid "See also the Wiki page about <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
+msgstr "Siehe auch die Wiki-Seite über <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">konditionales Zählen und Addieren</link>."
 
 #: 04060101.xhp#bm_id3150882.help.text
 msgid "<bookmark_value>DCOUNT function</bookmark_value>         <bookmark_value>counting rows;with numeric values</bookmark_value>"
@@ -23987,8 +23987,8 @@ msgid "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> returns 0.86."
 msgstr "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> ergibt 0,86."
 
 #: 04060185.xhp#par_id0305200911372899.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
-msgstr "Siehe auch <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki-Seite</link>."
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
+msgstr "Siehe auch <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki-Seite</link>."
 
 #: 04070000.xhp#tit.help.text
 msgid "Names"

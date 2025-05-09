@@ -15,7 +15,7 @@
     <platform value="@PLATFORM@" />
 
     <publisher>
-        <name xlink:href="http://www.documentfoundation.org" lang="en-US">The Document Foundation</name>
+        <name xlink:href="http://snipeoffice.org" lang="en-US">SnipeSearch</name>
     </publisher>
 
     <display-name>

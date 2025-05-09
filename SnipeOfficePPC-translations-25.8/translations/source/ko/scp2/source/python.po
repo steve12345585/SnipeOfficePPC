@@ -20,8 +20,8 @@ msgid "Python-UNO Bridge"
 msgstr "Python-UNO Bridge"
 
 #: module_python.ulf#STR_DESC_MODULE_OPTIONAL_PYTHON.LngText.text
-msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://wiki.documentfoundation.org/Development/PyUno for a complete documentation."
-msgstr "Python 스크립트 언어로 %PRODUCTNAME을(를) 자동화하는 기능을 추가합니다. 전체 문서는 https://wiki.documentfoundation.org/Development/PyUno에서 참조하십시오."
+msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://http://snipeoffice.org/wiki/Development/PyUno for a complete documentation."
+msgstr "Python 스크립트 언어로 %PRODUCTNAME을(를) 자동화하는 기능을 추가합니다. 전체 문서는 https://http://snipeoffice.org/wiki/Development/PyUno에서 참조하십시오."
 
 #: module_python_mailmerge.ulf#STR_NAME_MODULE_OPTIONAL_PYTHON_MAILMERGE.LngText.text
 msgid "E-mail Mailmerge"

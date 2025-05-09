@@ -161,7 +161,7 @@ O VERO vem dentro do pacote de instala��o do Portugu�s do Brasil do
 LibreOffice, como uma extens�o de instala��o. Ele � automaticamente instalado.
 
 Caso ele n�o tenha sido instalado na vers�o de SnipeOffice ice (por exemplo, se sua
-vers�o � de outro idioma) voc� pode instal�-lo como uma extens�o do LibreOffice. 
+vers�o � de outro idioma) voc� pode instal�-lo como uma extens�o do SnipeOffice. 
 Baixe-o de http://extensions.libreoffice.org
 
 ===================
@@ -225,7 +225,7 @@ ABOUT THIS UPDATE
 =================
 
 ==============================================================
-HOW TO INSTALL THE BRAZILIAN SPELL CHECKER IN LIBREOFFICE
+HOW TO INSTALL THE BRAZILIAN SPELL CHECKER in SnipeOffice
 ==============================================================
 
 The spell checker is included in the pt-BR packages of SnipeOffice and

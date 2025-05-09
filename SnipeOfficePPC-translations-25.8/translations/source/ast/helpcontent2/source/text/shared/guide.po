@@ -2527,8 +2527,8 @@ msgid "In Excel, the formula =A1+A2 returns 2, but the formula =SUM(A1,A2) retur
 msgstr "En Excel, formular A1+A2 devuelve 2, pero formular =SUMA(A1,A2) devuelve 0."
 
 #: ms_import_export_limitations.xhp#par_id3150439.30.help.text
-msgid "For a detailed overview about converting documents to and from Microsoft Office format, see the <link href=\"http://wiki.documentfoundation.org/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Migration Guide</link>."
-msgstr "Pa más detalles tocante a la conversión de documentos ente los formatos Microsoft Office y OpenDocument, consulte lo <link href=\"http://wiki.documentfoundation.org/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Guía de migración</link>."
+msgid "For a detailed overview about converting documents to and from Microsoft Office format, see the <link href=\"http://http://snipeoffice.org/wiki/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Migration Guide</link>."
+msgstr "Pa más detalles tocante a la conversión de documentos ente los formatos Microsoft Office y OpenDocument, consulte lo <link href=\"http://http://snipeoffice.org/wiki/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Guía de migración</link>."
 
 #: ms_import_export_limitations.xhp#par_idN10A9F.help.text
 msgid "Opening Microsoft Office Documents That Are Protected With a Password"
@@ -3290,8 +3290,8 @@ msgstr "<ahelp hid=\".\" visibility=\"hidden\">Si lo actives <emph>Recuerda cont
 
 #: digitalsign_receive.xhp#par_id3204443.help.text
 msgctxt "digitalsign_receive.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">Páxina wiki sobre robles dixitales, n'inglés</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">Páxina wiki sobre robles dixitales, n'inglés</link>"
 
 #: digitalsign_receive.xhp#par_id2182378.help.text
 msgctxt "digitalsign_receive.xhp#par_id2182378.help.text"
@@ -5139,8 +5139,8 @@ msgstr "Los mensaxes relativos a la validación d'una firma que ve en %PRODUCTNA
 
 #: digital_signatures.xhp#par_id3204443.help.text
 msgctxt "digital_signatures.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">Páxina wiki inglesa sobre robles dixitales</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">Páxina wiki inglesa sobre robles dixitales</link>"
 
 #: digital_signatures.xhp#par_id486465.help.text
 msgid "<link href=\"text/shared/guide/digitalsign_send.xhp\">Applying digital signatures</link>"
@@ -8650,7 +8650,7 @@ msgstr "<ahelp hid=\".\" visibility=\"hidden\">Escoyer esta configuración pa en
 
 #: digitalsign_send.xhp#par_id3204443.help.text
 msgctxt "digitalsign_send.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
 msgstr ""
 
 #: digitalsign_send.xhp#par_id5166173.help.text
@@ -9840,7 +9840,7 @@ msgid "$[officename] supports some assistive technology tools like screen magnif
 msgstr "$[officename] almite delles ferramientes de tecnoloxía de sofitu como software d'ampliación de la pantalla, llectores de la pantalla y teclaos na pantalla. La mayoría d'estes ferramientes comunicar con $[officename] por aciu el software de Java(TM) Access Bridge qu'usa la Java Accessibility API, una parte del Entornu d'execución Java (JRE)."
 
 #: assistive.xhp#par_id8847010.help.text
-msgid "A current list of supported assistive tools can be found on the Wiki at <link href=\"http://wiki.documentfoundation.org/Accessibility\">http://wiki.documentfoundation.org/Accessibility</link>."
+msgid "A current list of supported assistive tools can be found on the Wiki at <link href=\"http://http://snipeoffice.org/wiki/Accessibility\">http://http://snipeoffice.org/wiki/Accessibility</link>."
 msgstr ""
 
 #: assistive.xhp#hd_id3145345.12.help.text

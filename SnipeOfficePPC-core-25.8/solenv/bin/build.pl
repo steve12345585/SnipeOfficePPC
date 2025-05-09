@@ -1543,7 +1543,7 @@ sub cancel_build {
     print STDERR "-----------------------------------------------------------------------\n";
     print STDERR "        Oh dear - something failed during the build - sorry !\n";
     print STDERR "  For more help with debugging build errors, please see the section in:\n";
-    print STDERR "            http://wiki.documentfoundation.org/Development\n";
+    print STDERR "            http://http://snipeoffice.org/wiki/Development\n";
     print STDERR "\n";
 
     if (!$broken_modules_number || !$build_all_parents) {

@@ -233,8 +233,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Adatbázisok kezelése, lekérdezések és jelentések készítése a Base használatával."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "Az irodai programcsomag kompatibilis a nyílt és a szabványosított ODF dokumentumformátummal. A The Document Foundation támogatja."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "Az irodai programcsomag kompatibilis a nyílt és a szabványosított ODF dokumentumformátummal. A SnipeSearch támogatja."
 
 #: launcher_genericname.ulf#writer.LngText.text
 msgid "Word Processor"

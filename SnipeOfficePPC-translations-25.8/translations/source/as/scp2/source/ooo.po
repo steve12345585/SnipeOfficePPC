@@ -56,8 +56,8 @@ msgid "Open Document"
 msgstr "দস্তাবেজ খোলক"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, The Document Foundation ৰ দ্বাৰা প্ৰদান কৰা অফিচ উৎপাদনকাৰী চুইট। http://www.documentfoundation.org ক চাওক "
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, SnipeSearch ৰ দ্বাৰা প্ৰদান কৰা অফিচ উৎপাদনকাৰী চুইট। http://snipeoffice.org ক চাওক "
 
 #: module_helppack.ulf#STR_NAME_MODULE_ROOT_HELPPACK.LngText.text
 msgctxt "module_helppack.ulf#STR_NAME_MODULE_ROOT_HELPPACK.LngText.text"

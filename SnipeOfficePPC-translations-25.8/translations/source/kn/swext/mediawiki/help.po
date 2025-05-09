@@ -180,8 +180,8 @@ msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password betw
 msgstr "<ahelp hid=\".\" visibility=\"hidden\">ಅಧಿವೇಶನಗಳ ನಡುವೆ ಗುಪ್ತಪದವನ್ನು ಶೇಖರಿಸಿಡುವುದನ್ನು ಶಕ್ತಗೊಳಿಸಿ. ಮಾಸ್ಟರ್ ಗುಪ್ತಪದವು ಶಕ್ತಗೊಂಡಿರಬೇಕು, see <item type=\"menuitem\">ಉಪಕರಣಗಳು - ಆಯ್ಕೆಗಳು - %PRODUCTNAME - ಸುರಕ್ಷತೆ</item> ಅನ್ನು ನೋಡಿ.</ahelp>"
 
 #: wikiaccount.xhp#par_id3112582.help.text
-msgid "Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser."
-msgstr "http://wiki.documentfoundation.org ರೂಪದಲ್ಲಿ ಒಂದು Wiki ಪೂರೈಕೆಗಣಕದ ಅಂತರಜಾಲ ವಿಳಾಸವನ್ನು ದಾಖಲಿಸಿ ಅಥವ ಜಾಲ ವೀಕ್ಷಕದಿಂದ URL ಅನ್ನು ಪ್ರತಿ ಮಾಡಿ."
+msgid "Enter the Internet address of a Wiki server in a format like http://http://snipeoffice.org/wiki or copy the URL from a web browser."
+msgstr "http://http://snipeoffice.org/wiki ರೂಪದಲ್ಲಿ ಒಂದು Wiki ಪೂರೈಕೆಗಣಕದ ಅಂತರಜಾಲ ವಿಳಾಸವನ್ನು ದಾಖಲಿಸಿ ಅಥವ ಜಾಲ ವೀಕ್ಷಕದಿಂದ URL ಅನ್ನು ಪ್ರತಿ ಮಾಡಿ."
 
 #: wikiaccount.xhp#par_id628070.help.text
 msgid "If the Wiki allows anonymous access, you can leave the account text boxes empty. Else enter your user name and password."

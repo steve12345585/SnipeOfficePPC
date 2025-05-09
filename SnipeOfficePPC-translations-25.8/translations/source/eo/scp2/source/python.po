@@ -20,8 +20,8 @@ msgid "Python-UNO Bridge"
 msgstr "Ponto de Python-UNO"
 
 #: module_python.ulf#STR_DESC_MODULE_OPTIONAL_PYTHON.LngText.text
-msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://wiki.documentfoundation.org/Development/PyUno for a complete documentation."
-msgstr "Aldonas la kapablon aŭtomatigi je %PRODUCTNAME per la skripta lingvo Pitono (Python). Legu ĉe https://wiki.documentfoundation.org/Development/PyUno por la tuta dokumentaĵo."
+msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://http://snipeoffice.org/wiki/Development/PyUno for a complete documentation."
+msgstr "Aldonas la kapablon aŭtomatigi je %PRODUCTNAME per la skripta lingvo Pitono (Python). Legu ĉe https://http://snipeoffice.org/wiki/Development/PyUno por la tuta dokumentaĵo."
 
 #: module_python_mailmerge.ulf#STR_NAME_MODULE_OPTIONAL_PYTHON_MAILMERGE.LngText.text
 msgid "E-mail Mailmerge"

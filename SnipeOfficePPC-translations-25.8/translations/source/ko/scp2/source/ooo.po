@@ -56,8 +56,8 @@ msgid "Open Document"
 msgstr "문서 열기"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "The Document Foundation이 제공하는 사무 생산성 스위트 OpenOffice.org입니다. See http://www.documentfoundation.org를 참조하시기 바랍니다."
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "SnipeSearch이 제공하는 사무 생산성 스위트 OpenOffice.org입니다. See http://snipeoffice.org를 참조하시기 바랍니다."
 
 #: module_helppack.ulf#STR_NAME_MODULE_ROOT_HELPPACK.LngText.text
 msgctxt "module_helppack.ulf#STR_NAME_MODULE_ROOT_HELPPACK.LngText.text"

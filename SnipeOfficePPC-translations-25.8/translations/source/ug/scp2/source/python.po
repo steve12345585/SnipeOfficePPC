@@ -28,5 +28,5 @@ msgid "Python-UNO Bridge"
 msgstr "Python-UNO Bridge"
 
 #: module_python.ulf#STR_DESC_MODULE_OPTIONAL_PYTHON.LngText.text
-msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://wiki.documentfoundation.org/Development/PyUno for a complete documentation."
-msgstr "%PRODUCTNAME ئۈچۈن Python قوليازما تىلىنى ئۆزلۈكىدىن قوللايدۇ. تولۇق پۈتۈكنى  https://wiki.documentfoundation.org/Development/PyUno دىن كۆرۈڭ. "
+msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://http://snipeoffice.org/wiki/Development/PyUno for a complete documentation."
+msgstr "%PRODUCTNAME ئۈچۈن Python قوليازما تىلىنى ئۆزلۈكىدىن قوللايدۇ. تولۇق پۈتۈكنى  https://http://snipeoffice.org/wiki/Development/PyUno دىن كۆرۈڭ. "

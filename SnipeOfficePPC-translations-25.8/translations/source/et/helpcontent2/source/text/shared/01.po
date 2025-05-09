@@ -1217,7 +1217,7 @@ msgstr "Määrab number- või täpploendi taande, vahede ja joonduse sätted."
 
 #: 06050600.xhp#par_id5004119.help.text
 #, fuzzy
-msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of LibreOffice), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
+msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of SnipeSearch), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
 msgstr "Paigutuse kaart on erinev neis dokumentides, mis kasutavad OpenOffice.org-i versioonis 3.0 kasutusele võetud uusi paigutuse ja vahede atribuute, ning varasemate versioonide vanu atribuute kasutavates dokumentides. Uue versiooni puhul kuvatakse elemente \"Nummerduse järel on\", \"Nummerduse joondus\", \"Joondus\" ja \"Taane\". Vanas vormingus number- ja täpploendite puhul kuvatakse elemente \"Taane\", \"Nummerduse laius\", \"Vähim vahe nummerduse ja teksti vahel\" ja \"Nummerduse joondus\"."
 
 #: 06050600.xhp#hd_id3149031.3.help.text
@@ -23008,12 +23008,12 @@ msgid "$ means the match must end a paragraph. "
 msgstr "$ tähendab, et vaste peab paiknema lõigu lõpus. "
 
 #: 02100001.xhp#par_id1751457.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki leht regulaaravaldistest Writeris</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki leht regulaaravaldistest Writeris</link>"
 
 #: 02100001.xhp#par_id5483870.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki leht regulaaravaldistest Calc'is</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki leht regulaaravaldistest Calc'is</link>"
 
 #: 05100000.xhp#tit.help.text
 msgctxt "05100000.xhp#tit.help.text"

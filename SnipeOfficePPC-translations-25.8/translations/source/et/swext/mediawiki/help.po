@@ -180,8 +180,8 @@ msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password betw
 msgstr "<ahelp hid=\".\" visibility=\"hidden\">Märgista paroolide salvestamiseks seansside vahel. Ülemparooli kasutamine peab olema lubatud, vaata <item type=\"menuitem\">Tööriistad - Sätted - %PRODUCTNAME - Turvalisus</item>.</ahelp>"
 
 #: wikiaccount.xhp#par_id3112582.help.text
-msgid "Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser."
-msgstr "Sisesta wiki-serveri internetiaadress sellisel kujul nagu http://wiki.documentfoundation.org või kopeeri URL veebilehitsejast."
+msgid "Enter the Internet address of a Wiki server in a format like http://http://snipeoffice.org/wiki or copy the URL from a web browser."
+msgstr "Sisesta wiki-serveri internetiaadress sellisel kujul nagu http://http://snipeoffice.org/wiki või kopeeri URL veebilehitsejast."
 
 #: wikiaccount.xhp#par_id628070.help.text
 msgid "If the Wiki allows anonymous access, you can leave the account text boxes empty. Else enter your user name and password."

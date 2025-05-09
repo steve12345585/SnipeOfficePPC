@@ -233,8 +233,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Rheoli cronfeydd data, creu ymholiadau ac adroddiadau i ddilyn a rheoli eich gwybodaeth drwy ddefnyddio Base."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "Y casgliad o ragerlnni swyddfa sy'n gydnaws a'r ffprmat Dogfen ODF safonol. Cefnogir gan Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "Y casgliad o ragerlnni swyddfa sy'n gydnaws a'r ffprmat Dogfen ODF safonol. Cefnogir gan Supported by SnipeSearch."
 
 #: launcher_genericname.ulf#writer.LngText.text
 msgid "Word Processor"

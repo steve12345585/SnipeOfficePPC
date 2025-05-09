@@ -1879,8 +1879,8 @@ msgstr "Κάντε κλικ στο κουμπί <emph>OK</emph>. "
 
 #: database_sort.xhp#par_id1846980.help.text
 msgctxt "database_sort.xhp#par_id1846980.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">σελίδα Βίκη σχετικά με τον καθορισμό περιοχής δεδομένων</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">σελίδα Βίκη σχετικά με τον καθορισμό περιοχής δεδομένων</link>"
 
 #: finding.xhp#tit.help.text
 msgid "Finding and Replacing in Calc"
@@ -4509,8 +4509,8 @@ msgstr "Επιλέξτε <item type=\"menuitem\">Δεδομένα - Φίλτρο
 
 #: database_filter.xhp#par_id4525284.help.text
 msgctxt "database_filter.xhp#par_id4525284.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">Σελίδα Βίκη σχετικά με τον καθορισμό της περιοχής δεδομένων</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">Σελίδα Βίκη σχετικά με τον καθορισμό της περιοχής δεδομένων</link>"
 
 #: cell_protect.xhp#tit.help.text
 msgid "Protecting Cells from Changes"

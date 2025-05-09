@@ -233,7 +233,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Administri datumbazojn, krei informpetojn kaj raportojn por kontroli kaj administri viajn informojn per Base."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr "La oficeja programaro kongrua kun la malferma kaj norma ODF-dokumenta formato. Subtenata de la Document Foundation. "
 
 #: launcher_genericname.ulf#writer.LngText.text

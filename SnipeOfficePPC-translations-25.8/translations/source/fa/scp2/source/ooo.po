@@ -2952,8 +2952,8 @@ msgid "Open Document"
 msgstr "باز کردن نوشتار"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "لیبره آفیس، مجموعه نرم‌افزار اداری ارائه شده توسط بنیاد مستندات. آدرس اینترنتی http://www.documentfoundation.org را ببینید"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "لیبره آفیس، مجموعه نرم‌افزار اداری ارائه شده توسط بنیاد مستندات. آدرس اینترنتی http://snipeoffice.org را ببینید"
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text
 msgid "Information"

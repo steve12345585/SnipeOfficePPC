@@ -180,8 +180,8 @@ msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password betw
 msgstr "<ahelp hid=\".\" visibility=\"hidden\">সেশনের মধ্যে আপনার পাসওয়ার্ড সংরক্ষণ করার জন্য সক্রিয় করুন। মাস্টার পাসওয়ার্ডটি অবশ্যই সক্রিয় করতে হবে, <item type=\"menuitem\">টুল - অপশন - %PRODUCTNAME - নিরাপত্তা</item> দেখুন।</ahelp>"
 
 #: wikiaccount.xhp#par_id3112582.help.text
-msgid "Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser."
-msgstr "http://wiki.documentfoundation.org বিন্যাসে Wiki সার্ভারের ইন্টারনেট ঠিকানা লিখুন অথবা ওয়েব ব্রাউজার থেকে URL-টি কপি করুন।"
+msgid "Enter the Internet address of a Wiki server in a format like http://http://snipeoffice.org/wiki or copy the URL from a web browser."
+msgstr "http://http://snipeoffice.org/wiki বিন্যাসে Wiki সার্ভারের ইন্টারনেট ঠিকানা লিখুন অথবা ওয়েব ব্রাউজার থেকে URL-টি কপি করুন।"
 
 #: wikiaccount.xhp#par_id628070.help.text
 msgid "If the Wiki allows anonymous access, you can leave the account text boxes empty. Else enter your user name and password."

@@ -1580,8 +1580,8 @@ msgid "Open Document"
 msgstr "নথি খুলুন"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, নথি ফাউন্ডেশন কর্তৃক প্রদত্ত অফিস প্রোডাক্টিভিটি স্যুট। http://www.documentfoundation.org দেখুন"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, নথি ফাউন্ডেশন কর্তৃক প্রদত্ত অফিস প্রোডাক্টিভিটি স্যুট। http://snipeoffice.org দেখুন"
 
 #: module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text
 msgctxt "module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text"

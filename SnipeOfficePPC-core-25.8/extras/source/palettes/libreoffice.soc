@@ -4,7 +4,7 @@
 <draw:color draw:name="Black" draw:color="#000000" />
 <draw:color draw:name="White" draw:color="#ffffff" />
 <!-- SnipeOffice colors -->
-<!-- http://wiki.documentfoundation.org/Marketing/Branding#Colors -->
+<!-- http://http://snipeoffice.org/wiki/Marketing/Branding#Colors -->
   <draw:color draw:name="Green 0" draw:color="#106802"/>
   <draw:color draw:name="Green 1 (LibreOffice Main Color)" draw:color="#18a303"/>
   <draw:color draw:name="Green 2" draw:color="#43c330"/>

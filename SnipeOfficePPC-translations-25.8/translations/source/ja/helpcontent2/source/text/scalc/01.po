@@ -4109,8 +4109,8 @@ msgid "            <emph>Sigma</emph> (optional) is the known standard deviation
 msgstr "            <emph>母分散(シグマ)</emph> (オプション) は母集団の標準偏差です。このパラメータを省略すると、標本の標準偏差が使われます。"
 
 #: 04060182.xhp#par_id0305200911372999.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>を参照してください。"
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>を参照してください。"
 
 #: 04060182.xhp#bm_id3153623.help.text
 msgid "<bookmark_value>HARMEAN function</bookmark_value>         <bookmark_value>means;harmonic</bookmark_value>"
@@ -8544,8 +8544,8 @@ msgstr "<ahelp hid=\".\">ASC 関数は、ASCII およびカタカナ文字を全
 
 #: 04060110.xhp#par_id9912411.help.text
 msgctxt "04060110.xhp#par_id9912411.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "変換表については <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> を参照してください。"
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "変換表については <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> を参照してください。"
 
 #: 04060110.xhp#hd_id9204992.help.text
 msgctxt "04060110.xhp#hd_id9204992.help.text"
@@ -9034,8 +9034,8 @@ msgstr "<ahelp hid=\".\">JIS 関数は、ASCII およびカタカナ文字を半
 
 #: 04060110.xhp#par_id1551561.help.text
 msgctxt "04060110.xhp#par_id1551561.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "変換表については <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> を参照してください。"
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "変換表については <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> を参照してください。"
 
 #: 04060110.xhp#hd_id2212897.help.text
 msgctxt "04060110.xhp#hd_id2212897.help.text"
@@ -21219,7 +21219,7 @@ msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNA
 msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME → 設定</caseinline><defaultinline>ツール → オプション</defaultinline></switchinline> → <link href=\"text/shared/optionen/01060500.xhp\" name=\"表計算ドキュメント → 計算式\">%PRODUCTNAME Calc - 計算式</link> を選択して、同じエントリを検索するときの $[officename] Calc の動作を定義します。"
 
 #: 04060101.xhp#par_id3882869.help.text
-msgid "See also the Wiki page about <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
+msgid "See also the Wiki page about <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
 msgstr ""
 
 #: 04060101.xhp#bm_id3150882.help.text
@@ -23991,8 +23991,8 @@ msgid "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> returns 0.86."
 msgstr "<item type=\"input\">=WEIBULL(2;1;1;1)</item> は、0.86 を返します。"
 
 #: 04060185.xhp#par_id0305200911372899.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>を参照してください。"
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>を参照してください。"
 
 #: 04070000.xhp#tit.help.text
 msgid "Names"

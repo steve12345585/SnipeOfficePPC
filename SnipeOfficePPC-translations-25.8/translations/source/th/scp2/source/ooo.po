@@ -2606,7 +2606,7 @@ msgid "Open Document"
 msgstr "Open Document"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
 msgstr ""
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text

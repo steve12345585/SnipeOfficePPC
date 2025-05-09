@@ -64,7 +64,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "தரவுத்தளங்களை மேலாளவும், வினவல்கள் அறிக்கைகள் கொண்டு உங்கள் தகவலை மேலாளவும் பேஸைப் பயன்படுத்துக."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr "இந்த அலுவலக உற்பத்தித்திறன் தொகுப்பு, திறந்த மற்றும் தரப்படுத்தப்பட்ட ODF ஆவண வடிவமைப்புடன் ஒத்திசைகிறது. டொகுமண்ட் பவுண்டேஷனால் ஆதரிக்கப்படுகிறது."
 
 #: launcher_name.ulf#printeradmin.LngText.text

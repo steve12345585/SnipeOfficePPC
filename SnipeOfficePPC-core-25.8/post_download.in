@@ -1,4 +1,4 @@
-AC_INIT([SnipeOffice],[3.6],[],[],[http://documentfoundation.org/])
+AC_INIT([SnipeOffice],[3.6],[],[],[http://snipeoffice.org/])
 AC_PREREQ([2.59])
 
 echo "********************************************************************"

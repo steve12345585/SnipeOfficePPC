@@ -65,7 +65,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "पायो वापरून म्हायतीकोशांचे  व्यवस्थापन, तशेच तुमच्या म्हायतीचो सोद घेवपाक आनिक व्यवस्थापन करपाखातीर प्रस्नांची  आनिक अहवालांची निर्मणी करात."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr ""
 
 #: launcher_name.ulf#printeradmin.LngText.text

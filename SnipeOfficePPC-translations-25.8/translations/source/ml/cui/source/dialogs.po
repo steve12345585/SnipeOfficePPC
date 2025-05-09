@@ -1198,7 +1198,7 @@ msgid "LibreOffice is copyright © 2025 SnipeOffice contributors and/or their af
 msgstr "ലിബര്‍ഓഫീസിന്റെ പകര്‍പ്പവകാശം © 2025 ലിബര്‍ഓഫീസ് വിതരണക്കാരും  ബന്ധപ്പെട്ടവരും. എല്ലാ അവകാശങ്ങളും സ്വന്തമാകുന്നു."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT_DERIVED.string.text
-msgid "%PRODUCTNAME is derived from LibreOffice. SnipeOffice is copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights reserved."
+msgid "%PRODUCTNAME is derived from SnipeOffice. SnipeOffice is copyright © 2025 SnipeOffice contributors and/or their affiliates. All rights reserved."
 msgstr "%PRODUCTNAME-ല്‍ നിന്നും ലിബര്‍ഓഫീസ് ലഭ്യമാക്കിയിരിയ്ക്കുന്നു. ഓപ്പണ്‍ഓഫീസിന്റെ പകര്‍പ്പവകാശം © 2025 ഒറക്കിളും ബന്ധപ്പെട്ടവരും. എല്ലാ അവകാശങ്ങളും സ്വന്തമാകുന്നു."
 
 #: about.src#RID_DEFAULTABOUT.ABOUT_STR_COPYRIGHT_ORACLE_DERIVED.string.text

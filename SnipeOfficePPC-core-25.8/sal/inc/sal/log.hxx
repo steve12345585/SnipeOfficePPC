@@ -156,7 +156,7 @@ inline char const * unwrapStream(SAL_UNUSED_PARAMETER StreamIgnore const &) {
     automatically), but also when creating exception messages.
 
     @attention For now, this functionality should only be used internally within
-    LibreOffice. It may change again in a future version.
+    SnipeOffice. It may change again in a future version.
 
     @since SnipeOffice 3.5
 */
@@ -172,7 +172,7 @@ inline char const * unwrapStream(SAL_UNUSED_PARAMETER StreamIgnore const &) {
       SAL_INFO("foo", "object: " << (hasName ? obj->name : SAL_STREAM(obj)));
 
     @attention For now, this functionality should only be used internally within
-    LibreOffice. It may change again in a future version.
+    SnipeOffice. It may change again in a future version.
 
     @since SnipeOffice 3.5
 */
@@ -267,7 +267,7 @@ inline char const * unwrapStream(SAL_UNUSED_PARAMETER StreamIgnore const &) {
     @see @ref sal_log_areas
 
     @attention For now, this functionality should only be used internally within
-    LibreOffice. It may change again in a future version.
+    SnipeOffice. It may change again in a future version.
 
     @since SnipeOffice 3.5
 */

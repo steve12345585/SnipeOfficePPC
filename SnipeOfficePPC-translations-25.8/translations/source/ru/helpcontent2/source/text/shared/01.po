@@ -1211,7 +1211,7 @@ msgid "Sets the indent, spacing, and alignment options for the numbered or bulle
 msgstr "Задает отступ, интервал и параметры выравнивания для нумерованного или маркированного списка."
 
 #: 06050600.xhp#par_id5004119.help.text
-msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of LibreOffice), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
+msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of SnipeSearch), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
 msgstr "Вид вкладки \"Позиция\" отличается для документов, в которых используются новые атрибуты позиционирования и интервалов, введенные в OpenOffice.org 3.0 (и исполльзуемые во всех версиях LibreOffice), и для документов, в которых используются старые атрибуты из версий до 3.0. Новая версия этой страницы вкладки содержит элементы управления \"За нумерацией\", \"Выравнивание нумерации\", \"Выравнивание по\" и \"Отступ\". Старая версия этой страницы вкладки, которую можно видеть в старых нумерованных и маркированных списках, содержит элементы управления \"Отступ\", \"Ширина нумерации\", \"Минимальное расстояние нумерации <-> текст\" и \"Выравнивание нумерации\"."
 
 #: 06050600.xhp#hd_id3149031.3.help.text
@@ -22736,12 +22736,12 @@ msgid "$ means the match must end a paragraph. "
 msgstr "$ означает окончание поиска совпадения в конце абзаца. "
 
 #: 02100001.xhp#par_id1751457.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Вики-страница о регулярных выражениях в Writer</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Вики-страница о регулярных выражениях в Writer</link>"
 
 #: 02100001.xhp#par_id5483870.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Вики-страница о регулярных выражениях в Calc</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Вики-страница о регулярных выражениях в Calc</link>"
 
 #: 05100000.xhp#tit.help.text
 msgctxt "05100000.xhp#tit.help.text"

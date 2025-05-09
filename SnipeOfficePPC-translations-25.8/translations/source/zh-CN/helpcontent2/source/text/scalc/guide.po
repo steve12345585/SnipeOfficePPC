@@ -1880,8 +1880,8 @@ msgstr "单击<emph>确定</emph>。"
 
 #: database_sort.xhp#par_id1846980.help.text
 msgctxt "database_sort.xhp#par_id1846980.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">关于定义数据区域的 Wiki 页</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">关于定义数据区域的 Wiki 页</link>"
 
 #: finding.xhp#tit.help.text
 msgid "Finding and Replacing in Calc"
@@ -4510,8 +4510,8 @@ msgstr "选择<item type=\"menuitem\">数据 - 筛选器 - 删除筛选器</item
 
 #: database_filter.xhp#par_id4525284.help.text
 msgctxt "database_filter.xhp#par_id4525284.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">关于定义数据区域的 Wiki 页</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">关于定义数据区域的 Wiki 页</link>"
 
 #: cell_protect.xhp#tit.help.text
 msgid "Protecting Cells from Changes"

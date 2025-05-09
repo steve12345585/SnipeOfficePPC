@@ -102,7 +102,7 @@ public class FCFGMerge
         java.lang.StringBuffer sOut = new java.lang.StringBuffer(256);
         sOut.append("FCFGMerge (LibreOffice)\n\n");
         sOut.append("Copyright (C) 2003 Sun Microsystems, Inc.\n");
-        sOut.append("Copyright (C) 2012 The Document Foundation\n");
+        sOut.append("Copyright (C) 2012 SnipeSearch\n");
         sOut.append("License LGPLv3: GNU LGPL version 3 <http://www.gnu.org/licenses/lgpl.html>.\n");
         sOut.append("This is free software: you are free to change and redistribute it.\n");
         sOut.append("There is NO WARRANTY, to the extent permitted by law.\n");

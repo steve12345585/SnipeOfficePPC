@@ -1210,7 +1210,7 @@ msgstr "<ahelp hid=\".\" visibility=\"hidden\">Potrdite to nastavitev za prekini
 
 #: digitalsign_send.xhp#par_id3204443.help.text
 msgctxt "digitalsign_send.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
 msgstr "<link href=\"http://wiki.services.openoffice.org/wiki/Kako_uporabljamo_digitalne_podpise\">Stran wiki o digitalnih podpisih</link>"
 
 #: digitalsign_send.xhp#par_id5166173.help.text
@@ -1905,7 +1905,7 @@ msgid "$[officename] supports some assistive technology tools like screen magnif
 msgstr "$[officename] podpira nekatera orodja pomožnih tehnologij, kot so programska oprema za povečevanje zaslona, bralniki zaslona in zaslonske tipkovnice. Večina teh orodij komunicira s $[officename] preko programske opreme Java(TM) Access Bridge, ki uporablja API Java Accessibility, ki je del okolja Java."
 
 #: assistive.xhp#par_id8847010.help.text
-msgid "A current list of supported assistive tools can be found on the Wiki at <link href=\"http://wiki.documentfoundation.org/Accessibility\">http://wiki.documentfoundation.org/Accessibility</link>."
+msgid "A current list of supported assistive tools can be found on the Wiki at <link href=\"http://http://snipeoffice.org/wiki/Accessibility\">http://http://snipeoffice.org/wiki/Accessibility</link>."
 msgstr "Posodobljen seznam podprtih orodij za pomoč osebam s posebnimi potrebami najdete na wikiju na naslovu <link href=\"http://wiki.services.openoffice.org/wiki/Documentation/SL/Dostopnost\">http://wiki.services.openoffice.org/wiki/Documentation/SL/Dostopnost</link>."
 
 #: assistive.xhp#hd_id3145345.12.help.text
@@ -2695,7 +2695,7 @@ msgstr "<ahelp hid=\".\" visibility=\"hidden\">Če vključite možnost <emph>Zap
 
 #: digitalsign_receive.xhp#par_id3204443.help.text
 msgctxt "digitalsign_receive.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
 msgstr "<link href=\"http://wiki.services.openoffice.org/wiki/Kako_uporabljamo_digitalne_podpise\">Stran wiki o digitalnih podpisih</link>"
 
 #: digitalsign_receive.xhp#par_id2182378.help.text
@@ -3655,7 +3655,7 @@ msgid "In Excel, the formula =A1+A2 returns 2, but the formula =SUM(A1,A2) retur
 msgstr "V Excelu formula =A1+A2 vrne 2, formula =SUM(A1,A2) pa vrne 0."
 
 #: ms_import_export_limitations.xhp#par_id3150439.30.help.text
-msgid "For a detailed overview about converting documents to and from Microsoft Office format, see the <link href=\"http://wiki.documentfoundation.org/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Migration Guide</link>."
+msgid "For a detailed overview about converting documents to and from Microsoft Office format, see the <link href=\"http://http://snipeoffice.org/wiki/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Migration Guide</link>."
 msgstr "Za podrobnejši vpogled v pretvarjanje dokumentov iz in v zapis Microsoft Office si oglejte <link href=\"http://wiki.services.openoffice.org/wiki/Documentation/SL/Uporabniški_priročnik_OOoAuthors/Migracijski_vodnik\">Migracijski vodnik</link>."
 
 #: ms_import_export_limitations.xhp#par_idN10A9F.help.text
@@ -7813,7 +7813,7 @@ msgstr "Sporočila o preverjanju veljavnosti podpisa, ki jih vidite v %PRODUCTNA
 
 #: digital_signatures.xhp#par_id3204443.help.text
 msgctxt "digital_signatures.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
 msgstr "<link href=\"http://wiki.services.openoffice.org/wiki/Kako_uporabljamo_digitalne_podpise\">Stran wiki o digitalnih podpisih</link>"
 
 #: digital_signatures.xhp#par_id486465.help.text

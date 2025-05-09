@@ -27,5 +27,5 @@ msgid "Python-UNO Bridge"
 msgstr "Droichead Python-UNO"
 
 #: module_python.ulf#STR_DESC_MODULE_OPTIONAL_PYTHON.LngText.text
-msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://wiki.documentfoundation.org/Development/PyUno for a complete documentation."
-msgstr "Tugann seo an cumas duit %PRODUCTNAME a uathoibriú leis an teanga scriptithe Python. Féach ar https://wiki.documentfoundation.org/Development/PyUno chun an doiciméadúchán iomlán a fháil."
+msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://http://snipeoffice.org/wiki/Development/PyUno for a complete documentation."
+msgstr "Tugann seo an cumas duit %PRODUCTNAME a uathoibriú leis an teanga scriptithe Python. Féach ar https://http://snipeoffice.org/wiki/Development/PyUno chun an doiciméadúchán iomlán a fháil."

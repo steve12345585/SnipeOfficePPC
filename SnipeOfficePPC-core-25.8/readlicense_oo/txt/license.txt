@@ -17,7 +17,7 @@
    Copyright (c) 2000, 2010 Oracle, and/or its affiliates. All rights
    reserved.
 
-   This product has been created by The Document Foundation, incorporating
+   This product has been created by SnipeSearch, incorporating
    many modifications from different contributors, see
    http://www.libreoffice.org/ for more details.
 

@@ -817,8 +817,8 @@ msgstr "x-xxx-xxx-xxx"
 
 #: Property.ulf#OOO_ARPURLINFOABOUTTEMPLATE.LngText.text
 #, fuzzy
-msgid "http://www.documentfoundation.org"
-msgstr "http://www.documentfoundation.org"
+msgid "http://snipeoffice.org"
+msgstr "http://snipeoffice.org"
 
 #: Property.ulf#OOO_ARPURLUPDATEINFOTEMPLATE.LngText.text
 msgid "http://www.libreoffice.org/download"
@@ -1252,8 +1252,8 @@ msgid "Cancel"
 msgstr "रद्द गर्नुहोस्"
 
 #: Control.ulf#OOO_CONTROL_124.LngText.text
-msgid "Build contributed in collaboration with the community by [Manufacturer]. For credits, see: http://www.documentfoundation.org"
-msgstr "यो उत्पादनको निर्माण समुदाय र [Manufacturer] मिलेर भएको हो। श्रेयको लागि http://www.documentfoundation.org हेर्नुहोस्।"
+msgid "Build contributed in collaboration with the community by [Manufacturer]. For credits, see: http://snipeoffice.org"
+msgstr "यो उत्पादनको निर्माण समुदाय र [Manufacturer] मिलेर भएको हो। श्रेयको लागि http://snipeoffice.org हेर्नुहोस्।"
 
 #: Control.ulf#OOO_CONTROL_125.LngText.text
 msgctxt "Control.ulf#OOO_CONTROL_125.LngText.text"

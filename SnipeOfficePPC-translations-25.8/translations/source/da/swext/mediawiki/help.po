@@ -180,8 +180,8 @@ msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password betw
 msgstr "<ahelp hid=\".\" visibility=\"hidden\">Aktiver for at gemme din adgangskode fra session til session. Hovedadgangskoden skal være aktiveret, se <item type=\"menuitem\">Funktioner - Indstillinger - %PRODUCTNAME - Sikkerhed</item>.</ahelp>"
 
 #: wikiaccount.xhp#par_id3112582.help.text
-msgid "Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser."
-msgstr "Indtast internetadressen for wikiserveren i formatet http://wiki.documentfoundation.org eller kopier URL'en fra din internetbrowser."
+msgid "Enter the Internet address of a Wiki server in a format like http://http://snipeoffice.org/wiki or copy the URL from a web browser."
+msgstr "Indtast internetadressen for wikiserveren i formatet http://http://snipeoffice.org/wiki eller kopier URL'en fra din internetbrowser."
 
 #: wikiaccount.xhp#par_id628070.help.text
 msgid "If the Wiki allows anonymous access, you can leave the account text boxes empty. Else enter your user name and password."

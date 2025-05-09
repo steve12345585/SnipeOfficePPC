@@ -180,7 +180,7 @@ msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password betw
 msgstr "<ahelp hid=\".\" visibility=\"hidden\">Enŝaltu por konservi vian pasvorton inter seancoj. Necesas enŝalti la ĉefan pasvorton. Rigardu je <item type=\"menuitem\">Iloj - Agordaro - %PRODUCTNAME - Sekureco</item>.</ahelp>"
 
 #: wikiaccount.xhp#par_id3112582.help.text
-msgid "Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser."
+msgid "Enter the Internet address of a Wiki server in a format like http://http://snipeoffice.org/wiki or copy the URL from a web browser."
 msgstr "Entajpu la interretadreson de vikia servilo en formato kia http://wiki.services.openoffice.org/wiki aŭ kopiu la URL-on el TTT-legilon."
 
 #: wikiaccount.xhp#par_id628070.help.text

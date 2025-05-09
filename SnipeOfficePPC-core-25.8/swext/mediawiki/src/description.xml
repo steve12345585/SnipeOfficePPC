@@ -9,7 +9,7 @@
         <OpenOffice.org-minimal-version value="3.0" d:name="OpenOffice.org 3.0 or StarOffice 9"/>
     </dependencies>
     <publisher>
-        <name xlink:href="http://www.documentfoundation.org" lang="en-US">The Document Foundation</name>
+        <name xlink:href="http://snipeoffice.org" lang="en-US">SnipeSearch</name>
     </publisher>
     <extension-description>
         <src xlink:href="description-en-US.txt" lang="en-US"/>

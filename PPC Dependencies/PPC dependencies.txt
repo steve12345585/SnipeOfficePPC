@@ -119,3 +119,32 @@ This project includes all required dependencies in the "PPC Dependencies" folder
 
 **Tip:**
 If you encounter errors, check that you are in the correct directory and that each command completes without errors before moving to the next step.
+
+## Troubleshooting
+
+### Zip Version Reverts After Reboot
+If you find that after rebooting your Mac, running `zip -v` shows an older version (e.g., 2.32) instead of the one you installed (e.g., 3.0), this is because your shell's PATH is prioritizing `/usr/bin` over `/usr/local/bin`.
+
+**To fix this permanently:**
+
+1. Open Terminal (X11 or Terminal.app).
+2. Add the following line to your shell profile to always prefer `/usr/local/bin`:
+   ```sh
+   echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+   # or, if you use ~/.profile:
+   echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.profile
+   ```
+3. Reload your profile or restart your terminal:
+   ```sh
+   source ~/.bash_profile
+   # or
+   source ~/.profile
+   ```
+4. Verify the version:
+   ```sh
+   which zip
+   zip -v
+   ```
+   You should see `/usr/local/bin/zip` and version 3.0.
+
+If you still see the old version after this, log out and log back in, or reboot your Mac to ensure the new PATH is picked up by all terminal sessions.

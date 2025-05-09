@@ -1901,8 +1901,8 @@ msgstr "Feu clic a <emph>D'acord</emph>."
 #: database_sort.xhp#par_id1846980.help.text
 #, fuzzy
 msgctxt "database_sort.xhp#par_id1846980.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">La pàgina wiki sobre com definir un interval de dades</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">La pàgina wiki sobre com definir un interval de dades</link>"
 
 #: finding.xhp#tit.help.text
 msgid "Finding and Replacing in Calc"
@@ -4559,8 +4559,8 @@ msgstr "Trieu <item type=\"menuitem\">Dades - Filtre - Suprimeix el filtre</item
 #: database_filter.xhp#par_id4525284.help.text
 #, fuzzy
 msgctxt "database_filter.xhp#par_id4525284.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Defining_a_Data_Range\">Pàgina wiki sobre com definir un interval de dades</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">Wiki page about defining a data range</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Defining_a_Data_Range\">Pàgina wiki sobre com definir un interval de dades</link>"
 
 #: cell_protect.xhp#tit.help.text
 msgid "Protecting Cells from Changes"

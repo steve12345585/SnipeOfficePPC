@@ -10131,8 +10131,8 @@ msgid "%PRODUCTNAME %PRODUCTVERSION provides an Application Programming Interfac
 msgstr "%PRODUCTNAME %PRODUCTVERSION tilbyder et Application Programming Interface (API), som tillader styring af $[officename] komponenter via forskellige programmeringssprog og med brug af $[officename] Software Development Kit (SDK). Mere information om $[officename] API og SDK kan findes på <link href=\"http://snipeoffice.org/api-ppc-2025/\" name=\"http://snipeoffice.org/api-ppc-2025\">http://snipeoffice.org/api-ppc-2025</link>"
 
 #: main0601.xhp#par_id3147226.10.help.text
-msgid "This help section explains the most common runtime functions of %PRODUCTNAME Basic. For more in-depth information please refer to the <link href=\"http://wiki.documentfoundation.org/Documentation/BASIC_Guide\">OpenOffice.org BASIC Programming Guide</link> on the Wiki."
-msgstr "Dette afsnit forklarer de mest almindelige køretidsfunktioner i %PRODUCTNAME Basic. For mere dybdegående information henvises til <link href=\"http://wiki.documentfoundation.org/Documentation/BASIC_Guide\">%PRODUCTNAME BASIC Programmingsguide </link> på Wiki."
+msgid "This help section explains the most common runtime functions of %PRODUCTNAME Basic. For more in-depth information please refer to the <link href=\"http://http://snipeoffice.org/wiki/Documentation/BASIC_Guide\">OpenOffice.org BASIC Programming Guide</link> on the Wiki."
+msgstr "Dette afsnit forklarer de mest almindelige køretidsfunktioner i %PRODUCTNAME Basic. For mere dybdegående information henvises til <link href=\"http://http://snipeoffice.org/wiki/Documentation/BASIC_Guide\">%PRODUCTNAME BASIC Programmingsguide </link> på Wiki."
 
 #: main0601.xhp#hd_id3146957.9.help.text
 msgid "Working with %PRODUCTNAME Basic"

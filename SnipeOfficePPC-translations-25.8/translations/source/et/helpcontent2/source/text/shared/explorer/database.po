@@ -4000,8 +4000,8 @@ msgid "Functions can be entered using a syntax as specified by the <link href=\"
 msgstr "Funktsioone saab lisada <link href=\"http://en.wikipedia.org/wiki/OpenFormula\">OpenFormula</link> süntaksit kasutades."
 
 #: rep_navigator.xhp#par_id4095583.help.text
-msgid "See <link href=\"http://wiki.documentfoundation.org/Database\">Wiki page about Base</link> for some more help regarding the functions in a report."
-msgstr "<link href=\"http://wiki.documentfoundation.org/Database\">Wiki-leht Base'i kohta</link> sisaldab täiendavat abi seoses aruande funktsioonidega."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Database\">Wiki page about Base</link> for some more help regarding the functions in a report."
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Database\">Wiki-leht Base'i kohta</link> sisaldab täiendavat abi seoses aruande funktsioonidega."
 
 #: rep_navigator.xhp#hd_id311593.help.text
 #, fuzzy
@@ -4142,8 +4142,8 @@ msgid "The wizard can backup the Base file to another folder of your choice. The
 msgstr "Nõustaja võib Base’i faili varukoopia sinu valitud kausta salvestada. Nõustaja muudab algset Base’i faili, varukoopiat ei muudeta."
 
 #: migrate_macros.xhp#par_id0112200902353554.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Macros_in_Database_Documents\">An in depth explanation by the developers (Wiki).</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Macros_in_Database_Documents\">Põhjalik selgitus arendajatelt (wikis, inglise keeles).</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Macros_in_Database_Documents\">An in depth explanation by the developers (Wiki).</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Macros_in_Database_Documents\">Põhjalik selgitus arendajatelt (wikis, inglise keeles).</link>"
 
 #: dabawiz02oracle.xhp#tit.help.text
 msgctxt "dabawiz02oracle.xhp#tit.help.text"
@@ -4481,8 +4481,8 @@ msgid "<ahelp hid=\".\">Specifies the settings for importing a database file in 
 msgstr "<ahelp hid=\".\">Määrab Microsoft Access'i või Access 2007 vormingus oleva andmebaasifaili importimise sätted.</ahelp>"
 
 #: dabawiz02access.xhp#par_id1142772.help.text
-msgid "See also the English Wiki page <link href=\"http://wiki.documentfoundation.org/MSA-Base_Faq\">http://wiki.documentfoundation.org/MSA-Base_Faq</link>."
-msgstr "Vaata ka ingliskeelset Wiki lehekülge <link href=\"http://wiki.documentfoundation.org/MSA-Base_Faq\">http://wiki.documentfoundation.org/MSA-Base_Faq</link>."
+msgid "See also the English Wiki page <link href=\"http://http://snipeoffice.org/wiki/MSA-Base_Faq\">http://http://snipeoffice.org/wiki/MSA-Base_Faq</link>."
+msgstr "Vaata ka ingliskeelset Wiki lehekülge <link href=\"http://http://snipeoffice.org/wiki/MSA-Base_Faq\">http://http://snipeoffice.org/wiki/MSA-Base_Faq</link>."
 
 #: dabawiz02access.xhp#par_idN10544.help.text
 msgctxt "dabawiz02access.xhp#par_idN10544.help.text"
@@ -7759,8 +7759,8 @@ msgid "<embedvar href=\"text/shared/explorer/database/toolbars.xhp#toolbars\"/>"
 msgstr "<embedvar href=\"text/shared/explorer/database/toolbars.xhp#toolbars\"/>"
 
 #: main.xhp#par_id6474806.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Database\">Wiki page about Base</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Database\">Wiki-leht Base'i kohta</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Database\">Wiki page about Base</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Database\">Wiki-leht Base'i kohta</link>"
 
 #: dabawiz02mysql.xhp#tit.help.text
 msgid "MySQL Connection"

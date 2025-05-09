@@ -64,8 +64,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Meðhöndla gagnagrunna, búa til fyrirspurnir og skýrslur til að hafa stjórn á upplýsingaflæði með Base."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "Skrifstofuhugbúnaður sem samræmist opna og staðlaða ODF skjalasniðinu. Stutt af The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "Skrifstofuhugbúnaður sem samræmist opna og staðlaða ODF skjalasniðinu. Stutt af SnipeSearch."
 
 #: launcher_name.ulf#printeradmin.LngText.text
 msgid "%PRODUCTNAME Printer Administration"

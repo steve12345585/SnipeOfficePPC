@@ -28,5 +28,5 @@ msgid "Python-UNO Bridge"
 msgstr "Python-UNO ಸಂಪರ್ಕಬಂಧ"
 
 #: module_python.ulf#STR_DESC_MODULE_OPTIONAL_PYTHON.LngText.text
-msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://wiki.documentfoundation.org/Development/PyUno for a complete documentation."
-msgstr "Python ಸ್ಕ್ರಿಪ್ಟಿಂಗ್ ಭಾಷೆಯೊಂದಿಗೆ ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಸೇರಿಸುತ್ತದೆ. ಸಂಪೂರ್ಣ ಮಾಹಿತಿಗಾಗಿ  https://wiki.documentfoundation.org/Development/PyUno ಅನ್ನು ನೋಡಿ."
+msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://http://snipeoffice.org/wiki/Development/PyUno for a complete documentation."
+msgstr "Python ಸ್ಕ್ರಿಪ್ಟಿಂಗ್ ಭಾಷೆಯೊಂದಿಗೆ ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಸೇರಿಸುತ್ತದೆ. ಸಂಪೂರ್ಣ ಮಾಹಿತಿಗಾಗಿ  https://http://snipeoffice.org/wiki/Development/PyUno ಅನ್ನು ನೋಡಿ."

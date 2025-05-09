@@ -2525,8 +2525,8 @@ msgid "In Excel, the formula =A1+A2 returns 2, but the formula =SUM(A1,A2) retur
 msgstr "Excel'de =A1+A2 formülü 2 değerini döndürür fakat =SUM(A1,A2) formülü 0 değerini verir."
 
 #: ms_import_export_limitations.xhp#par_id3150439.30.help.text
-msgid "For a detailed overview about converting documents to and from Microsoft Office format, see the <link href=\"http://wiki.documentfoundation.org/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Migration Guide</link>."
-msgstr "Belgelerin Microsoft Office biçimlerine (veya tersi) dönüştürülmesi hakkında detaylı tanıtım için <link href=\"http://wiki.documentfoundation.org/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Geçiş Klavuzu</link>'na bakınız."
+msgid "For a detailed overview about converting documents to and from Microsoft Office format, see the <link href=\"http://http://snipeoffice.org/wiki/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Migration Guide</link>."
+msgstr "Belgelerin Microsoft Office biçimlerine (veya tersi) dönüştürülmesi hakkında detaylı tanıtım için <link href=\"http://http://snipeoffice.org/wiki/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Geçiş Klavuzu</link>'na bakınız."
 
 #: ms_import_export_limitations.xhp#par_idN10A9F.help.text
 msgid "Opening Microsoft Office Documents That Are Protected With a Password"
@@ -3288,8 +3288,8 @@ msgstr "<ahelp hid=\".\" visibility=\"hidden\"><emph>Oturum sonuna kadar parolay
 
 #: digitalsign_receive.xhp#par_id3204443.help.text
 msgctxt "digitalsign_receive.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">Dijital imzalar hakkında İngilizce Wiki sayfası</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">Dijital imzalar hakkında İngilizce Wiki sayfası</link>"
 
 #: digitalsign_receive.xhp#par_id2182378.help.text
 msgctxt "digitalsign_receive.xhp#par_id2182378.help.text"
@@ -5136,8 +5136,8 @@ msgstr "%PRODUCTNAME'de gördüğünüz imzanın geçerliliği ile ilgili mesajl
 
 #: digital_signatures.xhp#par_id3204443.help.text
 msgctxt "digital_signatures.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">Sayısal İmzalar ile ilgili İngilizce Wİki sayfası</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">Sayısal İmzalar ile ilgili İngilizce Wİki sayfası</link>"
 
 #: digital_signatures.xhp#par_id486465.help.text
 msgid "<link href=\"text/shared/guide/digitalsign_send.xhp\">Applying digital signatures</link>"
@@ -8641,8 +8641,8 @@ msgstr "<ahelp hid=\".\" visibility=\"hidden\">Bağlantıyı iptal etmek için b
 
 #: digitalsign_send.xhp#par_id3204443.help.text
 msgctxt "digitalsign_send.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">Sayısal imzalarla ilgili İngilizce Wiki sayfası</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">Sayısal imzalarla ilgili İngilizce Wiki sayfası</link>"
 
 #: digitalsign_send.xhp#par_id5166173.help.text
 msgctxt "digitalsign_send.xhp#par_id5166173.help.text"
@@ -9828,8 +9828,8 @@ msgid "$[officename] supports some assistive technology tools like screen magnif
 msgstr "$[officename] ekran büyüteci yazılımları, ekran okuyucuları ve ekran klavyeleri gibi yardımcı teknolojileri desteklemektedir. Bu araçların çoğu $[officename] ile Java(TM) Access Bridge yazılımı aracılığıyla haberleşmektedir, bu araç Java çalışma ortamının bir parçası olan, Java Accessibility API kullanmaktadır."
 
 #: assistive.xhp#par_id8847010.help.text
-msgid "A current list of supported assistive tools can be found on the Wiki at <link href=\"http://wiki.documentfoundation.org/Accessibility\">http://wiki.documentfoundation.org/Accessibility</link>."
-msgstr "Desteklenen yardımcı araçların listesi Wiki'de <link href=\"http://wiki.documentfoundation.org/Accessibility\">http://wiki.documentfoundation.org/Accessibility</link> bulunabilir."
+msgid "A current list of supported assistive tools can be found on the Wiki at <link href=\"http://http://snipeoffice.org/wiki/Accessibility\">http://http://snipeoffice.org/wiki/Accessibility</link>."
+msgstr "Desteklenen yardımcı araçların listesi Wiki'de <link href=\"http://http://snipeoffice.org/wiki/Accessibility\">http://http://snipeoffice.org/wiki/Accessibility</link> bulunabilir."
 
 #: assistive.xhp#hd_id3145345.12.help.text
 msgid "Requirements to use assistive tools in $[officename]"

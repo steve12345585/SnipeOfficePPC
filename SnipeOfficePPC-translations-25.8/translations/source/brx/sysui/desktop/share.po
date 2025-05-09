@@ -236,7 +236,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "डाटाबेस मेनेज खालाम,सोंलु सोरजि आरो ट्रेख खालामनो फोरमायथिनाय आरो बिथा बाहायनानै नोंथांनि मोनथिहोनायखौ मेनेज खालामो।"
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr ""
 
 #: launcher_genericname.ulf#writer.LngText.text

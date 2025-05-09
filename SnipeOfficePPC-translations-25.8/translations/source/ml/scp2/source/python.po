@@ -28,5 +28,5 @@ msgid "Python-UNO Bridge"
 msgstr "ഫൈറ്റോണ്-UNO പാലം"
 
 #: module_python.ulf#STR_DESC_MODULE_OPTIONAL_PYTHON.LngText.text
-msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://wiki.documentfoundation.org/Development/PyUno for a complete documentation."
-msgstr "പൈഥണ്‍ സ്ക്രിപ്റ്റിങ് ഭാഷ ഉപയോഗിച്ചു് %PRODUCTNAME ഓട്ടോമേറ്റ് ചെയ്യുവാനുള്ള കഴിവു് ചേര്‍ക്കുന്നു. പൂര്‍ണ്ണ വിവരണക്കുറിപ്പിനായി  https://wiki.documentfoundation.org/Development/PyUno കാണുക."
+msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://http://snipeoffice.org/wiki/Development/PyUno for a complete documentation."
+msgstr "പൈഥണ്‍ സ്ക്രിപ്റ്റിങ് ഭാഷ ഉപയോഗിച്ചു് %PRODUCTNAME ഓട്ടോമേറ്റ് ചെയ്യുവാനുള്ള കഴിവു് ചേര്‍ക്കുന്നു. പൂര്‍ണ്ണ വിവരണക്കുറിപ്പിനായി  https://http://snipeoffice.org/wiki/Development/PyUno കാണുക."

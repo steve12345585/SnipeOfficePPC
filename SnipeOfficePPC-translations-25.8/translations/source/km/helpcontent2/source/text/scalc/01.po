@@ -4110,8 +4110,8 @@ msgid "            <emph>Sigma</emph> (optional) is the known standard deviation
 msgstr "            <emph>ស៊ិគម៉ា​</emph> (ជា​ជម្រើស​​) ត្រូវ​បាន​ស្គាល់​ជាគម្លាត​គំរូ​នៃ​ប៉ូពុយឡាស៉្យុង​ ។​ ប្រ​សិន​បើ បាន​លុប​ គម្លាត​គំរូនៃ​​គំរូ​​ដែល​បាន​ផ្តល់​​ត្រូវ​បាន​ប្រើ​ ។​"
 
 #: 04060182.xhp#par_id0305200911372999.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
-msgstr "មើល <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">ទំព័រ​វិគី</link> ។"
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
+msgstr "មើល <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">ទំព័រ​វិគី</link> ។"
 
 #: 04060182.xhp#bm_id3153623.help.text
 msgid "<bookmark_value>HARMEAN function</bookmark_value>         <bookmark_value>means;harmonic</bookmark_value>"
@@ -8557,8 +8557,8 @@ msgstr "<ahelp hid=\".\">អនុគមន៍ ASC បម្លែង ASCII ​�
 
 #: 04060110.xhp#par_id9912411.help.text
 msgctxt "04060110.xhp#par_id9912411.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "មើល <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> សម្រាប់​តារាង​ការ​បម្លែង ។"
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "មើល <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> សម្រាប់​តារាង​ការ​បម្លែង ។"
 
 #: 04060110.xhp#hd_id9204992.help.text
 msgctxt "04060110.xhp#hd_id9204992.help.text"
@@ -9047,8 +9047,8 @@ msgstr "<ahelp hid=\".\">អនុគមន៍ JIS បម្លែង ASCII ព�
 
 #: 04060110.xhp#par_id1551561.help.text
 msgctxt "04060110.xhp#par_id1551561.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "មើល <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> សម្រាប់​តារាង​ការ​បម្លែង ។"
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "មើល <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> សម្រាប់​តារាង​ការ​បម្លែង ។"
 
 #: 04060110.xhp#hd_id2212897.help.text
 msgctxt "04060110.xhp#hd_id2212897.help.text"
@@ -21230,8 +21230,8 @@ msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNA
 msgstr "ជ្រើស​​ <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - ចំណូល​ចិត្ត​</caseinline><defaultinline>ឧបករណ៍​​ - ជម្រើស​​</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\">%PRODUCTNAME Calc - គណនា​​</link> ដើម្បី​កំណត់​របៀបដែល​​​ $[officename] Calc ដំណើរការ​នៅ​ពេល​ស្វែងរក​​ធាតុ​ដែល​ដូច​គ្នា​ ។​"
 
 #: 04060101.xhp#par_id3882869.help.text
-msgid "See also the Wiki page about <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
-msgstr "មើល​ទំព័រ​ផង​ដែរ​អំពី <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">ការ​បន្ថែម និង​ការ​រាប់​បន្ថែម</link> ។"
+msgid "See also the Wiki page about <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
+msgstr "មើល​ទំព័រ​ផង​ដែរ​អំពី <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">ការ​បន្ថែម និង​ការ​រាប់​បន្ថែម</link> ។"
 
 #: 04060101.xhp#bm_id3150882.help.text
 msgid "<bookmark_value>DCOUNT function</bookmark_value>         <bookmark_value>counting rows;with numeric values</bookmark_value>"
@@ -24003,8 +24003,8 @@ msgid "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> returns 0.86."
 msgstr "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> ត្រឡប់ 0.86 ។"
 
 #: 04060185.xhp#par_id0305200911372899.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
-msgstr "មើល​ <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">ទំព័រ​វិគី</link> ។"
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
+msgstr "មើល​ <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">ទំព័រ​វិគី</link> ។"
 
 #: 04070000.xhp#tit.help.text
 msgid "Names"

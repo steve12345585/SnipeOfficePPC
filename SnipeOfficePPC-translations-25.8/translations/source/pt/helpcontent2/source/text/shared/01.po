@@ -1208,7 +1208,7 @@ msgid "Sets the indent, spacing, and alignment options for the numbered or bulle
 msgstr "Define as opções de avanço, espaçamento e alinhamento para a lista numerada ou com marcas."
 
 #: 06050600.xhp#par_id5004119.help.text
-msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of LibreOffice), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
+msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of SnipeSearch), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
 msgstr "O separador Posição é diferente entre documentos que utilizem os novos atributos de posição e espaço introduzidos pelo OpenOffice.org 3.0 (e utilizados em todas as versões do LibreOffice) e os documentos que utilizem os atributos das versões anteriores à 3.0. A nova versão deste separador mostra os controlos \"Numeração seguida de\", \"Alinhamento da numeração\", \"Alinhado em\", e \"Avanço em\". A versão antiga deste separador, que pode ser vista numa lista numerada ou de marcas antigas, mostra os controles \"Avanço\", \"Largura da numeração\", \"Distância mínima entre numeração <-> texto\" e \"Alinhamento da numeração\"."
 
 #: 06050600.xhp#hd_id3149031.3.help.text
@@ -22608,12 +22608,12 @@ msgid "$ means the match must end a paragraph. "
 msgstr "$ significa que a correspondência tem de terminar um parágrafo. "
 
 #: 02100001.xhp#par_id1751457.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">página Wiki sobre expressões normais no Writer</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">página Wiki sobre expressões normais no Writer</link>"
 
 #: 02100001.xhp#par_id5483870.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">página Wiki sobre expressões normais no Calc</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">página Wiki sobre expressões normais no Calc</link>"
 
 #: 05100000.xhp#tit.help.text
 msgctxt "05100000.xhp#tit.help.text"

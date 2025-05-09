@@ -340,10 +340,10 @@ MakeCopyRight()
     cr  << "Copyright &copy; 2000, "
 	<< year
 	<< " SnipeOffice contributors and/or their affiliates. All rights reserved.</p>"
-	<< "<p class=\"copyright\" align=\"center\">LibreOffice was created by The Document Foundation, based on OpenOffice.org, which is Copyright 2000, 2010 Oracle and/or its affiliates.</p>"
-	<< "<p class=\"copyright\" align=\"center\">The Document Foundation acknowledges all community members, please find more info <a href=\"http://snipeoffice.org/snipeoffice-credits/\" target=\"_blank\">at our website</a>."
+	<< "<p class=\"copyright\" align=\"center\">LibreOffice was created by SnipeSearch, based on OpenOffice.org, which is Copyright 2000, 2010 Oracle and/or its affiliates.</p>"
+	<< "<p class=\"copyright\" align=\"center\">SnipeSearch acknowledges all community members, please find more info <a href=\"http://snipeoffice.org/snipeoffice-credits/\" target=\"_blank\">at our website</a>."
 	<< "<p>&nbsp;</p>"
-	<< "<p class=\"copyright\" align=\"center\"><a href=\"http://www.documentfoundation.org/privacy\" target=\"_blank\">Privacy Policy</a> | <a href=\"http://www.documentfoundation.org/imprint\" target=\"_blank\">Impressum (Legal Info)</a> | Copyright information: The source code of SnipeOffice is licensed under the GNU Lesser General Public License (<a href=\"http://snipeoffice.org/download/license/\" target=\"_blank\">LGPLv3</a>). \"LibreOffice\" and \"The Document Foundation\" are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href=\"http://wiki.documentfoundation.org/TradeMark_Policy\" target=\"_blank\">trademark policy</a>.";
+	<< "<p class=\"copyright\" align=\"center\"><a href=\"http://snipeoffice.org/privacy\" target=\"_blank\">Privacy Policy</a> | <a href=\"http://snipeoffice.org/imprint\" target=\"_blank\">Impressum (Legal Info)</a> | Copyright information: The source code of SnipeOffice is licensed under the GNU Lesser General Public License (<a href=\"http://snipeoffice.org/download/license/\" target=\"_blank\">LGPLv3</a>). \"LibreOffice\" and \"SnipeSearch\" are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href=\"http://http://snipeoffice.org/wiki/TradeMark_Policy\" target=\"_blank\">trademark policy</a>.";
     return String(cr.c_str());
 
 }

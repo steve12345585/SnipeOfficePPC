@@ -4123,8 +4123,8 @@ msgid "            <emph>Sigma</emph> (optional) is the known standard deviation
 msgstr "            <emph>Sigma</emph> (необязательный параметр): известное стандартное отклонение общей совокупности. Если этот параметр не указан, то используется стандартное отклонение указанного примера."
 
 #: 04060182.xhp#par_id0305200911372999.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
-msgstr "См. также <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">вики-страницу</link>."
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
+msgstr "См. также <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">вики-страницу</link>."
 
 #: 04060182.xhp#bm_id3153623.help.text
 msgid "<bookmark_value>HARMEAN function</bookmark_value>         <bookmark_value>means;harmonic</bookmark_value>"
@@ -8572,8 +8572,8 @@ msgstr "<ahelp hid=\".\">Функция ASC используется для пр
 
 #: 04060110.xhp#par_id9912411.help.text
 msgctxt "04060110.xhp#par_id9912411.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "Для получения информации о таблице преобразования см. <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link>."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "Для получения информации о таблице преобразования см. <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link>."
 
 #: 04060110.xhp#hd_id9204992.help.text
 msgctxt "04060110.xhp#hd_id9204992.help.text"
@@ -9062,8 +9062,8 @@ msgstr "<ahelp hid=\".\">Функция JIS используется для пр
 
 #: 04060110.xhp#par_id1551561.help.text
 msgctxt "04060110.xhp#par_id1551561.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "Для получения информации о таблице преобразования см. <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link>."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "Для получения информации о таблице преобразования см. <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link>."
 
 #: 04060110.xhp#hd_id2212897.help.text
 msgctxt "04060110.xhp#hd_id2212897.help.text"
@@ -21307,8 +21307,8 @@ msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNA
 msgstr "Выберите команду <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Параметры</caseinline><defaultinline>Сервис - Параметры</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\" name=\"Электронная таблица - Вычислить\">%PRODUCTNAME Calc - Вычислить</link>, чтобы определить поведение $[officename] Calc при поиске идентичных записей."
 
 #: 04060101.xhp#par_id3882869.help.text
-msgid "See also the Wiki page about <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
-msgstr "См. также wiki-страницу, посвященную <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">условному подсчету и суммированию</link>."
+msgid "See also the Wiki page about <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
+msgstr "См. также wiki-страницу, посвященную <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">условному подсчету и суммированию</link>."
 
 #: 04060101.xhp#bm_id3150882.help.text
 msgid "<bookmark_value>DCOUNT function</bookmark_value>         <bookmark_value>counting rows;with numeric values</bookmark_value>"
@@ -24087,8 +24087,8 @@ msgid "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> returns 0.86."
 msgstr "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> возвращает значение 0,86."
 
 #: 04060185.xhp#par_id0305200911372899.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
-msgstr "См. также <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">вики-страницу</link>."
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
+msgstr "См. также <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">вики-страницу</link>."
 
 #: 04070000.xhp#tit.help.text
 msgid "Names"

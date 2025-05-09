@@ -64,7 +64,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr " ଆଧାର ଉପୟୋଗ କରି ତଥ୍ଯ ସଞ୍ଚଯଗୁଡିକ ପରିଚାଳନା ,ପ୍ରଶ୍ନଗୁଡିକୁ ସୃଷ୍ଟି ଏବଂ ରିପୋର୍ଟଗୁଡିକୁ ଚିହ୍ନଟ କର ଏବଂ   ତୁମ ସୂଚନାକୁ ପରିଚାଳନା କର।"
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr "କାର୍ଯ୍ୟାଳୟ ଉତ୍ପାଦନ ମୁକ୍ତ ଏବଂ ମାନକ ODF ଦଲିଲ ଶୈଳୀ ସହିତ ସୁସଂଗତ ମେଳଖାଇଥାଏ। ଏହା ଦଲିଲ ଅନୁଷ୍ଠାନ ଦ୍ୱାରା ସମର୍ଥିତ।"
 
 #: launcher_name.ulf#printeradmin.LngText.text

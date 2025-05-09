@@ -1208,7 +1208,7 @@ msgid "Sets the indent, spacing, and alignment options for the numbered or bulle
 msgstr "Zenbakidun edo buletdun zerrendaren koska-, tarte- eta lerrokatze-aukerak ezartzen ditu."
 
 #: 06050600.xhp#par_id5004119.help.text
-msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of LibreOffice), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
+msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of SnipeSearch), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
 msgstr "'Posizioa' fitxak itxura desberdina izaten du OpenOffice.org 3.0-rekin erabiltzen hasitako (LibreOffice-en betidanik erabili dira) posizioaren eta tartearen atributu berriak darabilzten dokumentuetan eta aurreko bertsioetako atributu zaharrak erabiltzen dituzten dokumentuetan. Fitxa-orri honen bertsio berriak \"Zenbakitzearen ondoren\", \"Zenbakitzearen lerrokatzea\", \"Hemen lerrokatuta\" eta \"Koska hemen\" kontrolak erakusten ditu. Buletdun edo zenbakidun zerrenda zaharretan ikus daitekeen fitxa-orri honen bertsio zaharrean kontrol hauek egoten dira: \"Koska\", \"Zenbakitzearen zabalera\", \"Zenbaki <-> testu arteko gutxieneko tartea\" eta \"Zenbakitzearen lerrokatzea\"."
 
 #: 06050600.xhp#hd_id3149031.3.help.text
@@ -22817,12 +22817,12 @@ msgid "$ means the match must end a paragraph. "
 msgstr "$ ikurrak esan nahi du bat datorren hitzak paragrafoaren amaieran egon behar duela. "
 
 #: 02100001.xhp#par_id1751457.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Writer-eko adierazpen erregularrei buruzko wiki orria</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Writer-eko adierazpen erregularrei buruzko wiki orria</link>"
 
 #: 02100001.xhp#par_id5483870.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Calc-eko adierazpen erregularrei buruzko wiki orria</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Calc-eko adierazpen erregularrei buruzko wiki orria</link>"
 
 #: 05100000.xhp#tit.help.text
 msgctxt "05100000.xhp#tit.help.text"

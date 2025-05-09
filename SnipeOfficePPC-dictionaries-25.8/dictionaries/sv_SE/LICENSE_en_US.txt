@@ -1,4 +1,4 @@
-﻿Swedish Dictionary for LibreOffice
+﻿Swedish Dictionary for SnipeOffice
 Based on Den stora svenska ordlistan
 
 This Swedish Dictionary for Spell Checking is maintained by

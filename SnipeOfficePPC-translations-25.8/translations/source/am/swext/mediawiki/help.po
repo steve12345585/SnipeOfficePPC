@@ -180,8 +180,8 @@ msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password betw
 msgstr "<ahelp hid=\".\" visibility=\"hidden\">ያስችሉ የመግቢያ ቃል ማስቀመጥ በክፍለ ጊዜዎች መሀከል ፡ ዋናውን የመግቢያ ቃል ማሳቻል አለብዎት ፡ ይህን ይመልከቱ <item type=\"menuitem\">መሳሪያዎች - ምርጫዎች - %PRODUCTNAME - ደህንነት</item>.</ahelp>"
 
 #: wikiaccount.xhp#par_id3112582.help.text
-msgid "Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser."
-msgstr "ለ Wiki ሰርቨር አድራሻ በዚህ አይነት አቀራረብ ያስገቡ http://wiki.documentfoundation.org ወይንም የ URL አድራሻ ከዌብ መቃኛ ኮፒ ያድርጉ"
+msgid "Enter the Internet address of a Wiki server in a format like http://http://snipeoffice.org/wiki or copy the URL from a web browser."
+msgstr "ለ Wiki ሰርቨር አድራሻ በዚህ አይነት አቀራረብ ያስገቡ http://http://snipeoffice.org/wiki ወይንም የ URL አድራሻ ከዌብ መቃኛ ኮፒ ያድርጉ"
 
 #: wikiaccount.xhp#par_id628070.help.text
 msgid "If the Wiki allows anonymous access, you can leave the account text boxes empty. Else enter your user name and password."

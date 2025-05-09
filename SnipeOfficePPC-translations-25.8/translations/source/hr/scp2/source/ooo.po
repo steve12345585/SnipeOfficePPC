@@ -2548,8 +2548,8 @@ msgid "Open Document"
 msgstr "Otvaranje dokumenta"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, uredski paket programa omogućen od The Document Foundation. Pogledajte http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, uredski paket programa omogućen od SnipeSearch. Pogledajte http://snipeoffice.org"
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text
 msgid "Information"

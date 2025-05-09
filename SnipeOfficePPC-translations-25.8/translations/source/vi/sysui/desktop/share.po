@@ -64,8 +64,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Quản lý cơ sở dữ liệu, tạo truy vấn và báo cáo để theo dõi và quản lý thông tin bằng Base."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "Bộ công cụ văn phòng này tương thích với các chuẩn ODF. Được hỗ trợ bởi The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "Bộ công cụ văn phòng này tương thích với các chuẩn ODF. Được hỗ trợ bởi SnipeSearch."
 
 #: launcher_name.ulf#printeradmin.LngText.text
 msgid "%PRODUCTNAME Printer Administration"

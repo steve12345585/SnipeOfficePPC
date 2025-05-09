@@ -4110,7 +4110,7 @@ msgid "            <emph>Sigma</emph> (optional) is the known standard deviation
 msgstr "            <emph>Sigma</emph> (optional) is the known standard deviation of the population. If omitted, the standard deviation of the given sample is used."
 
 #: 04060182.xhp#par_id0305200911372999.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
 msgstr ""
 
 #: 04060182.xhp#bm_id3153623.help.text
@@ -8559,7 +8559,7 @@ msgstr "<ahelp hid=\".\">The ASC function converts full-width to half-width ASCI
 
 #: 04060110.xhp#par_id9912411.help.text
 msgctxt "04060110.xhp#par_id9912411.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
 msgstr ""
 
 #: 04060110.xhp#hd_id9204992.help.text
@@ -9049,7 +9049,7 @@ msgstr "<ahelp hid=\".\">The JIS function converts half-width to full-width ASCI
 
 #: 04060110.xhp#par_id1551561.help.text
 msgctxt "04060110.xhp#par_id1551561.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
 msgstr ""
 
 #: 04060110.xhp#hd_id2212897.help.text
@@ -21253,7 +21253,7 @@ msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNA
 msgstr "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\">%PRODUCTNAME Calc - Calculate</link> to define how $[officename] Calc acts when searching for identical entries."
 
 #: 04060101.xhp#par_id3882869.help.text
-msgid "See also the Wiki page about <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
+msgid "See also the Wiki page about <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
 msgstr ""
 
 #: 04060101.xhp#bm_id3150882.help.text
@@ -24026,7 +24026,7 @@ msgid "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> returns 0.86."
 msgstr "            <item type=\"input\">=WEIBULL(2;1;1;1)</item> returns 0.86."
 
 #: 04060185.xhp#par_id0305200911372899.help.text
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
 msgstr ""
 
 #: 04070000.xhp#tit.help.text

@@ -1568,8 +1568,8 @@ msgstr "Dokument opmaachen"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
 #, fuzzy
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, die produktive Bürosoftware bereitgestellt von The Document Foundation. Siehe http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, die produktive Bürosoftware bereitgestellt von SnipeSearch. Siehe http://snipeoffice.org"
 
 #: module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text
 msgctxt "module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text"

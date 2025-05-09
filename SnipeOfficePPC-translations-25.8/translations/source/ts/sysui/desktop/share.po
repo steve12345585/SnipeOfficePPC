@@ -77,7 +77,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Tirhisa swihlayisela-rungula, endla mindzavisiso ni swiviko leswaku u landzelerisisa rungula ra wena hi ku tirhisa Base."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr ""
 
 #: launcher_name.ulf#printeradmin.LngText.text

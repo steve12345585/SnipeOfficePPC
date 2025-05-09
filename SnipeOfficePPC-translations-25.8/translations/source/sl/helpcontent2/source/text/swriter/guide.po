@@ -2805,7 +2805,7 @@ msgstr "Kliknite <emph>V redu</emph>."
 
 #: numbering_paras.xhp#par_id6943571.help.text
 msgctxt "numbering_paras.xhp#par_id6943571.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Setting_up_a_Style_for_Numbering_Lines_in_Code_Listings\">Wiki page about numbering paragraphs by styles</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Setting_up_a_Style_for_Numbering_Lines_in_Code_Listings\">Wiki page about numbering paragraphs by styles</link>"
 msgstr "<link href=\"http://wiki.services.openoffice.org/wiki/Documentation/SL/How_Tos/Nastavitev_sloga_za_oštevilčevanje_vrstic_kode\">Stran wiki o oštevilčevanju odstavkov s slogi</link>"
 
 #: words_count.xhp#tit.help.text
@@ -7790,7 +7790,7 @@ msgstr "<link href=\"text/swriter/01/05030800.xhp\" name=\"Oblika - Odstavek - O
 
 #: numbering_lines.xhp#par_id2212591.help.text
 msgctxt "numbering_lines.xhp#par_id2212591.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Setting_up_a_Style_for_Numbering_Lines_in_Code_Listings\">Wiki page about numbering paragraphs by styles</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Setting_up_a_Style_for_Numbering_Lines_in_Code_Listings\">Wiki page about numbering paragraphs by styles</link>"
 msgstr "<link href=\"http://wiki.services.openoffice.org/wiki/Documentation/SL/How_Tos/Nastavitev_sloga_za_oštevilčevanje_vrstic_kode\">Stran wiki o oštevilčevanju odstavkov s slogi</link>"
 
 #: hyphen_prevent.xhp#tit.help.text

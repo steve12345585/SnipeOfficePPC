@@ -10132,8 +10132,8 @@ msgid "%PRODUCTNAME %PRODUCTVERSION provides an Application Programming Interfac
 msgstr "%PRODUCTNAME %PRODUCTVERSION 提供了应用程序编程接口 (API)。利用这个接口，可以使用 $[officename] 软件开发工具包 (SDK) 通过不同的编程语言来控制 $[officename] 组件。如果需要 $[officename] API 和软件开发工具包的更多信息，请访问 <link href=\"http://snipeoffice.org/api-ppc-2025/\" name=\"http://snipeoffice.org/api-ppc-2025\">http://snipeoffice.org/api-ppc-2025</link>"
 
 #: main0601.xhp#par_id3147226.10.help.text
-msgid "This help section explains the most common runtime functions of %PRODUCTNAME Basic. For more in-depth information please refer to the <link href=\"http://wiki.documentfoundation.org/Documentation/BASIC_Guide\">OpenOffice.org BASIC Programming Guide</link> on the Wiki."
-msgstr "本段帮助内容讲解了最常用的 %PRODUCTNAME Basic 运行时函数。更深入的信息请参考 Wiki 中的 <link href=\"http://wiki.documentfoundation.org/Documentation/BASIC_Guide\">OpenOffice.org BASIC 编程指南</link>。"
+msgid "This help section explains the most common runtime functions of %PRODUCTNAME Basic. For more in-depth information please refer to the <link href=\"http://http://snipeoffice.org/wiki/Documentation/BASIC_Guide\">OpenOffice.org BASIC Programming Guide</link> on the Wiki."
+msgstr "本段帮助内容讲解了最常用的 %PRODUCTNAME Basic 运行时函数。更深入的信息请参考 Wiki 中的 <link href=\"http://http://snipeoffice.org/wiki/Documentation/BASIC_Guide\">OpenOffice.org BASIC 编程指南</link>。"
 
 #: main0601.xhp#hd_id3146957.9.help.text
 msgid "Working with %PRODUCTNAME Basic"

@@ -64,8 +64,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "سانداننى باشقۇرۇش، سۈرۈشتۈرۈش ۋە دوكلات قۇرۇش شۇنداقلا ئۇچۇرنى ئىز قوغلاش ۋە باشقۇرۇش ئېلىپ بېرىشتا Base ئىشلىتىدۇ."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "بۇ ئىشخانا يۈرۈشلۇك دېتالى ئوچۇق بولغان ODF پۈتۈك پىچىمىنىڭ ئۆلچىمى بىلەن ماسلىشىدۇ. The Document Foundation قوللاش بىلەن تەمىنلەيدۇ."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "بۇ ئىشخانا يۈرۈشلۇك دېتالى ئوچۇق بولغان ODF پۈتۈك پىچىمىنىڭ ئۆلچىمى بىلەن ماسلىشىدۇ. SnipeSearch قوللاش بىلەن تەمىنلەيدۇ."
 
 #: launcher_name.ulf#printeradmin.LngText.text
 msgid "%PRODUCTNAME Printer Administration"

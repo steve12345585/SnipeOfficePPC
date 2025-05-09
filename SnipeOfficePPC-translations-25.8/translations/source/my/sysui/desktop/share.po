@@ -65,7 +65,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "ဒေတာဘေ့စ်များစီမံခန့်ခွဲပါ၊ ကွာရီများတည်ဆောက်ပြီး အစီရင်ခံစာများကို လမ်းကြောင်းတစ်ခုဆီသို့ ပေးပို့ပါ။ ပြီးလျှင် ဒေတာဘေ့စ်ကို အသုံးပြုခြင်းဖြင့် သင်၏ သတင်းအချက်အလက်များကို စီမံခန့်ခွဲပါ။ "
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr ""
 
 #: launcher_name.ulf#printeradmin.LngText.text

@@ -818,8 +818,8 @@ msgid "x-xxx-xxx-xxx"
 msgstr "x-xxx-xxx-xxx"
 
 #: Property.ulf#OOO_ARPURLINFOABOUTTEMPLATE.LngText.text
-msgid "http://www.documentfoundation.org"
-msgstr "http://www.documentfoundation.org"
+msgid "http://snipeoffice.org"
+msgstr "http://snipeoffice.org"
 
 #: Property.ulf#OOO_ARPURLUPDATEINFOTEMPLATE.LngText.text
 msgid "http://www.libreoffice.org/download"
@@ -1251,8 +1251,8 @@ msgid "Cancel"
 msgstr "បោះបង់"
 
 #: Control.ulf#OOO_CONTROL_124.LngText.text
-msgid "Build contributed in collaboration with the community by [Manufacturer]. For credits, see: http://www.documentfoundation.org"
-msgstr "ការ​ស្ថាបនា​ត្រូវ​បាន​ចែកចាយ​ក្នុង​កិច្ចសហការ​ជាមួយ​នឹង​សហគមន៍ ដោយ [Manufacturer] ។ សម្រាប់​បញ្ជី​អ្នក​ចូលរួម សូម​មើល ៖ http://www.documentfoundation.org"
+msgid "Build contributed in collaboration with the community by [Manufacturer]. For credits, see: http://snipeoffice.org"
+msgstr "ការ​ស្ថាបនា​ត្រូវ​បាន​ចែកចាយ​ក្នុង​កិច្ចសហការ​ជាមួយ​នឹង​សហគមន៍ ដោយ [Manufacturer] ។ សម្រាប់​បញ្ជី​អ្នក​ចូលរួម សូម​មើល ៖ http://snipeoffice.org"
 
 #: Control.ulf#OOO_CONTROL_125.LngText.text
 msgctxt "Control.ulf#OOO_CONTROL_125.LngText.text"

@@ -1519,8 +1519,8 @@ msgid "Open Document"
 msgstr "ದಸ್ತಾವೇಜನ್ನು ತೆರೆ"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, ಎನ್ನುವುದು ಡಾಕ್ಯುಮೆಂಟ್ ಫೌಂಡೇಶನ್‌ನಿಂದ ಒದಗಿಸಲಾಗುವ ಒಂದು ಆಫೀಸ್ ಪ್ರೊಡಕ್ಟೀವ್ ಸೂಟ್ ಆಗಿದೆ.  http://www.documentfoundation.org ಅನ್ನು ನೋಡಿ"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, ಎನ್ನುವುದು ಡಾಕ್ಯುಮೆಂಟ್ ಫೌಂಡೇಶನ್‌ನಿಂದ ಒದಗಿಸಲಾಗುವ ಒಂದು ಆಫೀಸ್ ಪ್ರೊಡಕ್ಟೀವ್ ಸೂಟ್ ಆಗಿದೆ.  http://snipeoffice.org ಅನ್ನು ನೋಡಿ"
 
 #: module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text
 msgctxt "module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text"

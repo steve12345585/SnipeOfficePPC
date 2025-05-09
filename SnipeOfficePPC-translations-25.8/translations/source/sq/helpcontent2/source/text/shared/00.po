@@ -3704,7 +3704,7 @@ msgstr "Europe/Kaliningrad"
 
 #: 00000021.xhp#par_id0519200811530455.help.text
 msgid "OpenOffice.org 1.1.5 or StarOffice 7"
-msgstr "http://www.documentfoundation.org"
+msgstr "http://snipeoffice.org"
 
 #: 00000021.xhp#par_id0514200811565787.help.text
 msgid "ODF 1.1 "
@@ -3740,7 +3740,7 @@ msgstr "-"
 
 #: 00000021.xhp#par_id1001200912381174.help.text
 msgid "OpenOffice.org 3.2 or StarOffice 9.2"
-msgstr "http://www.documentfoundation.org"
+msgstr "http://snipeoffice.org"
 
 #: 00000021.xhp#par_id0514200811525591.help.text
 msgid "In current versions, you can select to save your documents using ODF 1.2 (default) or ODF 1.0/1.1 (for backward compatibility). Choose <item type=\"menuitem\">Tools - Options - Load/Save - General</item> and select the ODF format version."

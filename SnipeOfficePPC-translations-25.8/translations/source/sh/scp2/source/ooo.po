@@ -1518,8 +1518,8 @@ msgid "Open Document"
 msgstr "Otvori dokument"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "Libreofis, kancelarijski softverski paket koji omogućava „Dokument fondacija“. Pogledajte http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "Libreofis, kancelarijski softverski paket koji omogućava „Dokument fondacija“. Pogledajte http://snipeoffice.org"
 
 #: module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text
 msgctxt "module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text"

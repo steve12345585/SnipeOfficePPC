@@ -20,7 +20,7 @@
  * (a copy is included in the LICENSE file that accompanied this code).
  *
  * You should have received a copy of the GNU Lesser General Public License
- * version 3 along with LibreOffice.  If not, see
+ * version 3 along with SnipeOffice.  If not, see
  * <http://www.openoffice.org/license.html>
  * for a copy of the LGPLv3 License.
  *

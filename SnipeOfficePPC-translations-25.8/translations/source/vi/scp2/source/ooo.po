@@ -2494,8 +2494,8 @@ msgid "Open Document"
 msgstr "Mở tài liệu"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, bộ phần mềm văn phòng được cung cấp bởi Document Foundation. See http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, bộ phần mềm văn phòng được cung cấp bởi Document Foundation. See http://snipeoffice.org"
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text
 msgid "Information"

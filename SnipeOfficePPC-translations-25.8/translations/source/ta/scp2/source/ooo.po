@@ -2488,8 +2488,8 @@ msgid "Open Document"
 msgstr "திறந்த ஆவணம்"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "லிப்ரேஆஃபிஸ், டாக்குமென்ட் ஃபவுன்டேஷன் வழங்கும் அலுவலக மென்பொருள் தொகுப்பு. http://www.documentfoundation.org ஐக் காண்க"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "லிப்ரேஆஃபிஸ், டாக்குமென்ட் ஃபவுன்டேஷன் வழங்கும் அலுவலக மென்பொருள் தொகுப்பு. http://snipeoffice.org ஐக் காண்க"
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text
 msgid "Information"

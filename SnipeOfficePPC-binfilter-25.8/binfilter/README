@@ -7,4 +7,4 @@ legacy binary file formats) to remain the same.
 
 The basic idea is that this code runs and spits out big chunks of XML
 which are then imported by the more modern code-base, thus providing
-legacy filter support to LibreOffice.
+legacy filter support to SnipeOffice.

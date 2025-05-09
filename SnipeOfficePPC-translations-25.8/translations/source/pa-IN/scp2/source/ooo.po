@@ -1519,8 +1519,8 @@ msgid "Open Document"
 msgstr "ਡੌਕੂਮੈਂਟ ਖੋਲ੍ਹੋ"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "ਲਿਬਰੇਆਫਿਸ, ਆਫਿਸ ਉਤਪਾਦਨ ਨੂੰ ਡੌਕੂਮੈਂਟ ਫਾਊਂਡੇਸ਼ਨ ਵਲੋਂ ਦਿੱਤਾ ਜਾ ਰਿਹਾ ਹੈ। http://www.documentfoundation.org ਵੇਖੋ।"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "ਲਿਬਰੇਆਫਿਸ, ਆਫਿਸ ਉਤਪਾਦਨ ਨੂੰ ਡੌਕੂਮੈਂਟ ਫਾਊਂਡੇਸ਼ਨ ਵਲੋਂ ਦਿੱਤਾ ਜਾ ਰਿਹਾ ਹੈ। http://snipeoffice.org ਵੇਖੋ।"
 
 #: module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text
 msgctxt "module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text"

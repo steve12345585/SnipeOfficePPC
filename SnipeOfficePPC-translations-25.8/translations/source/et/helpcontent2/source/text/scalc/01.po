@@ -4427,8 +4427,8 @@ msgstr "            <emph>Sigma</emph> (mittekohustuslik) on populatsiooni teada
 
 #: 04060182.xhp#par_id0305200911372999.help.text
 #, fuzzy
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
-msgstr "Vt ka <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki-lehte</link>."
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki page</link>."
+msgstr "Vt ka <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_ZTEST_function\">Wiki-lehte</link>."
 
 #: 04060182.xhp#bm_id3153623.help.text
 #, fuzzy
@@ -9085,8 +9085,8 @@ msgstr "<ahelp hid=\".\">Funktsioon ASC teisendab täislaiusega ASCII ja katakan
 #: 04060110.xhp#par_id9912411.help.text
 #, fuzzy
 msgctxt "04060110.xhp#par_id9912411.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "Vaata teisendustabelit aadressilt <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link>."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "Vaata teisendustabelit aadressilt <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link>."
 
 #: 04060110.xhp#hd_id9204992.help.text
 msgctxt "04060110.xhp#hd_id9204992.help.text"
@@ -9615,8 +9615,8 @@ msgstr "<ahelp hid=\".\">Funktsioon JIS teisendab poollaiusega ASCII ja katakana
 #: 04060110.xhp#par_id1551561.help.text
 #, fuzzy
 msgctxt "04060110.xhp#par_id1551561.help.text"
-msgid "See <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr "Vaata teisendustabelit aadressilt <link href=\"http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">http://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link>."
+msgid "See <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
+msgstr "Vaata teisendustabelit aadressilt <link href=\"http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions\">http://http://snipeoffice.org/wiki/Calc/Features/JIS_and_ASC_functions</link>."
 
 #: 04060110.xhp#hd_id2212897.help.text
 msgctxt "04060110.xhp#hd_id2212897.help.text"
@@ -22167,8 +22167,8 @@ msgstr "Et määrata, kuidas $[officename] Calc peaks identseid kirjeid otsides 
 
 #: 04060101.xhp#par_id3882869.help.text
 #, fuzzy
-msgid "See also the Wiki page about <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
-msgstr "Vaata ka Wiki lehekülge <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Conditional_Counting_and_Summation\">Tingimuslik loendamine ja liitmine</link>."
+msgid "See also the Wiki page about <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">Conditional Counting and Summation</link>."
+msgstr "Vaata ka Wiki lehekülge <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Conditional_Counting_and_Summation\">Tingimuslik loendamine ja liitmine</link>."
 
 #: 04060101.xhp#bm_id3150882.help.text
 #, fuzzy
@@ -25192,8 +25192,8 @@ msgstr "            <item type=\"input\">=DECIMAL(\"17\";10)</item> tagastab 17.
 
 #: 04060185.xhp#par_id0305200911372899.help.text
 #, fuzzy
-msgid "See also the <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
-msgstr "Vt ka <link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki-lehte</link>."
+msgid "See also the <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki page</link>."
+msgstr "Vt ka <link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Calc:_WEIBULL_function\">Wiki-lehte</link>."
 
 #: 04070000.xhp#tit.help.text
 msgid "Names"

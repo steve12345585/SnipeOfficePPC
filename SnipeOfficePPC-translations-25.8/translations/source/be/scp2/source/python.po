@@ -27,5 +27,5 @@ msgid "Python-UNO Bridge"
 msgstr "Мост Python-UNO"
 
 #: module_python.ulf#STR_DESC_MODULE_OPTIONAL_PYTHON.LngText.text
-msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://wiki.documentfoundation.org/Development/PyUno for a complete documentation."
-msgstr "Дазваляе аўтаматызаваць %PRODUCTNAME з выкарыстаннем Python. Поўную дакументацыю гл. на https://wiki.documentfoundation.org/Development/PyUno."
+msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://http://snipeoffice.org/wiki/Development/PyUno for a complete documentation."
+msgstr "Дазваляе аўтаматызаваць %PRODUCTNAME з выкарыстаннем Python. Поўную дакументацыю гл. на https://http://snipeoffice.org/wiki/Development/PyUno."

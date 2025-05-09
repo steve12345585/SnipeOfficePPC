@@ -1208,7 +1208,7 @@ msgid "Sets the indent, spacing, and alignment options for the numbered or bulle
 msgstr "Numaralandırılmış ya da madde imli listeler için girinti, aralama ve hizalama seçeneklerini ayarlar."
 
 #: 06050600.xhp#par_id5004119.help.text
-msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of LibreOffice), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
+msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of SnipeSearch), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space numbering <-> text\", and \"Numbering alignment\"."
 msgstr "Konum sekmesi sayfası, OpenOffice.org 3.0 ile tanıtılan (ve LibreOffice'in tüm versiyonlarında kullanılan) yeni konum ve aralama özelliklerini kullanan belgelerde veya 3.0 sürümünden öncekilerden eski özellikler kullanan belgelerde farklı görünür. Bu sekme sayfasının yeni sürümü \"Numaralandırmayı takip eden\", \"Numaralandırma hizalaması\", \"Hizalandığı konum\", ve \"Girinti yeri\" kontrollerini gösterir. Bu sekme sayfasının eski numaralandırılmış veya madde imi kullanılmış bir yerde görülebilecek eski sürümü \"Girinti\", \"Numaralndırma genişliği\", \"Numaralandırma asgari aralığı <-> metin\", ve \"Numaralndırma hizası\" kontrollerini gösterir."
 
 #: 06050600.xhp#hd_id3149031.3.help.text
@@ -22608,12 +22608,12 @@ msgid "$ means the match must end a paragraph. "
 msgstr "$ eşleştirmenin paragraf sonunda bitmesi gerektiğini belirler.</br>İç içe geçmiş AND/OR işleçleri olan mantıksal bir arama ifadesi için ayraç kullanın. Örneğin, \"((a[A-z]*)|(ab[A-z]*)|(b[A-z]*))$\", paragrafın sonunda yer alan ve bir boşluğun ardından \"a\", \"ab\" ya da \"b\" karakterleriyle başlayan bir metni arar. "
 
 #: 02100001.xhp#par_id1751457.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Writer\">Writer'daki düzenli ifadelerle ilgili wiki sayfası</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Wiki page about regular expressions in Writer</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Writer\">Writer'daki düzenli ifadelerle ilgili wiki sayfası</link>"
 
 #: 02100001.xhp#par_id5483870.help.text
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
-msgstr "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Regular_Expressions_in_Calc\">Calc düzenli ifadeleri hakkında Wiki sayfası</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Wiki page about regular expressions in Calc</link>"
+msgstr "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Regular_Expressions_in_Calc\">Calc düzenli ifadeleri hakkında Wiki sayfası</link>"
 
 #: 05100000.xhp#tit.help.text
 msgctxt "05100000.xhp#tit.help.text"

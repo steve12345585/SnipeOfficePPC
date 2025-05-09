@@ -57,8 +57,8 @@ msgid "Open Document"
 msgstr "Open Document"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, la suite de productividá d'oficina que presenta The Document Foundation. Visita http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, la suite de productividá d'oficina que presenta SnipeSearch. Visita http://snipeoffice.org"
 
 #: module_helppack.ulf#STR_NAME_MODULE_ROOT_HELPPACK.LngText.text
 msgctxt "module_helppack.ulf#STR_NAME_MODULE_ROOT_HELPPACK.LngText.text"

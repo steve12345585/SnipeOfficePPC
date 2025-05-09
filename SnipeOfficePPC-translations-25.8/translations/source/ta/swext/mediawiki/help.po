@@ -180,8 +180,8 @@ msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password betw
 msgstr "<ahelp hid=\".\" visibility=\"hidden\">ஒவ்வொரு அமர்வுகளிலும் உங்கள் கடவுச்சொல்லைச் சேமிக்கும் அம்சத்தைச் செயல்படுத்தவும். மூலக் கடவுச்சொல்லை செயல்படுத்தியாக வேண்டும், <item type=\"menuitem\">கருவிகள் - விருப்பங்கள் - %PRODUCTNAME - பாதுகாப்பு</item> என்பதைப் பார்க்கவும்.</ahelp>"
 
 #: wikiaccount.xhp#par_id3112582.help.text
-msgid "Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser."
-msgstr "http://wiki.documentfoundation.org என்ற வடிவத்தில் Wiki சேவையகத்தின் முகவரியை உள்ளிடவும் அல்லது ஒரு வலை உலாவியிலிருந்து URL  ஐ நகலெடுக்கவும்."
+msgid "Enter the Internet address of a Wiki server in a format like http://http://snipeoffice.org/wiki or copy the URL from a web browser."
+msgstr "http://http://snipeoffice.org/wiki என்ற வடிவத்தில் Wiki சேவையகத்தின் முகவரியை உள்ளிடவும் அல்லது ஒரு வலை உலாவியிலிருந்து URL  ஐ நகலெடுக்கவும்."
 
 #: wikiaccount.xhp#par_id628070.help.text
 msgid "If the Wiki allows anonymous access, you can leave the account text boxes empty. Else enter your user name and password."

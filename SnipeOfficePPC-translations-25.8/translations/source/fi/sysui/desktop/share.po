@@ -233,8 +233,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Hallinnoi tietokantoja, luo kyselyjä ja seurantaraportteja, ja hallinnoi tietojasi käyttämällä Base -ohjelmaa."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "Avoimen ODF-asiakirjastandardin kanssa yhteensopiva, The Document Foundationin tukema toimisto-ohjelmisto."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "Avoimen ODF-asiakirjastandardin kanssa yhteensopiva, SnipeSearchin tukema toimisto-ohjelmisto."
 
 #: launcher_genericname.ulf#writer.LngText.text
 msgid "Word Processor"

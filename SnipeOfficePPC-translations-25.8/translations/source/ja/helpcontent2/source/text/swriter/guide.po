@@ -2364,7 +2364,7 @@ msgstr "<emph>OK</emph> をクリックします。"
 
 #: numbering_paras.xhp#par_id6943571.help.text
 msgctxt "numbering_paras.xhp#par_id6943571.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Setting_up_a_Style_for_Numbering_Lines_in_Code_Listings\">Wiki page about numbering paragraphs by styles</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Setting_up_a_Style_for_Numbering_Lines_in_Code_Listings\">Wiki page about numbering paragraphs by styles</link>"
 msgstr ""
 
 #: using_hyphen.xhp#tit.help.text
@@ -2624,7 +2624,7 @@ msgstr "メニュー <link href=\"text/swriter/01/05030800.xhp\" name=\"書式 �
 
 #: numbering_lines.xhp#par_id2212591.help.text
 msgctxt "numbering_lines.xhp#par_id2212591.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/Documentation/How_Tos/Setting_up_a_Style_for_Numbering_Lines_in_Code_Listings\">Wiki page about numbering paragraphs by styles</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/Documentation/How_Tos/Setting_up_a_Style_for_Numbering_Lines_in_Code_Listings\">Wiki page about numbering paragraphs by styles</link>"
 msgstr ""
 
 #: anchor_object.xhp#tit.help.text

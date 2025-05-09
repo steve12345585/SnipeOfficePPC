@@ -2494,8 +2494,8 @@ msgid "Open Document"
 msgstr "បើក​ឯកសារ"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice ឈុត​កម្មវិធី​ការិយាល័យ​ដែល​បាន​ផ្ដល់​ដោយ The Document Foundation ។ សូម​មើល http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice ឈុត​កម្មវិធី​ការិយាល័យ​ដែល​បាន​ផ្ដល់​ដោយ SnipeSearch ។ សូម​មើល http://snipeoffice.org"
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text
 msgid "Information"

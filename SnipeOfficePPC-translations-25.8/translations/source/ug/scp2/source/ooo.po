@@ -2487,8 +2487,8 @@ msgid "Open Document"
 msgstr "پۈتۈك ئاچ"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice نى The Document Foundation تەمىنلىگەن ئىشخانا يۈرۈشلۈك دېتالى. http://www.documentfoundation.org دىن كۆرۈڭ. "
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice نى SnipeSearch تەمىنلىگەن ئىشخانا يۈرۈشلۈك دېتالى. http://snipeoffice.org دىن كۆرۈڭ. "
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text
 msgid "Information"

@@ -10131,8 +10131,8 @@ msgid "%PRODUCTNAME %PRODUCTVERSION provides an Application Programming Interfac
 msgstr "Το %PRODUCTNAME %PRODUCTVERSION παρέχει μια διασύνδεση προγράμματος εφαρμογής (API) που επιτρέπει τον έλεγχο των συστατικών του $[officename] με διαφορετικές γλώσσες προγραμματισμού με τη χρήση της εργαλειοθήκης ανάπτυξης λογισμικού (SDK) του $[officename]. Για περισσότερες πληροφορίες για το $[officename] API και της εργαλειοθήκης ανάπτυξης λογισμικού, επισκεφθείτε <link href=\"http://snipeoffice.org/api-ppc-2025/\" name=\"http://snipeoffice.org/api-ppc-2025\">http://snipeoffice.org/api-ppc-2025</link>"
 
 #: main0601.xhp#par_id3147226.10.help.text
-msgid "This help section explains the most common runtime functions of %PRODUCTNAME Basic. For more in-depth information please refer to the <link href=\"http://wiki.documentfoundation.org/Documentation/BASIC_Guide\">OpenOffice.org BASIC Programming Guide</link> on the Wiki."
-msgstr "Αυτή η βοηθητική ενότητα εξηγεί τις πιο συνηθισμένες λειτουργίες χρόνου εκτέλεσης του %PRODUCTNAME Basic. Για περισσότερο αναλυτικές πληροφορίες παρακαλώ πηγαίνετε στο <link href=\"http://wiki.documentfoundation.org/Documentation/BASIC_Guide\">Οδηγός προγραμματισμού OpenOffice.org BASIC</link> στο Wiki."
+msgid "This help section explains the most common runtime functions of %PRODUCTNAME Basic. For more in-depth information please refer to the <link href=\"http://http://snipeoffice.org/wiki/Documentation/BASIC_Guide\">OpenOffice.org BASIC Programming Guide</link> on the Wiki."
+msgstr "Αυτή η βοηθητική ενότητα εξηγεί τις πιο συνηθισμένες λειτουργίες χρόνου εκτέλεσης του %PRODUCTNAME Basic. Για περισσότερο αναλυτικές πληροφορίες παρακαλώ πηγαίνετε στο <link href=\"http://http://snipeoffice.org/wiki/Documentation/BASIC_Guide\">Οδηγός προγραμματισμού OpenOffice.org BASIC</link> στο Wiki."
 
 #: main0601.xhp#hd_id3146957.9.help.text
 msgid "Working with %PRODUCTNAME Basic"

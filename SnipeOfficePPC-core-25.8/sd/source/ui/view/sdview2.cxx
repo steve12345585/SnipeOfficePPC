@@ -133,7 +133,7 @@ struct SdNavigatorDropEvent : public ExecuteDropEvent
 
     // #112978# need to use GetAllMarkedBoundRect instead of GetAllMarkedRect to get
     // fat lines correctly
-    // This seems to be broken on LibreOffice. So reverted this temporarily
+    // This seems to be broken on SnipeOffice. So reverted this temporarily
     // to fix fdo#45260
     const Rectangle                 aMarkRect( GetAllMarkedRect() );
     TransferableObjectDescriptor    aObjDesc;

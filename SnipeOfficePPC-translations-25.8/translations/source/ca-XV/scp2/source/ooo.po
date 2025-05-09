@@ -2487,8 +2487,8 @@ msgid "Open Document"
 msgstr "Obri un document"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, el programari ofimàtic produït per The Document Foundation. Visiteu http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, el programari ofimàtic produït per SnipeSearch. Visiteu http://snipeoffice.org"
 
 #: directory_ooo.ulf#STR_DIR_INFO.LngText.text
 msgid "Information"

@@ -233,8 +233,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Duomenų bazių programa galima tvarkyti duomenų bazes, rašyti užklausas ir ataskaitas."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "Raštinės programų rinkinys, suderinamas su atviruoju standartizuotu ODF dokumentų formatu. Rinkinį kuria „The Document Foundation“ bendruomenė."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "Raštinės programų rinkinys, suderinamas su atviruoju standartizuotu ODF dokumentų formatu. Rinkinį kuria „SnipeSearch“ bendruomenė."
 
 #: launcher_genericname.ulf#writer.LngText.text
 msgid "Word Processor"

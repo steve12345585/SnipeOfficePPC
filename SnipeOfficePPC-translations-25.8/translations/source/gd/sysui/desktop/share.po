@@ -233,7 +233,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Rianaich stòir-dhàta, cruthaich iarrtasan is aithisgean gus am fiosrachadh agad a lorgadh agus a rianachd le Base."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr "Tha an raon seo de bhathar oifis co-chòrdail leis an fhòrmat fhosgailte is bhun-tomhasach ODF. Le taic on Document Foundation."
 
 #: launcher_genericname.ulf#writer.LngText.text

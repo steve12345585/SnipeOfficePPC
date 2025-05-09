@@ -20,8 +20,8 @@ msgid "Python-UNO Bridge"
 msgstr "Treuzell Python-UNO"
 
 #: module_python.ulf#STR_DESC_MODULE_OPTIONAL_PYTHON.LngText.text
-msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://wiki.documentfoundation.org/Development/PyUno for a complete documentation."
-msgstr "Ouzhpennañ a ra ar varregezh da emgefreekaat %PRODUCTNAME gant an areg skriptañ Python. Lennit https://wiki.documentfoundation.org/Development/PyUno a-benn gouzout pep tra."
+msgid "Adds the ability to automate %PRODUCTNAME with the Python scripting language. See https://http://snipeoffice.org/wiki/Development/PyUno for a complete documentation."
+msgstr "Ouzhpennañ a ra ar varregezh da emgefreekaat %PRODUCTNAME gant an areg skriptañ Python. Lennit https://http://snipeoffice.org/wiki/Development/PyUno a-benn gouzout pep tra."
 
 #: module_python_mailmerge.ulf#STR_NAME_MODULE_OPTIONAL_PYTHON_MAILMERGE.LngText.text
 msgid "E-mail Mailmerge"

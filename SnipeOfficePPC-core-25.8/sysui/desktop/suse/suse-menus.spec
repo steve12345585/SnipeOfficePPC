@@ -5,7 +5,7 @@ Summary: %productname desktop integration
 Name: %pkgprefix-suse-menus
 Group: Office
 License: LGPL
-Vendor: The Document Foundation
+Vendor: SnipeSearch
 AutoReqProv: no
 BuildArch: noarch
 # /etc/SuSE-release for SuSE, SLES and Novell Linux Desktop ..

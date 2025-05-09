@@ -63,7 +63,7 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Base fayyadamuun kuusaa deetaa taligi, gaafataa fi gabaasota odeeffannoo kee hordofuu fi taliguuf oolan uumi."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
 msgstr "Gartuu sirna offisii gulantaa banaan walsimatee fi ODF fayyadamu. Dokumant Faawundeeshiniin kan deeggaramu."
 
 #: launcher_name.ulf#printeradmin.LngText.text

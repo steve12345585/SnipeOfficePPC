@@ -233,8 +233,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Base - Ardeiñ stlennvonoù, krouiñ azgoulennoù ha danevelloù"
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "An heuliad burevek keverlec'h gant ar mentrezh teul ODF skoueriekaet ha digor. Skoret eo gant The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "An heuliad burevek keverlec'h gant ar mentrezh teul ODF skoueriekaet ha digor. Skoret eo gant SnipeSearch."
 
 #: launcher_genericname.ulf#writer.LngText.text
 msgid "Word Processor"

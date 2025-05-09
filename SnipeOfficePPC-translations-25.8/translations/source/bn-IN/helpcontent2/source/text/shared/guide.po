@@ -2526,7 +2526,7 @@ msgid "In Excel, the formula =A1+A2 returns 2, but the formula =SUM(A1,A2) retur
 msgstr "এক্সেল এ সূত্র =A1+A2  মান ২ ফলাফল দেয় কিন্তু সূত্র =SUM(A1,A2)  মান ০ ফলাফল দেয়।"
 
 #: ms_import_export_limitations.xhp#par_id3150439.30.help.text
-msgid "For a detailed overview about converting documents to and from Microsoft Office format, see the <link href=\"http://wiki.documentfoundation.org/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Migration Guide</link>."
+msgid "For a detailed overview about converting documents to and from Microsoft Office format, see the <link href=\"http://http://snipeoffice.org/wiki/Documentation/OOoAuthors_User_Manual/Migration_Guide\">Migration Guide</link>."
 msgstr ""
 
 #: ms_import_export_limitations.xhp#par_idN10A9F.help.text
@@ -3291,7 +3291,7 @@ msgstr "<ahelp hid=\".\" visibility=\"hidden\"> যদি আপনি <emph> �
 
 #: digitalsign_receive.xhp#par_id3204443.help.text
 msgctxt "digitalsign_receive.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
 msgstr ""
 
 #: digitalsign_receive.xhp#par_id2182378.help.text
@@ -5142,7 +5142,7 @@ msgstr "একটি স্বাক্ষরের কার্যকারি�
 
 #: digital_signatures.xhp#par_id3204443.help.text
 msgctxt "digital_signatures.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
 msgstr ""
 
 #: digital_signatures.xhp#par_id486465.help.text
@@ -8682,7 +8682,7 @@ msgstr "<ahelp hid=\".\" visibility=\"hidden\">সংযোগ বাদ দে�
 
 #: digitalsign_send.xhp#par_id3204443.help.text
 msgctxt "digitalsign_send.xhp#par_id3204443.help.text"
-msgid "<link href=\"http://wiki.documentfoundation.org/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
+msgid "<link href=\"http://http://snipeoffice.org/wiki/How_to_use_digital_Signatures\">English Wiki page on digital signatures</link>"
 msgstr ""
 
 #: digitalsign_send.xhp#par_id5166173.help.text
@@ -9869,7 +9869,7 @@ msgid "$[officename] supports some assistive technology tools like screen magnif
 msgstr "$ [officename] পর্দা বিবর্ধন সফটওয়্যার, পর্দা পাঠক এবং পর্দার উপর কী-বোর্ডের ন্যায় কিছু সহযোগী প্রযুক্তি টুল সমর্থন করে। এই টুলের অধিকাংশ $[officename] এর সঙ্গে ava(TM) Access Bridge সফটওয়্যার এর সাহায্যে যোগাযোগ করে, যা Java runtime environment এর একটি অংশ Java Accessibility API ব্যবহার করে।"
 
 #: assistive.xhp#par_id8847010.help.text
-msgid "A current list of supported assistive tools can be found on the Wiki at <link href=\"http://wiki.documentfoundation.org/Accessibility\">http://wiki.documentfoundation.org/Accessibility</link>."
+msgid "A current list of supported assistive tools can be found on the Wiki at <link href=\"http://http://snipeoffice.org/wiki/Accessibility\">http://http://snipeoffice.org/wiki/Accessibility</link>."
 msgstr ""
 
 #: assistive.xhp#hd_id3145345.12.help.text

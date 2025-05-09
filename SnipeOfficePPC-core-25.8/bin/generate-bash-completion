@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 # script to generate SnipeOffice bash_completion file for the main applications
 # written by Rene Engelhard <rene@debian.org>, Public Domain
-# updated for libreoffice-build by Petr Mladek <pmladek@suse.cz>, Public Domain
+# updated for SnipeOffice-build by Petr Mladek <pmladek@suse.cz>, Public Domain
 # yes, this script probably is not real good code :) but still easier
 # to maintain than adding those entries statically many times in
 # a file...

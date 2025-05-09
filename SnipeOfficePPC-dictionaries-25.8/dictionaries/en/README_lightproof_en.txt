@@ -1,3 +1,3 @@
-English sentence checker for LibreOffice
+English sentence checker for SnipeOffice
 see http://launchpad.net/lightproof and http://numbertext.org/lightproof
 2011 (c) László Németh, license: MPL 1.1 / GPLv3+ / LGPLv3+

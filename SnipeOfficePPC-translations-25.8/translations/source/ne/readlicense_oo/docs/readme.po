@@ -48,8 +48,8 @@ msgid "You can use this copy of ${PRODUCTNAME} free of charge because individual
 msgstr "तपाईँले नि: शुल्क ${PRODUCTNAME} को उपयोग गर्न सक्नुहुन्छ किनभने व्यक्तिगत योगदानकर्ताहरू र कॉर्पोरेट प्रायोजहरूको डिजाइन, विकसित, परीक्षण, अनुवाद, कागजात, समर्थित, विपणन, र अरू प्रकारले ${PRODUCTNAME} लाई - संसारको घर र कार्यालय को लागि अग्रणी खुला स्रोत उत्पादकता सफ्टवेयर बनाउनलाई मद्दत गरेका छन् ।"
 
 #: readme.xrm#A13b.A13b.readmeitem.text
-msgid "If you appreciate their efforts, and would like to ensure that ${PRODUCTNAME} continues to be available far into the future, please consider contributing to the project - see <a href=\"http://www.documentfoundation.org/contribution/\">http://www.documentfoundation.org/contribution/</a> for details. Everyone can make a contribution of some kind."
-msgstr "यदि तपाईँले उनिहरूको कोशिशलाई सराहना गर्नु भयोभने, अनि तपाईँलाई ${PRODUCTNAME} नियमितरूपमा उपलब्ध रहोस भनेर चाहनुहुन्छ भने कृपया <a href=\"http://www.documentfoundation.org/contribution/\">http://www.documentfoundation.org/contribution/</a> हेर्नुहोस् । सबैजनाले कुनै न कुनै किसिमको योगदान गर्न सकिन्छ ।"
+msgid "If you appreciate their efforts, and would like to ensure that ${PRODUCTNAME} continues to be available far into the future, please consider contributing to the project - see <a href=\"http://snipeoffice.org/contribution/\">http://snipeoffice.org/contribution/</a> for details. Everyone can make a contribution of some kind."
+msgstr "यदि तपाईँले उनिहरूको कोशिशलाई सराहना गर्नु भयोभने, अनि तपाईँलाई ${PRODUCTNAME} नियमितरूपमा उपलब्ध रहोस भनेर चाहनुहुन्छ भने कृपया <a href=\"http://snipeoffice.org/contribution/\">http://snipeoffice.org/contribution/</a> हेर्नुहोस् । सबैजनाले कुनै न कुनै किसिमको योगदान गर्न सकिन्छ ।"
 
 #: readme.xrm#rr3fgf42r.rr3fgf42r.readmeitem.text
 msgid "Notes on Installation"
@@ -450,7 +450,7 @@ msgid "User Support"
 msgstr ""
 
 #: readme.xrm#support1.support1.readmeitem.text
-msgid "The main support page <a href=\"http://www.libreoffice.org/support/\">http://www.libreoffice.org/support/</a> offers various possibilities for help with ${PRODUCTNAME}. Your question may have already been answered - check the Community Forum at <a href=\"http://www.documentfoundation.org/nabble/\">http://www.documentfoundation.org/nabble/</a> or search the archives of the 'users@libreoffice.org' mailing list at <a href=\"http://www.libreoffice.org/lists/users/\">http://www.libreoffice.org/lists/users/</a>. Alternatively, you can send in your questions to <a href=\"mailto:users@libreoffice.org\">users@libreoffice.org</a>. If you like to subscribe to the list (to get email responses), send an empty mail to: <a href=\"mailto:users+subscribe@libreoffice.org\">users+subscribe@libreoffice.org</a>."
+msgid "The main support page <a href=\"http://www.libreoffice.org/support/\">http://www.libreoffice.org/support/</a> offers various possibilities for help with ${PRODUCTNAME}. Your question may have already been answered - check the Community Forum at <a href=\"http://snipeoffice.org/nabble/\">http://snipeoffice.org/nabble/</a> or search the archives of the 'users@libreoffice.org' mailing list at <a href=\"http://www.libreoffice.org/lists/users/\">http://www.libreoffice.org/lists/users/</a>. Alternatively, you can send in your questions to <a href=\"mailto:users@libreoffice.org\">users@libreoffice.org</a>. If you like to subscribe to the list (to get email responses), send an empty mail to: <a href=\"mailto:users+subscribe@libreoffice.org\">users+subscribe@libreoffice.org</a>."
 msgstr ""
 
 #: readme.xrm#faq.faq.readmeitem.text

@@ -531,7 +531,7 @@ msgstr "Documentation"
 
 #: 00000001.xhp#par_id3497211.help.text
 msgid "You can download documentation as PDF files, how-tos, and guides from the %PRODUCTNAME website at <link href=\"http://www.libreoffice.org/get-help/documentation/\">www.libreoffice.org/get-help/documentation/</link>."
-msgstr "Vous pouvez télécharger diverses documentations au format PDF, des tutoriels et des guides sur le wiki francophone %PRODUCTNAME à <link href=\"http://wiki.documentfoundation.org/FR/Main_Page/\">wiki.documentfoundation.org/FR/Main_Page/</link>."
+msgstr "Vous pouvez télécharger diverses documentations au format PDF, des tutoriels et des guides sur le wiki francophone %PRODUCTNAME à <link href=\"http://http://snipeoffice.org/wiki/FR/Main_Page/\">http://snipeoffice.org/wiki/FR/Main_Page/</link>."
 
 #: 00000001.xhp#hd_id0120200910361765.help.text
 msgid "Participate and give back"

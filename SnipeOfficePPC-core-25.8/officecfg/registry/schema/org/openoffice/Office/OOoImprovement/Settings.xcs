@@ -40,7 +40,7 @@
         <info>
           <desc>the url where additional information can be found.</desc>
         </info>
-        <value>http://wiki.documentfoundation.org/UX/LibreOffice_User_Feedback_Program</value>
+        <value>http://http://snipeoffice.org/wiki/UX/LibreOffice_User_Feedback_Program</value>
       </prop>
     </group>
     <group oor:name="Counters">

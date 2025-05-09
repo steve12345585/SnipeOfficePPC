@@ -57,8 +57,8 @@ msgid "Open Document"
 msgstr "Belge Aç"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "Libreoffice, The Document Foundation tarafından sağlanan, ofis üretkenlik paketi. http://www.documentfoundation.org adresini ziyaret ediniz."
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "Libreoffice, SnipeSearch tarafından sağlanan, ofis üretkenlik paketi. http://snipeoffice.org adresini ziyaret ediniz."
 
 #: module_helppack.ulf#STR_NAME_MODULE_ROOT_HELPPACK.LngText.text
 msgctxt "module_helppack.ulf#STR_NAME_MODULE_ROOT_HELPPACK.LngText.text"

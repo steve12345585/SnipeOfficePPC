@@ -233,8 +233,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "ניהול מסדי נתונים, יצירת שאילתות ודוחות כדי לעקוב ולנהל את המידע שלך באמצעות תוכנת מסד הנתונים."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "חבילת כלי המשרד תואמת למבנה הקבצים התקני והפתוח ODF. כאשר התמיכה הנה מצד The Document Foundation (קרן המסמך)."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "חבילת כלי המשרד תואמת למבנה הקבצים התקני והפתוח ODF. כאשר התמיכה הנה מצד SnipeSearch (קרן המסמך)."
 
 #: launcher_genericname.ulf#writer.LngText.text
 msgid "Word Processor"

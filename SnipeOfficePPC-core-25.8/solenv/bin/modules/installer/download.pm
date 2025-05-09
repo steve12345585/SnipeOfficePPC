@@ -865,7 +865,7 @@ sub create_link_tree
 }
 
 #######################################################
-# Setting supported platform for LibreOffice
+# Setting supported platform for SnipeOffice
 # builds
 #######################################################
 

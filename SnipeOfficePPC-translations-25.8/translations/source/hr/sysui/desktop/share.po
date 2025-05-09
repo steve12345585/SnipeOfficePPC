@@ -66,8 +66,8 @@ msgid "Manage databases, create queries and reports to track and manage your inf
 msgstr "Upravlja bazama, stvara upite i izvještaje za praćenje, te upravlja vašim informacijama."
 
 #: launcher_comment.ulf#startcenter.LngText.text
-msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation."
-msgstr "Uredski paket je usklađen s otvorenim i standardiziranim ODF formatom dokumenta. Podržan od strane The Document Foundation."
+msgid "The office productivity suite compatible to the open and standardized ODF document format. Supported by SnipeSearch."
+msgstr "Uredski paket je usklađen s otvorenim i standardiziranim ODF formatom dokumenta. Podržan od strane SnipeSearch."
 
 #: launcher_name.ulf#printeradmin.LngText.text
 msgid "%PRODUCTNAME Printer Administration"

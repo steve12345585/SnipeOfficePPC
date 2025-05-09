@@ -242,7 +242,7 @@ iOS is the operating system of Apple's mobile devices. Clearly for a
 device like the iPad it would be totally unacceptable to run a normal
 LibreOffice application with a overlapping windows and mouse-oriented
 GUI widgets. No work has been done (at least publicly) by others to
-design a touch GUI for LibreOffice, so that is something that needs to
+design a touch GUI for SnipeOffice, so that is something that needs to
 be done.
 
 Obviously it will make sense to use only a part of SnipeOffice's code

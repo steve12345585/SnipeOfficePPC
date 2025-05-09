@@ -1465,7 +1465,7 @@ msgid "%PRODUCTNAME Credits"
 msgstr "%PRODUCTNAME 貢獻群"
 
 #: main0108.xhp#par_id5144510.8.help.text
-msgid "<ahelp hid=\".uno:ShowLicense\">Displays the CREDITS.odt document which lists the names of individuals who have contributed to OpenOffice.org source code (and whose contributions were imported into LibreOffice) or SnipeOffice since 2010-09-28.</ahelp>"
+msgid "<ahelp hid=\".uno:ShowLicense\">Displays the CREDITS.odt document which lists the names of individuals who have contributed to OpenOffice.org source code (and whose contributions were imported into SnipeOffice) or SnipeOffice since 2010-09-28.</ahelp>"
 msgstr "<ahelp hid=\".uno:ShowLicense\">顯示 CREDITS.odt 文件，其中列出自 2010年09月28日以來，貢獻 OpenOffice.org 源碼 (包含那些貢獻被匯入 SnipeOffice 中的人們) 或LibreOffice 的個人名稱列表 。</ahelp>"
 
 #: main0108.xhp#hd_id3153881.7.help.text

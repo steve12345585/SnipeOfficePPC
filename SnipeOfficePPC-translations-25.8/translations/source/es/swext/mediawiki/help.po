@@ -181,8 +181,8 @@ msgid "<ahelp hid=\".\" visibility=\"hidden\">Enable to store your password betw
 msgstr "<ahelp hid=\".\" visibility=\"hidden\">Active para guardar su contraseña entre sesiones. Debe activar la contraseña maestra, vea <item type=\"menuitem\">Herramientas - Opciones - %PRODUCTNAME - Seguridad</item>.</ahelp>"
 
 #: wikiaccount.xhp#par_id3112582.help.text
-msgid "Enter the Internet address of a Wiki server in a format like http://wiki.documentfoundation.org or copy the URL from a web browser."
-msgstr "Introduzca la dirección de Internet de un servidor wiki en un formato como http://wiki.documentfoundation.org, o copie la URL desde un navegador web."
+msgid "Enter the Internet address of a Wiki server in a format like http://http://snipeoffice.org/wiki or copy the URL from a web browser."
+msgstr "Introduzca la dirección de Internet de un servidor wiki en un formato como http://http://snipeoffice.org/wiki, o copie la URL desde un navegador web."
 
 #: wikiaccount.xhp#par_id628070.help.text
 msgid "If the Wiki allows anonymous access, you can leave the account text boxes empty. Else enter your user name and password."

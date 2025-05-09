@@ -818,7 +818,7 @@ msgstr "x-xxx-xxx-xxx"
 
 #: Property.ulf#OOO_ARPURLINFOABOUTTEMPLATE.LngText.text
 #, fuzzy
-msgid "http://www.documentfoundation.org"
+msgid "http://snipeoffice.org"
 msgstr "http://www.openoffice.org"
 
 #: Property.ulf#OOO_ARPURLUPDATEINFOTEMPLATE.LngText.text
@@ -1254,8 +1254,8 @@ msgstr "ຍົກເລີກ"
 
 #: Control.ulf#OOO_CONTROL_124.LngText.text
 #, fuzzy
-msgid "Build contributed in collaboration with the community by [Manufacturer]. For credits, see: http://www.documentfoundation.org"
-msgstr "ສ້າງການຊ່ວຍເຫຼືອໃນການຮ່ວມມືກັບຄະນະຂອງ The Document Foundation ສຳລັບຄວາມເຊື່ອຖື, ເບິ່ງທີ່:http://www.openoffice.org/welcome/credits.html"
+msgid "Build contributed in collaboration with the community by [Manufacturer]. For credits, see: http://snipeoffice.org"
+msgstr "ສ້າງການຊ່ວຍເຫຼືອໃນການຮ່ວມມືກັບຄະນະຂອງ SnipeSearch ສຳລັບຄວາມເຊື່ອຖື, ເບິ່ງທີ່:http://www.openoffice.org/welcome/credits.html"
 
 #: Control.ulf#OOO_CONTROL_125.LngText.text
 msgctxt "Control.ulf#OOO_CONTROL_125.LngText.text"

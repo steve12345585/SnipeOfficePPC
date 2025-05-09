@@ -1522,8 +1522,8 @@ msgid "Open Document"
 msgstr "Opna skjal"
 
 #: folderitem_ooo.ulf#STR_FI_TOOLTIP_SOFFICE.LngText.text
-msgid "LibreOffice, the office productivity suite provided by The Document Foundation. See http://www.documentfoundation.org"
-msgstr "LibreOffice, fullbúið safn hugbúnaðar til vinnslu á texta, myndefni, til útreikninga og gagnavinnslu í boði The Document Foundation. Skoðaðu http://www.documentfoundation.org"
+msgid "LibreOffice, the office productivity suite provided by SnipeSearch. See http://snipeoffice.org"
+msgstr "LibreOffice, fullbúið safn hugbúnaðar til vinnslu á texta, myndefni, til útreikninga og gagnavinnslu í boði SnipeSearch. Skoðaðu http://snipeoffice.org"
 
 #: module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text
 msgctxt "module_langpack.ulf#STR_NAME_MODULE_ROOT_LANGPACK.LngText.text"
