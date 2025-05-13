@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdGutterStyleOld {
-        const long wdGutterStyleBidi = 2;
-        const long wdGutterStyleLatin = -10;
-    };
-}; }; };

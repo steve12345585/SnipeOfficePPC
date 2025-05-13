@@ -1,6 +1,0 @@
-module ooo { module vba { module powerpoint {
-    constants PpAlertLevel {
-        const long ppAlertsAll = 2;
-        const long ppAlertsNone = 1;
-    };
-}; }; };

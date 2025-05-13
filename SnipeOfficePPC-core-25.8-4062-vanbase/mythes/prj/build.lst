@@ -1,0 +1,2 @@
+myt     mythes  :       soltools solenv HUNSPELL:hunspell NULL
+myt     mythes\prj              nmake   -       all myt_mythes NULL

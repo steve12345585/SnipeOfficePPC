@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdWindowType {
-        const long wdWindowDocument = 0;
-        const long wdWindowTemplate = 1;
-    };
-}; }; };

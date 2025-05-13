@@ -1,0 +1,2 @@
+ep	expat	: soltools NULL
+ep	expat\prj		nmake	-	all	ep_expat NULL

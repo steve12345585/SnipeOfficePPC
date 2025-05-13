@@ -1,0 +1,125 @@
+/*
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ */
+#ifndef _SVX_OPTINET_HRC
+#define _SVX_OPTINET_HRC
+
+#include <sfx2/tabpage.hrc>
+#include <svtools/controldims.hrc>
+
+// Proxy ------------------------------------------------------------------
+#define GB_SETTINGS                 1
+#define FT_PROXYMODE                2
+#define LB_PROXYMODE                2
+#define FT_HTTP_PROXY               3
+#define ED_HTTP_PROXY               3
+#define FT_HTTP_PORT                4
+#define ED_HTTP_PORT                4
+#define FT_FTP_PROXY                5
+#define ED_FTP_PROXY                5
+#define FT_FTP_PORT                 6
+#define ED_FTP_PORT                 6
+#define FT_SOCKS_PROXY              7
+#define ED_SOCKS_PROXY              7
+#define FT_SOCKS_PORT               8
+#define ED_SOCKS_PORT               8
+#define FT_NOPROXYFOR               11
+#define ED_NOPROXYFOR               11
+#define ED_NOPROXYDESC              12
+#define ST_PROXY_FROM_BROWSER       13
+#define FT_HTTPS_PROXY              14
+#define ED_HTTPS_PROXY              14
+#define FT_HTTPS_PORT               15
+#define ED_HTTPS_PORT               15
+
+// Protocols  --------------------------------------------------------------
+#define GB_DNS                      105
+#define RB_DNS_AUTO                 106
+#define RB_DNS_MANUAL               107
+#define ED_DNS                      107
+
+#define ST_MSG_255_0                111
+#define ST_MSG_255_1                112
+
+// Security  -------------------------------------------------------------
+
+#define FL_SEC_SECURITYOPTIONS      10
+#define FI_SEC_SECURITYOPTIONS      11
+#define PB_SEC_SECURITYOPTIONS      12
+#define FL_SEC_PASSWORDS            13
+#define CB_SEC_SAVEPASSWORDS        14
+#define PB_SEC_CONNECTIONS          15
+#define CB_SEC_MASTERPASSWORD       16
+#define FI_SEC_MASTERPASSWORD       17
+#define PB_SEC_MASTERPASSWORD       18
+#define FL_SEC_MACROSEC             19
+#define FI_SEC_MACROSEC             20
+#define PB_SEC_MACROSEC             21
+#define FL_SEC_CERTPATH             22
+#define FI_SEC_CERTPATH             23
+#define PB_SEC_CERTPATH             24
+
+#define STR_SEC_NOPASSWDSAVE        12
+
+#define BORDER_OFFSET               8
+#define COL_0                       (RSC_SP_TBPG_INNERBORDER_LEFT)
+#define COL_1                       (COL_0+RSC_SP_FLGR_SPACE_X)
+#define COL_1a                      (COL_1+RSC_SP_CHK_TEXTINDENT)
+#define COL_4                       (TP_WIDTH-RSC_SP_TBPG_INNERBORDER_RIGHT)
+#define COL_3                       (COL_4-RSC_CD_PUSHBUTTON_WIDTH)
+#define COL_2                       (COL_3-RSC_SP_CTRL_DESC_X)
+
+#define ROW_0                       (RSC_SP_FLGR_INNERBORDER_TOP)
+#define ROW_1                       (ROW_0+RSC_CD_FIXEDLINE_HEIGHT+RSC_SP_CTRL_DESC_Y)
+#define ROW_2                       (ROW_1+3*RSC_CD_FIXEDTEXT_HEIGHT+RSC_SP_CTRL_DESC_Y)
+#define ROW_2a                      (ROW_2-RSC_SP_FLGR_SPACE_Y-RSC_CD_PUSHBUTTON_HEIGHT)
+#define ROW_3                       (ROW_2+RSC_CD_FIXEDLINE_HEIGHT+RSC_SP_CTRL_DESC_Y)
+#define ROW_4                       (ROW_3+RSC_CD_CHECKBOX_HEIGHT+RSC_SP_CTRL_DESC_Y-1)
+#define ROW_4a                      (ROW_4+RSC_CD_CHECKBOX_HEIGHT+1)
+#define ROW_5                       (ROW_4a+4*RSC_CD_FIXEDTEXT_HEIGHT+RSC_SP_CTRL_DESC_Y)
+#define ROW_6                       (ROW_5+RSC_CD_FIXEDLINE_HEIGHT+RSC_SP_CTRL_DESC_Y)
+#define ROW_7                       (ROW_6+3*RSC_CD_FIXEDLINE_HEIGHT+RSC_SP_CTRL_DESC_Y)
+#define ROW_7a                      (ROW_7-RSC_SP_FLGR_SPACE_Y-RSC_CD_PUSHBUTTON_HEIGHT)
+#define ROW_8                       (ROW_7+RSC_CD_FIXEDLINE_HEIGHT+RSC_SP_CTRL_DESC_Y)
+#define ROW_9                       (ROW_8+3*RSC_CD_FIXEDLINE_HEIGHT+RSC_SP_CTRL_DESC_Y)
+#define ROW_9a                      (ROW_9-RSC_SP_FLGR_SPACE_Y-RSC_CD_PUSHBUTTON_HEIGHT)
+
+// Defines - JavaScriptDisableQueryBox_Impl -------------------------------
+
+#define IMG_JSCPT_WARNING           220
+#define FT_JSCPT_WARNING            221
+#define CB_JSCPT_DISABLE            222
+#define BTN_JSCPT_YES               224
+#define BTN_JSCPT_NO                225
+
+// Defines - SvxEMailTabPage_Impl
+#define FL_MAIL                     1
+#define FT_MAILERURL                2
+#define FI_MAILERURL                3
+#define ED_MAILERURL                4
+#define PB_MAILERURL                5
+#define STR_DEFAULT_FILENAME        6
+
+// plugin
+#define GB_MOZPLUGIN    1
+#define CB_MOZPLUGIN_CODE   2
+
+
+#endif // #ifndef _SVX_OPTINET_HRC
+
+// ******************************************************************* EOF
+

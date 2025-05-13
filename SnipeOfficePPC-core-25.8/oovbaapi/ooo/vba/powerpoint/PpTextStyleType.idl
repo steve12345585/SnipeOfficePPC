@@ -1,7 +1,0 @@
-module ooo { module vba { module powerpoint {
-    constants PpTextStyleType {
-        const long ppBodyStyle = 3;
-        const long ppDefaultStyle = 1;
-        const long ppTitleStyle = 2;
-    };
-}; }; };

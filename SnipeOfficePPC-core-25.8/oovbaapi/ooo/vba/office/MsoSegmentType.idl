@@ -1,6 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoSegmentType {
-        const long msoSegmentCurve = 1;
-        const long msoSegmentLine = 0;
-    };
-}; }; };

@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdBorderDistanceFrom {
-        const long wdBorderDistanceFromPageEdge = 1;
-        const long wdBorderDistanceFromText = 0;
-    };
-}; }; };

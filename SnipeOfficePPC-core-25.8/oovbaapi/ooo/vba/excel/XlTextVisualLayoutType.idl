@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlTextVisualLayoutType {
-        const long xlTextVisualLTR = 1;
-        const long xlTextVisualRTL = 2;
-    };
-}; }; };

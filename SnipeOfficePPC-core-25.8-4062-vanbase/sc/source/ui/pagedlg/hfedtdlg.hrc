@@ -1,0 +1,45 @@
+/*
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ */
+
+#include "sc.hrc"
+
+#define FT_LEFT 1
+#define FT_CENTER 2
+#define FT_RIGHT 3
+#define FT_INFO 4
+#define WND_LEFT 1
+#define WND_CENTER 2
+#define WND_RIGHT 3
+#define BTN_TEXT 1
+#define BTN_PAGE 2
+#define BTN_PAGES 3
+#define BTN_DATE 4
+#define BTN_TIME 5
+#define BTN_FILE 6
+#define BTN_TABLE 7
+
+#define RID_POPUP_FCOMMAND      10
+#define FILE_COMMAND_TITEL      11
+#define FILE_COMMAND_FILENAME   12
+#define FILE_COMMAND_PATH       13
+
+#define FL_INFO                 14
+
+#define FT_HF_DEFINED           28
+#define LB_DEFINED              29
+#define FT_HF_CUSTOM            30

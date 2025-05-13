@@ -1,8 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoMoveRow {
-        const long msoMoveRowFirst = -4;
-        const long msoMoveRowNbr = -1;
-        const long msoMoveRowNext = -2;
-        const long msoMoveRowPrev = -3;
-    };
-}; }; };

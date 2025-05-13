@@ -1,6 +1,0 @@
-module ooo { module vba { module dao {
-    constants WorkspaceTypeEnum {
-        const long dbUseJet = 2;
-        const long dbUseODBC = 1;
-    };
-}; }; };

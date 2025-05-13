@@ -1,7 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoOrientation {
-        const long msoOrientationHorizontal = 1;
-        const long msoOrientationMixed = -2;
-        const long msoOrientationVertical = 2;
-    };
-}; }; };

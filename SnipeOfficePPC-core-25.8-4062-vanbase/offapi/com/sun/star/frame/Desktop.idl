@@ -1,0 +1,73 @@
+/* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
+/**
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ */
+#ifndef __com_sun_star_frame_Desktop_idl__
+#define __com_sun_star_frame_Desktop_idl__
+
+#include <com/sun/star/frame/Frame.idl>
+#include <com/sun/star/frame/XDesktop.idl>
+#include <com/sun/star/frame/XComponentLoader.idl>
+#include <com/sun/star/document/XEventBroadcaster.idl>
+#include <com/sun/star/beans/XPropertySet.idl>
+
+
+ module com {  module sun {  module star {  module frame {
+
+/** is the environment for components which can instantiate within frames
+
+    <p>
+    A desktop environment contains tasks with one or more frames
+    in which components can be loaded. The term "task" or naming a frame as a
+    "task frame" is not in any way related to any additional implemented
+    interfaces, it's  just because these frames use task windows.
+    </p>
+ */
+published service Desktop
+{
+    /** make it possible to be the global root of different separated frame trees
+
+        <p>
+        It's not a must for a frame (neither a frame tree) to be a part of this
+        global tree. But such outstanding frames won't be accessible by the normal
+        frame API.
+        </p>
+     */
+    service Frame;
+
+    /** regulate life time of desktop environment and support high level
+        access to components of sub frame tree
+     */
+    interface XDesktop;
+
+    /** supports simple API for loading components into the frame environment
+     */
+    interface XComponentLoader;
+
+    /** @deprecated This interface is a documentation error. It was never thought to be supported
+                    by this service. Please use the service <type cope="com::sun::star::frame">GlobalEventBroadcaster</type>
+                    instead of this interface.
+     */
+    interface com::sun::star::document::XEventBroadcaster;
+};
+
+
+}; }; }; };
+
+#endif
+
+/* vim:set shiftwidth=4 softtabstop=4 expandtab: */

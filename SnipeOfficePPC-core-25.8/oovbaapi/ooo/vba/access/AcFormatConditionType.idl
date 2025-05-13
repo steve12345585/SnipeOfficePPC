@@ -1,7 +1,0 @@
-module ooo { module vba { module access {
-    constants AcFormatConditionType {
-        const long acExpression = 1;
-        const long acFieldHasFocus = 2;
-        const long acFieldValue = 0;
-    };
-}; }; };

@@ -1,8 +1,0 @@
-module ooo { module vba { module powerpoint {
-    constants PpTextUnitEffect {
-        const long ppAnimateByCharacter = 2;
-        const long ppAnimateByParagraph = 0;
-        const long ppAnimateByWord = 1;
-        const long ppAnimateUnitMixed = -2;
-    };
-}; }; };

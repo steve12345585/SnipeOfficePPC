@@ -1,0 +1,3 @@
+ar	autodoc	:  cosv udm sal NULL
+ar      autodoc                                                       usr1    -       all     ar_mkout NULL
+ar      autodoc\prj                                                   nmake           -       all     ar_prj NULL

@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdProofreadingErrorType {
-        const long wdGrammaticalError = 1;
-        const long wdSpellingError = 0;
-    };
-}; }; };

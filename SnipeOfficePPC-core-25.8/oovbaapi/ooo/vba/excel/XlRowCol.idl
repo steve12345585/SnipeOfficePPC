@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlRowCol {
-        const long xlColumns = 2;
-        const long xlRows = 1;
-    };
-}; }; };

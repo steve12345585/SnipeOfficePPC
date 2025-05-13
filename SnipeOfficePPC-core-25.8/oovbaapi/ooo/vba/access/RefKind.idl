@@ -1,6 +1,0 @@
-module ooo { module vba { module access {
-    constants RefKind {
-        const long Project = 1;
-        const long TypeLib = 0;
-    };
-}; }; };

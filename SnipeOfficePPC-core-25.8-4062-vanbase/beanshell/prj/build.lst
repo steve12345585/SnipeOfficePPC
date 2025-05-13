@@ -1,0 +1,2 @@
+be	beanshell       :	solenv NULL
+be	beanshell\prj		nmake		-	all	be_beanshell		NULL

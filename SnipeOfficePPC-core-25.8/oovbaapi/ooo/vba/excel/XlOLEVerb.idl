@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlOLEVerb {
-        const long xlVerbOpen = 2;
-        const long xlVerbPrimary = 1;
-    };
-}; }; };

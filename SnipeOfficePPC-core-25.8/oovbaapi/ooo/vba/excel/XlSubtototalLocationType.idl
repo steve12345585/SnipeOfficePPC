@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlSubtototalLocationType {
-        const long xlAtBottom = 2;
-        const long xlAtTop = 1;
-    };
-}; }; };

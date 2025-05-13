@@ -1,7 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoAutomationSecurity {
-        const long msoAutomationSecurityByUI = 2;
-        const long msoAutomationSecurityForceDisable = 3;
-        const long msoAutomationSecurityLow = 1;
-    };
-}; }; };

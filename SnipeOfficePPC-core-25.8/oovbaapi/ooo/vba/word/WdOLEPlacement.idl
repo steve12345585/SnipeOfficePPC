@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdOLEPlacement {
-        const long wdFloatOverText = 1;
-        const long wdInLine = 0;
-    };
-}; }; };

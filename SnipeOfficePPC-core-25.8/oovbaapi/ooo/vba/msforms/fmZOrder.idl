@@ -1,6 +1,0 @@
-module ooo { module vba { module msforms {
-    constants fmZOrder {
-        const long fmZOrderBack = 1;
-        const long fmZOrderFront = 0;
-    };
-}; }; };

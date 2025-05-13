@@ -1,7 +1,0 @@
-module ooo { module vba { module word {
-    constants WdHeaderFooterIndex {
-        const long wdHeaderFooterEvenPages = 3;
-        const long wdHeaderFooterFirstPage = 2;
-        const long wdHeaderFooterPrimary = 1;
-    };
-}; }; };

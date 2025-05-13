@@ -1,6 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoComboStyle {
-        const long msoComboLabel = 1;
-        const long msoComboNormal = 0;
-    };
-}; }; };

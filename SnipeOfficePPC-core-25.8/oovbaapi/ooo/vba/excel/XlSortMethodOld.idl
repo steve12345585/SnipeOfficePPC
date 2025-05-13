@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlSortMethodOld {
-        const long xlCodePage = 2;
-        const long xlSyllabary = 1;
-    };
-}; }; };

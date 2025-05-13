@@ -1,6 +1,0 @@
-module ooo { module vba { module powerpoint {
-    constants PpFileDialogType {
-        const long ppFileDialogOpen = 1;
-        const long ppFileDialogSave = 2;
-    };
-}; }; };

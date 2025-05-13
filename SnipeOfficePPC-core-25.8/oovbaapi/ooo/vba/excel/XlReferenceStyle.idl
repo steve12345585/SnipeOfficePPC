@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlReferenceStyle {
-        const long xlA1 = 1;
-        const long xlR1C1 = -4150;
-    };
-}; }; };

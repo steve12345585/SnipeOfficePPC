@@ -1,0 +1,2 @@
+hyp     hyphen  :       soltools solenv NULL
+hyp     hyphen\prj              nmake   -       all hyp_hyphen NULL

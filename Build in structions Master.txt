@@ -1,0 +1,53 @@
+Build Instructions:
+
+1. Install Dependencies
+   - Follow the instructions and install all required libraries and tools listed in the `dependancies` directory (e.g., zlib, libpng, etc.).
+   - Make sure you have the correct versions for your platform (Mac OS X 10.5 PPC).
+
+2. Run the Bootstrapper
+   - This prepares the build system (downloads submodules, sets up scripts, etc.).
+   - Command:
+     ./bootstrap
+   - or, if the script is named differently:
+     ./bootstrap.sh
+
+3. Run aclocal to set up m4 macros
+   - This step ensures all required macros (like pkg.m4) are available for autoconf.
+   - Command:
+     aclocal -I m4
+   - If you have a Darwin-specific directory, use:
+     aclocal -I m4 -I m4/mac
+
+4. Run Autoconf
+   - This generates the `configure` script from `configure.in` or `configure.ac`.
+   - Command:
+     autoconf
+   - or, for a more thorough regeneration:
+     autoreconf -fi
+
+5. Run Configure
+   - This sets up the build environment for your system.
+   - Command:
+
+./configure --enable-macosx-sdk=10.5 --disable-windows-build -prefix=/usr/local --with-system-zlib
+
+
+6. Build the Project
+   - Start the build process:
+     make MD5SUM= V=1
+   - For parallel builds (faster on multi-core systems):
+     make -j4
+
+7. (Optional) Run Tests
+   - To verify the build:
+     make check
+   - or
+     make test
+
+8. (Optional) Install
+   - To install the built binaries:
+     sudo make install
+
+Note:
+- If you update or replace any of the build system files (`configure.in`, `configure.ac`, `Makefile.am`, etc.), always re-run steps 2 and 3 before running `configure` again.
+- If you encounter errors related to missing scripts or macros, ensure you have run both the bootstrap and aclocal steps before autoconf/autoreconf. 

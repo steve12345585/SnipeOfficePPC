@@ -1,6 +1,0 @@
-module ooo { module vba { module powerpoint {
-    constants PpArrangeStyle {
-        const long ppArrangeCascade = 2;
-        const long ppArrangeTiled = 1;
-    };
-}; }; };

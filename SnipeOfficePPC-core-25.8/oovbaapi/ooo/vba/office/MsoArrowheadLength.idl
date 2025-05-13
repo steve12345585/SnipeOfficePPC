@@ -1,8 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoArrowheadLength {
-        const long msoArrowheadLengthMedium = 2;
-        const long msoArrowheadLengthMixed = -2;
-        const long msoArrowheadLong = 3;
-        const long msoArrowheadShort = 1;
-    };
-}; }; };

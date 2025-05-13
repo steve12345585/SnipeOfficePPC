@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdMultipleWordConversionsMode {
-        const long wdHangulToHanja = 0;
-        const long wdHanjaToHangul = 1;
-    };
-}; }; };

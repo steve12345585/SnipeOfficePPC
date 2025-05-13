@@ -1,7 +1,0 @@
-module ooo { module vba { module word {
-    constants WdSpellingErrorType {
-        const long wdSpellingCapitalization = 2;
-        const long wdSpellingCorrect = 0;
-        const long wdSpellingNotInDictionary = 1;
-    };
-}; }; };

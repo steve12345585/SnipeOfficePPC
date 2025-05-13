@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdCursorMovement {
-        const long wdCursorMovementLogical = 0;
-        const long wdCursorMovementVisual = 1;
-    };
-}; }; };

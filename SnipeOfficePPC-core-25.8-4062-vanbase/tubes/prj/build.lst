@@ -1,0 +1,2 @@
+tubes   tubes   : comphelper cppu sal salhelper solenv NULL
+tubes tubes\prj nmake - all tubes_prj NULL

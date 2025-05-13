@@ -1,8 +1,0 @@
-shell MediaObjectBar
-{
-    SID_AVMEDIA_TOOLBOX
-    [
-        ExecMethod = Execute;
-        StateMethod = GetState;
-    ]
-}

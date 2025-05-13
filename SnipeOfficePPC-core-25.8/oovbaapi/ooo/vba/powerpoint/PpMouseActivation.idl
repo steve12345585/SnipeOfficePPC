@@ -1,6 +1,0 @@
-module ooo { module vba { module powerpoint {
-    constants PpMouseActivation {
-        const long ppMouseClick = 1;
-        const long ppMouseOver = 2;
-    };
-}; }; };

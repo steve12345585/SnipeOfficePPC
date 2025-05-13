@@ -1,7 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlParameterType {
-        const long xlConstant = 1;
-        const long xlPrompt = 0;
-        const long xlRange = 2;
-    };
-}; }; };

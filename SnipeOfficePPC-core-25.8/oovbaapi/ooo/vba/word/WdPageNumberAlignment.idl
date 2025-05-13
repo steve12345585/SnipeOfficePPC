@@ -1,9 +1,0 @@
-module ooo { module vba { module word {
-    constants WdPageNumberAlignment {
-        const long wdAlignPageNumberCenter = 1;
-        const long wdAlignPageNumberInside = 3;
-        const long wdAlignPageNumberLeft = 0;
-        const long wdAlignPageNumberOutside = 4;
-        const long wdAlignPageNumberRight = 2;
-    };
-}; }; };

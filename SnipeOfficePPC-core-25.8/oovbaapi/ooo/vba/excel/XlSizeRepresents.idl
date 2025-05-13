@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlSizeRepresents {
-        const long xlSizeIsArea = 1;
-        const long xlSizeIsWidth = 2;
-    };
-}; }; };

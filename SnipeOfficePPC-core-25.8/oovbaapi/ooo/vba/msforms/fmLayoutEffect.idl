@@ -1,6 +1,0 @@
-module ooo { module vba { module msforms {
-    constants fmLayoutEffect {
-        const long fmLayoutEffectInitiate = 1;
-        const long fmLayoutEffectNone = 0;
-    };
-}; }; };

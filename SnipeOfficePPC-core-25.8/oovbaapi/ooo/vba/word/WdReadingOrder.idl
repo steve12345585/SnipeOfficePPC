@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdReadingOrder {
-        const long wdReadingOrderLtr = 1;
-        const long wdReadingOrderRtl = 0;
-    };
-}; }; };

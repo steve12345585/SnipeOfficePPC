@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdMailMergeDefaultRecord {
-        const long wdDefaultFirstRecord = 1;
-        const long wdDefaultLastRecord = -16;
-    };
-}; }; };

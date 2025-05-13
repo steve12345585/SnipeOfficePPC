@@ -1,8 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlMousePointer {
-        const long xlDefault = -4143;
-        const long xlIBeam = 3;
-        const long xlNorthwestArrow = 1;
-        const long xlWait = 2;
-    };
-}; }; };

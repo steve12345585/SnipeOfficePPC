@@ -1,6 +1,0 @@
-module ooo { module vba { module powerpoint {
-    constants MsoAnimAdditive {
-        const long msoAnimAdditiveAddBase = 1;
-        const long msoAnimAdditiveAddSum = 2;
-    };
-}; }; };

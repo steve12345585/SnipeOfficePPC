@@ -1,5 +1,0 @@
-module ooo { module vba { module word {
-    constants WdDictionaryTypeHID {
-        const long emptyenum = 0;
-    };
-}; }; };

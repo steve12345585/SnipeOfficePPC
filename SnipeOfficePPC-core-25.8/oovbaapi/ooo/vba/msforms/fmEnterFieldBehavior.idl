@@ -1,6 +1,0 @@
-module ooo { module vba { module msforms {
-    constants fmEnterFieldBehavior {
-        const long fmEnterFieldBehaviorRecallSelection = 1;
-        const long fmEnterFieldBehaviorSelectAll = 0;
-    };
-}; }; };

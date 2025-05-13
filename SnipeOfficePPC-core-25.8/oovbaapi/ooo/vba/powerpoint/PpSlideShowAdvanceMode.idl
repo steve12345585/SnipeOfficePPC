@@ -1,7 +1,0 @@
-module ooo { module vba { module powerpoint {
-    constants PpSlideShowAdvanceMode {
-        const long ppSlideShowManualAdvance = 1;
-        const long ppSlideShowRehearseNewTimings = 3;
-        const long ppSlideShowUseSlideTimings = 2;
-    };
-}; }; };

@@ -1,6 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoBarRow {
-        const long msoBarRowFirst = 0;
-        const long msoBarRowLast = -1;
-    };
-}; }; };

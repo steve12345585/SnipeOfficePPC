@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdRevisionsView {
-        const long wdRevisionsViewFinal = 0;
-        const long wdRevisionsViewOriginal = 1;
-    };
-}; }; };

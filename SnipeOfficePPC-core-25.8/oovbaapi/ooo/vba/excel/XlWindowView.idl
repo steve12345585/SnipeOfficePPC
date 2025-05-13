@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlWindowView {
-        const long xlNormalView = 1;
-        const long xlPageBreakPreview = 2;
-    };
-}; }; };

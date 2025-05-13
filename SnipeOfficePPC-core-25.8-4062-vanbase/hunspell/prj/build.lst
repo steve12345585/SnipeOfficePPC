@@ -1,0 +1,2 @@
+hun     hunspell        :       solenv ICU:icu NULL
+hun     hunspell\prj              nmake   -       all hun_hunspell NULL

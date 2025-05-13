@@ -1,7 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlUpdateLinks {
-        const long xlUpdateLinksAlways = 3;
-        const long xlUpdateLinksNever = 2;
-        const long xlUpdateLinksUserSetting = 1;
-    };
-}; }; };

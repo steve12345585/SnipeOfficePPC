@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlPageOrientation {
-        const long xlLandscape = 2;
-        const long xlPortrait = 1;
-    };
-}; }; };

@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlTextParsingType {
-        const long xlDelimited = 1;
-        const long xlFixedWidth = 2;
-    };
-}; }; };

@@ -1,7 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlXLMMacroType {
-        const long xlCommand = 2;
-        const long xlFunction = 1;
-        const long xlNotXLM = 3;
-    };
-}; }; };

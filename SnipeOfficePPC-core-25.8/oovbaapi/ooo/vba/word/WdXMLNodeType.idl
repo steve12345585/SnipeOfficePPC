@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdXMLNodeType {
-        const long wdXMLNodeAttribute = 2;
-        const long wdXMLNodeElement = 1;
-    };
-}; }; };

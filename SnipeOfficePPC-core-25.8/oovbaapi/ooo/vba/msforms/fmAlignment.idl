@@ -1,6 +1,0 @@
-module ooo { module vba { module msforms {
-    constants fmAlignment {
-        const long fmAlignmentLeft = 0;
-        const long fmAlignmentRight = 1;
-    };
-}; }; };

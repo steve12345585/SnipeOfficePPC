@@ -1,6 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoMixedType {
-        const long msoIntegerMixed = 32768;
-        const long msoSingleMixed = -2147483648;
-    };
-}; }; };

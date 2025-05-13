@@ -1,0 +1,125 @@
+/*
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ */
+
+#include <svtools/controldims.hrc>
+#include "index.hrc"
+#include "idxmrk.hrc"
+#include "helpid.h"
+#include "cmdid.h"
+
+ModalDialog DLG_NEW_USER_IDX
+{
+    OutputSize = TRUE ;
+    Moveable = TRUE ;
+    Closeable = TRUE;
+    Sizeable = FALSE ;
+    HelpID = HID_DLG_NEW_USER_IDX;
+    SVLook = TRUE ;
+    Size = MAP_APPFONT ( 194 , 60 ) ;
+    OKButton PB_OK
+    {
+        Pos = MAP_APPFONT ( 141 , 6 ) ;
+        Size = MAP_APPFONT ( 50 , 14 ) ;
+        TabStop = TRUE ;
+        DefButton = TRUE ;
+    };
+    CancelButton PB_CANCEL
+    {
+        Pos = MAP_APPFONT ( 141 , 23 ) ;
+        Size = MAP_APPFONT ( 50 , 14 ) ;
+    };
+    HelpButton PB_HELP
+    {
+        Pos = MAP_APPFONT ( 141 , 43 ) ;
+        Size = MAP_APPFONT ( 50 , 14 ) ;
+    };
+    FixedLine FL_NAME
+    {
+        Pos = MAP_APPFONT ( 6 , 3 ) ;
+        Size = MAP_APPFONT ( 130 , 8 ) ;
+
+        Text [ en-US ] = "New user index";
+    };
+    FixedText FT_NAME
+    {
+        Pos = MAP_APPFONT ( 12 , 17 ) ;
+        Size = MAP_APPFONT ( 40 , 8 ) ;
+
+        Text [ en-US ] = "~Name";
+    };
+    Edit ED_NAME
+    {
+        HelpID = "sw:Edit:DLG_NEW_USER_IDX:ED_NAME";
+        Border = TRUE ;
+        Pos = MAP_APPFONT ( 55 , 15 ) ;
+        Size = MAP_APPFONT ( 78 , 12 ) ;
+        TabStop = TRUE ;
+        Left = TRUE ;
+    };
+    Text [ en-US ] = "Create New User-defined Index";
+};
+
+String STR_IDXMRK_EDIT
+{
+    Text [ en-US ] = "Edit Index Entry" ;
+};
+
+String STR_IDXMRK_INSERT
+{
+    Text [ en-US ] = "Insert Index Entry" ;
+};
+
+ModalDialog DLG_CREATE_AUTH_ENTRY
+{
+    HelpId = HID_DLG_CREATE_AUTH_ENTRY;
+    OutputSize = TRUE ;
+    SVLook = TRUE ;
+    Size = MAP_APPFONT ( 365 , 203 ) ;
+    Moveable = TRUE ;
+    OKButton PB_OK
+    {
+        Pos = MAP_APPFONT ( 312 , 6 ) ;
+        Size = MAP_APPFONT ( 50 , 14 ) ;
+        TabStop = TRUE ;
+        DefButton = TRUE ;
+    };
+    CancelButton PB_CANCEL
+    {
+        Pos = MAP_APPFONT ( 312 , 23 ) ;
+        Size = MAP_APPFONT ( 50 , 14 ) ;
+    };
+    HelpButton PB_HELP
+    {
+        Pos = MAP_APPFONT ( 312 , 43 ) ;
+        Size = MAP_APPFONT ( 50 , 14 ) ;
+    };
+    FixedLine FL_ENTRIES
+    {
+        Pos = MAP_APPFONT ( 6 , 3 ) ;
+        Size = MAP_APPFONT ( 300 , 8 ) ;
+        Text [ en-US ] = "Entry data";
+    };
+    Text [ en-US ] = "Define Bibliography Entry";
+};
+
+QueryBox DLG_CHANGE_AUTH_ENTRY
+{
+    BUTTONS = WB_YES_NO ;
+    DEFBUTTON = WB_DEF_NO ;
+    Message [ en-US ] = "The document already contains the bibliography entry but with different data. Do you want to adjust the existing entries?";
+};

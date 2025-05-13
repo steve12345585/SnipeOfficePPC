@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdFlowDirection {
-        const long wdFlowLtr = 0;
-        const long wdFlowRtl = 1;
-    };
-}; }; };

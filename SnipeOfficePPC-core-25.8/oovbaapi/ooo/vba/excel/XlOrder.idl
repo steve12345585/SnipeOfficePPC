@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlOrder {
-        const long xlDownThenOver = 1;
-        const long xlOverThenDown = 2;
-    };
-}; }; };

@@ -1,6 +1,0 @@
-module ooo { module vba { module office {
-    constants MsoDiagramNodeType {
-        const long msoDiagramAssistant = 2;
-        const long msoDiagramNode = 1;
-    };
-}; }; };

@@ -1,6 +1,0 @@
-module ooo { module vba { module word {
-    constants WdDiacriticColor {
-        const long wdDiacriticColorBidi = 0;
-        const long wdDiacriticColorLatin = 1;
-    };
-}; }; };

@@ -1,0 +1,2 @@
+lwpg	libwpg	: libwpd soltools NULL
+lwpg	libwpg\prj	nmake	-	all	lwpg_libwpg NULL

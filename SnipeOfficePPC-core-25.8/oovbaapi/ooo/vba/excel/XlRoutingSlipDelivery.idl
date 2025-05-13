@@ -1,6 +1,0 @@
-module ooo { module vba { module excel {
-    constants XlRoutingSlipDelivery {
-        const long xlAllAtOnce = 2;
-        const long xlOneAfterAnother = 1;
-    };
-}; }; };
