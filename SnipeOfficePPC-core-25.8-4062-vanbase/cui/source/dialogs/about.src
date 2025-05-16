@@ -75,7 +75,7 @@ ModalDialog RID_DEFAULTABOUT
     };
     String ABOUT_STR_COPYRIGHT
     {
-        Text[ en-US ] = "Copyright © 2000 - 2013 LibreOffice contributors and/or their affiliates";
+        Text[ en-US ] = "Copyright © 2000 - 2025 SnipeOffice contributors and/or their affiliates";
     };
     String ABOUT_STR_BASED
     {
@@ -83,7 +83,7 @@ ModalDialog RID_DEFAULTABOUT
     };
     String ABOUT_STR_BASED_DERIVED
     {
-        Text[ en-US ] = "%PRODUCTNAME is derived from LibreOffice which was based on OpenOffice.org";
+        Text[ en-US ] = "%PRODUCTNAME is derived from SnipeOffice which was based on OpenOffice.org";
     };
     String ABOUT_STR_BUILD
     {
@@ -91,7 +91,7 @@ ModalDialog RID_DEFAULTABOUT
     };
     String ABOUT_STR_LINK_CREDITS
     {
-        Text[ en-US ] = "http://www.libreoffice.org/about-us/credits/";
+        Text[ en-US ] = "http://snipeoffice.org/credits/";
     };
     PushButton ABOUT_BTN_CREDITS
     {

@@ -31,7 +31,7 @@ typedef ::boost::unordered_map<
     ::rtl::OString, ::rtl::OString, ::rtl::OStringHash > t_string2string_map;
 
 // Class to read obsolete registered extensions
-// should be removed for LibreOffice 4.0
+// should be removed for SnipeOffice 4.0
 class PersistentMap
 {
     ::osl::File m_MapFile;

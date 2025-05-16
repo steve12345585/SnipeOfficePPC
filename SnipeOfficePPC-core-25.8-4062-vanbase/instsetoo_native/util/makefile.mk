@@ -6,7 +6,7 @@
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
-# This file is part of OpenOffice.org.
+# This file is part of SnipeOffice.
 #
 # OpenOffice.org is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License version 3
@@ -86,7 +86,7 @@ alllangiso:=$(alllangiso:s/qtz //)
 allhelplangiso:=$(foreach,i,$(alllangiso) $(foreach,j,$(help_exist) $(eq,$i,$j  $i $(NULL))))
 
 xxxx:
-    echo $(PERL) -w $(SOLARENV)$/bin$/gen_update_info.pl --buildid $(BUILD) --arch "$(RTL_ARCH)" --os "$(RTL_OS)" --lstfile $(PRJ)$/util$/openoffice.lst --product LibreOffice --languages $(subst,$(@:s/_/ /:1)_, $(@:b)) $(PRJ)$/util$/update.xml
+    echo $(PERL) -w $(SOLARENV)$/bin$/gen_update_info.pl --buildid $(BUILD) --arch "$(RTL_ARCH)" --os "$(RTL_OS)" --lstfile $(PRJ)$/util$/openoffice.lst --product SnipeOffice --languages $(subst,$(@:s/_/ /:1)_, $(@:b)) $(PRJ)$/util$/update.xml
 
 .IF "$(LIBO_DEV_INSTALL)" == "TRUE"
 ALLTAR: openoffice_$(defaultlangiso).archive

@@ -182,7 +182,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uStringbuffer_remove(
     @param  ppThis      The string, on that the operation should take place
     @param  nCapacity   pointer to the capacity of the string buffer
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
  */
 SAL_DLLPUBLIC rtl_uString * SAL_CALL rtl_uStringBuffer_makeStringAndClear(
                                         /*inout*/ rtl_uString ** ppThis,
@@ -197,7 +197,7 @@ SAL_DLLPUBLIC rtl_uString * SAL_CALL rtl_uStringBuffer_makeStringAndClear(
 
     @param  pThis      The string, on that the operation should take place
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
  */
 SAL_DLLPUBLIC rtl_uString * SAL_CALL rtl_uStringBuffer_refReturn( rtl_uString *pThis );
 

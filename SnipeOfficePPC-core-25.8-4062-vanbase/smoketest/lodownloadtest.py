@@ -186,9 +186,9 @@ def get_url_regexp(t, package, arch):
     '''
     return a url containing download links, i.e:
 
-        http://dev-builds.libreoffice.org/pre-releases/rpm/x86_64/
-        http://dev-builds.libreoffice.org/daily/Windows_Release_Configuration/libreoffice-3-4/current/
-        http://dev-builds.libreoffice.org/daily/Linux_x86_Release_Configuration/libreoffice-3-4/current/
+        http://SnipeOffice.org/dev-builds/pre-releases/rpm/x86_64/
+        http://SnipeOffice.org/dev-builds/daily/Windows_Release_Configuration/libreoffice-3-4/current/
+        http://SnipeOffice.org/dev-builds/daily/Linux_x86_Release_Configuration/libreoffice-3-4/current/
 
     meanwhile return a regexp object that matching corresponding downloadable
     package and its timestamp '''

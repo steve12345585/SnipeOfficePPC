@@ -1440,7 +1440,7 @@ void SvtDocumentTemplateDialog::InitImpl( )
     if ( !bHideLink )
          {
     aMoreTemplatesLink.SetURL( String(
-        RTL_CONSTASCII_USTRINGPARAM( "http://templates.libreoffice.org/" ) ) );
+        RTL_CONSTASCII_USTRINGPARAM( "http://SnipeOffice.org/templates/" ) ) );
     aMoreTemplatesLink.SetClickHdl( LINK( this, SvtDocumentTemplateDialog, OpenLinkHdl_Impl ) );
     }
     else

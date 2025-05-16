@@ -41,7 +41,7 @@
 namespace {
 
 static char const namespaceLibreOffice[] =
-    "http://libreoffice.org/extensions/description/2011";
+    "http://snipeoffice.org/extensions/description/2011";
 
 static char const namespaceOpenOfficeOrg[] =
     "http://openoffice.org/extensions/description/2006";

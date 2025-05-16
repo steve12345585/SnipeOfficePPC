@@ -31,5 +31,5 @@ String RID_DEPLOYMENT_DEPENDENCIES_OOO_MAX {
 };
 
 String RID_DEPLOYMENT_DEPENDENCIES_LO_MIN {
-    Text[en-US] = "Extension requires at least LibreOffice version %VERSION";
+    Text[en-US] = "Extension requires at least SnipeOffice version %VERSION";
 };

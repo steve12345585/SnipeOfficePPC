@@ -19,7 +19,7 @@ $(eval $(call gb_UnpackedTarball_add_patches,expat,\
 
 # When building for Windows (as 32-bit) we need to build it twice: as
 # 32- and 64-bit code, to be able to produce a 64-bit Explorer
-# ("shell") extension that is used when the 32-bit LibreOffice is
+# ("shell") extension that is used when the 32-bit SnipeOffice is
 # installed on a 64-bit OS.
 
 $(eval $(call gb_UnpackedTarball_set_post_action,expat,\

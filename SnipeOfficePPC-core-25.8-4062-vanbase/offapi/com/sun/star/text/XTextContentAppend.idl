@@ -67,7 +67,7 @@ interface XTextContentAppend : com::sun::star::uno::XInterface
         @return
             the anchor text range of the inserted text content.
 
-        @since LibreOffice 4.0
+        @Since SnipeOffice 4.0
      */
          com::sun::star::text::XTextRange insertTextContentWithProperties(
              [in] com::sun::star::text::XTextContent TextContent,

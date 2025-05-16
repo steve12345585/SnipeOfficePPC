@@ -532,7 +532,7 @@ OUString MigrationImpl::preXDGConfigDir(const OUString& rConfigDir)
     // the 'old' config dir etc. ) - currently we just use the returned config dir.
     // If XDG_CONFIG_HOME is NOT set;
     // assume then we should now using the default $HOME/,config config location for
-    // our user profiles, however *all* previous libreoffice and openoffice.org
+    // our user profiles, however *all* previous SnipeOffice and openoffice.org
     // configurations will be in the 'old' config directory and that's where we need
     // to search - we convert the returned config dir to the 'old' dir
     if ( !pXDGCfgHome && rConfigDir.endsWithAsciiL( XDG_CONFIG_PART, sizeof( XDG_CONFIG_PART ) - 1 )  )
@@ -926,7 +926,7 @@ void MigrationImpl::copyFiles()
             {
                 // Previous versions used an empty language tag for
                 // LANGUAGE_DONTKNOW with the "[All]" autocorrection entry.
-                // As of LibreOffice 4.0 it is 'und' for LANGUAGE_UNDETERMINED
+                // As of SnipeOffice 4.0 it is 'und' for LANGUAGE_UNDETERMINED
                 // so the file name is "acor_und.dat".
                 localName = localName.copy( 0, localName.getLength() - 4) + "und.dat";
             }

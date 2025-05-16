@@ -44,7 +44,7 @@ namespace salhelper {
 /**
    A safe encapsulation of ::osl::Thread.
 
-   @since LibreOffice 3.6
+   @Since SnipeOffice 3.6
 */
 class SALHELPER_DLLPUBLIC Thread:
     public salhelper::SimpleReferenceObject, private osl::Thread

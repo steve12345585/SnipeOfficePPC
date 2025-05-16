@@ -32,7 +32,7 @@
 module com {  module sun {  module star {  module sheet {
 
 /**
- * @since LibreOffice 3.5
+ * @Since SnipeOffice 3.5
  */
 struct FilterFieldValue
 {

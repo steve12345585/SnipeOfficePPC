@@ -34,7 +34,7 @@ Build Instructions:
 
 6. Build the Project
    - Start the build process:
-     make MD5SUM= V=1
+     make MD5SUM= V=1 2>&1 | tee build.log
    - For parallel builds (faster on multi-core systems):
      make -j4
 

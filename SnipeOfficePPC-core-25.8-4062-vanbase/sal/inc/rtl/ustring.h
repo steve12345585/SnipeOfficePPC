@@ -1228,7 +1228,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newFromStr_WithLength(
     @param     count        the number of characters.
     @return    the specified substring.
 
-    @since LibreOffice 4.0
+    @Since SnipeOffice 4.0
  */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newFromSubString(
         rtl_uString ** newStr, const rtl_uString * from,
@@ -1256,7 +1256,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newFromAscii(
 
 /**
  @internal
- @since LibreOffice 3.6
+ @Since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newFromLiteral(
         rtl_uString ** newStr, const sal_Char * value, sal_Int32 len,
@@ -1422,7 +1422,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplace(
     function its value is the index into the original string at which the
     replacement took place or -1 if no replacement took place
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceFirst(
     rtl_uString ** newStr, rtl_uString * str, rtl_uString const * from,
@@ -1450,7 +1450,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceFirst(
     function its value is the index into the original string at which the
     replacement took place or -1 if no replacement took place
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceFirstAsciiL(
     rtl_uString ** newStr, rtl_uString * str, char const * from,
@@ -1482,7 +1482,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceFirstAsciiL(
     function its value is the index into the original string at which the
     replacement took place or -1 if no replacement took place
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceFirstAsciiLAsciiL(
     rtl_uString ** newStr, rtl_uString * str, char const * from,
@@ -1504,7 +1504,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceFirstAsciiLAsciiL(
 
     @param to  pointer to the replacing substring; must not be null
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceAll(
     rtl_uString ** newStr, rtl_uString * str, rtl_uString const * from,
@@ -1527,7 +1527,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceAll(
 
     @param fromIndex  the position in the string where we will begin searching
 
-    @since LibreOffice 4.0
+    @Since SnipeOffice 4.0
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceAllFromIndex(
     rtl_uString ** newStr, rtl_uString * str, rtl_uString const * from,
@@ -1551,7 +1551,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceAllFromIndex(
 
     @param to  pointer to the replacing substring; must not be null
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceAllAsciiL(
     rtl_uString ** newStr, rtl_uString * str, char const * from,
@@ -1578,7 +1578,7 @@ SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceAllAsciiL(
 
     @param toLength  the length of the \p to substring; must be non-negative
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
 */
 SAL_DLLPUBLIC void SAL_CALL rtl_uString_newReplaceAllAsciiLAsciiL(
     rtl_uString ** newStr, rtl_uString * str, char const * from,

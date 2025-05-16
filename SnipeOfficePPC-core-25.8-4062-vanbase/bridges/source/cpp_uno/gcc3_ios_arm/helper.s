@@ -19,7 +19,7 @@
 #include "codesnippets.S"
 
 #ifdef __arm
-@ ARM support code for LibreOffice C++/UNO bridging
+@ ARM support code for SnipeOffice C++/UNO bridging
 @
 @ Written by Peter Naulls <peter@chocky.org>
 @ Modified by Caolan McNamara <caolanm@redhat.com>

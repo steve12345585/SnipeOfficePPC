@@ -1,7 +1,7 @@
 losmoketest.py
 --------------
 Yifan Jiang <yfjiang@suse.com>
-http://dev-builds.libreoffice.org/
+http://SnipeOffice.org/dev-builds/
 
 The tool is designed to enable test machine fully automatically run smoketest
 with both daily and pre release build located in dev-build.libreoffice.org.
@@ -9,7 +9,7 @@ with both daily and pre release build located in dev-build.libreoffice.org.
 The purpose of daily build testing is obvious, we want to catch bugs as early
 as possible:) some ideas canbe found here:
 
-    http://wiki.documentfoundation.org/Testing_Daily_Builds#Is_parallel_installation_possible_.2F_planned.3F
+    http://snipeoffice.org/wiki/Testing_Daily_Builds#Is_parallel_installation_possible_.2F_planned.3F
 
 For the purpose of smoketest for pre release testing, currently there is an
 about 24 hrs lag syncing RC build from dev-build to official site. We need to
@@ -35,7 +35,7 @@ tool. More functions can be discovered in section "The Tool -> Usage".
 
     1. Download binary:
 
-        http://dev-builds.libreoffice.org/daily/losmoketest-0.2.tar.bz2
+        http://SnipeOffice.org/dev-builds/daily/losmoketest-0.2.tar.bz2
 
     2. Unpack it to, for example, your home directory:
 
@@ -76,7 +76,7 @@ tool. More functions can be discovered in section "The Tool -> Usage".
 
     1. Download binary:
 
-        http://dev-builds.libreoffice.org/daily/losmoketest-0.2.tar.bz2
+        http://SnipeOffice.org/dev-builds/daily/losmoketest-0.2.tar.bz2
 
     2. Unpack it to, for example, C:\
 

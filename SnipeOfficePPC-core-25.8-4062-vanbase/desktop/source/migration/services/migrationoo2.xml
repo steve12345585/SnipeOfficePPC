@@ -51,7 +51,7 @@ original target interfaces on queryInterface() calls.
     <component-description>
         <author>Thomas Benisch</author>
         <name>com.sun.star.comp.desktop.migration.Basic</name>
-        <description>migration service for LibreOffice Basic and dialogs</description>
+        <description>migration service for SnipeOffice Basic and dialogs</description>
         <loader-name>com.sun.star.loader.SharedLibrary</loader-name>
         <language>c++</language>
         <status value="final"/>

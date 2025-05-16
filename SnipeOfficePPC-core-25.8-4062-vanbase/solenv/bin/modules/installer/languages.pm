@@ -6,7 +6,7 @@
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
-# This file is part of OpenOffice.org.
+# This file is part of SnipeOffice.
 #
 # OpenOffice.org is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License version 3
@@ -208,7 +208,7 @@ sub get_all_languages_for_one_product
         if ( all_elements_of_array1_in_array2(\@languagearray, \@noMSLocaleLangs) )
         {
             my $officestartlanguage = $languagearray[0];
-            unshift(@languagearray, "en-US");   # am Anfang einfügen!
+            unshift(@languagearray, "en-US");   # am Anfang einfï¿½gen!
             $installer::globals::ismultilingual = 1;
             $installer::globals::added_english  = 1;
             $installer::globals::set_office_start_language  = 1;

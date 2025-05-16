@@ -191,7 +191,7 @@ published interface XCalendar : com::sun::star::uno::XInterface
                     Valid only for <const>CalendarDisplayIndex::DAY</const>, 
                     <const>CalendarDisplayIndex::MONTH</const> and 
                     <const>CalendarDisplayIndex::GENITIVE_MONTH</const> <br>
-                    @since LibreOffice 3.5
+                    @Since SnipeOffice 3.5
                     </dd>
 
             <p> This parameter is not used if the

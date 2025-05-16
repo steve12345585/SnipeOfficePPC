@@ -327,7 +327,7 @@ SAL_DLLPUBLIC oslFileError SAL_CALL osl_releaseDirectoryItem(
 
     @see osl_getDirectoryItem()
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
 */
 
 SAL_DLLPUBLIC sal_Bool SAL_CALL osl_identicalDirectoryItem(

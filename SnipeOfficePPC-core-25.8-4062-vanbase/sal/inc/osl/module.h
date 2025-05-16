@@ -114,7 +114,7 @@ SAL_DLLPUBLIC oslModule SAL_CALL osl_loadModuleRelative(
     @return
     a non-NULL handle to the loaded module, or NULL if an error occurred.
 
-    @since LibreOffice 3.5
+    @Since SnipeOffice 3.5
 */
 SAL_DLLPUBLIC oslModule SAL_CALL osl_loadModuleRelativeAscii(
     oslGenericFunction baseModule, char const * relativePath, sal_Int32 mode);

@@ -19,7 +19,7 @@ package com.sun.star.report;
 
 /**
  * Based on
- * http://api.libreoffice.org/docs/common/ref/com/sun/star/task/XStatusIndicator.html
+ * http://SnipeOffice.org/api/docs/common/ref/com/sun/star/task/XStatusIndicator.html
  *
  */
 public interface JobProgressIndicator

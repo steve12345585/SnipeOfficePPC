@@ -110,7 +110,7 @@ test/user-template/user/psprint/pspfontcache
 # libxslt debug memdump
 .memdump
 
-# LibreOffice lock files
+# SnipeOffice lock files
 .~lock.*#
 
 # Somepeople love debugging

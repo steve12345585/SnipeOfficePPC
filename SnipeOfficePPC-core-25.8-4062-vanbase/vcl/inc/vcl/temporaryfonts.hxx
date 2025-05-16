@@ -18,7 +18,7 @@
  Management of temporary fonts (e.g. embedded in documents).
 
  This class handles adding of temporary fonts.
- @since LibreOffice 4.0
+ @Since SnipeOffice 4.0
 */
 class VCL_DLLPUBLIC TemporaryFonts
 {

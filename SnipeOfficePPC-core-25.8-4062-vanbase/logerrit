@@ -50,7 +50,7 @@ submit() {
 case "$1" in
 	help)
 		echo "Usage: ./logerrit subcommand [options]"
-		echo "simple and basic tool to interact with LibreOffice gerrit"
+		echo "simple and basic tool to interact with SnipeOffice gerrit"
 		echo "subcommands:"
 		echo "             test                    test your gerrit setup"
 		echo " --- for submitters:"
@@ -67,7 +67,7 @@ case "$1" in
 		echo "             query ....              query for changes for review on project core"
 		echo "             <any other gerrit command>"
 		echo "advanced users should consider using git review instead:"
-		echo "http://wiki.documentfoundation.org/Development/GitReview"
+		echo "http://snipeoffice.org/wiki/Development/GitReview"
 		exit
 	;;
 	test)

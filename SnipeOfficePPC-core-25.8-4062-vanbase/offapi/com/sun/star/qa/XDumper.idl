@@ -48,7 +48,7 @@ interface XDumper : com::sun::star::uno::XInterface
 {
     /**
      * dump the content into a string
-     * @since LibreOffice 3.6
+     * @Since SnipeOffice 3.6
      */
 
     string dump();

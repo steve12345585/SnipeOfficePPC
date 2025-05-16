@@ -1,7 +1,7 @@
 unusedcode.easy is generated via callcatcher[1] and filtered to remove some
 tricky edge-cases (see Makefile), e.g. anything which could plausibly be
-dlsymed or any symbol defined in an external library bundled into LibreOffice
-which doesn't happen to get used by LibreOffice.
+dlsymed or any symbol defined in an external library bundled into SnipeOffice
+which doesn't happen to get used by SnipeOffice.
 
 unusedcode.easy is generated on an x86_64 --enable-debug --enable-dbgutil
 configuration.

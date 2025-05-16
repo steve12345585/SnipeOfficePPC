@@ -8,9 +8,9 @@ Globals
             URELAYERVERSION 1
             REFERENCEOOOMAJORMINOR 3.4
             UNIXBASISROOTNAME libreoffice4.0
-            SERVICETAG_PRODUCTNAME LibreOffice 4.0
+            SERVICETAG_PRODUCTNAME SnipeOffice 25.8
             SERVICETAG_PRODUCTVERSION 4.0
-            SERVICETAG_PARENTNAME LibreOffice 4.0
+            SERVICETAG_PARENTNAME SnipeOffice 25.8
             SERVICETAG_SOURCE {buildsource}{minor}(Build:{buildid})
             SERVICETAG_URN urn:uuid:0187debd-e458-11de-82d6-080020a9ed93
             HIDELICENSEDIALOG 1
@@ -18,8 +18,8 @@ Globals
             BASISPACKAGEPREFIX libobasis
             UREPACKAGEPREFIX libreoffice
             SOLSUREPACKAGEPREFIX libreoffice
-            REGISTRATION_HOST https://registration.libreoffice.org/RegistrationWeb
-            REGISTRATIONURL http://survey.libreoffice.org/user/index.php
+            REGISTRATION_HOST https://SnipeOffice.org/registration/RegistrationWeb
+            REGISTRATIONURL http://SnipeOffice.org/survey/user/index.php
             PROGRESSBARCOLOR 128,128,128
             PROGRESSSIZE 409,8
             PROGRESSPOSITION 72,189
@@ -48,24 +48,24 @@ LibreOffice
     {
         variables
         {
-            PRODUCTNAME LibreOffice
-            PRODUCTVERSION 4.0
-            PRODUCTEXTENSION .6.2
+            PRODUCTNAME SnipeOffice
+            PRODUCTVERSION 25.8
+            PRODUCTEXTENSION .0
             POSTVERSIONEXTENSION
             POSTVERSIONEXTENSIONUNIX
-            BRANDPACKAGEVERSION 4.0
-            USERDIRPRODUCTVERSION 4
-            ABOUTBOXPRODUCTVERSION 4.0.6.2
+            BRANDPACKAGEVERSION 25.8
+            USERDIRPRODUCTVERSION 25
+            ABOUTBOXPRODUCTVERSION 25.8.0
             ABOUTBOXPRODUCTVERSIONSUFFIX
-            BASEPRODUCTVERSION 4.0
+            BASEPRODUCTVERSION 25.8
             PCPFILENAME libreoffice.pcp
-            UPDATEURL http://update.libreoffice.org/check.php
+            UPDATEURL http://SnipeOffice.org/update/check.php
             ADD_INCLUDE_FILES cliureversion.mk,clioootypesversion.mk
             ADDSYSTEMINTEGRATION 1
-            FILEFORMATNAME OpenOffice.org
+            FILEFORMATNAME SnipeOffice
             FILEFORMATVERSION 1.0
-            WRITERCOMPATIBILITYVERSIONOOO11 OpenOffice.org 1.1
-            PACKAGEVERSION 4.0.6.2
+            WRITERCOMPATIBILITYVERSIONOOO11 SnipeOffice 1.1
+            PACKAGEVERSION 25.8.0
             PACKAGEREVISION {buildid}
             LICENSENAME LGPL
             GLOBALFILEGID gid_File_Lib_Vcl
@@ -76,10 +76,10 @@ LibreOffice
             STUBUPGRADECODE {0E7B27B8-D658-4BF9-98D6-EC361582EB4A}
             CHANGETARGETDIR 1
             PATCHCODEFILE ooo_patchcodes.txt
-            STARTCENTER_ADDFEATURE_URL http://extensions.libreoffice.org/
-            STARTCENTER_INFO_URL http://www.libreoffice.org/
-            STARTCENTER_TEMPLREP_URL http://templates.libreoffice.org/
-            DICT_REPO_URL http://extensions.libreoffice.org/dictionaries/
+            STARTCENTER_ADDFEATURE_URL http://SnipeOffice.org/extensions/
+            STARTCENTER_INFO_URL http://snipeoffice.org/
+            STARTCENTER_TEMPLREP_URL http://SnipeOffice.org/templates/
+            DICT_REPO_URL http://SnipeOffice.org/extensions/dictionaries/
             STARTCENTER_HIDE_EXTERNAL_LINKS 0
         }
         active          1
@@ -115,7 +115,7 @@ LibreOffice_Dev
             SOLSUREPACKAGEPREFIX lodev
             REGISTRYLAYERNAME LayerDev
             SERVICETAG_URN urn:uuid:1680b00d-e45c-11de-82d6-080020a9ed93
-            UPDATEURL http://update.libreoffice.org/check.php
+            UPDATEURL http://SnipeOffice.org/update/check.php
             ADD_INCLUDE_FILES cliureversion.mk,clioootypesversion.mk
             ADDSYSTEMINTEGRATION 1
             FILEFORMATNAME OpenOffice.org
@@ -134,10 +134,10 @@ LibreOffice_Dev
             PATCHCODEFILE ooodev_patchcodes.txt
             CODEFILENAME codes_ooodev.txt
             LOCALUSERDIR $ORIGIN/..
-            STARTCENTER_ADDFEATURE_URL http://extensions.libreoffice.org/
-            STARTCENTER_INFO_URL http://www.libreoffice.org/
-            STARTCENTER_TEMPLREP_URL http://templates.libreoffice.org/
-            DICT_REPO_URL http://extensions.libreoffice.org/dictionaries/
+            STARTCENTER_ADDFEATURE_URL http://SnipeOffice.org/extensions/
+            STARTCENTER_INFO_URL http://snipeoffice.org/
+            STARTCENTER_TEMPLREP_URL http://SnipeOffice.org/templates/
+            DICT_REPO_URL http://SnipeOffice.org/extensions/dictionaries/
             STARTCENTER_HIDE_EXTERNAL_LINKS 0
         }
         active          1
@@ -168,12 +168,12 @@ URE
             PCPFILENAME ure.pcp
             GLOBALFILEGID gid_File_Dl_Cppu
             DONTUSESTARTMENUFOLDER 1
-            STARTCENTER_ADDFEATURE_URL http://extensions.libreoffice.org/
-            STARTCENTER_INFO_URL http://www.libreoffice.org/
-            STARTCENTER_TEMPLREP_URL http://templates.libreoffice.org/
+            STARTCENTER_ADDFEATURE_URL http://SnipeOffice.org/extensions/
+            STARTCENTER_INFO_URL http://snipeoffice.org/
+            STARTCENTER_TEMPLREP_URL http://SnipeOffice.org/templates/
             ADD_INCLUDE_FILES cliureversion.mk,clioootypesversion.mk
             PACKAGEMAP package_names_ext.txt
-            DICT_REPO_URL http://extensions.libreoffice.org/dictionaries/
+            DICT_REPO_URL http://SnipeOffice.org/extensions/dictionaries/
             STARTCENTER_HIDE_EXTERNAL_LINKS 0
         }
         active 1
@@ -209,10 +209,10 @@ LibreOffice_SDK
             NOSHORTDIRECTORYNAMES 1
             CHANGETARGETDIR 1
             DONTUSESTARTMENUFOLDER 1
-            STARTCENTER_ADDFEATURE_URL http://extensions.libreoffice.org/
-            STARTCENTER_INFO_URL http://www.libreoffice.org/
-            STARTCENTER_TEMPLREP_URL http://templates.libreoffice.org/
-            DICT_REPO_URL http://extensions.libreoffice.org/dictionaries/
+            STARTCENTER_ADDFEATURE_URL http://SnipeOffice.org/extensions/
+            STARTCENTER_INFO_URL http://snipeoffice.org/
+            STARTCENTER_TEMPLREP_URL http://SnipeOffice.org/templates/
+            DICT_REPO_URL http://SnipeOffice.org/extensions/dictionaries/
             STARTCENTER_HIDE_EXTERNAL_LINKS 0
         }
         active 1
@@ -254,10 +254,10 @@ LibreOffice_Dev_SDK
             NOSHORTDIRECTORYNAMES 1
             CHANGETARGETDIR 1
             DONTUSESTARTMENUFOLDER 1
-            STARTCENTER_ADDFEATURE_URL http://extensions.libreoffice.org/
-            STARTCENTER_INFO_URL http://www.libreoffice.org/
-            STARTCENTER_TEMPLREP_URL http://templates.libreoffice.org/
-            DICT_REPO_URL http://extensions.libreoffice.org/dictionaries/
+            STARTCENTER_ADDFEATURE_URL http://SnipeOffice.org/extensions/
+            STARTCENTER_INFO_URL http://snipeoffice.org/
+            STARTCENTER_TEMPLREP_URL http://SnipeOffice.org/templates/
+            DICT_REPO_URL http://SnipeOffice.org/extensions/dictionaries/
             STARTCENTER_HIDE_EXTERNAL_LINKS 0
         }
         active 1
@@ -293,10 +293,10 @@ LibreOffice_Test
             NOSHORTDIRECTORYNAMES 1
             CHANGETARGETDIR 1
             DONTUSESTARTMENUFOLDER 1
-            STARTCENTER_ADDFEATURE_URL http://extensions.libreoffice.org/
-            STARTCENTER_INFO_URL http://www.libreoffice.org/
-            STARTCENTER_TEMPLREP_URL http://templates.libreoffice.org/
-            DICT_REPO_URL http://extensions.libreoffice.org/dictionaries/
+            STARTCENTER_ADDFEATURE_URL http://SnipeOffice.org/extensions/
+            STARTCENTER_INFO_URL http://snipeoffice.org/
+            STARTCENTER_TEMPLREP_URL http://SnipeOffice.org/templates/
+            DICT_REPO_URL http://SnipeOffice.org/extensions/dictionaries/
             STARTCENTER_HIDE_EXTERNAL_LINKS 0
         }
         active 1
@@ -338,10 +338,10 @@ LibreOffice_Dev_Test
             NOSHORTDIRECTORYNAMES 1
             CHANGETARGETDIR 1
             DONTUSESTARTMENUFOLDER 1
-            STARTCENTER_ADDFEATURE_URL http://extensions.libreoffice.org/
-            STARTCENTER_INFO_URL http://www.libreoffice.org/
-            STARTCENTER_TEMPLREP_URL http://templates.libreoffice.org/
-            DICT_REPO_URL http://extensions.libreoffice.org/dictionaries/
+            STARTCENTER_ADDFEATURE_URL http://SnipeOffice.org/extensions/
+            STARTCENTER_INFO_URL http://snipeoffice.org/
+            STARTCENTER_TEMPLREP_URL http://SnipeOffice.org/templates/
+            DICT_REPO_URL http://SnipeOffice.org/extensions/dictionaries/
             STARTCENTER_HIDE_EXTERNAL_LINKS 0
         }
         active 1
@@ -367,8 +367,8 @@ OxygenOffice
             ABOUTBOXPRODUCTVERSION 4.0.6.2
             ABOUTBOXPRODUCTVERSIONSUFFIX
             BASEPRODUCTVERSION 4.0
-            PCPFILENAME openoffice.pcp
-            UPDATEURL http://update.libreoffice.org/check.php
+            PCPFILENAME libreoffice.pcp
+            UPDATEURL http://SnipeOffice.org/update/check.php
             ADD_INCLUDE_FILES cliureversion.mk,clioootypesversion.mk
             ADDSYSTEMINTEGRATION 1
             FILEFORMATNAME OpenOffice.org
@@ -390,10 +390,10 @@ OxygenOffice
             PROGRESSSIZE 430,5
             PROGRESSPOSITION 5,230
             PROGRESSFRAMECOLOR 207,208,211
-            STARTCENTER_ADDFEATURE_URL http://extensions.libreoffice.org/
-            STARTCENTER_INFO_URL http://www.libreoffice.org/
-            STARTCENTER_TEMPLREP_URL http://templates.libreoffice.org/
-            DICT_REPO_URL http://extensions.libreoffice.org/dictionaries/
+            STARTCENTER_ADDFEATURE_URL http://SnipeOffice.org/extensions/
+            STARTCENTER_INFO_URL http://snipeoffice.org/
+            STARTCENTER_TEMPLREP_URL http://SnipeOffice.org/templates/
+            DICT_REPO_URL http://SnipeOffice.org/extensions/dictionaries/
             STARTCENTER_HIDE_EXTERNAL_LINKS 0
         }
         active          1

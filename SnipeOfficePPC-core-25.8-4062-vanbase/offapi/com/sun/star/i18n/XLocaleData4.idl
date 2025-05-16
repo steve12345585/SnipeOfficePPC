@@ -43,7 +43,7 @@ module com { module sun { module star { module i18n {
     this provides an additional method to return a sequence of date
     acceptance patterns for a locale.
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
  */
 
 published interface XLocaleData4 : com::sun::star::i18n::XLocaleData3

@@ -124,7 +124,7 @@ Reference< XResultSetMetaData > SAL_CALL SequenceResultSet::getMetaData(  )
             ASCII_STR( "pq_sequenceresultset: no meta supported " ), *this,
         // I did not find "IM001" in a specific standard,
         // but it seems to be used by other systems (such as ODBC)
-        // and some parts of LibreOffice special-case it.
+        // and some parts of SnipeOffice special-case it.
             OUString( ASCII_STR("IM001") ), 1, Any() );
     }
     return m_meta;

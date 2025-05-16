@@ -39,7 +39,7 @@ module com { module sun { module star { module scanner {
 /**
     Extension of <type>XScannerManager</type>.
 
-    @since LibreOffice 3.5
+    @Since SnipeOffice 3.5
 */
 published interface XScannerManager2: com::sun::star::scanner::XScannerManager
 {

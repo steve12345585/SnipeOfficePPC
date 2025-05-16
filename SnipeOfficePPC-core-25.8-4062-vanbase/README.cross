@@ -1,4 +1,4 @@
-Cross-compiling LibreOffice
+Cross-compiling SnipeOffice
 ===========================
 
 Cross-compilation work has been done, to various degrees, for four
@@ -13,7 +13,7 @@ running a build of some software and "host" is the platform on which
 the software you are building will run. Only in the specific case of
 building compilers and other programming tools is the term "target"
 used to indicate the platform for which the tools your are building
-will produce code. As LibreOffice is not a compiler, the "target" term
+will produce code. As SnipeOffice is not a compiler, the "target" term
 should not be used in the context of cross-compilation.
 
 (For a case where all three of "build", "host" and "target" are
@@ -38,14 +38,14 @@ Despite the fact that the configure script takes normal --build and
 was necessary to separate tests for "host" and "build" platforms in
 the configure script. See the git log for details. And the reasonably
 "standard" configure.in is just the top level; when we get down to the
-actual makefilery used to build the bits of LibreOffice, it gets much
+actual makefilery used to build the bits of SnipeOffice, it gets much
 worse.
 
 
 Windows
 -------
 
-There is some support in LibreOffice already (from OpenOffice.org) for
+There is some support in SnipeOffice already (from OpenOffice.org) for
 building it locally on Windows with the GNU tool-chain
 (MinGW). Apparently, that work has never attempted cross-compilation.
 
@@ -113,7 +113,7 @@ It also looks like graphite2.pc needs tweaking in order to work right; but
 that's likely to be fixed in the openSUSE project.
 
 It is somewhat unclear how well thought-out the conditionals and code
-for MinGW inside the OOo-originated code in LibreOffice actually
+for MinGW inside the OOo-originated code in SnipeOffice actually
 are. It often seems a bit randomish, with copy-pasting having been
 preferred to factoring out differences.
 
@@ -257,10 +257,10 @@ iOS is the operating system of Apple's mobile devices. Clearly for a
 device like the iPad it would be totally unacceptable to run a normal
 LibreOffice application with a overlapping windows and mouse-oriented
 GUI widgets. No work has been done (at least publicly) by others to
-design a touch GUI for LibreOffice, so that is something that needs to
+design a touch GUI for SnipeOffice, so that is something that needs to
 be done.
 
-Obviously it will make sense to use only a part of LibreOffice's code
+Obviously it will make sense to use only a part of SnipeOffice's code
 for iOS. Most likely lots of the GUI-oriented code should be left out,
 and some iOS app(s) that eventually wants to use the remaining bits
 will handle all its GUI in a platform-dependent manner. How well it
@@ -269,7 +269,7 @@ will be possible to do such a split remains to be seen.
 Technically, one important special aspect of iOS is that apps are not
 allowed to load own dynamic libraries. (System libraries are used in
 the form of dynamic libraries, just like on Mac OS X, of which iOS is a
-variant.) So all the libraries in LibreOffice that normally are shared
+variant.) So all the libraries in SnipeOffice that normally are shared
 libraries (DLLs on Windows, shared objects (.so) on Linux, dynamic
 libraries on Mac OS X (.dylib)) need to be built as static archives
 instead. Obviously this will have some interesting consequences for
@@ -370,10 +370,10 @@ And here is an autogen.lastrun for Android when cross-compiling to x86 from Linu
 --with-max-jobs=6
 
 There are a couple of (more or less) interactive apps that you can run
-on the emulator or on a device that use LibreOffice code. Look in
+on the emulator or on a device that use SnipeOffice code. Look in
 android/experimental. DocumentLoader is just a testbench, really for
 code to load a document (just Writer ones so far) and display one page
-at a time. LibreOffice4Android is what resulted from a Google Summer
+at a time. SnipeOffice4Android is what resulted from a Google Summer
 of Code project in 2012, a document viewer.
 
 There are also a couple of non-interactive unit tests that are also
@@ -403,7 +403,7 @@ PowerPC Mac OS X
 
 Cross-compiling for PowerPC Mac OS X from Intel Mac OS X will probably
 be easy. The APIs available should after all be closely identical to
-those on Intel Mac OS X, and LibreOffice builds fine natively on
+those on Intel Mac OS X, and SnipeOffice builds fine natively on
 PowerPC Mac already. Only a little experimenting has been done with
 it. An autogen.lastrun looked like this when last tried:
 

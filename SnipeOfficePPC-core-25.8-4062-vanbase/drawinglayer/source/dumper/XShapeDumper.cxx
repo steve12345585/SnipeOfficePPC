@@ -636,7 +636,7 @@ void dumpPolygonKindAsAttribute(drawing::PolygonKind ePolygonKind, xmlTextWriter
 
 void dumpPointSequenceSequence(drawing::PointSequenceSequence aPointSequenceSequence, uno::Sequence<uno::Sequence< drawing::PolygonFlags > >* pFlags, xmlTextWriterPtr xmlWriter)
 {
-    // LibreOffice proudly presents - The Sequenception
+    // SnipeOffice proudly presents - The Sequenception
     uno::Sequence<uno::Sequence< awt::Point > > pointSequenceSequence = aPointSequenceSequence;
     sal_Int32 nPointsSequence = pointSequenceSequence.getLength();
 

@@ -50,7 +50,7 @@ module com {  module sun {  module star {  module table {
     if the corresponding line should be set or if the old value should
     be kept.</p>
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
  */
 published struct TableBorder2
 {

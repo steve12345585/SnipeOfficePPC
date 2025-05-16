@@ -104,7 +104,7 @@ AC_SUBST(EXEEXT_FOR_BUILD)
 AC_SUBST(x_Cygwin)
 
 if test "z$EUID" = "z0" -a "`uname -o 2>/dev/null`" = "Cygwin"; then
-    AC_MSG_ERROR([You must build LibreOffice as a normal user - not using an administrative account])
+    AC_MSG_ERROR([You must build SnipeOffice as a normal user - not using an administrative account])
 fi
 
 # need sed in os checks...
@@ -285,7 +285,7 @@ solaris*)
     AC_MSG_CHECKING([the Solaris operating system release])
     _os_release=`echo $host_os | $SED -e s/solaris2\.//`
     if test "$_os_release" -lt "10"; then
-        AC_MSG_ERROR([use Solaris >= 10 to build LibreOffice])
+        AC_MSG_ERROR([use Solaris >= 10 to build SnipeOffice])
     else
         AC_MSG_RESULT([ok ($_os_release)])
     fi
@@ -349,7 +349,7 @@ cygwin*|interix*|mingw32*)
 
     # If the host OS matches "mingw32*", that means we are using the
     # MinGW cross-compiler, because we don't see the point in building
-    # LibreOffice using MinGW on Windows. If you want to build on
+    # SnipeOffice using MinGW on Windows. If you want to build on
     # Windows, use MSVC. If you want to use MinGW, surely you want to
     # cross-compile (from Linux or some other Unix).
 
@@ -501,7 +501,7 @@ linux-android*)
     ;;
 
 *)
-    AC_MSG_ERROR([$host_os operating system is not suitable to build LibreOffice for!])
+    AC_MSG_ERROR([$host_os operating system is not suitable to build SnipeOffice for!])
     ;;
 esac
 
@@ -675,7 +675,7 @@ AC_ARG_ENABLE(fetch-external,
 
 AC_ARG_ENABLE(lockdown,
     AS_HELP_STRING([--disable-lockdown],
-        [Disables the gconf integration work in LibreOffice.]),
+        [Disables the gconf integration work in SnipeOffice.]),
 )
 
 AC_ARG_ENABLE(vba,
@@ -1029,7 +1029,7 @@ AC_ARG_ENABLE(ccache,
 
 AC_ARG_ENABLE(64-bit,
     AS_HELP_STRING([--enable-64-bit],
-        [Build a 64-bit LibreOffice on platforms where the normal and only supported build
+        [Build a 64-bit SnipeOffice on platforms where the normal and only supported build
          is 32-bit. In other words, this option is experimental and possibly quite broken,
          use only if you are hacking on 64-bit support.]), ,)
 
@@ -1061,13 +1061,13 @@ AC_ARG_ENABLE(lomenubar,
 AC_ARG_ENABLE(online-update,
     AS_HELP_STRING([--enable-online-update],
         [Enable the online update service that will check for new versions of
-         LibreOffice. By default, it is on on Windows and Mac, and off on Linux.]),
+         SnipeOffice. By default, it is on on Windows and Mac, and off on Linux.]),
 ,)
 
 AC_ARG_ENABLE(release-build,
     AS_HELP_STRING([--enable-release-build],
         [Enable release build.
-         See http://wiki.documentfoundation.org/DevBuild]),
+         See http://snipeoffice.org/wiki/DevBuild]),
 ,)
 
 AC_ARG_ENABLE(windows-build-signing,
@@ -1192,14 +1192,14 @@ AC_ARG_WITH(fonts,
 
 AC_ARG_WITH(ppds,
     AS_HELP_STRING([--without-ppds],
-        [Removes Postscript Printer definition files from LibreOffice
+        [Removes Postscript Printer definition files from SnipeOffice
          installation set, for people building for specific distributions where
          PPDs are known to be already available (every recent distro with CUPS backend).]),
 ,)
 
 AC_ARG_WITH(afms,
     AS_HELP_STRING([--without-afms],
-        [Removes bitmap font files from LibreOffice installation set, for people
+        [Removes bitmap font files from SnipeOffice installation set, for people
          building for specific distributions where AFM files or TrueType Fonts
          are known to be available.]),
 ,)
@@ -1220,7 +1220,7 @@ AC_ARG_WITH(epm,
 
 AC_ARG_WITH(package-format,
     AS_HELP_STRING([--with-package-format],
-        [Specify package format(s) for LibreOffice installsets. Default is the
+        [Specify package format(s) for SnipeOffice installsets. Default is the
          "normal" one of the OS/Distribution. Possible values: aix, bsd, deb,
          inst, tardist, osx, pkg, rpm, setld, native, portable, archive, dmg,
           installed, msi. Example: --with-package-format="deb dmg"]),
@@ -1267,7 +1267,7 @@ AC_ARG_WITH(mozilla-toolkit,
 
 AC_ARG_WITH(myspell-dicts,
     AS_HELP_STRING([--without-myspell-dicts],
-        [Removes myspell dictionaries from LibreOffice installation set, for
+        [Removes myspell dictionaries from SnipeOffice installation set, for
          people building for specific distributions where the myspell dictionaries
          are installed from other sources.]),
 ,)
@@ -1389,7 +1389,7 @@ AC_ARG_WITH(system-apache-commons,
 
 AC_ARG_WITH(system-mysql,
     AS_HELP_STRING([--with-system-mysql],
-        [Use MySQL libraries already on system, for building the MySQL Connector/LibreOffice
+        [Use MySQL libraries already on system, for building the MySQL Connector/SnipeOffice
          extension. If the the mysql_config executable is not in PATH, use MYSQLCONFIG to
          point to it.]),,
     [with_system_mysql="$with_system_libs"])
@@ -1397,7 +1397,7 @@ AC_ARG_WITH(system-mysql,
 AC_ARG_WITH(libmysql-path,
     AS_HELP_STRING([--with-libmysql-path],
         [Use Connector/C (libmysql) installation for building the MySQL
-         Connector/LibreOffice extension.])
+         Connector/SnipeOffice extension.])
     [
                           Usage:     --with-libmysql-path=<absolute path to
                                                   your Connector/C installation>
@@ -1853,7 +1853,7 @@ AC_ARG_WITH(nss-build-tools,
 
 AC_ARG_WITH(lang,
     AS_HELP_STRING([--with-lang],
-        [Use this option to build LibreOffice with additional language support.
+        [Use this option to build SnipeOffice with additional language support.
          English (US) is always included by default.
          Separate multiple languages with space.
          For all languages, use --with-lang=ALL.])
@@ -2173,7 +2173,7 @@ AC_ARG_WITH(macosx-sdk,
 
 AC_ARG_WITH(macosx-version-min-required,
     AS_HELP_STRING([--with-macosx-version-min-required],
-        [set the minimum OS version needed to run the built LibreOffice])
+        [set the minimum OS version needed to run the built SnipeOffice])
     [
                           Usage:     --with-macosx-version-min-required=<version>
 
@@ -2421,7 +2421,7 @@ fi
 dnl ===================================================================
 dnl Extra check for Windows. Cygwin builds need gcc to build dmake
 dnl although MSVC is used to build other build-time tools and
-dnl LibreOffice itself.
+dnl SnipeOffice itself.
 dnl ===================================================================
 if test "$build_os" = "cygwin"; then
     AC_MSG_CHECKING([for Cygwin gcc/g++])
@@ -2884,7 +2884,7 @@ dnl ===================================================================
 dnl Windows specific tests and stuff
 dnl ===================================================================
 if test "$_os" = "WINNT" -a "$WITH_MINGW" != yes; then
-    AC_MSG_CHECKING([whether to build a 64-bit LibreOffice])
+    AC_MSG_CHECKING([whether to build a 64-bit SnipeOffice])
     if test "$enable_64_bit" = "" -o "$enable_64_bit" = "no"; then
         AC_MSG_RESULT([no])
         SDK_ARCH="x86"
@@ -3227,10 +3227,10 @@ if test "$_os" = "WINNT"; then
 
         # Check for 64-bit (cross-)compiler to use to build the 64-bit
         # version of the Explorer extension (and maybe other small
-        # bits, too) needed when installing a 32-bit LibreOffice on a
+        # bits, too) needed when installing a 32-bit SnipeOffice on a
         # 64-bit OS. The 64-bit Explorer extension is a feature that
         # has been present since long in OOo. Don't confuse it with
-        # building LibreOffice itself as 64-bit code, which is
+        # building SnipeOffice itself as 64-bit code, which is
         # unfished work and highly experimental.
 
         BUILD_X64=
@@ -4019,13 +4019,13 @@ solaris*)
     ;;
 
 *)
-    AC_MSG_ERROR([$host_os operating system is not suitable to build LibreOffice for!])
+    AC_MSG_ERROR([$host_os operating system is not suitable to build SnipeOffice for!])
     ;;
 esac
 
 if test "$enable_headless" = "yes"; then
     if test "$GUIBASE" != "unx"; then
-        AC_MSG_ERROR([$host_os operating system is not suitable to build LibreOffice with --enable-headless])
+        AC_MSG_ERROR([$host_os operating system is not suitable to build SnipeOffice with --enable-headless])
     fi
     GUIBASE=headless
 fi
@@ -4083,7 +4083,7 @@ setld - Tru64 (setld) software distribution
 native - "Native" software distribution for the platform
 portable - Portable software distribution
 
-LibreOffice additionally supports:
+SnipeOffice additionally supports:
 archive - .tar.gz or .zip
 dmg - Mac OS X .dmg
 installed - installation tree
@@ -4281,7 +4281,7 @@ AC_SUBST(UPD)
 AC_SUBST(SOURCEVERSION)
 
 dnl ===================================================================
-dnl Grim-ness to export version number of LibreOffice to code
+dnl Grim-ness to export version number of SnipeOffice to code
 dnl this needs to be turned around and to be driven by configure
 dnl ===================================================================
 LIBO_VERSION_MAJOR="`$GREP VERSIONMAJOR solenv/inc/minor.mk | sed "s/^.*=//"`"
@@ -5797,7 +5797,7 @@ AC_SUBST(SOLAR_JAVA)
 
 dnl SOLAR_JAVA="YES" (yes, silly name, should rename) indicates whether we
 dnl want there to be *run-time* (and build-time) support for Java extensions in the
-dnl built LibreOffice.
+dnl built SnipeOffice.
 
 dnl SOLAR_JAVA="BUILD" is claimed to indicate build-time only support
 dnl (no runtime support). It doesn't seem to ever be set to this
@@ -5889,9 +5889,9 @@ if test "$SOLAR_JAVA" != ""; then
         JAVAINTERPRETER=`cygpath -d "$JAVAINTERPRETER"`
         JAVAINTERPRETER=`cygpath -u "$JAVAINTERPRETER"`
     elif test "$_os" = "Darwin"; then
-        dnl HACK:  There currently is only a 32 bit version of LibreOffice for Mac OS X,
+        dnl HACK:  There currently is only a 32 bit version of SnipeOffice for Mac OS X,
         dnl and Tiger Java complains about -d32 while Snow Leopard Java needs it
-        dnl to run in 32 bit mode and be able to load LibreOffice jnilibs:
+        dnl to run in 32 bit mode and be able to load SnipeOffice jnilibs:
         AC_MSG_CHECKING([whether to pass -d32 to Java interpreter])
         if "$JAVAINTERPRETER" -d32 >&5 2>&5; then
             AC_MSG_RESULT([yes])
@@ -5939,7 +5939,7 @@ if test "$SOLAR_JAVA" != ""; then
             AC_MSG_RESULT([checked (IBM JDK $_jdk)])
 
             if test "$with_jdk_home" = ""; then
-                AC_MSG_ERROR([In order to successfully build LibreOffice using the IBM JDK,
+                AC_MSG_ERROR([In order to successfully build SnipeOffice using the IBM JDK,
 you must use the "--with-jdk-home" configure option explicitly])
             fi
 
@@ -6663,7 +6663,7 @@ if test "$enable_epm" = "yes"; then
        echo "$PKGFORMAT" | $EGREP pkg 2>&1 >/dev/null; then
         if test "$EPM" != "no" -a "$EPM" != "internal"; then
             if test "`echo $EPM_VERSION | cut -d'.' -f1`" -lt "4"; then
-                AC_MSG_CHECKING([whether epm is patched for LibreOffice's needs])
+                AC_MSG_CHECKING([whether epm is patched for SnipeOffice's needs])
                 if grep "Patched for LibreOffice" $EPM >/dev/null 2>/dev/null; then
                     AC_MSG_RESULT([yes])
                 else
@@ -8322,9 +8322,9 @@ AC_SUBST(GRAPHITE_LIBS)
 AC_SUBST([MINGW_GRAPHITE2_DLL])
 
 dnl ===================================================================
-dnl Check for NPAPI interface to plug browser plugins into LibreOffice documents
+dnl Check for NPAPI interface to plug browser plugins into SnipeOffice documents
 dnl ===================================================================
-AC_MSG_CHECKING([whether to plug browser plugins into LibreOffice documents])
+AC_MSG_CHECKING([whether to plug browser plugins into SnipeOffice documents])
 if test "$_os" != Android -a "$_os" != iOS -a "$enable_headless" != yes
 then
     AC_MSG_RESULT([yes])
@@ -8336,9 +8336,9 @@ fi
 AC_SUBST(ENABLE_NPAPI_FROM_BROWSER)
 
 dnl ===================================================================
-dnl Check for NPAPI interface to plug LibreOffice into browser windows
+dnl Check for NPAPI interface to plug SnipeOffice into browser windows
 dnl ===================================================================
-AC_MSG_CHECKING([whether to plug LibreOffice into browser windows])
+AC_MSG_CHECKING([whether to plug SnipeOffice into browser windows])
 if test "$_os" == WINNT -o "$_os" != Android -a "$_os" != Darwin -a "$_os" != iOS -a \
         "$enable_headless" != yes -a "$enable_gtk" != no
 then
@@ -11983,7 +11983,7 @@ AC_SUBST(ENABLE_ZENITY)
 
 
 dnl ===================================================================
-dnl Hook up LibreOffice's nodep environmental variable to automake's equivalent
+dnl Hook up SnipeOffice's nodep environmental variable to automake's equivalent
 dnl --enable-dependency-tracking configure option
 dnl ===================================================================
 AC_MSG_CHECKING([whether to enable dependency tracking])
@@ -12336,7 +12336,7 @@ if test $_os != WINNT -a "$CROSS_COMPILING" != YES; then
 To install when the build is finished, issue:
 $GNUMAKE install
 
-If you want to develop LibreOffice, you might prefer:
+If you want to develop SnipeOffice, you might prefer:
 $GNUMAKE dev-install
 
 If you want to run the smoketest, issue:

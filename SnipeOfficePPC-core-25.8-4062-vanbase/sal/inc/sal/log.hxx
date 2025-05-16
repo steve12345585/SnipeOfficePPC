@@ -159,7 +159,7 @@ inline char const * unwrapStream(SAL_UNUSED_PARAMETER StreamIgnore const &) {
     @attention For now, this functionality should only be used internally within
     LibreOffice. It may change again in a future version.
 
-    @since LibreOffice 3.5
+    @Since SnipeOffice 3.5
 */
 #define SAL_WHERE SAL_DETAIL_WHERE
 
@@ -175,7 +175,7 @@ inline char const * unwrapStream(SAL_UNUSED_PARAMETER StreamIgnore const &) {
     @attention For now, this functionality should only be used internally within
     LibreOffice. It may change again in a future version.
 
-    @since LibreOffice 3.5
+    @Since SnipeOffice 3.5
 */
 #define SAL_STREAM(stream) \
     (dynamic_cast< ::std::ostringstream & >(::std::ostringstream() << stream). \
@@ -270,7 +270,7 @@ inline char const * unwrapStream(SAL_UNUSED_PARAMETER StreamIgnore const &) {
     @attention For now, this functionality should only be used internally within
     LibreOffice. It may change again in a future version.
 
-    @since LibreOffice 3.5
+    @Since SnipeOffice 3.5
 */
 
 /**

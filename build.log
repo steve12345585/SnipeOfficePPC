@@ -1,0 +1,177 @@
+make -r -f /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/Makefile.top all
+/Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/bin/unpack-sources /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase  /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/src/libreoffice-dictionaries-4.0.6.2.tar.xz  /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/src/libreoffice-help-4.0.6.2.tar.xz
+Unpacking libreoffice-dictionaries-4.0.6.2...
+tar -xf /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/src/libreoffice-dictionaries-4.0.6.2.tar.xz -C /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/src
+find: -printf: unknown option
+Unpacking libreoffice-help-4.0.6.2...
+tar -xf /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/src/libreoffice-help-4.0.6.2.tar.xz -C /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/src
+find: -printf: unknown option
+cd packimages && unset MAKEFLAGS && \
+		/Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/solenv/bin/build.pl -P1 --all -- -P1 && \
+		make -j 1 -rs
+
+sysui depends on tail_build[offapi]
+sysui depends on tail_build[l10ntools]
+setup_native depends on tail_build[sal]
+setup_native depends on tail_build[l10ntools]
+odk depends on tail_build[jurt]
+odk depends on tail_build[offapi]
+odk depends on tail_build[autodoc]
+odk depends on tail_build[udkapi]
+odk depends on tail_build[unodevtools]
+odk depends on tail_build[cppuhelper]
+odk depends on tail_build[ridljar]
+odk depends on tail_build[javaunohelper]
+
+=============
+(1/17) Building module solenv
+=============
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/solenv/prj
+
+gbuild module /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/solenv: make -f Makefile -j1 -rs all slowcheck gb_PARTIALBUILD=T
+[build ALL] top level modules: solenv
+[build ALL] loaded modules: solenv
+
+[build CHK] loaded modules: solenv
+
+[build SLC] loaded modules: solenv
+solenv deliver
+
+=============
+(2/17) Building module soltools
+=============
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/soltools/prj
+
+gbuild module /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/soltools: make -f Makefile -j1 -rs all slowcheck gb_PARTIALBUILD=T
+[build ALL] top level modules: soltools
+[build ALL] loaded modules: soltools
+
+[build CHK] loaded modules: soltools
+
+[build SLC] loaded modules: soltools
+soltools deliver
+
+=============
+(3/17) Building module cppunit
+=============
+
+=============
+(4/17) Building module expat
+=============
+
+=============
+(5/17) Building module xpdf
+=============
+
+=============
+(6/17) Building module nss
+=============
+
+=============
+(7/17) Building module external
+=============
+
+=============
+(8/17) Building module redland
+=============
+
+=============
+(9/17) Building module libpng
+=============
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/cppunit
+
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/expat/prj
+
+gbuild module /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/expat: make -f Makefile -j1 -rs all slowcheck gb_PARTIALBUILD=T
+[build ALL] top level modules: expat
+[build ALL] loaded modules: expat
+
+[build CHK] loaded modules: expat
+
+[build SLC] loaded modules: expat
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/xpdf
+
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/nss
+
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/external/glibc
+
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/redland/raptor
+
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/libpng/prj
+
+gbuild module /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/libpng: make -f Makefile -j1 -rs all slowcheck gb_PARTIALBUILD=T
+[build ALL] top level modules: libpng
+[build ALL] loaded modules: libpng
+
+[build CHK] loaded modules: libpng
+
+[build SLC] loaded modules: libpng
+cppunit deliver
+Module 'cppunit' delivered successfully. 0 files copied, 88 files unchanged
+expat deliver
+xpdf deliver
+Module 'xpdf' delivered successfully. 0 files copied, 79 files unchanged
+nss deliver
+Module 'nss' delivered successfully. 0 files copied, 157 files unchanged
+external deliver
+Module 'external' delivered successfully. 0 files copied, 15 files unchanged
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/redland/rasqal
+
+libpng deliver
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/redland/redland
+
+redland deliver
+Module 'redland' delivered successfully. 0 files copied, 54 files unchanged
+
+=============
+(10/17) Building module icu
+=============
+
+=============
+(11/17) Building module python3
+=============
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/icu
+
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/python3/prj
+
+gbuild module /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/python3: make -f Makefile -j1 -rs all slowcheck gb_PARTIALBUILD=T
+[build ALL] top level modules: python3
+[build ALL] loaded modules: python3
+
+[build CHK] loaded modules: python3
+
+[build SLC] loaded modules: python3
+icu deliver
+Module 'icu' delivered successfully. 0 files copied, 267 files unchanged
+python3 deliver
+
+=============
+(12/17) Building module tail_build
+=============
+Entering /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/tail_build/prj
+
+gbuild module /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/tail_build: make -f Makefile -j1 -rs all slowcheck gb_PARTIALBUILD=T
+/Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/Module_tail_build.mk:27: /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase//dictionaries/Module_dictionaries.mk: No such file or directory
+Makefile:17: *** Corrupted module target stack! .  Stop.
+
+-----------------------------------------------------------------------
+        Oh dear - something failed during the build - sorry !
+  For more help with debugging build errors, please see the section in:
+            http://snipeoffice.org/wiki/Development
+
+  internal build errors:
+
+ERROR: error 512 occurred while making /Users/useradmin/Desktop/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase/tail_build/prj
+
+ it seems that the error is inside 'tail_build', please re-run build
+ inside this module to isolate the error and/or test your fix.
+
+-----------------------------------------------------------------------
+To rebuild a specific module:
+
+make tail_build.clean # not recommended, this will re-build almost everything
+make tail_build
+
+when the problem is isolated and fixed, re-run 'make'
+make[1]: *** [build-packimages] Error 1
+make: *** [all] Error 2

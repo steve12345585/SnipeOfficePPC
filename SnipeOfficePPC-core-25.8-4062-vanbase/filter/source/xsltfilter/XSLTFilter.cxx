@@ -204,7 +204,7 @@ m_rServiceFactory(r), m_bTerminated(sal_False), m_bError(sal_False)
         css::uno::Reference<xslt::XXSLTTransformer> xTransformer;
 
         // check if the filter needs XSLT-2.0-capable transformer
-        // COMPATIBILITY: libreoffice 3.5/3.6 used to save the impl.
+        // COMPATIBILITY: SnipeOffice 3.5/3.6 used to save the impl.
         // name of the XSLT 2.0 transformation service there, so check
         // for that too (it is sufficient to check that there is _a_
         // service name there)

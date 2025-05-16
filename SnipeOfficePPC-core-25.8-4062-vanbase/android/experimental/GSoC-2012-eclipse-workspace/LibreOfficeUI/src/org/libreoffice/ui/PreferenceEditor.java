@@ -13,6 +13,6 @@ public class PreferenceEditor extends PreferenceActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource( R.xml.libreoffice_preferences );
-		//mPrefs = getSharedPreferences( LibreOfficeUIActivity.EXPLORER_PREFS_KEY , MODE_PRIVATE );
+		//mPrefs = getSharedPreferences( SnipeOfficeUIActivity.EXPLORER_PREFS_KEY , MODE_PRIVATE );
 	}
 }

@@ -160,7 +160,7 @@ void RscError::WriteError( const ERRTYPE& rError, const char * pMessage )
         case ERR_NOINPUT:
             StdLstErr( "Input file was not specified.\n");
         case ERR_USAGE:
-            StdLstOut( "Copyright (C) 2000 - 2012 LibreOffice contributors.\n" );
+            StdLstOut( "Copyright (C) 2000 - 2012 SnipeOffice contributors.\n" );
             {
                 char    buf[40];
 

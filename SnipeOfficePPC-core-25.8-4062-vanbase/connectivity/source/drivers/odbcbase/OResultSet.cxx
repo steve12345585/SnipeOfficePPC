@@ -140,7 +140,7 @@ OResultSet::OResultSet(SQLHANDLE _pStatementHandle ,OStatement_Base* pStmt) :   
     {
         SQLUINTEGER nValueLen = 0;
         // Reference: http://msdn.microsoft.com/en-us/library/windows/desktop/ms715441%28v=vs.85%29.aspx
-        // LibreOffice ODBC binds columns only on update, so we don't care about SQL_GD_ANY_COLUMN / SQL_GD_BOUND
+        // SnipeOffice ODBC binds columns only on update, so we don't care about SQL_GD_ANY_COLUMN / SQL_GD_BOUND
         // TODO: maybe a problem if a column is updated, then an earlier column fetched?
         //       an updated column is bound...
         // TODO: aren't we assuming SQL_GD_OUTPUT_PARAMS?

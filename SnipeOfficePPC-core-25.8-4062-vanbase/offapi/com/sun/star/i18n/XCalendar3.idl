@@ -48,7 +48,7 @@ module com { module sun { module star { module i18n {
     that include the possessive genitive case month names and sequences 
     of <type>CalendarItem2</type> items.. </p>
 
-    @since LibreOffice 3.5
+    @Since SnipeOffice 3.5
  */
 published interface XCalendar3 : com::sun::star::i18n::XExtendedCalendar
 {

@@ -391,7 +391,7 @@ namespace com { namespace sun { namespace star { } } }
 
 /** short-circuit extra-verbose API namespaces
 
- @since LibreOffice 4.0
+ @Since SnipeOffice 4.0
 */
 namespace css = ::com::sun::star;
 
@@ -505,7 +505,7 @@ template< typename T1, typename T2 > inline T1 static_int_cast(T2 n) {
 
     without a SAL_UNUSED_PARAMETER annotation.
 
-    @since LibreOffice 3.6
+    @Since SnipeOffice 3.6
  */
 #if defined __cplusplus
 #if defined __GNUC__
@@ -525,7 +525,7 @@ template< typename T1, typename T2 > inline T1 static_int_cast(T2 n) {
 
  Currently implemented by a Clang compiler plugin.
 
- @since LibreOffice 4.0
+ @Since SnipeOffice 4.0
 
 */
 

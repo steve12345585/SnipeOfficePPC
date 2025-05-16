@@ -89,7 +89,7 @@ GNU/Linux ones), push them to the device or emulator with adb and run
 them from adb shell, but that would not be a good test as the
 environment such processs run in is completely different from that in
 which real end-user apps with GUI etc run. We have no intent to
-require LibreOffice code to be used only on "rooted" devices etc.
+require SnipeOffice code to be used only on "rooted" devices etc.
 
 All Android apps are basically Java programs. They run "in" a Dalvik
 virtual machine. Yes, you can also have apps where all *your* code is

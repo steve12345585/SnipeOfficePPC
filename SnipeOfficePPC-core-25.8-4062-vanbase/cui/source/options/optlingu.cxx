@@ -1108,7 +1108,7 @@ SvxLinguTabPage::SvxLinguTabPage( Window* pParent,
             != SvtExtendedSecurityOptions::OPEN_NEVER )
     {
         aMoreDictsLink.SetURL( String(
-            RTL_CONSTASCII_USTRINGPARAM( "http://extensions.libreoffice.org/dictionaries/" ) ) );
+            RTL_CONSTASCII_USTRINGPARAM( "http://SnipeOffice.org/extensions/dictionaries/" ) ) );
         aMoreDictsLink.SetClickHdl( LINK( this, SvxLinguTabPage, OpenURLHdl_Impl ) );
     }
     else
@@ -1962,7 +1962,7 @@ SvxEditModulesDlg::SvxEditModulesDlg(Window* pParent, SvxLinguData_Impl& rData) 
             != SvtExtendedSecurityOptions::OPEN_NEVER )
     {
         aMoreDictsLink.SetURL( String(
-            RTL_CONSTASCII_USTRINGPARAM( "http://extensions.libreoffice.org/dictionaries/" ) ) );
+            RTL_CONSTASCII_USTRINGPARAM( "http://SnipeOffice.org/extensions/dictionaries/" ) ) );
         aMoreDictsLink.SetClickHdl( LINK( this, SvxEditModulesDlg, OpenURLHdl_Impl ) );
     }
     else

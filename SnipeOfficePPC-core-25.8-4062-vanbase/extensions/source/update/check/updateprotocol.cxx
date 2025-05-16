@@ -127,7 +127,7 @@ checkForUpdates(
         rxContext->getServiceManager()->createInstanceWithContext( UNISTRING( "com.sun.star.xml.xpath.XPathAPI" ), rxContext ),
         uno::UNO_QUERY_THROW);
 
-    xXPath->registerNS( UNISTRING("inst"), UNISTRING("http://update.libreoffice.org/description") );
+    xXPath->registerNS( UNISTRING("inst"), UNISTRING("http://SnipeOffice.org/update/description") );
 
     if( rxInteractionHandler.is() )
         rUpdateInfoProvider->setInteractionHandler(rxInteractionHandler);

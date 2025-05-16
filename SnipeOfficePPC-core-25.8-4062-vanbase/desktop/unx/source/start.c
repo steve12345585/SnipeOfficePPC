@@ -200,7 +200,7 @@ child_get_exit_code (ChildInfo *info)
     inf.Size = sizeof (inf);
     if (osl_getProcessInfo (info->child, osl_Process_EXITCODE, &inf) != osl_Process_E_None)
     {
-        fprintf (stderr, "Warning: failed to fetch libreoffice exit status\n");
+        fprintf (stderr, "Warning: failed to fetch SnipeOffice exit status\n");
         return -1;
     }
     return inf.Code;
@@ -604,7 +604,7 @@ system_checks( void )
     /* check proc is mounted - lots of things fail otherwise */
     if ( stat( "/proc/version", &buf ) != 0 )
     {
-        fprintf( stderr, "ERROR: /proc not mounted - LibreOffice is unlikely to work well if at all" );
+        fprintf( stderr, "ERROR: /proc not mounted - SnipeOffice is unlikely to work well if at all" );
         exit( 1 );
     }
 #endif

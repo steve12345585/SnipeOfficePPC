@@ -196,7 +196,7 @@ public:
       If there are any embedded \0's in the string literal, the result is undefined.
       Use the overload that explicitly accepts length.
 
-      @since LibreOffice 3.6
+      @Since SnipeOffice 3.6
 
       @param    literal       a string literal
     */
@@ -294,7 +294,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, OString& >::Type operator=( T& literal ) SAL_THROW(())
@@ -332,7 +332,7 @@ public:
       @return   sal_True if the string is empty;
                 sal_False, otherwise.
 
-      @since LibreOffice 3.4
+      @Since SnipeOffice 3.4
     */
     bool isEmpty() const SAL_THROW(())
     {
@@ -359,7 +359,7 @@ public:
 
       @return the character at the given index.
 
-      @since LibreOffice 3.5
+      @Since SnipeOffice 3.5
     */
     sal_Char operator [](sal_Int32 index) const { return getStr()[index]; }
 
@@ -529,7 +529,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, bool >::Type  equalsIgnoreAsciiCase( T& literal ) const SAL_THROW(())
@@ -595,7 +595,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, bool >::Type  match( T& literal, sal_Int32 fromIndex = 0 ) const SAL_THROW(())
@@ -621,7 +621,7 @@ public:
       @return true if and only if the given str is contained as a substring of
       this string at the given fromIndex
 
-      @since LibreOffice 3.6
+      @Since SnipeOffice 3.6
     */
     bool matchL(
         char const * str, sal_Int32 strLength, sal_Int32 fromIndex = 0)
@@ -668,7 +668,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, bool >::Type matchIgnoreAsciiCase( T& literal, sal_Int32 fromIndex = 0 ) const
@@ -687,7 +687,7 @@ public:
       @return true if and only if the given str appears as a substring at the
       start of this string
 
-      @since LibreOffice 4.0
+      @Since SnipeOffice 4.0
     */
     bool startsWith(OString const & str) const {
         return match(str, 0);
@@ -696,7 +696,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 4.0
+     @Since SnipeOffice 4.0
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, bool >::Type startsWith( T& literal ) const
@@ -713,7 +713,7 @@ public:
       @return true if and only if the given str appears as a substring at the
       end of this string
 
-      @since LibreOffice 3.6
+      @Since SnipeOffice 3.6
     */
     bool endsWith(OString const & str) const {
         return str.getLength() <= getLength()
@@ -723,7 +723,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, bool >::Type endsWith( T& literal ) const
@@ -745,7 +745,7 @@ public:
       @return true if and only if the given str appears as a substring at the
       end of this string
 
-      @since LibreOffice 3.6
+      @Since SnipeOffice 3.6
     */
     bool endsWithL(char const * str, sal_Int32 strLength) const {
         return strLength <= getLength()
@@ -792,7 +792,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     friend typename internal::ConstCharArrayDetector< T, bool >::Type operator==( const OString& rStr, T& literal ) SAL_THROW(())
@@ -807,7 +807,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     friend typename internal::ConstCharArrayDetector< T, bool >::Type operator==( T& literal, const OString& rStr ) SAL_THROW(())
@@ -846,7 +846,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     friend typename internal::ConstCharArrayDetector< T, bool >::Type operator!=( const OString& rStr, T& literal ) SAL_THROW(())
@@ -857,7 +857,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     friend typename internal::ConstCharArrayDetector< T, bool >::Type operator!=( T& literal, const OString& rStr ) SAL_THROW(())
@@ -952,7 +952,7 @@ public:
     /**
      @overload
      This function accepts an ASCII string literal as its argument.
-     @since LibreOffice 3.6
+     @Since SnipeOffice 3.6
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, sal_Int32 >::Type indexOf( T& literal, sal_Int32 fromIndex = 0 ) const SAL_THROW(())
@@ -980,7 +980,7 @@ public:
                 returned. If it does not occur as a substring starting
                 at fromIndex or beyond, -1 is returned.
 
-      @since LibreOffice 3.6
+      @Since SnipeOffice 3.6
     */
     sal_Int32 indexOfL(char const * str, sal_Int32 len, sal_Int32 fromIndex = 0)
         const SAL_THROW(())
@@ -1156,7 +1156,7 @@ public:
       replacement took place or -1 if no replacement took place; if the pointer
       is null, searching always starts at index 0
 
-      @since LibreOffice 3.6
+      @Since SnipeOffice 3.6
     */
     SAL_WARN_UNUSED_RESULT OString replaceFirst(
         OString const & from, OString const & to, sal_Int32 * index = 0) const
@@ -1180,7 +1180,7 @@ public:
 
       @param to  the replacing substring
 
-      @since LibreOffice 3.6
+      @Since SnipeOffice 3.6
     */
     SAL_WARN_UNUSED_RESULT OString replaceAll(OString const & from, OString const & to) const {
         rtl_String * s = 0;
@@ -1284,7 +1284,7 @@ public:
 
       @return  the given token, or an empty string
 
-      @since LibreOffice 3.6
+      @Since SnipeOffice 3.6
      */
     OString getToken(sal_Int32 count, char separator) const {
         sal_Int32 n = 0;
@@ -1474,7 +1474,7 @@ be mostly used to force OString operator+ working with operands that otherwise w
 not trigger it.
 
 This class is not part of public API and is meant to be used only in LibreOffice code.
-@since LibreOffice 4.0
+@since SnipeOffice 25.8
 */
 struct SAL_WARN_UNUSED OStringLiteral
 {
@@ -1552,7 +1552,7 @@ struct OStringHash
     Support for rtl::OString in std::ostream (and thus in
     CPPUNIT_ASSERT or SAL_INFO macros, for example).
 
-    @since LibreOffice 4.0
+    @Since SnipeOffice 4.0
  */
 template< typename charT, typename traits > std::basic_ostream<charT, traits> &
 operator <<(

@@ -391,7 +391,7 @@ public:
 
       @return a reference to the character at the given index.
 
-      @since LibreOffice 3.5
+      @Since SnipeOffice 3.5
     */
     sal_Unicode & operator [](sal_Int32 index) { return pData->buffer[index]; }
 
@@ -429,7 +429,7 @@ public:
         @param   str   a string.
         @return  this string buffer.
 
-        @since LibreOffice 4.0
+        @Since SnipeOffice 4.0
      */
     OUStringBuffer & append(const OUStringBuffer &str)
     {
@@ -479,7 +479,7 @@ public:
     /**
         @overload
         This function accepts an ASCII string literal as its argument.
-        @since LibreOffice 3.6
+        @Since SnipeOffice 3.6
      */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, OUStringBuffer& >::Type append( T& literal )
@@ -562,7 +562,7 @@ public:
         @param   c   an ASCII <code>char</code>.
         @return  this string buffer.
 
-        @since LibreOffice 3.5
+        @Since SnipeOffice 3.5
      */
     OUStringBuffer & append(char c)
     {
@@ -740,7 +740,7 @@ public:
     /**
         @overload
         This function accepts an ASCII string literal as its argument.
-        @since LibreOffice 3.6
+        @Since SnipeOffice 3.6
      */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, OUStringBuffer& >::Type insert( sal_Int32 offset, T& literal )
@@ -790,7 +790,7 @@ public:
         @param      c        a <code>char</code>.
         @return     this string buffer.
 
-        @since LibreOffice 3.6
+        @Since SnipeOffice 3.6
      */
     OUStringBuffer & insert(sal_Int32 offset, char c)
     {
@@ -963,7 +963,7 @@ public:
         @param  start       The beginning index, inclusive. default to 0
         @return this string buffer.
 
-        @since LibreOffice 4.0
+        @Since SnipeOffice 4.0
      */
     OUStringBuffer & truncate( sal_Int32 start = 0 )
     {
@@ -975,7 +975,7 @@ public:
        Replace all occurrences of
        oldChar in this string buffer with newChar.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    oldChar     the old character.
        @param    newChar     the new character.
@@ -1018,7 +1018,7 @@ public:
        Returns the index within this string of the first occurrence of the
        specified character, starting the search at the specified index.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    ch          character to be located.
        @param    fromIndex   the index to start the search from.
@@ -1039,7 +1039,7 @@ public:
        Returns the index within this string of the last occurrence of the
        specified character, searching backward starting at the end.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    ch          character to be located.
        @return   the index of the last occurrence of the character in the
@@ -1056,7 +1056,7 @@ public:
        specified character, searching backward starting before the specified
        index.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    ch          character to be located.
        @param    fromIndex   the index before which to start the search.
@@ -1077,7 +1077,7 @@ public:
        If str doesn't include any character, always -1 is
        returned. This is also the case, if both strings are empty.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    str         the substring to search for.
        @param    fromIndex   the index to start the search from.
@@ -1098,7 +1098,7 @@ public:
        @overload
        This function accepts an ASCII string literal as its argument.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, sal_Int32 >::Type indexOf( T& literal, sal_Int32 fromIndex = 0 ) const SAL_THROW(())
@@ -1119,7 +1119,7 @@ public:
        If str doesn't include any character, always -1 is
        returned. This is also the case, if both strings are empty.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    str         the substring to search for.
        @return   If the string argument occurs one or more times as a substring
@@ -1143,7 +1143,7 @@ public:
        If str doesn't include any character, always -1 is
        returned. This is also the case, if both strings are empty.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    str         the substring to search for.
        @param    fromIndex   the index before which to start the search.
@@ -1161,7 +1161,7 @@ public:
     /**
        @overload
        This function accepts an ASCII string literal as its argument.
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
     */
     template< typename T >
     typename internal::ConstCharArrayDetector< T, sal_Int32 >::Type lastIndexOf( T& literal ) const SAL_THROW(())
@@ -1174,7 +1174,7 @@ public:
     /**
        Strip the given character from the start of the buffer.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    c         the character to strip
        @return   The number of characters stripped
@@ -1200,7 +1200,7 @@ public:
     /**
        Strip the given character from the end of the buffer.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    c         the character to strip
        @return   The number of characters stripped
@@ -1226,7 +1226,7 @@ public:
     /**
        Strip the given character from the both end of the buffer.
 
-       @since LibreOffice 4.0
+       @Since SnipeOffice 4.0
 
        @param    c         the character to strip
        @return   The number of characters stripped

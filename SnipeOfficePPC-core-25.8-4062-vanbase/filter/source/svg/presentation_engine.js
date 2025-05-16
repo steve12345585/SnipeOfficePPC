@@ -1276,7 +1276,7 @@ PriorityQueue.prototype.implPushHeap = function( nFirst, nHoleIndex, nTopIndex, 
  *
  * OpenOffice.org - a multi-platform office productivity suite
  *
- * This file is part of OpenOffice.org.
+ * This file is part of SnipeOffice.
  *
  * OpenOffice.org is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License version 3

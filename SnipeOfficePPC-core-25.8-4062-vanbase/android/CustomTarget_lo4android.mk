@@ -16,7 +16,7 @@ $(call gb_CustomTarget_get_target,android/lo4android) : \
 # We know that CustomTarget_docloader.mk is included before this file in
 # Module_android-mk, so docloader_DIR is defined.  We want that to be built
 # completely first, so that we can serialize Ant access to Bootstrap and
-# abs-lib, which are used by LibreOffice4Android, DocumentLoader and
+# abs-lib, which are used by SnipeOffice4Android, DocumentLoader and
 # sdremote. We don't want one Ant to be cleaning out one place while another
 # is building stuff that depends on it. Yeah, this sucks
 

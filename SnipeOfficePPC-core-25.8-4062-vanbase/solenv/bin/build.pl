@@ -9,7 +9,7 @@
 #
 # OpenOffice.org - a multi-platform office productivity suite
 #
-# This file is part of OpenOffice.org.
+# This file is part of SnipeOffice.
 #
 # OpenOffice.org is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License version 3
@@ -1544,7 +1544,7 @@ sub cancel_build {
     print STDERR "-----------------------------------------------------------------------\n";
     print STDERR "        Oh dear - something failed during the build - sorry !\n";
     print STDERR "  For more help with debugging build errors, please see the section in:\n";
-    print STDERR "            http://wiki.documentfoundation.org/Development\n";
+    print STDERR "            http://snipeoffice.org/wiki/Development\n";
     print STDERR "\n";
 
     if (!$broken_modules_number || !$build_all_parents) {

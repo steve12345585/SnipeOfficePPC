@@ -7,7 +7,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
 -->
-<inst:description xmlns:inst="http://update.libreoffice.org/description">
+<inst:description xmlns:inst="http://SnipeOffice.org/update/description">
   <inst:id>LibreOffice 3.5.0 Beta2</inst:id>
   <inst:version>3.5.0 Beta2</inst:version>
   <inst:gitid>123456-abcdef-1a2b3c-4d5e6f</inst:gitid>
