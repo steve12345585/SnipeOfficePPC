@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -104,7 +104,7 @@ XclDefaultPalette::XclDefaultPalette( const XclRoot& rRoot ) :
     // Previously the the note text colour was picked from the system tooltip
     // text colour, on modern gnome(e.g. 3) that tends to be 'white' with the
     // default theme.
-    // Using the the Libreoffice defaults ( instead of system specific colours
+    // Using the the SnipeOffice defaults ( instead of system specific colours
     // ) lessens the chance of the one colour being an unsuitable combination
     // because by default the note text is black and the note background is
     // a light yellow colour ( very similar to Excel's normal defaults )

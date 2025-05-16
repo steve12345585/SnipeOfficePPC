@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -42,7 +42,7 @@ class AtTag
   public:
     virtual             ~AtTag() {}
 
-    virtual bool        Add_SpecialMeaningToken(    /// @return false, if token was not spüecial.
+    virtual bool        Add_SpecialMeaningToken(    /// @return false, if token was not spï¿½ecial.
                             const char *        i_sText,
                             intt                i_nNr ) = 0;
     virtual void        Add_Token(

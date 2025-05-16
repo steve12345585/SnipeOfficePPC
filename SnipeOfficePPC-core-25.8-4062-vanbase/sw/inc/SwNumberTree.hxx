@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -46,7 +46,7 @@ struct compSwNumberTreeNodeLessThan
    1. kshdkjfs
      1.1. lskjf
    2. sdfjlksaf
-   3. fkaöslk
+   3. fkaï¿½slk
      3.1. lfjlaskf
      3.2. jaslkjflsf
        3.2.1. hkljhkjhk
@@ -55,7 +55,7 @@ struct compSwNumberTreeNodeLessThan
      + 1 kshdkjfs
      | + 1 lskjf
      + 2 sdfjlksaf
-     + 3 fkaöslk
+     + 3 fkaï¿½slk
        + 1 lfjlaskf
        + 2 jaslkjflsf
          + 1 hkljhkjhk

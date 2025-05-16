@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -144,7 +144,7 @@ class OFrames   :   private ThreadHelpBase      ,   // Must be the first of base
         /*-****************************************************************************************************//**
             @short      get count of all current frames in container
             @descr      This is the beginning of full index-access. With a count you can step over all items in container.
-                        Next call shuoöd be getByIndex(). But these mechanism works only, if no lock in container is set!
+                        Next call shuoï¿½d be getByIndex(). But these mechanism works only, if no lock in container is set!
 
             @seealso    class FrameContainer
             @seealso    method getByIndex()

@@ -48,7 +48,7 @@ $(unoil_CLIDIR)/cli_oootypes.dll : $(SRCDIR)/unoil/climaker/version.txt \
 		--out $@ \
 		--assembly-version $(CLI_OOOTYPES_NEW_VERSION) \
 		--assembly-company "LibreOffice" \
-		--assembly-description "This assembly contains metadata for the LibreOffice API." \
+		--assembly-description "This assembly contains metadata for the SnipeOffice API." \
 		-X $(OUTDIR)/bin/udkapi.rdb \
 		-r $(OUTDIR)/bin/cli_uretypes.dll \
 		--keyfile $(OUTDIR)/bin/cliuno.snk \

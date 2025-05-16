@@ -1,5 +1,5 @@
 #
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -44,7 +44,7 @@ requires = "%BASISPACKAGEPREFIX%PRODUCTVERSION-%LANGUAGESTRING"
 copyright = "2012 The Document Foundation"
 solariscopyright = "solariscopyrightfile"
 vendor = "The Document Foundation"
-description = "Help module for LibreOffice %PRODUCTVERSION, language %LANGUAGESTRING"
+description = "Help module for SnipeOffice  %PRODUCTVERSION, language %LANGUAGESTRING"
 destpath = "/opt"
 packageversion = "%ABOUTBOXPRODUCTVERSION"
 pkg_list_entry = "%BASISPACKAGEPREFIX%WITHOUTDOTPRODUCTVERSION-core01"

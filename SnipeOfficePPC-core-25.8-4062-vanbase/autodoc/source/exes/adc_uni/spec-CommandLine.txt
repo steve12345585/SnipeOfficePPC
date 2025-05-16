@@ -1,5 +1,5 @@
 #
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -46,7 +46,7 @@ autodoc [-v <level>]
         Only together with "-lg idl" and -extroot.
         If a code entity is not found in the current parsed code, but
         dwells in the namespace (or its children) given here, it is
-        linked into the locátion given by -extroot.
+        linked into the locï¿½tion given by -extroot.
         <externnamespace> is an absolute qualified namespace,
         starting with "::".
 

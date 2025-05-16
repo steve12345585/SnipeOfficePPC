@@ -690,19 +690,19 @@ AC_ARG_ENABLE(pch,
 
 AC_ARG_ENABLE(win-mozab-driver,
     AS_HELP_STRING([--enable-win-mozab-driver],
-        [LibreOffice includes a driver to connect to Mozilla 
+        [SnipeOffice includes a driver to connect to Mozilla 
          address books under Windows, to build with this version, use this option.])
 )
 
 AC_ARG_ENABLE(epm,
     AS_HELP_STRING([--enable-epm],
-        [LibreOffice includes self-packaging code, that requires epm, however epm is
+        [SnipeOffice includes self-packaging code, that requires epm, however epm is
          useless for large scale package building.])
 )
 
 AC_ARG_ENABLE(odk,
     AS_HELP_STRING([--disable-odk],
-        [LibreOffice includes an ODK, office development kit which some packagers may
+        [SnipeOffice includes an ODK, office development kit which some packagers may
          wish to build without.])
 )
 
@@ -1185,7 +1185,7 @@ AC_ARG_WITH(helppack-integration,
 
 AC_ARG_WITH(fonts,
     AS_HELP_STRING([--without-fonts],
-        [LibreOffice includes some third-party fonts to provide a reliable basis for
+        [SnipeOffice includes some third-party fonts to provide a reliable basis for
          help content, templates, samples, etc. When these fonts are already
          known to be available on the system then you should use this option.]),
 ,)
@@ -2184,7 +2184,7 @@ AC_ARG_WITH(macosx-version-min-required,
 
 AC_ARG_WITH(macosx-version-max-allowed,
     AS_HELP_STRING([--with-macosx-version-max-allowed],
-        [set the maximum allowed OS version the LibreOffice compilation can use APIs from])
+        [set the maximum allowed OS version the SnipeOffice compilation can use APIs from])
     [
                           Usage:     --with-macosx-version-max-allowed=<version>
 
@@ -4978,7 +4978,7 @@ if test "$GXX" = "yes"; then
                 test (E0);
                 return 0;
             }
-            ]])],[AC_MSG_ERROR([your version of the GNU C++ compile has a bug which prevents LibreOffice from being compiled correctly - please check http://gcc.gnu.org/ml/gcc-patches/2004-07/msg00968.html for details.])],[AC_MSG_RESULT([no])],[])
+            ]])],[AC_MSG_ERROR([your version of the GNU C++ compile has a bug which prevents SnipeOffice from being compiled correctly - please check http://gcc.gnu.org/ml/gcc-patches/2004-07/msg00968.html for details.])],[AC_MSG_RESULT([no])],[])
     fi
 fi
 

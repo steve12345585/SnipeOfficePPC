@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -62,10 +62,10 @@ VS_VERSION_INFO versioninfo
                 VALUE "FileDescription",  PPS(RES_APP_FILEDESC) "\0"
                 VALUE "FileVersion",      PPS(VER_LEVEL) "\0"
                 VALUE "ProductVersion",   PPS(VER_LEVEL) "\0"
-                VALUE "ProductName",      "LibreOffice\0"
+                VALUE "ProductName",      "SnipeOffice \0"
                 VALUE "OriginalFilename", PPS(RES_APP_NAME) ".exe\0"
                 VALUE "InternalName",     PPS(RES_APP_NAME) "\0"
-                VALUE "LegalCopyright",   S_CRIGHT " LibreOffice contributors and/or their affiliates. All rights reserved.\0"
+                VALUE "LegalCopyright",   S_CRIGHT " SnipeOffice  contributors and/or their affiliates. All rights reserved.\0"
 			}
 		}
 

@@ -121,7 +121,7 @@ wrappers for dlopen(), dlsym(), and ELF header scanning coresponding
 to looking for DT_NEEDED entries with readelf.
 
 The Java code then loads the actual native library that corresponds to
-the LibreOffice-related "program" we want to run. For unit tests, a
+the SnipeOffice-related "program" we want to run. For unit tests, a
 library that corresponds to cppunittester program. Then through helper
 functions in liblo-bootstrap it calls a named function in that
 "program".

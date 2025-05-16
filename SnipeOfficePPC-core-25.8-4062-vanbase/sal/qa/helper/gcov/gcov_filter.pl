@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 #
 #
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -345,9 +345,9 @@ sub read_gcov_function_file($)
 }
 
 # gcov format since gcc 3.3.6
-# 100.00% von 3 Zeilen in function helloworld ausgeführt
-# 100.00% von 5 Zeilen in function main ausgeführt
-# 100.00% von 8 Zeilen in file tmp.c ausgeführt
+# 100.00% von 3 Zeilen in function helloworld ausgefï¿½hrt
+# 100.00% von 5 Zeilen in function main ausgefï¿½hrt
+# 100.00% von 8 Zeilen in file tmp.c ausgefï¿½hrt
 sub read_gcov_function_file_old_gcc_3($)
 {
     local *INPUT_HANDLE;

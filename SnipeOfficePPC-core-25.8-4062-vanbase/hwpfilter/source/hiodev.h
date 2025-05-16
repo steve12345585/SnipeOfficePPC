@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -59,7 +59,7 @@ class DLLEXPORT HIODev
 
 struct gz_stream;
 
-/* ÆÄÀÏ ÀÔÃâ·Â ÀåÄ¡ */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ */
 
 /**
  * This controls the HStream given by constructor
@@ -68,7 +68,7 @@ struct gz_stream;
 class HStreamIODev : public HIODev
 {
     private:
-/* zlibÀ¸·Î ¾ÐÃàÀ» Ç®±â À§ÇÑ ÀÚ·á ±¸Á¶ */
+/* zlibï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú·ï¿½ ï¿½ï¿½ï¿½ï¿½ */
         gz_stream *_gzfp;
         HStream& _stream;
     public:
@@ -124,7 +124,7 @@ class HStreamIODev : public HIODev
         virtual void init();
 };
 
-/* ¸Þ¸ð¸® ÀÔÃâ·Â ÀåÄ¡ */
+/* ï¿½Þ¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ */
 /**
  * The HMemIODev class controls the Input/Output device.
  * @short Memory IO device

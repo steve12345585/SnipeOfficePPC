@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -387,7 +387,7 @@ void Formula::makeDecoration(Node *res)
      else
           fprintf(stderr,"<math:munder>\n");
 #else
-     /* accent´Â ¾ðÁ¦ trueÀÌ°í, ¾ðÁ¦, falseÀÎÁö ¸ð¸£°Ú´Ù. */
+     /* accentï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ trueï¿½Ì°ï¿½, ï¿½ï¿½ï¿½ï¿½, falseï¿½ï¿½ï¿½ï¿½ ï¿½ð¸£°Ú´ï¿½. */
      if( isover ){
           padd(ascii("accent"),ascii("CDATA"),ascii("true"));
           rstartEl(ascii("math:mover"), rList);

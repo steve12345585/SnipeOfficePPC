@@ -4,7 +4,7 @@ Modifications:
 ------------------------------------------------------------------
 2012-08-24: Laszlo Nemeth (nemeth at numbertext org)
 * ru_RU.aff: add TRY line for better suggestions
-  (fix fdo#35001, reported by sasha.libreoffice at gmail)
+  (fix fdo#35001, reported by sasha.SnipeOffice  at gmail)
 
 Copyright:
 ------------------------------------------------------------------

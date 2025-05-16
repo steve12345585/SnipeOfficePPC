@@ -265,7 +265,7 @@
 
 		<div id="Credits">
 			<p id="credits" xml:lang="en-US">We hope you enjoy working with the new ${PRODUCTNAME} ${PRODUCTVERSION} and will join us online.</p>
-			<p id="credits2" xml:lang="en-US">The LibreOffice Community</p>
+			<p id="credits2" xml:lang="en-US">the SnipeOffice Community</p>
 		</div>
 
 		<div id="ModifiedSourceCode">

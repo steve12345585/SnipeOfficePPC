@@ -475,7 +475,7 @@ sub usage()
           "                      differences between branches\n" .
           "     --cherry         use \"git cherry\" instead of \"git log\"; detects cherry-picked\n" .
           "                      commits between branches\n" .
-          "      topdir          directory with the libreoffice/core clone\n" .
+          "      topdir          directory with the SnipeOffice/core clone\n" .
           "      git_arg         extra parameters passed to the git command to define\n" .
           "                      the area of interest; The default command is \"git log\" and\n" .
           "                      parameters might be, for example, --after=\"2010-09-27\" or\n" .

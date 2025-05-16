@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -25,14 +25,14 @@
 |*    CalcSpline()
 |*
 |*    Beschreibung      Berechnet die Koeffizienten eines parametrischen
-|*                      natrlichen oder periodischen kubischen
-|*                      Polynomsplines. Die Eckpunkte des šbergebenen
-|*                      Polygons werden als Sttzstellen angenommen.
+|*                      natï¿½rlichen oder periodischen kubischen
+|*                      Polynomsplines. Die Eckpunkte des ï¿½bergebenen
+|*                      Polygons werden als Stï¿½tzstellen angenommen.
 |*                      n liefert die Anzahl der Teilpolynome.
 |*                      Ist die Berechnung fehlerfrei verlaufen, so
 |*                      liefert die Funktion sal_True. Nur in diesem Fall
-|*                      ist Speicher fr die Koeffizientenarrays
-|*                      allokiert, der dann sp„ter vom Aufrufer mittels
+|*                      ist Speicher fï¿½r die Koeffizientenarrays
+|*                      allokiert, der dann spï¿½ter vom Aufrufer mittels
 |*                      delete freizugeben ist.
 |*
 *************************************************************************/
@@ -46,13 +46,13 @@ sal_Bool CalcSpline(Polygon& rPoly, sal_Bool Periodic, sal_uInt16& n,
 |*    Poly2Spline()
 |*
 |*    Beschreibung      Konvertiert einen parametrichen kubischen
-|*                      Polynomspline Spline (natrlich oder periodisch)
-|*                      in ein angen„hertes Polygon.
+|*                      Polynomspline Spline (natï¿½rlich oder periodisch)
+|*                      in ein angenï¿½hertes Polygon.
 |*                      Die Funktion liefert sal_False, wenn ein Fehler bei
 |*                      der Koeffizientenberechnung aufgetreten ist oder
 |*                      das Polygon zu gro?wird (>PolyMax=16380). Im 1.
 |*                      Fall hat das Polygon 0, im 2. Fall PolyMax Punkte.
-|*                      Um Koordinatenberl„ufe zu vermeiden werden diese
+|*                      Um Koordinatenï¿½berlï¿½ufe zu vermeiden werden diese
 |*                      auf +/-32000 begrenzt.
 |*
 *************************************************************************/

@@ -1,5 +1,5 @@
 OpenThesaurus - Deutscher Thesaurus
-Version für LibreOffice, ApacheOpenOffice und OpenOffice.org
+Version für SnipeOffice , ApacheOpenOffice und OpenOffice.org
 Copyright (C) 2003-2012 Daniel Naber (naber at danielnaber de)
 Snapshot, automatisch generiert 2012-06-08 23:35
 Homepage: http://www.openthesaurus.de

@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -80,7 +80,7 @@ public:
     /** returns the page which belongs to a section
     *
     * \param _xSection
-    * \return The page or <NULL/> when t´no page could be found.
+    * \return The page or <NULL/> when tï¿½no page could be found.
     */
     OReportPage* getPage(const ::com::sun::star::uno::Reference< ::com::sun::star::report::XSection >& _xSection);
 

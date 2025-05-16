@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -84,18 +84,18 @@ HashTable::HashTable(unsigned long lSize, bool bOwner, double dMaxLoadFactor, do
 HashTable::~HashTable()
 {
     // Wenn die HashTable der Owner der Objecte ist,
-    // müssen die Destruktoren separat gerufen werden.
-    // Dies geschieht über die virtuelle Methode OnDeleteObject()
+    // mï¿½ssen die Destruktoren separat gerufen werden.
+    // Dies geschieht ï¿½ber die virtuelle Methode OnDeleteObject()
     //
     // Problem: Virtuelle Funktionen sind im Destructor nicht virtuell!!
-    //          Der Code muß deshalb ins Macro
+    //          Der Code muï¿½ deshalb ins Macro
 
-    // Speicher für HashItems freigeben
+    // Speicher fï¿½r HashItems freigeben
     delete [] m_pData;
 }
 
 void* HashTable::GetObjectAt(unsigned long lPos) const
-// Gibt Objekt zurück, wenn es eines gibt, sonst NULL;
+// Gibt Objekt zurï¿½ck, wenn es eines gibt, sonst NULL;
 {
     HashItem *pItem = &m_pData[lPos];
 
@@ -144,7 +144,7 @@ unsigned long HashTable::DHash(const char* Key, unsigned long lOldHash) const
 }
 
 unsigned long HashTable::Probe(unsigned long lPos) const
-// gibt den Folgewert von lPos zurück
+// gibt den Folgewert von lPos zurï¿½ck
 {
     lPos++; if (lPos==m_lSize) lPos=0;
     return lPos;
@@ -158,7 +158,7 @@ bool HashTable::IsFull() const
 bool HashTable::Insert(const char * Key, void* pObject)
 // pre:  Key ist nicht im Dictionary enthalten, sonst return FALSE
 //       Dictionary ist nicht voll, sonst return FALSE
-// post: pObject ist unter Key im Dictionary; m_nElem wurde erhöht
+// post: pObject ist unter Key im Dictionary; m_nElem wurde erhï¿½ht
 {
     SmartGrow();
 
@@ -212,7 +212,7 @@ bool HashTable::Insert(const char * Key, void* pObject)
 
 HashItem* HashTable::FindPos(const char * Key) const
 // sucht den Key; gibt Refrenz auf den Eintrag (gefunden)
-// oder NULL (nicht gefunden) zurück
+// oder NULL (nicht gefunden) zurï¿½ck
 //
 // pre:  -
 // post: -
@@ -272,7 +272,7 @@ HashItem* HashTable::FindPos(const char * Key) const
 }
 
 void* HashTable::Find(const char *Key) const
-// Gibt Verweis des Objektes zurück, das unter Key abgespeichert ist,
+// Gibt Verweis des Objektes zurï¿½ck, das unter Key abgespeichert ist,
 // oder NULL wenn nicht vorhanden.
 //
 // pre:  -
@@ -288,13 +288,13 @@ void* HashTable::Find(const char *Key) const
 }
 
 void* HashTable::Delete( const char * Key)
-// Löscht Objekt, das unter Key abgespeichert ist und gibt Verweis
-// darauf zurück.
-// Gibt NULL zurück, wenn Key nicht vorhanden ist.
+// Lï¿½scht Objekt, das unter Key abgespeichert ist und gibt Verweis
+// darauf zurï¿½ck.
+// Gibt NULL zurï¿½ck, wenn Key nicht vorhanden ist.
 //
 // pre:  -
 // post: Objekt ist nicht mehr enthalten; m_lElem dekrementiert
-//       Wenn die HashTable der Owner ist, wurde das Object gelöscht
+//       Wenn die HashTable der Owner ist, wurde das Object gelï¿½scht
 {
     HashItem *pItem = FindPos(Key);
 
@@ -334,7 +334,7 @@ void HashTable::SmartGrow()
     unsigned long     lOldSize = m_lSize;              // alte Daten sichern
     HashItem* pOldData = m_pData;
 
-    m_lSize = (unsigned long) (m_dGrowFactor * m_lSize); // neue Größe
+    m_lSize = (unsigned long) (m_dGrowFactor * m_lSize); // neue Grï¿½ï¿½e
     m_pData = new HashItem[m_lSize];           // neue Daten holen
 
     // kein Speicher:

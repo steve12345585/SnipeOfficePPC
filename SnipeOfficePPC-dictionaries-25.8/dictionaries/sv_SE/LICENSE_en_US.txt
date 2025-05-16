@@ -4,7 +4,7 @@ Based on Den stora svenska ordlistan
 This Swedish Dictionary for Spell Checking is maintained by
 Göran Andersson <goran@init.se>.
 The most recent version is available at
-http://extensions.libreoffice.org/extension-center/swedish-spelling-dictionary-den-stora-svenska-ordlistan
+http://extensions.SnipeOffice .org/extension-center/swedish-spelling-dictionary-den-stora-svenska-ordlistan
 
 ************ COPYRIGHT ************
 

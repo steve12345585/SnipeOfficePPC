@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * Based on LLVM/Clang.
  *

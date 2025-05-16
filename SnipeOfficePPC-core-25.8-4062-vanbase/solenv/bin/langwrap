@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 #
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -65,7 +65,7 @@ sub parse_commandfile {
     my($file) = shift;
     my(@field);
     
-    open(COMMAND, "<$file") or die "can´t open $file";
+    open(COMMAND, "<$file") or die "canï¿½t open $file";
 
     while (<COMMAND>) {
 	$line = $_;

@@ -18,7 +18,7 @@
 
    This product has been created by The Document Foundation, incorporating
    many modifications from different contributors, see
-   http://www.libreoffice.org/ for more details.
+   http://www.SnipeOffice .org/ for more details.
 
    Note: Do not translate or localize this document. Only English version
    is legally binding.
@@ -2616,7 +2616,7 @@ zlib
                                    Extensions
 
    Only third party extensions are listed here whose source code is not in
-   the LibreOffice tree.
+   the SnipeOffice  tree.
 
 Barcode
 

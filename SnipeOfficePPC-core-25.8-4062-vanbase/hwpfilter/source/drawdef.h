@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -127,9 +127,9 @@ struct RotationProperty
  */
 struct HWPDOProperty
 {
-    int line_pstyle; /* ¼± Áß°£ ¸ð¾ç */
-    int line_hstyle; /* ³¡ È­»ìÇ¥ ¸ð¾ç */
-    int line_tstyle; /* ½ÃÀÛ ¸ð¾ç */
+    int line_pstyle; /* ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ */
+    int line_hstyle; /* ï¿½ï¿½ È­ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ */
+    int line_tstyle; /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ */
     DWORD line_color;
     hunit line_width;
     DWORD fill_color;

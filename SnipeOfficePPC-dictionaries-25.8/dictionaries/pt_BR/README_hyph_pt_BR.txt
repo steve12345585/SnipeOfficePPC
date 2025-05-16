@@ -4,9 +4,9 @@ pt-BR: Este Divisor de S�labas est� em desenvolvimento por Raimundo Moura. E
 licenciado sob os termos da Licen�a P�blica Geral Menor vers�o 3 (LGPLv3), como 
 publicado pela Free Software Foundation e pela Mozilla Public License como publicada
 pela Mozilla Foundation. Os cr�ditos est�o dispon�veis em 
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+http://snipeoffice.org/pt-br//projetos/projeto-vero-verificador-ortografico/
 e voc� pode encontrar novas vers�es em 
-http://extensions.libreoffice.org
+http://extensions.SnipeOffice .org
 
 Copyright (C) 2008 - 2012 por/by Raimundo Santos Moura <raimundo.smoura@gmail.com>
 
@@ -17,7 +17,7 @@ APRESENTA��O
 O Projeto DivSilab do SnipeOffice � um projeto
 colaborativo desenvolvido pela comunidade Brasileira.
 A rela��o completa dos colaboradores deste projeto est� em:
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+http://snipeoffice.org/pt-br//projetos/projeto-vero-verificador-ortografico/
 
 O DivSilab � uma ferramenta para realizar a translinea��o de textos.
 Ele divide a palavra silabicamente, ficando parte no final da linha e o restante no in�cio
@@ -639,7 +639,7 @@ Vers�es Anteriores
 
 Vers�o 1.0.2 DivSilab
 
-Nesta atualiza��o foi implementado o DivSilab - Divisor de S�labas do LibreOffice.
+Nesta atualiza��o foi implementado o DivSilab - Divisor de S�labas do SnipeOffice .
 
 Desenvolvido com base no l�xico do VERO, atrav�s de an�lise combinat�ria,
 extra�ndo-se os casos reais e descartando-se as condi��es inexistentes.

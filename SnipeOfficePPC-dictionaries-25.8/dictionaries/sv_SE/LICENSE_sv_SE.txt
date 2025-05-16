@@ -1,10 +1,10 @@
-﻿Svensk ordlista för LibreOffice
+﻿Svensk ordlista för SnipeOffice 
 Baserad på Den stora svenska ordlistan
 
 Denna svenska ordlista för rättstavning underhålls av
 Göran Andersson <goran@init.se>.
 Den senaste versionen är tillgänglig på
-http://extensions.libreoffice.org/extension-center/swedish-spelling-dictionary-den-stora-svenska-ordlistan
+http://extensions.SnipeOffice .org/extension-center/swedish-spelling-dictionary-den-stora-svenska-ordlistan
 
 ************ COPYRIGHT ************
 

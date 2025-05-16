@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -82,9 +82,9 @@ struct SkipData: public HBox
 struct DateCode;
 struct FieldCode : public HBox
 {
-    uchar type[2];                    /* 2/0 - °è»ê½Ä, 3/0-¹®¼­¿ä¾à, 3/1-°³ÀÎÁ¤º¸, 3/2-¸¸µç³¯Â¥, 4/0-´©¸§Æ² */
+    uchar type[2];                    /* 2/0 - ï¿½ï¿½ï¿½ï¿½, 3/0-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, 3/1-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, 3/2-ï¿½ï¿½ï¿½ç³¯Â¥, 4/0-ï¿½ï¿½ï¿½ï¿½Æ² */
     char *reserved1;
-    unsigned short location_info;     /* 0 - ³¡ÄÚµå, 1 - ½ÃÀÛÄÚµå */
+    unsigned short location_info;     /* 0 - ï¿½ï¿½ï¿½Úµï¿½, 1 - ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ */
     char *reserved2;
     hchar *str1;
     hchar *str2;
@@ -209,7 +209,7 @@ enum
 struct CellLine
 {
     unsigned char key;
-    unsigned char top;                            // 0 - ¶óÀÎ¾øÀ½, 1-single, 2-thick, 3-double
+    unsigned char top;                            // 0 - ï¿½ï¿½ï¿½Î¾ï¿½ï¿½ï¿½, 1-single, 2-thick, 3-double
     unsigned char bottom;
     unsigned char left;
     unsigned char right;
@@ -257,7 +257,7 @@ struct FBoxStyle
 /**
  * Kind of wrap
  */
-    unsigned char txtflow;                        /* ±×¸²ÇÇÇÔ. 0-2(ÀÚ¸®Â÷Áö,Åõ¸í,¾î¿ï¸²) */
+    unsigned char txtflow;                        /* ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½. 0-2(ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¸²) */
 /**
  * Horizontal alignment
  */
@@ -275,12 +275,12 @@ struct FBoxStyle
 /**
  * Index of floating object
  */
-    short     boxnum;                             /* ½ºÅ¸¿ÀÇÇ½º¿¡¼­ ½ºÅ¸ÀÏ ÀÌ¸§À¸·Î »ç¿ëµÉ ¼ýÀÚ */
+    short     boxnum;                             /* ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 /**
  * Type of floating object : line, txtbox, image, table, equalizer and button
  */
     unsigned char boxtype;                        // (L)ine, t(X)tbox, Picture - (G)
-    short     cap_len; /* Ä¸¼ÇÀÇ ±æÀÌ */
+    short     cap_len; /* Ä¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 
     void *cell;
 
@@ -306,8 +306,8 @@ struct FBox: public HBox
     char      xpos_type, ypos_type;
     unsigned char smart_linesp;
 
-/*  ÀÌ ÀÚ·á´Â tbox³ª pic¿¡¼­´Â ÆÄÀÏ¿¡ ±â·ÏÇÏÁö ¾Ê°í ½ÇÇà½Ã¸¸ ÀÖÀ¸¸ç,
-    line¿¡¼­´Â ÆÄÀÏ¿¡ ±â·ÏÇÑ´Ù.
+/*  ï¿½ï¿½ ï¿½Ú·ï¿½ï¿½ tboxï¿½ï¿½ picï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,
+    lineï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
  */
     short     boundsy, boundey;
     unsigned char boundx, draw;
@@ -351,7 +351,7 @@ struct TxtBox: public FBox
  * The value of type indicates as the below: zero is table, one is
  * textbox, two is equalizer and three is button.
  */
-    short     type;                               // 0-table, 1-textbox, 2-¼ö½Ä, 3-button
+    short     type;                               // 0-table, 1-textbox, 2-ï¿½ï¿½ï¿½ï¿½, 3-button
 /**
  * nCell is greater than one only for table, otherwise it is 1.
  */
@@ -539,7 +539,7 @@ struct Table
      TxtBox *box;
 };
 
-/* picture (11) ±×¸², OLE±×¸², »ðÀÔ±×¸², ±×¸®±â */
+/* picture (11) ï¿½×¸ï¿½, OLEï¿½×¸ï¿½, ï¿½ï¿½ï¿½Ô±×¸ï¿½, ï¿½×¸ï¿½ï¿½ï¿½ */
 enum pictype
 {
     PICTYPE_FILE, PICTYPE_OLE, PICTYPE_EMBED,
@@ -618,7 +618,7 @@ struct Picture: public FBox
  * follow_block_size is the size information of the Drawing object of hwp.
  * It's value is greater than 0 if the pictype is PICTYPE_DRAW.
  */
-    ulong     follow_block_size;                  /* Ãß°¡Á¤º¸ ±æÀÌ. */
+    ulong     follow_block_size;                  /* ï¿½ß°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. */
     short     dummy1;                             // to not change structure size */
     short     dummy2;                             // to not change structure size */
     uchar     reserved1;
@@ -648,7 +648,7 @@ struct Picture: public FBox
 /**
  * It's for the Drawing object
  */
-    unsigned char *follow;                        /* ±×¸²Á¾·ù°¡ drawingÀÏ¶§, Ãß°¡Á¤º¸. */
+    unsigned char *follow;                        /* ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ drawingï¿½Ï¶ï¿½, ï¿½ß°ï¿½ï¿½ï¿½ï¿½ï¿½. */
 
     bool ishyper;
 
@@ -824,7 +824,7 @@ struct ShowPageNum: public HBox
     virtual int Read(HWPFile &hwpf);
 };
 
-/* È¦¼öÂÊ½ÃÀÛ (21) */
+/* È¦ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ (21) */
 #define HIDE_HD         1                         /* bit 0 */
 #define HIDE_FT         2                         /* bit 1 */
 #define HIDE_PGNUM      4                         /* bit 2 */
@@ -994,7 +994,7 @@ class Outline: public HBox
 /**
  * decoration charactor for the level type
  */
-        hchar     deco[MAX_OUTLINE_LEVEL][2];     /* »ç¿ëÀÚ Á¤ÀÇ½Ã ¾ÕµÚ ¹®ÀÚ */
+        hchar     deco[MAX_OUTLINE_LEVEL][2];     /* ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç½ï¿½ ï¿½Õµï¿½ ï¿½ï¿½ï¿½ï¿½ */
         hchar     dummy;
 
         Outline();
@@ -1003,7 +1003,7 @@ class Outline: public HBox
         hchar_string GetUnicode() const;
 };
 
-/* ¹­À½ ºóÄ­(30) */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä­(30) */
 /**
  * The Special space to be treated non-space when a string is
  * cut at the end of line
@@ -1018,7 +1018,7 @@ struct KeepSpace: public HBox
     virtual int Read(HWPFile &hwpf);
 };
 
-/* °íÁ¤Æø ºóÄ­(31) */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä­(31) */
 /**
  * @short Space with always same width not relation with fonts.
  */

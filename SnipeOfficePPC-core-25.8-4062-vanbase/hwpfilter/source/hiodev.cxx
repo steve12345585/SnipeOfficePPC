@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -148,7 +148,7 @@ void HStreamIODev::flush(void)
 
 void HStreamIODev::close(void)
 {
-/* ÇÃ·¯½ÃÇÑ ÈÄ ´Ý´Â´Ù. */
+/* ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ý´Â´ï¿½. */
     this->flush();
     if (_gzfp)
         gz_close(_gzfp);                          /* gz_close() calls stream_closeInput() */
@@ -164,7 +164,7 @@ int HStreamIODev::state(void) const
 }
 
 
-/* zlib °ü·Ã ºÎºÐ */
+/* zlib ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½ */
 bool HStreamIODev::setCompressed(bool flag)
 {
     compressed = flag;

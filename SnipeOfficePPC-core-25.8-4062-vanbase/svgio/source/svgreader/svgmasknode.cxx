@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -300,7 +300,7 @@ namespace svgio
                 else
                 {
                     // An empty clipping path will completely clip away the element that had
-                    // the ‘clip-path’ property applied. (Svg spec)
+                    // the ï¿½clip-pathï¿½ property applied. (Svg spec)
                     rTarget.realloc(0);
                 }
             }

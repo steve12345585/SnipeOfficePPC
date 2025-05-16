@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -31,13 +31,13 @@
 #define SgfStarDraw   7 /* StarDraw SGV-Datei          */
 #define SgfDontKnow 255 /* Unbekannt oder kein SGF/SGV */
 
-// Konstanten fr SgfHeader.SwGrCol
+// Konstanten fï¿½r SgfHeader.SwGrCol
 #define SgfBlckWhit 1 /* Schwarz/Wei?Bild                  Ä¿ SimpVector,  */
 #define SgfGrayscal 2 /* Bild mit Graustufen                 ?StarDraw und */
-#define Sgf16Colors 3 /* Farbbild (16 Farben)               ÄÙ Bit Image    */
-#define SgfVectFarb 4 /* Farben fr Linien verwenden        Ä¿              */
-#define SgfVectGray 5 /* Graustufen fr Linien verwenden     ?Nur fr      */
-#define SgfVectWdth 6 /* Strichst„rken fr Linien verwenden ÄÙ SimpVector   */
+#define Sgf16Colors 3 /* Farbbild (16 Farben)               ï¿½ï¿½ Bit Image    */
+#define SgfVectFarb 4 /* Farben fï¿½r Linien verwenden        Ä¿              */
+#define SgfVectGray 5 /* Graustufen fï¿½r Linien verwenden     ?Nur fï¿½r      */
+#define SgfVectWdth 6 /* Strichstï¿½rken fï¿½r Linien verwenden ï¿½ï¿½ SimpVector   */
 
 
 #define SgfHeaderSize 42
@@ -120,13 +120,13 @@ public:
 class BmpInfoHeader
 {
 public:
-    sal_uInt32 Size;       // Gr”áe des BmpInfoHeaders
+    sal_uInt32 Size;       // Grï¿½ï¿½e des BmpInfoHeaders
     sal_Int32  Width;      // Breite in Pixel
-    sal_Int32  Hight;      // H”he in Pixel
+    sal_Int32  Hight;      // Hï¿½he in Pixel
     sal_uInt16 Planes;     // Anzahl der Planes (immer 1)
     sal_uInt16 PixBits;    // Anzahl der Bit je Pixel (1,4,8,oder 24)
     sal_uInt32 Compress;   // Datenkompression
-    sal_uInt32 ImgSize;    // Gr”áe der Images in Bytes. Ohne Kompression ist auch 0 erlaubt.
+    sal_uInt32 ImgSize;    // Grï¿½ï¿½e der Images in Bytes. Ohne Kompression ist auch 0 erlaubt.
     sal_Int32  xDpmm;      // Dot per Meter (0 ist erlaubt)
     sal_Int32  yDpmm;      // Dot per Meter (0 ist erlaubt)
     sal_uInt32 ColUsed;    // Anzahl der verwendeten Farben (0=alle)

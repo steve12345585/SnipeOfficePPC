@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -491,7 +491,7 @@ public class TypeDetection extends ComplexTestCase {
 
             /*
              *als Dateien die typeDetection.props und eine der csv-Dateien
-             *benutzten. diese können per dmake einfach auf andere Rechte setzten
+             *benutzten. diese kï¿½nnen per dmake einfach auf andere Rechte setzten
              *
              */
             log.println("### checkStreamLoader() ###");

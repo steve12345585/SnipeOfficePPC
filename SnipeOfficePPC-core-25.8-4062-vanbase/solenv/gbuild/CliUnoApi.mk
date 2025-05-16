@@ -1,6 +1,6 @@
 # -*- Mode: makefile-gmake; tab-width: 4; indent-tabs-mode: t -*-
 #
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -20,7 +20,7 @@ $(call gb_Helper_abbreviate_dirs,\
 	$(gb_CliUnoApiTarget_COMMAND) \
 		--out $(1) \
 		--assembly-company "LibreOffice" \
-		--assembly-description "This assembly contains metadata for the LibreOffice API." \
+		--assembly-description "This assembly contains metadata for the SnipeOffice API." \
 		--assembly-version $(CLI_UNOAPI_VERSION) \
 		--keyfile $(CLI_UNOAPI_KEYFILE) \
 		$(foreach api,$(CLI_UNOAPI_DEPS),-X $(api)) \

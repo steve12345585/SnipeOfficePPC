@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -36,7 +36,7 @@
 #define SBA_DEF_FLTCOLWIDTH         (SBA_WHICHID_START + 146) // SbaColRowSizeItem
 // Feldtyp
 #define SBA_DEF_FLTTYPE             (SBA_WHICHID_START + 147) // DataFieldTypeItem
-// Feldlänge
+// Feldlï¿½nge
 #define SBA_DEF_FLTLENGTH           (SBA_WHICHID_START + 148) // SfxUInt32Item
 // Eingabe erforderlich
 #define SBA_DEF_FLTREQUIRED         (SBA_WHICHID_START + 149) // SfxBoolItem
@@ -54,7 +54,7 @@
 #define SBA_DEF_FLTCOLWIDTH         (SBA_WHICHID_START + 146) // SbaColRowSizeItem
 // Feldtyp
 #define SBA_DEF_FLTTYPE             (SBA_WHICHID_START + 147) // DataFieldTypeItem
-// Feldlänge
+// Feldlï¿½nge
 #define SBA_DEF_FLTLENGTH           (SBA_WHICHID_START + 148) // SfxUInt32Item
 // Eingabe erforderlich
 #define SBA_DEF_FLTREQUIRED         (SBA_WHICHID_START + 149) // SfxBoolItem

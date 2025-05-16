@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -32,7 +32,7 @@ using namespace std;
 #include <sal/types.h>
 #include <sal/macros.h>
 
-/* @Man: hwp¼ö½ÄÀ» LaTeXÀ¸·Î ¹Ù²Ù±â */
+/* @Man: hwpï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ LaTeXï¿½ï¿½ï¿½ï¿½ ï¿½Ù²Ù±ï¿½ */
 #ifdef WIN32
 # define ENDL  "\r\n"
 #else /* !WIN32 */
@@ -125,7 +125,7 @@ static hwpeq eq_tbl[] = {
   { "bullet",       NULL,       0,  0   },
   { "cap",      NULL,       0,  0   },
   { "cases",        NULL,       0,  EQ_ENV  },
-  { "ccol",     NULL,       0,  0   }, /* ¼¼·Î·Î °¡¿îµ¥ */
+  { "ccol",     NULL,       0,  0   }, /* ï¿½ï¿½ï¿½Î·ï¿½ ï¿½ï¿½ï¿½îµ¥ */
   { "cdot",     NULL,       0,  0   },
   { "cdots",        NULL,       0,  0   },
   { "check",        NULL,       1,  0   },
@@ -401,7 +401,7 @@ static hwpeq *lookup_eqn(char *str)
   return result;
 }
 
-/* Ã¹ÀÚ¸¸ ´ë¹®ÀÚÀÌ°Å³ª ÀüºÎ ´ë¹®ÀÚ¸é ¼Ò¹®ÀÚ·Î ¹Ù²Û´Ù. */
+/* Ã¹ï¿½Ú¸ï¿½ ï¿½ë¹®ï¿½ï¿½ï¿½Ì°Å³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ë¹®ï¿½Ú¸ï¿½ ï¿½Ò¹ï¿½ï¿½Ú·ï¿½ ï¿½Ù²Û´ï¿½. */
 
 static char *make_keyword( char *keyword, const char *token)
 {
@@ -461,7 +461,8 @@ void push_token(MzString &white, MzString &token, istream *strm)
   stk->strm = strm;
 }
 
-/* ÀÐÀº ÅäÅ«ÀÇ ±æÀÌ¸¦ ¹ÝÈ¯ÇÑ´Ù. */
+/*
+ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å«ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½. */
 /* control char, control sequence, binary sequence,
    alphabet string, sigle character */
 static int next_token(MzString &white, MzString &token, istream *strm)
@@ -497,8 +498,8 @@ static int next_token(MzString &white, MzString &token, istream *strm)
       ch = strm->get();
     } while( ch != EOF && (ch & 0x80 || isalpha(ch)) ) ;
     strm->putback(sal::static_int_cast<char>(ch));
-    /*  sub, sub, over, atop Æ¯¼ö Ã³¸®
-        ±× ÀÌÀ¯´Â next_state()¿¡ ¿µÇâÀ» ¹ÌÄ¡±â ¶§¹®ÀÌ´Ù.
+    /*  sub, sub, over, atop Æ¯ï¿½ï¿½ Ã³ï¿½ï¿½
+        ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ next_state()ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½.
      */
     if( !STRICMP("sub", token) || !STRICMP("from", token) ||
     !STRICMP("sup", token) || !STRICMP("to", token) ||
@@ -549,17 +550,17 @@ static int read_white_space(MzString& outs, istream *strm)
   return result;
 }
 
-/* ÀÎ¼ö°¡ ÇÊ¿äÇÏÁö ¾ÊÀº °æ¿ì °¢ Ç×¸ñ°£ÀÇ ±¸ºÐÀº space¿Í brace
+/* ï¿½Î¼ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ spaceï¿½ï¿½ brace
      sqrt {ab}c = sqrt{ab} c
-   (, }´Â grouping
-   ^, _ ´Â ¾ÕµÚ·Î °áÇÕÇÑ´Ù.
+   (, }ï¿½ï¿½ grouping
+   ^, _ ï¿½ï¿½ ï¿½ÕµÚ·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 
-   sqrt µî°ú °°ÀÌ ÀÎ¼ö°¡ ÀÖ´Â Çü½Ä Á¤¸®
+   sqrt ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î¼ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
      sqrt a  -> sqrt{a}
      sqrt {a}    -> sqrt{a}
-   1 ÀÌ»óÀÇ ÀÎ¼ö°¡ ÀÖ´Â °æ¿ì ÀÎ¼öµé°£ÀÇ ¿ª¹éÀº ¾ø¾Ø´Ù.
+   1 ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½Î¼ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½Î¼ï¿½ï¿½é°£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø´ï¿½.
      \frac a b   -> frac{a}{b}
-   overÀÇ Çü½Ä Á¤¸®
+   overï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
      a over b    -> {a}over{b}
  */
 
@@ -590,7 +591,7 @@ static int eq_word(MzString& outs, istream *strm, int status)
     state << white << token;
   }
   else {
-    /* Á¤»óÀûÀÎ token */
+    /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ token */
     int script_status = SCRIPT_NONE;
     while( 1 ) {
       state << white << token;

@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -37,22 +37,22 @@ DLLEXPORT hchar ksc5601_han_to_ucs2 (hchar);
 DLLEXPORT hchar ksc5601_sym_to_ucs2 (hchar);
 DLLEXPORT hchar_string hstr2ucsstr(hchar const* hstr);
 /**
- * ÇÑÄÄ½ºÆ®¸µÀ» ¿Ï¼ºÇü½ºÆ®¸µÀ¸·Î º¯È¯ÇÑ´Ù.
+ * ï¿½ï¿½ï¿½Ä½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.
  */
 DLLEXPORT ::std::string hstr2ksstr(hchar const* hstr);
 
 /**
- * ÇÑ±ÛÀ» Æ÷ÇÔÇÒ ¼ö ÀÖ´Â charÇü½ºÆ®¸µÀ» ÇÑÄÄ½ºÆ®¸µÀ¸·Î º¯È¯ÇÑ´Ù.
+ * ï¿½Ñ±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ charï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ä½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.
  */
 DLLEXPORT hchar_string kstr2hstr(uchar const* src);
 
 /**
- * hwpÀÇ °æ·Î¸¦ unixÇüÅÂ·Î ¹Ù²Û´Ù.
+ * hwpï¿½ï¿½ ï¿½ï¿½Î¸ï¿½ unixï¿½ï¿½ï¿½Â·ï¿½ ï¿½Ù²Û´ï¿½.
  */
 DLLEXPORT ::std::string urltounix(const char *src);
 
 /**
- * hwpÀÇ °æ·Î¸¦ windowsÇüÅÂ·Î ¹Ù²Û´Ù.
+ * hwpï¿½ï¿½ ï¿½ï¿½Î¸ï¿½ windowsï¿½ï¿½ï¿½Â·ï¿½ ï¿½Ù²Û´ï¿½.
  */
 #ifdef _WIN32
 DLLEXPORT ::std::string urltowin(const char *src);
@@ -63,7 +63,7 @@ DLLEXPORT ::std::string urltowin(const char *src);
 DLLEXPORT char* Int2Str(int value, const char *format, char *buf);
 
 /**
- * colorÀÎµ¦½º °ª°ú À½¿µ°ªÀ» Á¶ÇÕÇÏ¿© ½ºÅ¸¿ÀÇÇ½ºÀÇ color·Î º¯È¯
+ * colorï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ colorï¿½ï¿½ ï¿½ï¿½È¯
  */
 DLLEXPORT char *hcolor2str(uchar color, uchar shade, char *buf, bool bIsChar = false);
 

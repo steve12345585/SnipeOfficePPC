@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -19,11 +19,11 @@
 
 // stdafx.cpp : Quelltextdatei, die nur die Standard-Includes einbindet
 //  TestWin32.pch ist die vorkompilierte Header-Datei
-//  stdafx.obj enthält die vorkompilierte Typinformation
+//  stdafx.obj enthï¿½lt die vorkompilierte Typinformation
 
 #include "stdafx.h"
 
-// ZU ERLEDIGEN: Verweis auf alle zusätzlichen Header-Dateien, die Sie in STDAFX.H
-// und nicht in dieser Datei benötigen
+// ZU ERLEDIGEN: Verweis auf alle zusï¿½tzlichen Header-Dateien, die Sie in STDAFX.H
+// und nicht in dieser Datei benï¿½tigen
 
 /* vim:set shiftwidth=4 softtabstop=4 expandtab: */

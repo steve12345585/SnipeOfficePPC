@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -55,7 +55,7 @@ classtest_String( csv::SimpleString & rSimpleString )
     String x2a(s2a);
     UT_CHECK( String(const char*), check_value(x2a,s2a) )
 
-    const char * s2b = "_zluoadninger  prrg chiäßi(/%$##@\\\"'''fh  kl";
+    const char * s2b = "_zluoadninger  prrg chiï¿½ï¿½i(/%$##@\\\"'''fh  kl";
     String x2b(s2b);
     UT_CHECK( String(const char*), check_value(x2b,s2b) )
 

@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -273,7 +273,7 @@ namespace svt
         /** skip a state
 
             The method behaves as if from the current state, <arg>_nSteps</arg> <method>travelNext</method>s were
-            called, but without actually creating or displaying the íntermediate pages. Only the
+            called, but without actually creating or displaying the ï¿½ntermediate pages. Only the
             (<arg>_nSteps</arg> + 1)th page is created.
 
             The skipped states appear in the state history, so <method>travelPrevious</method> will make use of them.
@@ -293,7 +293,7 @@ namespace svt
 
             The method behaves as if from the current state, <method>travelNext</method>s were called
             successively, until <arg>_nTargetState</arg> is reached, but without actually creating or
-            displaying the íntermediate pages.
+            displaying the ï¿½ntermediate pages.
 
             The skipped states appear in the state history, so <method>travelPrevious</method> will make use of them.
 

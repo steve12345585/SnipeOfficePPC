@@ -8,7 +8,7 @@ Thesaurus managed and edited by/Tezaver pripravlja in ureja:
 Thesaurus data licensed under both/Podatki tezavra so izdani pod licencama:
    CC-GNU GPL in/and CC-GNU LGPL.
 
-The LibreOffice/OpenOffice.org extension by/Razširitev LibreOffice/OpenOffice.org pripravil:
+The SnipeOffice /OpenOffice.org extension by/Razširitev SnipeOffice /OpenOffice.org pripravil:
    Martin Srebotnjak, <miles@filmsi.net>
 
 Bug report/O napakah poročajte:

@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -187,7 +187,7 @@ class DLLEXPORT HWPFile
  * Reads paragraph list of hwp file from HIODev
  */
         bool ParaListRead();
-/* ±×¸² µîÀÇ Ãß°¡ Á¤º¸¸¦ ÀÐ´Â´Ù. */
+/* ï¿½×¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð´Â´ï¿½. */
 /**
  * Reads additional information like embeded image of hwp file from HIODev
  */
@@ -266,7 +266,7 @@ class DLLEXPORT HWPFile
         OlePicture *oledata;
 
     private:
-/* hwp ÆÄÀÏ ÀÌ¸§ */
+/* hwp ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ */
           int           m_nCurrentPage;
           int m_nMaxSettedPage;
         HIODev    *hiodev;
@@ -283,7 +283,7 @@ class DLLEXPORT HWPFile
         std::list<EmPicture*> emblist;
         std::list<HyperText*> hyperlist;
         int currenthyper;
-        std::list<ParaShape*> pslist;             /* ½ºÅ¸¿ÀÇÇ½ºÀÇ ±¸Á¶»ó ÇÊ¿ä */
+        std::list<ParaShape*> pslist;             /* ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ */
         std::list<CharShape*> cslist;
         std::list<FBoxStyle*> fbslist;
         std::list<DateCode*> datecodes;

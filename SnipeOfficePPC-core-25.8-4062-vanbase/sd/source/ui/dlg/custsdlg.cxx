@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -456,7 +456,7 @@ IMPL_LINK( SdDefineCustomShowDlg, ClickButtonHdl, void *, p )
 /*************************************************************************
 |* CheckCustomShow():
 |* Ueberprueft die Page-Pointer der Show, da die Eintraege ueber die
-|* TreeLB verschoben und kopiert werden k”nnen
+|* TreeLB verschoben und kopiert werden kï¿½nnen
 \************************************************************************/
 void SdDefineCustomShowDlg::CheckCustomShow()
 {

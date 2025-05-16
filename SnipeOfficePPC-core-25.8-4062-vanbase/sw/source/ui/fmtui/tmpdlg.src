@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -166,14 +166,14 @@ TabDialog DLG_TEMPLATE_4
     SVLook = TRUE ;
      // Text[norwegian_wrong] = "Sidetyper";
      // Text[italian_wrong] = "Stili pagina";
-     // Text[portuguese_brazilian_wrong] = "Estilos da Página ";
-     // Text[portuguese_wrong] = "Estilos da Página ";
+     // Text[portuguese_brazilian_wrong] = "Estilos da Pï¿½gina ";
+     // Text[portuguese_wrong] = "Estilos da Pï¿½gina ";
      // Text[finnish_wrong] = "Sivutyylit";
      // Text[danish_wrong] = "Sidelayout";
      // Text[french_wrong] = "Styles de page";
      // Text[swedish_wrong] = "Sidformat";
      // Text[dutch_wrong] = "Pagina-opmaakprofielen";
-     // Text[spanish_wrong] = "Estilos de página";
+     // Text[spanish_wrong] = "Estilos de pï¿½gina";
     Text [ en-US ] = "Page Style" ;
     Moveable = TRUE ;
     TabControl 1

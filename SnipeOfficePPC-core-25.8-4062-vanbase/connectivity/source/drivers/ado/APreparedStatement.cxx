@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -66,7 +66,7 @@ OPreparedStatement::OPreparedStatement( OConnection* _pConnection,const OTypeInf
     OSQLParseNode* pNode = aParser.parseTree(sErrorMessage,sql);
     if(pNode)
     {   // special handling for parameters
-        /* we recusive replace all occurrences of ? in the statement and replace them with name like "æ¬å" */
+        /* we recusive replace all occurrences of ? in the statement and replace them with name like "ï¿½ï¿½" */
         sal_Int32 nParameterCount = 0;
         ::rtl::OUString sDefaultName( RTL_CONSTASCII_USTRINGPARAM( "parame" ));
         replaceParameterNodeName(pNode,sDefaultName,nParameterCount);

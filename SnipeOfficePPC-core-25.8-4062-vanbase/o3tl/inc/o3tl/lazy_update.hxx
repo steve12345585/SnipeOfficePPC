@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -29,7 +29,7 @@ namespace o3tl
 
         This template collects data in input type, and updates the
         output type with the given update functor, but only if the
-        output is requested. Usefúl if updating is expensive, or input
+        output is requested. Usefï¿½l if updating is expensive, or input
         changes frequently, but output is only comparatively seldom
         used.
 

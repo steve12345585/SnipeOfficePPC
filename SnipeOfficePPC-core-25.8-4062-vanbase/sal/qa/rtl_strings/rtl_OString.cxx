@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -2497,10 +2497,10 @@ extern "C" void /* sal_Bool */ SAL_CALL test_rtl_OString_toChar(
         {"_", '_',new OString("_")},
 
 //  TODO: may be UTF-8 values
-//        {"0„6", '0„6',new OString("0„6")},
-//        { "0„7", '0„7',new OString("0„7")},
-//        {"0‹0", '0‹0',new OString("0‹0")},
-//        {"06", '06',new OString("06")},
+//        {"ï¿½0ï¿½6", 'ï¿½0ï¿½6',new OString("ï¿½0ï¿½6")},
+//        { "ï¿½0ï¿½7", 'ï¿½0ï¿½7',new OString("ï¿½0ï¿½7")},
+//        {"ï¿½0ï¿½0", 'ï¿½0ï¿½0',new OString("ï¿½0ï¿½0")},
+//        {"ï¿½0ï¿½6", 'ï¿½0ï¿½6',new OString("ï¿½0ï¿½6")},
         {"\n", '\n',new OString("\n")},
         {"\'", '\'',new OString("\'")},
         {"\"", '\"',new OString("\"")},

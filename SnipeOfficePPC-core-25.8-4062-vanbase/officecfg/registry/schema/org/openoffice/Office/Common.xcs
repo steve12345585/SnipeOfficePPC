@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -6687,7 +6687,7 @@
           </enumeration>
           <enumeration oor:value="default">
             <info>
-              <desc>Default - the LibreOffice default background image.</desc>
+              <desc>Default - the SnipeOffice default background image.</desc>
             </info>
           </enumeration>
           <enumeration oor:value="own">
@@ -6723,7 +6723,7 @@
           </enumeration>
           <enumeration oor:value="default">
             <info>
-              <desc>Default - the LibreOffice default Persona.</desc>
+              <desc>Default - the SnipeOffice default Persona.</desc>
             </info>
           </enumeration>
           <enumeration oor:value="own">

@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -22,7 +22,7 @@
 //  File:       ooofilt.cxx
 //  Contents:   Filter Implementation for OpenOffice.Org Document using
 //              Indexing Service
-//  Summary:    The LibreOffice filter reads OpenOffice.org XML files (with
+//  Summary:    the SnipeOffice filter reads OpenOffice.org XML files (with
 //              the extension .sxw .sxi, etc) and ODF files and extract
 //              their content, author, keywords,subject,comments and title
 //              to be filtered.

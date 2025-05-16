@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -187,7 +187,7 @@ Resource RID_ANALYSIS_DEFFUNCTION_NAMES
     {
         ItemList =
         {
-            < "KURSFÄLLIG"; >;
+            < "KURSFï¿½LLIG"; >;
             < "PRICEMAT"; >;
         };
     };
@@ -250,7 +250,7 @@ Resource RID_ANALYSIS_DEFFUNCTION_NAMES
     {
         ItemList =
         {
-            < "RENDITEFÄLL"; >;
+            < "RENDITEFï¿½LL"; >;
             < "YIELDMAT"; >;
         };
     };
@@ -259,7 +259,7 @@ Resource RID_ANALYSIS_DEFFUNCTION_NAMES
     {
         ItemList =
         {
-            < "TBILLÄQUIV"; >;
+            < "TBILLï¿½QUIV"; >;
             < "TBILLEQ"; >;
         };
     };
@@ -664,7 +664,7 @@ Resource RID_ANALYSIS_DEFFUNCTION_NAMES
     {
         ItemList =
         {
-            < "IMAGINÄRTEIL"; >;
+            < "IMAGINï¿½RTEIL"; >;
             < "IMAGINARY"; >;
         };
     };
@@ -925,7 +925,7 @@ Resource RID_ANALYSIS_DEFFUNCTION_NAMES
     {
         ItemList =
         {
-            < "ZWEIFAKULTÄT"; >;
+            < "ZWEIFAKULTï¿½T"; >;
             < "FACTDOUBLE"; >;
         };
     };

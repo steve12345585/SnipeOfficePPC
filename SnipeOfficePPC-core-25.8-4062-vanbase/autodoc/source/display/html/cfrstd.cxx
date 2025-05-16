@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -334,7 +334,7 @@ MakeCopyRight()
 	<< "<p class=\"copyright\" align=\"center\">LibreOffice was created by The Document Foundation, based on OpenOffice.org, which is Copyright 2000, 2010 Oracle and/or its affiliates.</p>"
 	<< "<p class=\"copyright\" align=\"center\">The Document Foundation acknowledges all community members, please find more info <a href=\"http://www.libreoffice.org/about-us/credits/\" target=\"_blank\">at our website</a>."
 	<< "<p>&nbsp;</p>"
-	<< "<p class=\"copyright\" align=\"center\"><a href=\"http://www.documentfoundation.org/privacy\" target=\"_blank\">Privacy Policy</a> | <a href=\"http://www.documentfoundation.org/imprint\" target=\"_blank\">Impressum (Legal Info)</a> | Copyright information: The source code of LibreOffice is licensed under the GNU Lesser General Public License (<a href=\"http://www.libreoffice.org/download/license/\" target=\"_blank\">LGPLv3</a>). \"LibreOffice\" and \"The Document Foundation\" are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href=\"http://wiki.documentfoundation.org/TradeMark_Policy\" target=\"_blank\">trademark policy</a>.";
+	<< "<p class=\"copyright\" align=\"center\"><a href=\"http://www.documentfoundation.org/privacy\" target=\"_blank\">Privacy Policy</a> | <a href=\"http://www.documentfoundation.org/imprint\" target=\"_blank\">Impressum (Legal Info)</a> | Copyright information: The source code of LibreOffice is licensed under the GNU Lesser General Public License (<a href=\"http://www.snipeoffice.org/download/license/\" target=\"_blank\">LGPLv3</a>). \"LibreOffice\" and \"The Document Foundation\" are registered trademarks of their corresponding registered owners or are in actual use as trademarks in one or more countries. Their respective logos and icons are also subject to international copyright laws. Use thereof is explained in our <a href=\"http://wiki.documentfoundation.org/TradeMark_Policy\" target=\"_blank\">trademark policy</a>.";
     return String(cr.c_str());
 
 }

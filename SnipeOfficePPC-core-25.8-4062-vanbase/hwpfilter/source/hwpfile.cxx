@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -380,7 +380,7 @@ ColumnDef *HWPFile::GetColumnDef(int num)
     else
         return 0;
 }
-/* @return ÀÎµ¦½º´Â 1ºÎÅÍ ½ÃÀÛÇÑ´Ù. */
+/* @return ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½. */
 int HWPFile::GetPageMasterNum(int page)
 {
     std::list<ColumnInfo*>::iterator it = columnlist.begin();

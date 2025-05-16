@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -137,7 +137,7 @@ protected:
     ::rtl::OUString sServicePrefix;
 
     // data members for use in subclasses
-    sal_Bool bValid;                        /// ist dieses Feld gültig?
+    sal_Bool bValid;                        /// ist dieses Feld gï¿½ltig?
 
 public:
 

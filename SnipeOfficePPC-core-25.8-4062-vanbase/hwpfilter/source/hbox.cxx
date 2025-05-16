@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -420,7 +420,7 @@ Footnote::~Footnote(void)
 // auto number(18)
 // new number(19)
 // show page number (20)
-// È¦¼öÂÊ½ÃÀÛ/°¨Ãß±â (21)
+// È¦ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ß±ï¿½ (21)
 
 // mail merge(22)
 hchar_string MailMerge::GetString()
@@ -566,9 +566,9 @@ static void getOutlineNumStr(int style, int level, int num, hchar * hstr)
 enum
 { OUTLINE_ON, OUTLINE_NUM };
 
-/*  level Àº 0ºÎÅÍ ½ÃÀÛ. Áï 1.1.1. ÀÇ ·¹º§Àº 2ÀÌ´Ù.
-    number´Â °ªÀÌ ±×´ë·Î µé¾î°¡ ÀÖ´Ù. Áï, 1.2.1¿¡´Â 1,2,1ÀÌ µé¾î°¡ ÀÖ´Ù.
-    style Àº 1ºÎÅÍ °ªÀÌ µé¾î°¡ ÀÖ´Ù. hbox.h¿¡ Á¤ÀÇµÈ µ¥·Î..
+/*  level ï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. ï¿½ï¿½ 1.1.1. ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½Ì´ï¿½.
+    numberï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½×´ï¿½ï¿½ ï¿½ï¿½î°¡ ï¿½Ö´ï¿½. ï¿½ï¿½, 1.2.1ï¿½ï¿½ï¿½ï¿½ 1,2,1ï¿½ï¿½ ï¿½ï¿½î°¡ ï¿½Ö´ï¿½.
+    style ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°¡ ï¿½Ö´ï¿½. hbox.hï¿½ï¿½ ï¿½ï¿½ï¿½Çµï¿½ ï¿½ï¿½ï¿½ï¿½..
  */
 hchar_string Outline::GetUnicode() const
 {
@@ -627,17 +627,17 @@ hchar_string Outline::GetUnicode() const
                     if( deco[i][0] ){
                         buffer[l++] = deco[i][0];
                     }
-/*  level Àº 0ºÎÅÍ ½ÃÀÛ. Áï 1.1.1. ÀÇ ·¹º§Àº 2ÀÌ´Ù.
-    number´Â °ªÀÌ ±×´ë·Î µé¾î°¡ ÀÖ´Ù. Áï, 1.2.1¿¡´Â 1,2,1ÀÌ µé¾î°¡ ÀÖ´Ù.
-    style Àº 1ºÎÅÍ °ªÀÌ µé¾î°¡ ÀÖ´Ù. hbox.h¿¡ Á¤ÀÇµÈ µ¥·Î..
+/*  level ï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. ï¿½ï¿½ 1.1.1. ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½Ì´ï¿½.
+    numberï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½×´ï¿½ï¿½ ï¿½ï¿½î°¡ ï¿½Ö´ï¿½. ï¿½ï¿½, 1.2.1ï¿½ï¿½ï¿½ï¿½ 1,2,1ï¿½ï¿½ ï¿½ï¿½î°¡ ï¿½Ö´ï¿½.
+    style ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°¡ ï¿½Ö´ï¿½. hbox.hï¿½ï¿½ ï¿½ï¿½ï¿½Çµï¿½ ï¿½ï¿½ï¿½ï¿½..
  */
                     switch( user_shape[i] )
                     {
                         case 0:
                             buffer[l++] = '1' + number[i] - 1;
                             break;
-                        case 1: /* ´ë¹®ÀÚ·Î¸¶ */
-                        case 2: /* ¼Ò¹®ÀÚ·Î¸¶ */
+                        case 1: /* ï¿½ë¹®ï¿½Ú·Î¸ï¿½ */
+                        case 2: /* ï¿½Ò¹ï¿½ï¿½Ú·Î¸ï¿½ */
                             num2roman(number[i], dest);
                             if( user_shape[i] == 1 ){
                                 char *ptr = dest;
@@ -662,22 +662,22 @@ hchar_string Outline::GetUnicode() const
                         case 6:
                             buffer[l++] = olHanglJaso(number[i] -1, OL_HANGL_JASO);
                             break;
-                        case 7: /* ÇÑÀÚ ¼ýÀÚ : ÀÏ¹Ý ¼ýÀÚ·Î Ç¥Çö */
+                        case 7: /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½Ú·ï¿½ Ç¥ï¿½ï¿½ */
                             buffer[l++] = '1' + number[i] -1;
                             break;
-                        case 8: /* ¿ø¼ýÀÚ */
+                        case 8: /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
                             buffer[l++] = 0x2e00 + number[i];
                             break;
-                        case 9: /* ¿ø ¾ËÆÄºª ¼Ò¹®ÀÚ */
+                        case 9: /* ï¿½ï¿½ ï¿½ï¿½ï¿½Äºï¿½ ï¿½Ò¹ï¿½ï¿½ï¿½ */
                             buffer[l++] = 0x2c20 + number[i];
                             break;
-                        case 10: /* ¿ø °¡³ª´Ù */
+                        case 10: /* ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
                             buffer[l++] = 0x2c50 + number[i] -1;
                             break;
-                        case 11: /* ¿ø ¤¡ ¤¤ */
+                        case 11: /* ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ */
                             buffer[l++] = 0x2c40 + number[i] -1;
                             break;
-                        case 12: /* ÀÌ¾îÁø ¼ýÀÚ. */
+                        case 12: /* ï¿½Ì¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. */
                         {
                              char cur_num_str[10],buf[80];
                              int j;
@@ -711,7 +711,7 @@ hchar_string Outline::GetUnicode() const
 }
 
 
-/* ¹­À½ ºóÄ­(30) */
-/* °íÁ¤Æø ºóÄ­(31) */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä­(30) */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä­(31) */
 
 /* vim:set shiftwidth=4 softtabstop=4 expandtab: */

@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -532,7 +532,7 @@ static hchar cdkssm2ks_han(hchar kssm)
     unsigned int index;
     unsigned char lo, hi;
 
-/* "ÇÑ" */
+/* "ï¿½ï¿½" */
     if (kssm == 0xd3c5)
         return 0xc7d1;
 
@@ -595,7 +595,7 @@ static hchar choseong_to_unicode[] =
     0x110e, 0x110f, 0x1110, 0x1111, 0x1112, 0x1120, 0x1121, 0x1127,
     0x112b, 0x112d, 0x112f, 0x1132, 0x1136, 0x1140, 0x114c, 0x1158
 };
-/* Áß¼ºÀÌ 0°ú 1ÀÎ °÷¿¡´Â ´Ù¸¥ ÄÚµåµéÀÌ µé¾î°¡ ÀÖ´Ù. ÀÌºÎºÐ¿¡ ´ëÇÑ ¹ýÄ¢À» »Ì¾Æ¶ó. */
+/* ï¿½ß¼ï¿½ï¿½ï¿½ 0ï¿½ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°¡ ï¿½Ö´ï¿½. ï¿½ÌºÎºÐ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¢ï¿½ï¿½ ï¿½Ì¾Æ¶ï¿½. */
 static hchar joongseong_to_unicode[] =
 {
     0,      0,  0, 0x1161, 0x1162, 0x1163, 0x1164, 0x1165,
@@ -612,12 +612,12 @@ static hchar jongseong_to_unicode[] =
     0x11bd, 0x11be, 0x11bf, 0x11c0, 0x11c1, 0x11c2, 0x11eb, 0x11f0
 };
 
-/* Áß¼ºÀÌ 0°ú 1ÀÎ°÷ */
-/* Ã³À½ 32°³´Â ÀÚ¸ð, ³ª¸ÓÁö 32°³´Â Á¶ÇÕÀ¸·Î ±¸¼º.
- * 0x8000 ~ 0xa413±îÁö 32°³ ³ª¿À°í, 0x0400´õÇÑ 0x8400¿¡¼­ ´Ù½Ã 32°³ ³ª¿À´Â ½ÄÀ¸·Î ÁøÇàµÈ´Ù.
- * ÀÚ¸ð¿µ¿ªÀº ÀÏ¹Ý Å×ÀÌºí·Î ³ª¸ÓÁö´Â ±¸Á¶Ã¼ ¸ÅÇÎÅ×ÀÌºí·Î ¸¸µç´Ù.
+/* ï¿½ß¼ï¿½ï¿½ï¿½ 0ï¿½ï¿½ 1ï¿½Î°ï¿½ */
+/* Ã³ï¿½ï¿½ 32ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 32ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+ * 0x8000 ~ 0xa413ï¿½ï¿½ï¿½ï¿½ 32ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, 0x0400ï¿½ï¿½ï¿½ï¿½ 0x8400ï¿½ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ 32ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È´ï¿½.
+ * ï¿½Ú¸ð¿µ¿ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
  */
-/* 308°³.. 1152°³¿¡¼­ 308°³¸¦ Á¦¿ÜÇÑ ³ª¸ÓÁö 844°³´Â ÀÚ¸ðÁ¶ÇÕÀÌ´Ù. */
+/* 308ï¿½ï¿½.. 1152ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 308ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 844ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½. */
 static hchar jamo_to_unicode[] =
 {
     0x3131, 0x3132, 0x3133, 0x3134, 0x3135, 0x3136, 0x3137, 0x3138,
@@ -676,7 +676,7 @@ struct JamoComp{
     hchar v2;
     hchar v3;
 };
-/* 704 + 12 = 706 °³  */
+/* 704 + 12 = 706 ï¿½ï¿½  */
 static JamoComp jamocomp1_to_unicode[] =
 {
     {3, 0x1100, 0x1161, 0x11e7}, {3, 0x1100, 0x1161, 0x3167},
@@ -799,7 +799,7 @@ static JamoComp jamocomp1_to_unicode[] =
     {3, 0x1105, 0x119e, 0x11d7}, {3, 0x1105, 0x119e, 0x11dc},
     {3, 0x1105, 0x119e, 0x11dd}, {2, 0x1105, 0x1176, 0x0000},
 
-/* -- ¿©±âºÎÅÍ ¼ýÀÚ ¾È¹Ù²Þ Áï, 3À» 2·Î ¹Ù²Ù¾î ÁÖ¾î¾ß ÇÔ. */
+/* -- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½È¹Ù²ï¿½ ï¿½ï¿½, 3ï¿½ï¿½ 2ï¿½ï¿½ ï¿½Ù²Ù¾ï¿½ ï¿½Ö¾ï¿½ï¿½ ï¿½ï¿½. */
     {2, 0x1105, 0x1178, 0x0000}, {2, 0x1105, 0x117a, 0x0000},
     {2, 0x1105, 0x117b, 0x0000}, {2, 0x1105, 0x1186, 0x0000},
     {2, 0x1105, 0x1187, 0x0000}, {2, 0x1105, 0x118c, 0x0000},
@@ -924,13 +924,13 @@ int hcharconv(hchar ch, hchar *dest, int codeType)
           dest[0] = ch;
         return 1;
     }
-      /* ÇÑÀÚ´Â 0x4000ºÎÅÍ 4888°¡ÁöÀÇ °ªÀ» °¡Áø´Ù. */
+      /* ï¿½ï¿½ï¿½Ú´ï¿½ 0x4000ï¿½ï¿½ï¿½ï¿½ 4888ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. */
     else if (IsHanja(ch))
     {
         unsigned int index;
         unsigned char hi;
-        /*  4888ÀÌ¿ÜÀÇ ¼ö´Â ¾Æ·¡ÇÑ±Û¿¡¼­ Á¤ÀÇÇÑ È®ÀåÇÑÀÚÀÌ´Ù. ÀÌ°Í¿¡ ´ëÇØ¼­´Â
-            À¯´ÏÄÚµå³ª ¿Ï¼ºÇüÄÚµå·ÎÀÇ º¯È¯À» À§ÇÑ ¸ÅÇÎÅ×ÀÌºí¾î ¾ø´Â ½ÇÁ¤ÀÌ´Ù.
+        /*  4888ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½Ñ±Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½. ï¿½Ì°Í¿ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½
+            ï¿½ï¿½ï¿½ï¿½ï¿½Úµå³ª ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½.
          */
         if ((index = ch - 0x4000) >= 4888)
         {
@@ -942,8 +942,8 @@ int hcharconv(hchar ch, hchar *dest, int codeType)
         }
         if (codeType == KS)
         {
-            /*  ÇÑÀÚÄÚµå´Â »óÀ§ÄÚµå¿Í ÇÏÀ§ÄÚµå·Î ³ª´©¾îÁö¸ç ÇÏÀ§ÄÚµå´Â 0xA1 - 0xFE ±îÁöÀÇ °ªÀ» °¡Áø´Ù.
-                Áï ÇÏÀ§ÄÚµå¿¡ ¿Ã¼öÀÖ´Â °¡Áö¼ö´Â 0xFE - 0xA1 +1 °¡Áö¼öÀÌ´Ù.
+            /*  ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ 0xA1 - 0xFE ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+                ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úµå¿¡ ï¿½Ã¼ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0xFE - 0xA1 +1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½.
              */
             hi = sal::static_int_cast<unsigned char>(index / (0xFE - 0xA1 + 1) + 0xCA);
             lo = sal::static_int_cast<unsigned char>(index % (0xFE - 0xA1 + 1) + 0xA1);
@@ -1007,8 +1007,8 @@ int hcharconv(hchar ch, hchar *dest, int codeType)
         return 1 ;
     }
 /**
- * Æ¯¼ö¹®ÀÚ ÄÚµå
- * ¾Æ·¡ÇÑ±Û¿¡¼­´Â 0x3400ºÎÅÍ Æ¯¼ö¹®ÀÚ°¡ ½ÃÀÛµÈ´Ù. Á¶ÇÕÇüÀº 0xA1A0
+ * Æ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½
+ * ï¿½Æ·ï¿½ï¿½Ñ±Û¿ï¿½ï¿½ï¿½ï¿½ï¿½ 0x3400ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½ÛµÈ´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0xA1A0
  */
     else
     {
@@ -1023,7 +1023,7 @@ int hcharconv(hchar ch, hchar *dest, int codeType)
                          dest[0] = ch;
                           return 1;
                      }
-                     /* ÇÑ±Û°úÄÄÇ»ÅÍ : 0x37c0 ~ 0x37c5 */
+                     /* ï¿½Ñ±Û°ï¿½ï¿½ï¿½Ç»ï¿½ï¿½ : 0x37c0 ~ 0x37c5 */
                      if( ch2 >= 0x37c0 && ch2 <= 0x37c5 ){
                          if( ch2 == 0x37c0 ) dest[0] = 0xd55c;
                          else if( ch2 == 0x37c1 ) dest[0] = 0xae00;
@@ -1069,7 +1069,7 @@ int hcharconv(hchar ch, hchar *dest, int codeType)
     }
 }
 
-/* ÇÑ±ÛÀÏ °æ¿ì. */
+/* ï¿½Ñ±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½. */
 int kssm_hangul_to_ucs2(hchar ch, hchar *dest)
 {
     hchar choseong, joongseong, jongseong;
@@ -1080,13 +1080,13 @@ int kssm_hangul_to_ucs2(hchar ch, hchar *dest)
 
      //printf("kssm_hangul_to_ucs2 : [%d,%d,%d]\n", choseong,joongseong,jongseong);
 
-     if( joongseong < 2 ){ /* Á¶ÇÕµÇÁö ¾ÊÀº ¿µ¿ª Áß¼º=0,1 */
-         if( joongseong == 0 && ch < 0xa414 ){ /* °í¾îÆ÷ÇÔ ÀÚ¸ð */
+     if( joongseong < 2 ){ /* ï¿½ï¿½ï¿½Õµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß¼ï¿½=0,1 */
+         if( joongseong == 0 && ch < 0xa414 ){ /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ */
              int index = choseong * 32 + jongseong;
              dest[0] = jamo_to_unicode[index];
              return 1;
          }
-         else{ /* °í¾îÆ÷ÇÔ ÀÚ¸ðÁ¶ÇÕ : Å×ÀÌºí ¹Ì¿Ï¼º */
+         else{ /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ : ï¿½ï¿½ï¿½Ìºï¿½ ï¿½Ì¿Ï¼ï¿½ */
              unsigned int index = choseong * 32 + jongseong - 308;
              if( index < SAL_N_ELEMENTS(jamocomp1_to_unicode) ){
                  dest[0] = jamocomp1_to_unicode[index].v1;
@@ -1098,11 +1098,11 @@ int kssm_hangul_to_ucs2(hchar ch, hchar *dest)
              return 1;
          }
      }
-     else if ( choseong == 1 && jongseong == 1 ){ /* ¸ðÀ½ */
+     else if ( choseong == 1 && jongseong == 1 ){ /* ï¿½ï¿½ï¿½ï¿½ */
          dest[0] = joongseong_to_unicode[joongseong];
          return 1;
      }
-     else if ( joongseong == 2 && jongseong == 1 ){  /* ÀÚÀ½ */
+     else if ( joongseong == 2 && jongseong == 1 ){  /* ï¿½ï¿½ï¿½ï¿½ */
          dest[0] = choseong_to_unicode[choseong];
        return 1;
     }
@@ -1111,8 +1111,8 @@ int kssm_hangul_to_ucs2(hchar ch, hchar *dest)
              joongseong == 25 || joongseong > 29 ||
              jongseong == 0 || jongseong == 18 ||
              jongseong > 29 ||
-             choseong == 1 || joongseong == 2  /* ¿Ï¼ºµÇÁö ¾ÊÀº ÇÑ±Û */
-             ) { /* °í¾î */
+             choseong == 1 || joongseong == 2  /* ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ±ï¿½ */
+             ) { /* ï¿½ï¿½ï¿½ï¿½ */
          int count = 0;
          if( choseong != 1 ){
              dest[count] = choseong_to_unicode[choseong];
@@ -1192,7 +1192,7 @@ hchar_string hstr2ucsstr(hchar const* hstr)
 }
 
 /**
- * ÇÑÄÄ½ºÆ®¸µÀ» ¿Ï¼ºÇü½ºÆ®¸µÀ¸·Î º¯È¯ÇÑ´Ù
+ * ï¿½ï¿½ï¿½Ä½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½
  */
 ::std::string hstr2ksstr(hchar const* hstr)
 {
@@ -1222,8 +1222,8 @@ hchar_string hstr2ucsstr(hchar const* hstr)
 
 
 /*
- * ÇÑ±Û¿¡¼­ ¿µ¹®¿ÜÀÇ ¹®ÀÚ±îÁö Æ÷ÇÔÇÒ ¼ö ÀÖ´Â kcharÅ¸ÀÔÀÇ ¹®ÀÚ¿­À»
- * ÇÑ±Û¿¡¼­ »ç¿ëÇÏ´Â hcharÅ¸ÀÔÀÇ ¹®ÀÚ¿­·Î º¯È¯ÇÑ´Ù.
+ * ï¿½Ñ±Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ kcharÅ¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½
+ * ï¿½Ñ±Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ hcharÅ¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.
  */
 hchar_string kstr2hstr(unsigned char const* src)
 {
@@ -1254,7 +1254,7 @@ char* Int2Str(int value, const char *format, char *buf)
 }
 
 
-/* colorÀÎµ¦½º °ª°ú À½¿µ°ªÀ» Á¶ÇÕÇÏ¿© ½ºÅ¸¿ÀÇÇ½ºÀÇ color·Î º¯È¯ */
+/* colorï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ colorï¿½ï¿½ ï¿½ï¿½È¯ */
 char *hcolor2str(uchar color, uchar shade, char *buf, bool bIsChar)
 {
     unsigned short red,green,blue;
@@ -1458,11 +1458,11 @@ double calcAngle(int x1, int y1, int x2, int y2)
      }
      double angle;
      angle = (180 / PI) * atan( ( y2 - y1 ) * 1.0 / ( x2 - x1 ));
-     if( y2 >= y1 ){ /* 1,2»çºÐ¸é */
+     if( y2 >= y1 ){ /* 1,2ï¿½ï¿½Ð¸ï¿½ */
           if( angle < 0. )
                 angle += 180.;
      }
-     else{ /* 3, 4 »çºÐ¸é */
+     else{ /* 3, 4 ï¿½ï¿½Ð¸ï¿½ */
           if( angle > 0 )
                 angle += 180.;
           else

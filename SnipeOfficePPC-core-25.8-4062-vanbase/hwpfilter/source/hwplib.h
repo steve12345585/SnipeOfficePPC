@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -23,7 +23,7 @@
 
 #include <string>
 
-/* hwp96ºÎÅÍ hunit°¡ 4byte°¡ µÇ¾ú´Ù. */
+/* hwp96ï¿½ï¿½ï¿½ï¿½ hunitï¿½ï¿½ 4byteï¿½ï¿½ ï¿½Ç¾ï¿½ï¿½ï¿½. */
 /**
  * size of hunit is 4 since hwp96 version
  */
@@ -124,11 +124,11 @@ typedef struct
 #define ONE_MILI        (71)
 #define ONE_DOT         (19)
 
-/* HWP 3.0 ¹®¼­ Á¤º¸ */
+/* HWP 3.0 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 
 #define NLanguage       7
 
-/* Á¦¾î ¹®ÀÚ */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 /**
  * Control character
  */

@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -55,7 +55,7 @@ sal_Bool OTableFieldControl::IsReadOnly()
     sal_Bool bRead(GetCtrl()->IsReadOnly());
     if( !bRead )
     {
-        // Die Spalten einer ::com::sun::star::sdbcx::View können nicht verändert werden
+        // Die Spalten einer ::com::sun::star::sdbcx::View kï¿½nnen nicht verï¿½ndert werden
         Reference<XPropertySet> xTable = GetCtrl()->GetView()->getController().getTable();
         if(xTable.is() && ::comphelper::getString(xTable->getPropertyValue(PROPERTY_TYPE)) == ::rtl::OUString(RTL_CONSTASCII_USTRINGPARAM("VIEW")))
             bRead = sal_True;

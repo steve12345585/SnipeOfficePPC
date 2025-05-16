@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -29,7 +29,7 @@ en-US = "x-xxx-xxx-xxx"
 en-US = "http://www.documentfoundation.org"
 
 [OOO_ARPURLUPDATEINFOTEMPLATE]
-en-US = "http://www.libreoffice.org/download"
+en-US = "http://www.snipeoffice.org/download"
 
 [OOO_STR_NEW_DISPLAY_NAME]
 en-US = "~New"

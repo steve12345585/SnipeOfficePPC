@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -571,7 +571,7 @@ namespace svgio
                 mfTextLength = rSvgTextPositions.getTextLength().solve(rInfoProvider, length);
             }
 
-            // SVG does not really define in which units a ‘rotate’ for Text/TSpan is given,
+            // SVG does not really define in which units a ï¿½rotateï¿½ for Text/TSpan is given,
             // but it seems to be degrees. Convert here to radians
             if(!maRotate.empty())
             {

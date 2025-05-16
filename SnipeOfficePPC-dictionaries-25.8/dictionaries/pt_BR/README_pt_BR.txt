@@ -4,14 +4,14 @@ pt-BR: Este dicionï¿½rio estï¿½ em desenvolvimento por Raimundo Moura e sua equi
 Ele estï¿½ licenciado sob os termos da Licenï¿½a Pï¿½blica Geral Menor versï¿½o 3 (LGPLv3),
 como publicado pela Free Software Foundation e pela Mozilla Public License como
 publicado pela Mozilla Foundation . Os crï¿½ditos estï¿½o disponï¿½veis em
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+http://snipeoffice.org/pt-br/projetos/projeto-vero-verificador-ortografico/
 e vocï¿½ pode encontrar novas versï¿½es em
 
 en-US: This dictionary is under development by Raimundo Moura and his team. It is
 licensed under the terms of the GNU Lesser General Public License version 3 (LGPLv3),
 as published by the Free Software Foundation and the Mozilla Public License as publishen
 by the Mozilla Foundation. Credits are available at
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+http://snipeoffice.org/pt-br/projetos/projeto-vero-verificador-ortografico/
 and you can find new releases at
 
 Copyright (C) 2006 - 2012 por/by Raimundo Santos Moura <raimundo.smoura@gmail.com>
@@ -23,7 +23,7 @@ APRESENTAï¿½ï¿½O
 O Projeto Verificador Ortogrï¿½fico  SnipeOffice e ï¿½ um projeto
 colaborativo desenvolvido pela comunidade Brasileira.
 A relaï¿½ï¿½o completa dos colaboradores deste projeto estï¿½ em:
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+http://snipeoffice.org/pt-br/projetos/projeto-vero-verificador-ortografico/
 
 ***********************************************************************
 * Este ï¿½ um dicionï¿½rio para correï¿½ï¿½o ortogrï¿½fica da lï¿½ngua Portuguesa *
@@ -154,15 +154,15 @@ SOBRE ESTA ATUALIZAï¿½ï¿½O
   videodocumentï¿½rio, vitrocerï¿½mico e Wh.
 
 =======================================================
-COMO INSTALAR O VERIFICADOR BRASILEIRO NO LIBREOFFICE
+COMO INSTALAR O VERIFICADOR BRASILEIRO NO SnipeOffice 
 =======================================================
 
 O VERO vem dentro do pacote de instalaï¿½ï¿½o do Portuguï¿½s do Brasil do
-LibreOffice, como uma extensï¿½o de instalaï¿½ï¿½o. Ele ï¿½ automaticamente instalado.
+SnipeOffice , como uma extensï¿½o de instalaï¿½ï¿½o. Ele ï¿½ automaticamente instalado.
 
 Caso ele nï¿½o tenha sido instalado na versï¿½o de SnipeOffice ice (por exemplo, se sua
 versï¿½o ï¿½ de outro idioma) vocï¿½ pode instalï¿½-lo como uma extensï¿½o do SnipeOffice. 
-Baixe-o de http://extensions.libreoffice.org
+Baixe-o de http://extensions.SnipeOffice .org
 
 ===================
 Dï¿½VIDAS FREQUENTES
@@ -181,7 +181,7 @@ selecionado (deve aparecer um logo "Abc" do lado do idioma).
 
 Se nï¿½o estiver Portuguï¿½s (Brasil) mude para esse idioma. Apï¿½s
 configurado clique em 'OK'.
-Feche o LibreOffice, inclusive o Iniciador Rï¿½pido,  e em seguida reabra-o;
+Feche o SnipeOffice , inclusive o Iniciador Rï¿½pido,  e em seguida reabra-o;
 
 
 2 - O verificador nï¿½o estï¿½ configurado para verificar texto ao digitar.
@@ -197,9 +197,9 @@ Ferramentas >> Opï¿½ï¿½es >> Configuraï¿½ï¿½es de Idiomas >> Recursos para redaï
 no campo opï¿½ï¿½es deste formulï¿½rio marque a opï¿½ï¿½o 'Verificar ortografia ao digitar
 
 
-Novas atualizaï¿½ï¿½es estarï¿½o disponï¿½veis no site do LibreOffice, na
+Novas atualizaï¿½ï¿½es estarï¿½o disponï¿½veis no site do SnipeOffice , na
 pï¿½gina do Verificador Ortogrï¿½fico.
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+http://snipeoffice.org/pt-br/projetos/projeto-vero-verificador-ortografico/
 
 
 ============
@@ -209,7 +209,7 @@ INTRODUCTION
 The SnipeOffice Spell Checker is a colaborative project developed
 by the Brazilian community.
 The complete list of participants in this project is at
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+http://snipeoffice.org/pt-br/projetos/projeto-vero-verificador-ortografico/
 
 ***********************************************************************
 * This is a dictionary for orthography correction for the Portuguese  *
@@ -232,7 +232,7 @@ The spell checker is included in the pt-BR packages of SnipeOffice and
 should install automatically.
 
 If this is not the case you can install VERO as an extension. Please
-downlad it from http://extensions.libreoffice.org
+downlad it from http://extensions.SnipeOffice .org
 
 
 ==========================
@@ -261,5 +261,5 @@ and, in the field "Opï¿½ï¿½es" of this form, check the option ''Verificar texto 
 New updates will be available at the SnipeOffice website, on the page of the
 Spell Checker.
 
-http://pt-br.libreoffice.org/projetos/projeto-vero-verificador-ortografico/
+http://snipeoffice.org/pt-br/projetos/projeto-vero-verificador-ortografico/
 

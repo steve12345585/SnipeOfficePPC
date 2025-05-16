@@ -22,7 +22,7 @@ code for Android, where the cross-compiler itself was built on
 Linux. (This is a real case.) An interesting tidbit is that such
 configurations are called "Canadian Cross".)
 
-Even though the LibreOffice build mechanism is highly unorthodox, the
+Even though the SnipeOffice build mechanism is highly unorthodox, the
 configure script takes the normal --build and --host options like any
 GNU Autoconf -based configure script. To cross-compile, you basically
 need just to specify a suitable --host option and things should work
@@ -128,7 +128,7 @@ CXX_FOR_BUILD=ccache g++
 --with-distro=LibreOfficeMinGW
 
 Alternatively, you can use something like the following; but the
-preferred way is to keep the LibreOfficeMinGW.conf file up-to-date.
+preferred way is to keep the SnipeOfficeMinGW.conf file up-to-date.
 
 CC=ccache i686-w64-mingw32-gcc
 CXX=ccache i686-w64-mingw32-g++

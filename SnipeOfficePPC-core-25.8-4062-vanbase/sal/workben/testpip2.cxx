@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -23,7 +23,7 @@
 
 #include <osl/pipe.h>
 
-// eindeutiger Name fÅr die Pipe
+// eindeutiger Name fÔøΩr die Pipe
 const char pszPipeName[] = "TestPipe";
 
 oslPipe Pipe;
@@ -67,7 +67,7 @@ int main (void)
 
     printf( "TestPipe Client: data received: %s.\n", szBuffer );
 
-    // Sende die Daten wieder zurÅck.
+    // Sende die Daten wieder zurÔøΩck.
     nChars = osl_sendPipe( Pipe, szBuffer, nChars );
 
     if( nChars < 0 )

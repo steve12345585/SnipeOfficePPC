@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -54,42 +54,42 @@ HWPInfo::~HWPInfo(void)
 
 
 /**
- * ¹®¼­Á¤º¸¸¦ ÀÐ¾îµéÀÌ´Â ÇÔ¼ö ( 128 bytes )
- * ¹®¼­Á¤º¸´Â ÆÄÀÏÀÎ½ÄÁ¤º¸( 30 bytes ) ´ÙÀ½¿¡ À§Ä¡ÇÑ Á¤º¸ÀÌ´Ù.
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð¾ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½Ô¼ï¿½ ( 128 bytes )
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î½ï¿½ï¿½ï¿½ï¿½ï¿½( 30 bytes ) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½.
  */
 bool HWPInfo::Read(HWPFile & hwpf)
 {
-    hwpf.Read2b(&cur_col, 1);                     /* ¹®¼­¸¦ ÀúÀåÇÒ ´ç½ÃÀÇ Ä¿¼­°¡ À§Ä¡ÇÑ ¹®´Ü¹øÈ£ */
-    hwpf.Read2b(&cur_row, 1);                     /* ¹®´Ü Ä­ */
+    hwpf.Read2b(&cur_col, 1);                     /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ Ä¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½Ü¹ï¿½È£ */
+    hwpf.Read2b(&cur_row, 1);                     /* ï¿½ï¿½ï¿½ï¿½ Ä­ */
 
-    hwpf.Read1b(&paper.paper_kind, 1);            /* ¿ëÁö Á¾·ù */
-    hwpf.Read1b(&paper.paper_direction, 1);       /* ¿ëÁö ¹æÇâ */
+    hwpf.Read1b(&paper.paper_kind, 1);            /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read1b(&paper.paper_direction, 1);       /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 
 // paper geometry information
-    paper.paper_height = (short) hwpf.Read2b();   /* ¿ëÁö ±æÀÌ */
-    paper.paper_width = (short) hwpf.Read2b();    /* ¿ëÁö ³Êºñ */
-    paper.top_margin = (short) hwpf.Read2b();     /* À§ÂÊ ¿©¹é */
-    paper.bottom_margin = (short) hwpf.Read2b();  /* ¾Æ·¡ÂÊ ¿©¹é */
-    paper.left_margin = (short) hwpf.Read2b();    /* ¿ÞÂÊ ¿©¹é */
-    paper.right_margin = (short) hwpf.Read2b();   /* ¿À¸¥ÂÊ ¿©¹é */
-    paper.header_length = (short) hwpf.Read2b();  /* ¸Ó¸®¸» ±æÀÌ */
-    paper.footer_length = (short) hwpf.Read2b();  /* ²¿¸®¸» ±æÀÌ */
-    paper.gutter_length = (short) hwpf.Read2b();  /* Á¦º»¿©¹é */
-    hwpf.Read2b(&readonly, 1);                    /* ¿¹¾à */
-    hwpf.Read1b(reserved1, 4);                    /* ¿¹¾à */
-    hwpf.Read1b(&chain_info.chain_page_no, 1);    /* ÂÊ ¹øÈ£ ¿¬°á 1-¿¬°á, 0-»õ·Î½ÃÀÛ (¿¬°áÀÎ¼â¿¡¼­ »ç¿ë) */
-    hwpf.Read1b(&chain_info.chain_footnote_no, 1);/* °¢ÁÖ¹øÈ£ ¿¬°á 1-¿¬°á 0-»õ·Î½ÃÀÛ */
-                                                  /* ¿¬°áÀÎ¼âÇÒ ÆÄÀÏÀÇ ÀÌ¸§ */
+    paper.paper_height = (short) hwpf.Read2b();   /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    paper.paper_width = (short) hwpf.Read2b();    /* ï¿½ï¿½ï¿½ï¿½ ï¿½Êºï¿½ */
+    paper.top_margin = (short) hwpf.Read2b();     /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    paper.bottom_margin = (short) hwpf.Read2b();  /* ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    paper.left_margin = (short) hwpf.Read2b();    /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    paper.right_margin = (short) hwpf.Read2b();   /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    paper.header_length = (short) hwpf.Read2b();  /* ï¿½Ó¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    paper.footer_length = (short) hwpf.Read2b();  /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    paper.gutter_length = (short) hwpf.Read2b();  /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&readonly, 1);                    /* ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read1b(reserved1, 4);                    /* ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read1b(&chain_info.chain_page_no, 1);    /* ï¿½ï¿½ ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ 1-ï¿½ï¿½ï¿½ï¿½, 0-ï¿½ï¿½ï¿½Î½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½Î¼â¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½) */
+    hwpf.Read1b(&chain_info.chain_footnote_no, 1);/* ï¿½ï¿½ï¿½Ö¹ï¿½È£ ï¿½ï¿½ï¿½ï¿½ 1-ï¿½ï¿½ï¿½ï¿½ 0-ï¿½ï¿½ï¿½Î½ï¿½ï¿½ï¿½ */
+                                                  /* ï¿½ï¿½ï¿½ï¿½ï¿½Î¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ */
     hwpf.Read1b(chain_info.chain_filename, CHAIN_MAX_PATH);
 
-    hwpf.Read1b(annotation, ANNOTATION_LEN);      /* µ¡ºÙÀÌ´Â ¸» ( ÆÄÀÏ ÀúÀåÇÒ ¶§ µ¡ºÙÀÌ´Â ¸»¿¡ ÁöÁ¤ÇÑ ³»¿ë ) */
-    hwpf.Read2b(&encrypted, 1);                   /* ¾ÏÈ£ ¿©ºÎ 0-º¸ÅëÆÄÀÏ, ±×¿Ü-¾ÏÈ£°É¸° ÆÄÀÏ */
-//hwpf.Read1b(reserved2, 6);                      /* ¾Æ·¡ 3°³ÀÇ°ªÀ¸·Î ¹Ù²î¾ú´Ù. */
-    hwpf.Read2b(&beginpagenum,1);                 /* ÆäÀÌÁö½ÃÀÛ¹øÈ£ */
+    hwpf.Read1b(annotation, ANNOTATION_LEN);      /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) */
+    hwpf.Read2b(&encrypted, 1);                   /* ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ 0-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½×¿ï¿½-ï¿½ï¿½È£ï¿½É¸ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+//hwpf.Read1b(reserved2, 6);                      /* ï¿½Æ·ï¿½ 3ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù²ï¿½ï¿½ï¿½ï¿½. */
+    hwpf.Read2b(&beginpagenum,1);                 /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¹ï¿½È£ */
 
 // footnote
-    hwpf.Read2b(&beginfnnum,1);                   /* °¢ÁÖ ½ÃÀÛ¹øÈ£ */
-    hwpf.Read2b(&countfn,1);                      /* °¢ÁÖ °¹¼ö */
+    hwpf.Read2b(&beginfnnum,1);                   /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Û¹ï¿½È£ */
+    hwpf.Read2b(&countfn,1);                      /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
     splinetext = (short) hwpf.Read2b();
     splinefn = (short) hwpf.Read2b();
     spfnfn = (short) hwpf.Read2b();
@@ -110,7 +110,7 @@ bool HWPInfo::Read(HWPFile & hwpf)
     if (hwpf.State())
         return false;
 
-/* ¹®¼­ ¿ä¾àÀ» ÀÐ´Â´Ù. */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð´Â´ï¿½. */
     if (!summary.Read(hwpf))
         return false;
     if (info_block_len > 0)
@@ -122,7 +122,7 @@ bool HWPInfo::Read(HWPFile & hwpf)
             return false;
     }
 
-/* hwpfÀÇ °ªÀ» Àç¼³Á¤ ÇÑ´Ù. */
+/* hwpfï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ç¼³ï¿½ï¿½ ï¿½Ñ´ï¿½. */
     hwpf.compressed = compressed ? true : false;
     hwpf.encrypted = encrypted ? true : false;
     hwpf.info_block_len = info_block_len;

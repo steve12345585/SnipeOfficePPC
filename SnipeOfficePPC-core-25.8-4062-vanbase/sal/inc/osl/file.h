@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -657,7 +657,7 @@ typedef void *oslFileHandle;
     On Android, if the file path is below the /assets folder, the file
     exists only as a hopefully uncompressed element inside the app
     package (.apk), which has been mapped into memory as a whole by
-    the LibreOffice Android bootstrapping code. So files "opened" from
+    the SnipeOffice Android bootstrapping code. So files "opened" from
     there aren't actually files in the OS sense.
 
     @return

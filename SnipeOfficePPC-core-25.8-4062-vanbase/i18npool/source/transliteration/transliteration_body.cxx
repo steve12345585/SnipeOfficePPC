@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -276,14 +276,14 @@ static rtl::OUString transliterate_titlecase_Impl(
         Reference< XMultiServiceFactory > xMSF = ::comphelper::getProcessServiceFactory();
         CharacterClassificationImpl aCharClassImpl( xMSF );
 
-        // because aCharClassImpl.toTitle does not handle ligatures or ß but will raise
+        // because aCharClassImpl.toTitle does not handle ligatures or ï¿½ but will raise
         // an exception we need to handle the first chara manually...
 
         // we don't want to change surrogates by accident, thuse we use proper code point iteration
         sal_Int32 nPos = 0;
         sal_uInt32 cFirstChar = aText.iterateCodePoints( &nPos );
         OUString aResolvedLigature( &cFirstChar, 1 ); //lcl_ResolveLigature( cFirstChar ) );
-        // toUpper can be used to properly resolve ligatures and characters like ß
+        // toUpper can be used to properly resolve ligatures and characters like ï¿½
         aResolvedLigature = aCharClassImpl.toUpper( aResolvedLigature, 0, aResolvedLigature.getLength(), rLocale );
         // since toTitle will leave all-uppercase text unchanged we first need to
         // use toLower to bring possible 2nd and following charas in lowercase

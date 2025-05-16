@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -215,7 +215,7 @@ Sequence< Property > ImplPropertySetInfo::getProperties(void)
 
     if( !pSeq )
     {
-        // die Informationen für die Properties "Width", "Height" und "Name" anlegen
+        // die Informationen fï¿½r die Properties "Width", "Height" und "Name" anlegen
         pSeq = new Sequence<Property>( 3 );
         Property * pAry = pSeq->getArray();
 
@@ -234,7 +234,7 @@ Sequence< Property > ImplPropertySetInfo::getProperties(void)
         pAry[2].Type = getCppuType( (OUString*) NULL );
         pAry[2].Attributes = TRANSIENT;
     }
-    // Die Information über alle drei Properties liefern.
+    // Die Information ï¿½ber alle drei Properties liefern.
     return *pSeq;
 }
 
@@ -490,7 +490,7 @@ Reference< XPropertySetInfo > ImplIntroTest::getPropertySetInfo()
 {
     static ImplPropertySetInfo aInfo( mxMgr );
     // Alle Objekt haben die gleichen Properties, deshalb kann
-    // die Info für alle gleich sein
+    // die Info fï¿½r alle gleich sein
     return &aInfo;
 }
 

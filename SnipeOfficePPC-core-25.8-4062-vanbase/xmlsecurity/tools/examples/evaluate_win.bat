@@ -1,5 +1,5 @@
 rem
-rem This file is part of the LibreOffice project.
+rem This file is part of the SnipeOffice project.
 rem
 rem This Source Code Form is subject to the terms of the Mozilla Public
 rem License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -128,7 +128,7 @@ echo =============================================
 @echo on
 
 @echo off
-echo please stop the LibreOffice application
+echo please stop the SnipeOffice application
 pause Press Enter when finished...
 @echo on
 

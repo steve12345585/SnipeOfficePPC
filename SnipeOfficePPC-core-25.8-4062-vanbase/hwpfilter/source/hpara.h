@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -53,7 +53,7 @@ class HWPPara;
 
 struct LineInfo
 {
-/* ½ÃÀÛÇÏ´Â ±ÛÀÚÀÇ À§Ä¡ : ÄÜÆ®·ÑÀº ¿©·¯ ±æÀÌ¸¦ °¡Áø´Ù */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ : ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 /**
  * Starting character position
  */
@@ -84,7 +84,7 @@ class DLLEXPORT HWPPara
 /**
  * Zero is for the new paragraph style.
  */
-        unsigned char     reuse_shape;            /* 0ÀÌ¸é »õ¸ð¾ç */
+        unsigned char     reuse_shape;            /* 0ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ */
         unsigned short    nch;
         unsigned short    nline;
 
@@ -95,15 +95,15 @@ class DLLEXPORT HWPPara
 /**
  * If the value is 0, all character of paragraph have same style given cshape
  */
-        unsigned char     contain_cshape;         /* 0ÀÌ¸é ¸ðµç ±ÛÀÚ°¡ ´ëÇ¥ ±ÛÀÚ ¸ð¾ç */
+        unsigned char     contain_cshape;         /* 0ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ */
         unsigned char     etcflag;
 /**
  * Checks the special characters in the paragraph
  */
         unsigned long     ctrlflag;
         unsigned char     pstyno;
-        CharShape     cshape;                     /* ±ÛÀÚ°¡ ¸ðµÎ °°Àº ¸ð¾çÀÏ¶§  */
-        ParaShape     pshape;                     /* reuse flag°¡ 0ÀÌ¸é     */
+        CharShape     cshape;                     /* ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½  */
+        ParaShape     pshape;                     /* reuse flagï¿½ï¿½ 0ï¿½Ì¸ï¿½     */
         int           pno;                        /* run-time only      */
 
         LineInfo      *linfo;
@@ -122,7 +122,7 @@ class DLLEXPORT HWPPara
 
         void  SetNext(HWPPara *n) { _next = n; };
 
-/* layoutÀ» À§ÇÑ ÇÔ¼ö */
+/* layoutï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ */
 /**
  * Returns the character sytle of paragraph.
  */

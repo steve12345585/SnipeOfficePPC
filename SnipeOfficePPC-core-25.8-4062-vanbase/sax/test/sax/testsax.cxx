@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -597,7 +597,7 @@ void OSaxParserTest::testEncoding( const Reference < XParser > &rParser )
       "<!-- all elements here are explicitly in the HTML namespace -->\n"
       "<html:html xmlns:html='http://www.w3.org/TR/REC-html40'>\n"
         "<html:head><html:title>Frobnostication</html:title></html:head>\n"
-        "<html:body><html:p>Moved to ß\n"
+        "<html:body><html:p>Moved to ï¿½\n"
           "<html:a href='http://frob.com'>here.</html:a></html:p></html:body>\n"
       "</html:html>\n";
 

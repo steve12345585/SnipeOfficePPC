@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -63,10 +63,10 @@ int FieldCode::Read(HWPFile & hwpf)
 {
     ulong size;
     hchar dummy;
-    ulong len1;       /* hcharÅ¸ÀÔÀÇ ¹®ÀÚ¿­ Å×ÀÌÅÍ #1ÀÇ ±æÀÌ */
-    ulong len2;       /* hcharÅ¸ÀÔÀÇ ¹®ÀÚ¿­ Å×ÀÌÅÍ #2ÀÇ ±æÀÌ */
-    ulong len3;       /* hcharÅ¸ÀÔÀÇ ¹®ÀÚ¿­ Å×ÀÌÅÍ #3ÀÇ ±æÀÌ */
-    ulong binlen;     /* ÀÓÀÇ Çü½ÄÀÇ ¹ÙÀÌ³Ê¸® µ¥ÀÌÅ¸ ±æÀÌ */
+    ulong len1;       /* hcharÅ¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ #1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    ulong len2;       /* hcharÅ¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ #2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    ulong len3;       /* hcharÅ¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ #3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    ulong binlen;     /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì³Ê¸ï¿½ ï¿½ï¿½ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½ */
 
     hwpf.Read4b(&size, 1);
     hwpf.Read2b(&dummy, 1);
@@ -100,7 +100,7 @@ int FieldCode::Read(HWPFile & hwpf)
 
     hwpf.ReadBlock(bin, binlen);
 
-     if( type[0] == 3 && type[1] == 2 ){ /* ¸¸µç³¯Â¥·Î¼­ Æ÷¸ËÀ» »ý¼ºÇØ¾ß ÇÑ´Ù. */
+     if( type[0] == 3 && type[1] == 2 ){ /* ï¿½ï¿½ï¿½ç³¯Â¥ï¿½Î¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ ï¿½Ñ´ï¿½. */
           DateCode *pDate = new DateCode;
           for (int i = 0 ; i < static_cast<int>(len3_); i++) {
                 if(str3[i] == 0 ) break;
@@ -380,46 +380,46 @@ int Picture::Read(HWPFile & hwpf)
     hwpf.AddBox(this);
 
     hwpf.Read4b(&follow_block_size, 1);
-    hwpf.Read2b(&dummy1, 1);                      /* ¿¹¾à 4¹ÙÀÌÆ® */
+    hwpf.Read2b(&dummy1, 1);                      /* ï¿½ï¿½ï¿½ï¿½ 4ï¿½ï¿½ï¿½ï¿½Æ® */
     hwpf.Read2b(&dummy2, 1);
 
     style.boxnum = fboxnum++;
      zorder = zindex++;
-    hwpf.Read1b(&style.anchor_type, 1);           /* ±âÁØÀ§Ä¡ */
-    hwpf.Read1b(&style.txtflow, 1);               /* ±×¸²ÇÇÇÔ. 0-2(ÀÚ¸®Â÷Áö,Åõ¸í,¾î¿ï¸²) */
-    hwpf.Read2b(&style.xpos, 1);                  /* °¡·ÎÀ§Ä¡ : 1 ¿ÞÂÊ, 2¿À¸¥ÂÊ, 3 °¡¿îµ¥, ÀÌ¿Ü = ÀÓÀÇ */
-    hwpf.Read2b(&style.ypos, 1);                  /* ¼¼·ÎÀ§Ä¡ : 1 À§, 2 ¾Æ·¡, 3 °¡¿îµ¥, ÀÌ¿Ü ÀÓÀÇ */
-    hwpf.Read2b(&option, 1);                      /* ±âÅ¸¿É¼Ç : Å×µÎ¸®,±×¸²¹ÝÀü,µî. bit·Î ÀúÀå. */
-    hwpf.Read2b(&ctrl_ch, 1);                     /* Ç×»ó 11 */
-    hwpf.Read2b(style.margin, 12);                /* ¿©¹é : [0-2][] out/in/¼¿,[][0-3] ¿Þ/¿À¸¥/À§/¾Æ·¡ ¿©¹é */
-    hwpf.Read2b(&box_xs, 1);                      /* ¹Ú½ºÅ©±â °¡·Î */
-    hwpf.Read2b(&box_ys, 1);                      /* ¼¼·Î */
-    hwpf.Read2b(&cap_xs, 1);                      /* Ä¸¼Ç Å©±â °¡·Î */
-    hwpf.Read2b(&cap_ys, 1);                      /* ¼¼·Î */
-    hwpf.Read2b(&style.cap_len, 1);               /* ±æÀÌ */
-    hwpf.Read2b(&xs, 1);                          /* ÀüÃ¼ Å©±â(¹Ú½º Å©±â + Ä¸¼Ç + ¿©¹é) °¡·Î */
-    hwpf.Read2b(&ys, 1);                          /* ¼¼·Î */
-    hwpf.Read2b(&cap_margin, 1);                  /* Ä¸¼Ç ¿©¹é */
+    hwpf.Read1b(&style.anchor_type, 1);           /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ */
+    hwpf.Read1b(&style.txtflow, 1);               /* ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½. 0-2(ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¸²) */
+    hwpf.Read2b(&style.xpos, 1);                  /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ : 1 ï¿½ï¿½ï¿½ï¿½, 2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, 3 ï¿½ï¿½ï¿½îµ¥, ï¿½Ì¿ï¿½ = ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&style.ypos, 1);                  /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ : 1 ï¿½ï¿½, 2 ï¿½Æ·ï¿½, 3 ï¿½ï¿½ï¿½îµ¥, ï¿½Ì¿ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&option, 1);                      /* ï¿½ï¿½Å¸ï¿½É¼ï¿½ : ï¿½×µÎ¸ï¿½,ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½. bitï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. */
+    hwpf.Read2b(&ctrl_ch, 1);                     /* ï¿½×»ï¿½ 11 */
+    hwpf.Read2b(style.margin, 12);                /* ï¿½ï¿½ï¿½ï¿½ : [0-2][] out/in/ï¿½ï¿½,[][0-3] ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½/ï¿½Æ·ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&box_xs, 1);                      /* ï¿½Ú½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&box_ys, 1);                      /* ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&cap_xs, 1);                      /* Ä¸ï¿½ï¿½ Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&cap_ys, 1);                      /* ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&style.cap_len, 1);               /* ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&xs, 1);                          /* ï¿½ï¿½Ã¼ Å©ï¿½ï¿½(ï¿½Ú½ï¿½ Å©ï¿½ï¿½ + Ä¸ï¿½ï¿½ + ï¿½ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&ys, 1);                          /* ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&cap_margin, 1);                  /* Ä¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
     hwpf.Read1b(&xpos_type, 1);
     hwpf.Read1b(&ypos_type, 1);
-    hwpf.Read1b(&smart_linesp, 1);                /* ÁÙ°£°Ý º¸È£ : 0 ¹Ìº¸È£, 1 º¸È£ */
+    hwpf.Read1b(&smart_linesp, 1);                /* ï¿½Ù°ï¿½ï¿½ï¿½ ï¿½ï¿½È£ : 0 ï¿½Ìºï¿½È£, 1 ï¿½ï¿½È£ */
     hwpf.Read1b(&reserved1, 1);
-    hwpf.Read2b(&pgx, 1);                         /* ½ÇÁ¦ °è»êµÈ ¹Ú½º °¡·Î */
-    hwpf.Read2b(&pgy, 1);                         /* ¼¼·Î */
-    hwpf.Read2b(&pgno, 1);                        /* ÆäÀÌÁö ¼ýÀÚ : 0ºÎÅÍ ½ÃÀÛ */
-    hwpf.Read2b(&showpg, 1);                      /* ¹Ú½ºº¸¿©ÁÜ */
-    hwpf.Read2b(&cap_pos, 1);                     /* Ä¸¼ÇÀ§Ä¡ 0 - 7 ¸Þ´º¼ø¼­. */
-    hwpf.Read2b(&num, 1);                         /* ¹Ú½º¹øÈ£ 0ºÎÅÍ ½ÃÀÛÇØ¼­ ¸Å±äÀÏ·Ã¹øÈ£ */
+    hwpf.Read2b(&pgx, 1);                         /* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&pgy, 1);                         /* ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&pgno, 1);                        /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&showpg, 1);                      /* ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+    hwpf.Read2b(&cap_pos, 1);                     /* Ä¸ï¿½ï¿½ï¿½ï¿½Ä¡ 0 - 7 ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½. */
+    hwpf.Read2b(&num, 1);                         /* ï¿½Ú½ï¿½ï¿½ï¿½È£ 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½Å±ï¿½ï¿½Ï·Ã¹ï¿½È£ */
 
-    hwpf.Read1b(&pictype, 1);                     /* ±×¸²Á¾·ù */
+    hwpf.Read1b(&pictype, 1);                     /* ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ */
 
-    skip[0] = (short) hwpf.Read2b();              /* ±×¸²¿¡¼­ ½ÇÁ¦ Ç¥½Ã¸¦ ½ÃÀÛÇÒ À§Ä¡ °¡·Î */
-    skip[1] = (short) hwpf.Read2b();              /* ¼¼·Î */
-    scale[0] = (short) hwpf.Read2b();             /* È®´ëºñÀ² : 0 °íÁ¤, ÀÌ¿Ü ÆÛ¼¾Æ® ´ÜÀ§ °¡·Î */
-    scale[1] = (short) hwpf.Read2b();             /* ¼¼·Î */
+    skip[0] = (short) hwpf.Read2b();              /* ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ */
+    skip[1] = (short) hwpf.Read2b();              /* ï¿½ï¿½ï¿½ï¿½ */
+    scale[0] = (short) hwpf.Read2b();             /* È®ï¿½ï¿½ï¿½ï¿½ï¿½ : 0 ï¿½ï¿½ï¿½ï¿½, ï¿½Ì¿ï¿½ ï¿½Û¼ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
+    scale[1] = (short) hwpf.Read2b();             /* ï¿½ï¿½ï¿½ï¿½ */
 
-    hwpf.Read1b(picinfo.picun.path, 256);         /* ±×¸²ÆÄÀÏ ÀÌ¸§ : Á¾·ù°¡ DrawingÀÌ ¾Æ´Ò¶§. */
-    hwpf.Read1b(reserved3, 9);                    /* ¹à±â/¸í¾Ï/±×¸²È¿°ú µî */
+    hwpf.Read1b(picinfo.picun.path, 256);         /* ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Drawingï¿½ï¿½ ï¿½Æ´Ò¶ï¿½. */
+    hwpf.Read1b(reserved3, 9);                    /* ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½/ï¿½×¸ï¿½È¿ï¿½ï¿½ ï¿½ï¿½ */
 
     UpdateBBox(this);
     if( pictype != PICTYPE_DRAW )
@@ -656,7 +656,7 @@ int ShowPageNum::Read(HWPFile & hwpf)
 }
 
 
-/* È¦¼öÂÊ½ÃÀÛ/°¨Ãß±â (21) */
+/* È¦ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ß±ï¿½ (21) */
 PageNumCtrl::PageNumCtrl():HBox(CH_PAGE_NUM_CTRL)
 {
 }
@@ -790,7 +790,7 @@ int Outline::Read(HWPFile & hwpf)
 }
 
 
-/* ¹­À½ ºóÄ­(30) */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä­(30) */
 KeepSpace::KeepSpace():HBox(CH_KEEP_SPACE)
 {
 }
@@ -807,7 +807,7 @@ int KeepSpace::Read(HWPFile & hwpf)
 }
 
 
-/* °íÁ¤Æø ºóÄ­(31) */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä­(31) */
 FixedSpace::FixedSpace():HBox(CH_FIXED_SPACE)
 {
 }

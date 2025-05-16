@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -304,8 +304,8 @@ void CGM::ImplDoClass4()
                 if ( mpBitmapInUse )
                 {
                     CGMBitmap* pBmpDesc = mpBitmapInUse->GetNext();
-                    if ( pBmpDesc ) // eventuell bekommen wir eine bitmap zurück, die nicht
-                    {               // zur vorherigen paßt -> diese müssen wir dann auch löschen
+                    if ( pBmpDesc ) // eventuell bekommen wir eine bitmap zurï¿½ck, die nicht
+                    {               // zur vorherigen paï¿½t -> diese mï¿½ssen wir dann auch lï¿½schen
                         mpOutAct->DrawBitmap( pBmpDesc->GetBitmap() );
                         delete pBmpDesc;
                     }

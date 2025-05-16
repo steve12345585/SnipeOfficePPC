@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -21,7 +21,7 @@
 #include "hwplib.h"
 #include "hwpfile.h"
 #include "hfont.h"
-/* ÀÌ ÇÔ¼ö´Â HWP ÆÄÀÏÀ» ÇØ¼®ÇÏ´Â ºÎºÐÀÌ´Ù. */
+/* ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ HWP ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ø¼ï¿½ï¿½Ï´ï¿½ ï¿½Îºï¿½ï¿½Ì´ï¿½. */
 
 HWPFont::HWPFont(void)
 {

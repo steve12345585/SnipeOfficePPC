@@ -1,5 +1,5 @@
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -66,7 +66,7 @@ TabPage TP_ANIMATION
         Hide = TRUE ;
     };
 
-     // Es ist schon wichtig, daß Durchsuchen (search) und Suchen (seek/find) unter-
+     // Es ist schon wichtig, daï¿½ Durchsuchen (search) und Suchen (seek/find) unter-
      // schiedlich heissen, da sie eben auch eine unterschiedliche Bedeutung haben
     PushButton BTN_SEARCH
     {

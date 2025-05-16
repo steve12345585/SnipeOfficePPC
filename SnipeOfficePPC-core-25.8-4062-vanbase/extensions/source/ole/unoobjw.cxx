@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -1531,7 +1531,7 @@ STDMETHODIMP  UnoObjectWrapperRemoteOpt::Invoke ( DISPID dispidMember, REFIID /*
                         }
                     }
 
-                    // update ínformation about this member
+                    // update ï¿½nformation about this member
                     if( ret == DISP_E_MEMBERNOTFOUND)
                     {
                         // Remember the name as not existing

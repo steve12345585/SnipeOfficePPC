@@ -1,6 +1,6 @@
 /* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /*
- * This file is part of the LibreOffice project.
+ * This file is part of the SnipeOffice project.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -101,8 +101,8 @@ private:
     /** @descr this function corresponds to the algoritm 4.76 in [2] and
         theorem 5.3.7 in [3]
 
-        [2] Engeln-Müllges, Gisela: Numerik-Algorithmen: Verfahren, Beispiele, Anwendungen
-            Springer, Berlin; Auflage: 9., überarb. und erw. A. (8. Dezember 2004)
+        [2] Engeln-Mï¿½llges, Gisela: Numerik-Algorithmen: Verfahren, Beispiele, Anwendungen
+            Springer, Berlin; Auflage: 9., ï¿½berarb. und erw. A. (8. Dezember 2004)
             Section 4.10.2, page 175
 
         [3] Hanrath, Wilhelm: Mathematik III / Numerik, Vorlesungsskript zur

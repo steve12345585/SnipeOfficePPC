@@ -1,5 +1,5 @@
 #
-# This file is part of the LibreOffice project.
+# This file is part of the SnipeOffice project.
 #
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -32,7 +32,7 @@
 -o forms.OFixedTextModel
 -o forms.OFormattedControl
 #i109939 -o forms.OFormattedFieldWrapper
-# LäSST EIN DOKUMENT OFFEN -o forms.OFormsCollection
+# Lï¿½SST EIN DOKUMENT OFFEN -o forms.OFormsCollection
 -o forms.OGridControlModel
 -o forms.OGroupBoxControl
 -o forms.OGroupBoxModel

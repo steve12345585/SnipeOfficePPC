@@ -304,7 +304,7 @@ sub generate_tarballs($$$$$$$$$)
 
 sub usage()
 {
-    print "This tool helps to pack the libreoffice-build and module sources\n\n" .
+    print "This tool helps to pack the SnipeOffice-build and module sources\n\n" .
 
           "Usage:\n".
           "\tlo-pack-sources [--help]\n" .
