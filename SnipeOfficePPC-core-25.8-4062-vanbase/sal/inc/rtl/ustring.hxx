@@ -2116,7 +2116,7 @@ A simple wrapper around string literal. It is usually not necessary to use, can
 be mostly used to force OUString operator+ working with operands that otherwise would
 not trigger it.
 
-This class is not part of public API and is meant to be used only in LibreOffice code.
+This class is not part of public API and is meant to be used only in SnipeOffice code.
 @since SnipeOffice 25.8
 */
 struct SAL_WARN_UNUSED OUStringLiteral

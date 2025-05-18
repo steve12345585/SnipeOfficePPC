@@ -667,13 +667,13 @@ PRIVATE_1.1 {
         sal_detail_deinitialize;
 } PRIVATE_1.0;
 
-PRIVATE_1.2 { # LibreOffice 3.5
+PRIVATE_1.2 { # SnipeOffice 3.5
     global:
         sal_detail_log;
         sal_detail_logFormat;
 } PRIVATE_1.1;
 
-PRIVATE_textenc.1 { # LibreOffice 3.6
+PRIVATE_textenc.1 { # SnipeOffice 3.6
     global:
         _ZN3sal6detail7textenc20convertCharToUnicode*;
         _ZN3sal6detail7textenc20convertUnicodeToChar*;
@@ -682,7 +682,7 @@ PRIVATE_textenc.1 { # LibreOffice 3.6
         _ZN3sal6detail7textenc37handleBadInputUnicodeToTextConversion*;
 };
 
-PRIVATE_file.1 { # LibreOffice 3.6
+PRIVATE_file.1 { # SnipeOffice 3.6
     global:
         osl_getFileOSHandle;
 	osl_openMemoryAsFile;

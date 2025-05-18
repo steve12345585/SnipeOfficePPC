@@ -52,7 +52,7 @@ handle_with_cb (GObject *source,
     {
       g_print ("HandleWith() failed: %s\n", error->message);
       gtk_message_dialog_format_secondary_markup (dialog,
-          "<b>Error</b>\n\nAsking LibreOffice to accept the session failed: <i>%s</i>",
+          "<b>Error</b>\n\nAsking SnipeOffice to accept the session failed: <i>%s</i>",
           error->message);
       g_error_free (error);
       return;
@@ -126,7 +126,7 @@ show_dialog (
         0, /* flags */
         GTK_MESSAGE_QUESTION,
         GTK_BUTTONS_NONE,
-        "<b>%s</b> (<i>%s</i>) would like to edit a spreadsheet in LibreOffice "
+        "<b>%s</b> (<i>%s</i>) would like to edit a spreadsheet in SnipeOffice "
         "with you.",
         tp_contact_get_alias (target),
         tp_contact_get_identifier (target));

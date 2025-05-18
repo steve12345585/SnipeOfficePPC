@@ -153,7 +153,7 @@ public:
 
     /** Add a suffix to the client name and DBus tube names, e.g. "WhatEver"
 
-        Normally the client name is LibreOffice and the DBus tube service name
+        Normally the client name is SnipeOffice and the DBus tube service name
         is something like org.libreoffice.calc, this modifies the names to
         "LibreOffice"+pName and "org.libreoffice.calc"+pName to make tests not
         interfere with the real world. This is not to be used otherwise. If

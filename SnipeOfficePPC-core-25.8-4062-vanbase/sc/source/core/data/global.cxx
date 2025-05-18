@@ -926,7 +926,7 @@ void ScGlobal::OpenURL( const String& rURL, const String& rTarget )
 {
     //  OpenURL wird immer ueber irgendwelche Umwege durch Mausklicks im GridWindow
     //  aufgerufen, darum stimmen pScActiveViewShell und nScClickMouseModifier.
-    //SvtSecurityOptions to access Libreoffice global security parameters
+    //SvtSecurityOptions to access SnipeOffice global security parameters
     SvtSecurityOptions aSecOpt;
     bool bProceedHyperlink = false;
     if ( (nScClickMouseModifier & KEY_MOD1) && aSecOpt.IsOptionSet( SvtSecurityOptions::E_CTRLCLICK_HYPERLINK ))     // control-click -> into new window

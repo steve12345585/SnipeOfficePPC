@@ -413,7 +413,7 @@ sub set_ms_file_types_properties
 
 # we do not register PPSM, PPAM, and XLAM file types in
 # setup_native\source\win32\customactions\reg4allmsdoc\reg4allmsi.cxx
-# (probably because LibreOffice can't deal with them properly (?)
+# (probably because SnipeOffice can't deal with them properly (?)
 
     push(@{$propertyfile}, "REGISTER_PPS"  . "\t" . "0" . "\n");
     push(@{$propertyfile}, "REGISTER_PPSX" . "\t" . "0" . "\n");

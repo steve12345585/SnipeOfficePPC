@@ -54,7 +54,7 @@
 #
 gb_Configuration__get_source = $(SRCDIR)/$(2)
 
-# The main LibreOffice registry
+# The main SnipeOffice registry
 gb_Configuration_PRIMARY_REGISTRY_NAME := registry
 
 gb_Configuration_XSLTCOMMAND = $(call gb_ExternalExecutable_get_command,xsltproc)

@@ -228,7 +228,7 @@ void doTestCode()
 
     // add something to the long paragraph as an afterthought
     /* PDFWriter::aWriter.GetCurrentStructureElement removed as an unusedcode.easy item:
-    http://cgit.freedesktop.org/libreoffice/core/commit/?id=09279fe3dad24ab58121e4f0a9564d252b64d81a
+    http://dev-www.snipeoffice.org/core/commit/?id=09279fe3dad24ab58121e4f0a9564d252b64d81a
 
     sal_Int32 nSaveStruct = aWriter.GetCurrentStructureElement();
     aWriter.SetCurrentStructureElement( nLongPara );
@@ -306,7 +306,7 @@ void doTestCode()
 
     /*
     EndTransparencyGroup( const Rectangle& rBoundRect, const Bitmap& rAlphaMask ) is removed as an unusedcode.easy item:
-    http://cgit.freedesktop.org/libreoffice/core/commit/?id=581e7d7057afa87036d84e42c0e0a8a7368e20c7
+    http://dev-www.snipeoffice.org/core/commit/?id=581e7d7057afa87036d84e42c0e0a8a7368e20c7
 
     aWriter.BeginTransparencyGroup();
     aWriter.SetFillColor( Color( COL_LIGHTGREEN ) );
@@ -356,7 +356,7 @@ void doTestCode()
 
     /*
     BeginPattern/EndPattern is removed as an unusedcode.easy item:
-    http://cgit.freedesktop.org/libreoffice/core/commit/?id=581e7d7057afa87036d84e42c0e0a8a7368e20c7
+    http://dev-www.snipeoffice.org/core/commit/?id=581e7d7057afa87036d84e42c0e0a8a7368e20c7
 
     aWriter.Push( PUSH_ALL );
     aWriter.BeginPattern(Rectangle(Point(0,0),Size(2000,1000)));

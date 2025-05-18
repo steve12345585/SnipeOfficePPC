@@ -103,7 +103,7 @@ endif
 ifneq ($(OS),WNT)
 define gb_Module_BUILDHINT
 
-LibreOffice build successfully finished.
+SnipeOffice Build successfully finished.
 
 To install, issue: $(MAKE) install
 Developers might prefer this way: $(MAKE) dev-install -o build
@@ -114,7 +114,7 @@ endef
 else
 define gb_Module_BUILDHINT
 
-LibreOffice build succesfully finished.
+SnipeOffice Build succesfully finished.
 
 Please consult instsetoo_native/README on installing it.
 

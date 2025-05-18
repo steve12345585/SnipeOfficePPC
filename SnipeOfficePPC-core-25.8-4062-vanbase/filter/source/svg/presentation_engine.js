@@ -1311,7 +1311,7 @@ PriorityQueue.prototype.implPushHeap = function( nFirst, nHoleIndex, nTopIndex, 
  * Several parts of the following code are the result of the porting,
  * started on August 2011, of the C++ code included in the source files
  * placed under the folder '/slideshow/source' and subfolders.
- * @source http://cgit.freedesktop.org/libreoffice/core/tree/slideshow/source
+ * @source http://dev-www.snipeoffice.org/core/tree/slideshow/source
  *
  */
 
@@ -13692,7 +13692,7 @@ ElapsedTime.prototype.getElapsedTimeImpl = function()
  * Several parts of the above code are the result of the porting,
  * started on August 2011, of the C++ code included in the source files
  * placed under the folder '/slideshow/source' and subfolders.
- * @source http://cgit.freedesktop.org/libreoffice/core/tree/slideshow/source
+ * @source http://dev-www.snipeoffice.org/core/tree/slideshow/source
  *
  */
 

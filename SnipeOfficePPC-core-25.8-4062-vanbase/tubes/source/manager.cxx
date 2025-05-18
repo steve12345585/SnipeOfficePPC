@@ -152,7 +152,7 @@ static void TeleManager_DBusChannelHandler(
     else
     {
         GError *pError = g_error_new_literal( TP_ERRORS, TP_ERROR_CONFUSED,
-            "None of these channels were LibreOffice D-Bus tubes; "
+            "None of these channels were SnipeOffice D-Bus tubes; "
             "why did the Channel Dispatcher give them to us?");
         tp_handle_channels_context_fail( pContext, pError);
         g_clear_error (&pError);

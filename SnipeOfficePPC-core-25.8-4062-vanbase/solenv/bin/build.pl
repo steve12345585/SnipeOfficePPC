@@ -1584,7 +1584,7 @@ sub cancel_build {
     print STDERR "$ENV{GNUMAKE} $module\n";
     print STDERR "\n";
     print STDERR "when the problem is isolated and fixed, re-run '$ENV{GNUMAKE}'\n";
-    zenity_message("LibreOffice Build Failed!");
+    zenity_message("SnipeOffice Build Failed!");
     zenity_close();
 
     do_exit(1);
@@ -1818,7 +1818,7 @@ sub build_multiprocessing {
 sub mp_success_exit {
     print "\nMultiprocessing build is finished\n";
     print "Maximal number of processes run: $maximal_processes\n";
-    zenity_message("LibreOffice Build Success!");
+    zenity_message("SnipeOffice Build Success!");
     zenity_close();
     do_exit(0);
 };
@@ -2077,7 +2077,7 @@ sub zenity_tooltip {
 
     if (zenity_enabled()) {
         my $text = shift;
-        print $zenity_in "tooltip: LibreOffice Build: $text\n";
+        print $zenity_in "tooltip: SnipeOffice Build: $text\n";
     };
 };
 

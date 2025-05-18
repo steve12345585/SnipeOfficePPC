@@ -713,7 +713,7 @@ static inline void eat_space(char ** token)
 }
 
 /*
- * Prune LibreOffice specific duplicate dependencies to improve
+ * Prune SnipeOffice specific duplicate dependencies to improve
  * gnumake startup time, and shrink the disk-space footprint.
  */
 static inline int

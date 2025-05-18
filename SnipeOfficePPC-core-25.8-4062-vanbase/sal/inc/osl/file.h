@@ -846,7 +846,7 @@ SAL_DLLPUBLIC oslFileError SAL_CALL osl_mapFile (
     This function just won't work on Android in general where for
     (uncompressed) files inside the .apk, per SDK conventions in the
     /assets folder, osl_mapFile() returns a pointer to the file inside
-    the already by LibreOffice Android-specific bootstrapping code
+    the already by SnipeOffice Android-specific bootstrapping code
     mmapped .apk archive. We can't go and randomly munmap part of the
     .apk archive. So this function is not present on Android.
 

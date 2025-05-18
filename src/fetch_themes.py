@@ -55,7 +55,7 @@ def main():
     themes_dir = "themes"
     os.makedirs(themes_dir, exist_ok=True)
     
-    # Base URL for LibreOffice themes
+    # Base URL for SnipeOffice themes
     base_url = "https://dev-www.snipeoffice.org/themes"
     
     # Get snapshots

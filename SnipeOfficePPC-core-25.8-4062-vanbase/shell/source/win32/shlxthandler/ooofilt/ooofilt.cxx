@@ -42,7 +42,7 @@
 //  filterr.h       FACILITY_ITF error definitions for IFilter
 //  ntquery.h       Indexing Service declarations
 //  assert.h        assertion function.
-//  ooofilt.hxx     LibreOffice filter declarations
+//  ooofilt.hxx     SnipeOffice filter declarations
 //  propspec.hxx    PROPSPEC
 //--------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ using ::std::min;
 
 //C-------------------------------------------------------------------------
 //  Class:      COooFilter
-//  Summary:    Implements LibreOffice filter class
+//  Summary:    Implements SnipeOffice filter class
 //--------------------------------------------------------------------------
 //M-------------------------------------------------------------------------
 //  Method:     COooFilter::COooFilter
@@ -181,7 +181,7 @@ ULONG STDMETHODCALLTYPE COooFilter::Release()
 }
 //M-------------------------------------------------------------------------
 //  Method:     COooFilter::Init                (IFilter::Init)
-//  Summary:    Initializes LibreOffice filter instance
+//  Summary:    Initializes SnipeOffice filter instance
 //  Arguments:  grfFlags
 //                  [in] Flags for filter behavior
 //              cAttributes
@@ -780,7 +780,7 @@ ULONG STDMETHODCALLTYPE COooFilterCF::Release()
 }
 //M-------------------------------------------------------------------------
 //  Method:     COooFilterCF::CreateInstance (IClassFactory::CreateInstance)
-//  Summary:    Creates new LibreOffice filter object
+//  Summary:    Creates new SnipeOffice filter object
 //  Arguments:  pUnkOuter
 //                  [in] Pointer to IUnknown interface of aggregating object
 //              riid
@@ -788,13 +788,13 @@ ULONG STDMETHODCALLTYPE COooFilterCF::Release()
 //              ppvObject
 //                  [out] Address that receives requested interface pointer
 //  Returns:    S_OK
-//                  LibreOffice filter object was successfully created
+//                  SnipeOffice filter object was successfully created
 //              CLASS_E_NOAGGREGATION
 //                  pUnkOuter parameter was non-NULL
 //              E_NOINTERFACE
 //                  (not implemented)
 //              E_OUTOFMEMORY
-//                  LibreOffice filter object could not be created
+//                  SnipeOffice filter object could not be created
 //                  due to insufficient memory
 //              E_UNEXPECTED
 //                  Unsuccessful due to an unexpected condition
@@ -845,7 +845,7 @@ SCODE STDMETHODCALLTYPE COooFilterCF::LockServer(BOOL fLock)
 }
 //+-------------------------------------------------------------------------
 //  DLL:        ooofilt.dll
-//  Summary:    Implements Dynamic Link Library functions for LibreOffice filter
+//  Summary:    Implements Dynamic Link Library functions for SnipeOffice filter
 //--------------------------------------------------------------------------
 //F-------------------------------------------------------------------------
 //  Function:   DllMain
@@ -871,7 +871,7 @@ extern "C" BOOL WINAPI DllMain(
 }
 //F-------------------------------------------------------------------------
 //  Function:   DllGetClassObject
-//  Summary:    Create LibreOffice filter class factory object
+//  Summary:    Create SnipeOffice filter class factory object
 //  Arguments:  cid
 //                  [in] Class ID of class that class factory creates
 //              iid
@@ -1000,7 +1000,7 @@ namespace /* private */
 
     //----------------------------------------------
     // Make the registry entry and set Filter Handler
-    // HKCR\CLSID\{7BC0E710-5703-45be-A29D-5D46D8B39262} = LibreOffice Filter
+    // HKCR\CLSID\{7BC0E710-5703-45be-A29D-5D46D8B39262} = SnipeOffice Filter
     //                   InProcServer32  (Default)       = Path\ooofilt.dll
     //                                   ThreadingModel  = Both
     //----------------------------------------------
@@ -1027,7 +1027,7 @@ namespace /* private */
 
     //----------------------------------------------
     // Make the registry entry and set Persistent Handler
-    // HKCR\CLSID\{7BC0E713-5703-45be-A29D-5D46D8B39262}  = LibreOffice Persistent Handler
+    // HKCR\CLSID\{7BC0E713-5703-45be-A29D-5D46D8B39262}  = SnipeOffice Persistent Handler
     //      PersistentAddinsRegistered
     //          {89BCB740-6119-101A-BCB7-00DD010655AF} = {7BC0E710-5703-45be-A29D-5D46D8B39262}
     //----------------------------------------------

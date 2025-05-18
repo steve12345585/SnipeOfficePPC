@@ -28,7 +28,7 @@ using namespace U_ICU_NAMESPACE;
 
 /** Container of po entry
 
-    Provide all file operations related to LibreOffice specific
+    Provide all file operations related to SnipeOffice specific
     po entry and store it's attributes.
 */
 class GenPoEntry

@@ -173,7 +173,7 @@ namespace
             {
                 SAL_INFO(
                     "sfx2.appl",
-                    "trying to install LibreOffice Base, caught " << e.Message);
+                    "trying to install SnipeOffice Base, caught " << e.Message);
             }
             return;
         }

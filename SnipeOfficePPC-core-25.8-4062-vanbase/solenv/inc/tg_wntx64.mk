@@ -26,8 +26,8 @@
 #*************************************************************************
 ##############################################################################################
 #       Used when building 64-bit Windows code for the 64-bit Explorer shell extension
-#	in an otherwise 32-bit LibreOffice build. Don't confuse with
-#	building a completely 64-bit LibreOffice on Windows, which is unfinished
+#	in an otherwise 32-bit SnipeOffice build. Don't confuse with
+#	building a completely 64-bit SnipeOffice on Windows, which is unfinished
 #	and highly experimental work.
 ##############################################################################################
 

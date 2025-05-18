@@ -32,7 +32,7 @@
 # The tool is named as losmoketest for its purpose, meanwhile it help you to
 # check, download and install the latest build. By the fact the installation is
 # designed not to be different from manually doing these repeated work, the
-# installed libreoffice build can also be good for manual test.
+# installed SnipeOffice build can also be good for manual test.
 
 import sys, os, platform
 import datetime, time
@@ -333,7 +333,7 @@ def download(url_reg, build_type):
                 set_build_config(build_type, 'build_name', remote_build[0])
                 set_build_config(build_type, 'build_time', datetime.datetime.strftime(remote_build[1], '%d-%b-%Y %H:%M'))
             else:
-                logger.error('Download libreoffice build failed!')
+                logger.error('Download SnipeOffice build failed!')
 
         if remote_build[3] > local_build[3] and (remote_build[1] - remote_build[3]) < datetime.timedelta(hours=1):
             logger.info('Found a relevant smoketest package: ' + remote_build[2])
@@ -382,8 +382,8 @@ def set_build_config(section, option, value):
         config.write(cfgfile)
 
 def uninstall(build_type):
-    ''' Kill libreoffice processes and uninstall all previously installed
-    libreoffice packages '''
+    ''' Kill SnipeOffice processes and uninstall all previously installed
+    SnipeOffice packages '''
 
     if build_type == "pre-releases":
         branding_pack="libreoffice"
@@ -542,7 +542,7 @@ def verify_smoketest(headless):
                                lo_all_paths)
 
     if not lo_testable_paths:
-        logger.error("Not found any Libreoffice or Test packages!")
+        logger.error("Not found any SnipeOffice or Test packages!")
         sys.exit(1)
     else:
         cmd_smoketests = [ p + os.sep + "program" + os.sep + LOSMOKETEST_BIN for p in lo_testable_paths ]
@@ -564,7 +564,7 @@ def usage():
   -v Run smoketest verification directly \n\
   -s Use the headless mode when running the tests \n\
   -i Install the latest build in the DOWNLOAD directory \n\
-  -u Uninstall any existed libreoffice build \n\
+  -u Uninstall any existed SnipeOffice build \n\
   -d Download the latest build for the given test type \n\
 "
 

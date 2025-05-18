@@ -38,7 +38,7 @@ void sal_detail_initialize(int argc, char ** argv) {
     // desktop/source/app/app.cxx), which leaves all file descriptors open,
     // which in turn can have unwanted effects (see
     // <https://bugs.freedesktop.org/show_bug.cgi?id=50603> "Unable to update
-    // LibreOffice without resetting user profile").  But closing fds in
+    // SnipeOffice without resetting user profile").  But closing fds in
     // restartOnMac before calling exec does not work, as additional threads
     // might still be running then, wich can still use those fds and cause
     // crashes.  Therefore, the simples solution is to close fds at process

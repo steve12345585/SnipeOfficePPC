@@ -64,7 +64,7 @@ module com {  module sun {  module star {  module lang {
     on the factory when going down (i.e. it is commonly disposed by the component context).</dd>
     </dl>
 
-    <p>Since LibreOffice 3.6, in addition to instances of
+    <p>Since SnipeOffice 3.6, in addition to instances of
     <type>XServiceInfo</type> et al, the
     <type scope="com::sun::star::container">XSet</type> of at least the default
     C++ service manager implementation now also supports sequences of

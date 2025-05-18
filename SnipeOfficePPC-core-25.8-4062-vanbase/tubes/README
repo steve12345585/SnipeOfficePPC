@@ -14,7 +14,7 @@ To not have tubes and sc cppunittests stumble (LD_LIBRARY_PATH is not evaluated
 in unit tests and thus not a solution) copy the libs to the solver, i.e.
 cp -p $HOME/usr/lib/libtelepathy-glib.* $SRCDIR/solver/$INPATH/lib/
 
-If you have a Telepathy-enabled LibreOffice installed to /usr (including
+If you have a Telepathy-enabled SnipeOffice installed to /usr (including
 liboapprover) you may also want to install the .service and .client files to
 make everything service-activatable. Currently this does not seem to work.
 

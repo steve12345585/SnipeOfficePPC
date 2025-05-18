@@ -1,6 +1,6 @@
 2012-02-24 László Németh:
     * fix Asian and CTL language support. Language recognition depends from the
-      UI language of LibreOffice and the language(s) of the document.
+      UI language of SnipeOffice and the language(s) of the document.
     * fix turtle shape, the problem with the old arrow-like turtle shape
       reported by teachers and other users of turtle graphics
     * better consistency with the UI based position and rotation settings of the
@@ -82,7 +82,7 @@
 2012-05-17 László Németh:
     * fix opt. suffix syntax of for+in (eg. with Finnish :ssa, Hungarian -ban)
     * add dashed outline of turtle to show "pen up" state
-    * fix initial turtle focus for OpenOffice.org and older LibreOffice versions
+    * fix initial turtle focus for OpenOffice.org and older SnipeOffice versions
     * parsing simple (with 0 or 1 argument) user functions in complex expressions
     * add localized "global"
     * add localized operator "in" for logical expressions

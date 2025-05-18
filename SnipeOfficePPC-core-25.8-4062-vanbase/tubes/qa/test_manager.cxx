@@ -127,7 +127,7 @@ void TestTeleTubes::testSession()
     // First try to get account and contact
     AccountContactPairV pairs = TeleManager::getContacts();
     /* Both our accounts are meant to be signed in, and they both should be
-     * capable of LibreOffice tubes because this test runs after we register
+     * capable of SnipeOffice tubes because this test runs after we register
      * our handler. */
     CPPUNIT_ASSERT_MESSAGE(
         "Make sure both your test accounts are signed in "

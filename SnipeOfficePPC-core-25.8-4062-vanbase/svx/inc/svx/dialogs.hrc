@@ -428,7 +428,7 @@
 #define RID_SVXSTR_SEABLUE                  (RID_SVX_START + 546)
 #define RID_SVXSTR_COLOR_SUN                (RID_SVX_START + 547)
 
-// LibreOffice palette colors
+// SnipeOffice palette colors
 #define RID_SVXSTR_LIBRE_GREEN_1                        (RID_SVX_START + 548)
 #define RID_SVXSTR_LIBRE_GREEN_ACCENT                   (RID_SVX_START + 549)
 #define RID_SVXSTR_LIBRE_BLUE_ACCENT                    (RID_SVX_START + 550)
@@ -499,7 +499,7 @@
 #define RID_SVXSTR_COLOR_SUN_DEF            (RID_SVX_START + 620)
 #define RID_SVXSTR_COLOR_CHART              (RID_SVX_START + 621)
 #define RID_SVXSTR_COLOR_CHART_DEF          (RID_SVX_START + 622)
-// LibreOffice palette colors
+// SnipeOffice palette colors
 #define RID_SVXSTR_LIBRE_GREEN_1_DEF                    (RID_SVX_START + 623)
 #define RID_SVXSTR_LIBRE_GREEN_ACCENT_DEF               (RID_SVX_START + 624)
 #define RID_SVXSTR_LIBRE_BLUE_ACCENT_DEF                (RID_SVX_START + 625)
