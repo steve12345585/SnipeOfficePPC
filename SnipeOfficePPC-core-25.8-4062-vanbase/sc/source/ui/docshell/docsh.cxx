@@ -1722,6 +1722,11 @@ void ScDocShell::AsciiSave( SvStream& rStream, const ScImportOptions& rAsciiOpt 
 
     CharSet eOldCharSet = rStream.GetStreamCharSet();
     rStream.SetStreamCharSet( eCharSet );
+    if ( eCharSet == RTL_TEXTENCODING_UTF8 )
+    {
+        static const sal_uInt8 aUtf8Bom[3] = { 0xEF, 0xBB, 0xBF };
+        rStream.Write( aUtf8Bom, sizeof( aUtf8Bom ) );
+    }
     sal_uInt16 nOldNumberFormatInt = rStream.GetNumberFormatInt();
     rtl::OString aStrDelimEncoded;    // only used if not Unicode
     rtl::OUString aStrDelimDecoded;     // only used if context encoding

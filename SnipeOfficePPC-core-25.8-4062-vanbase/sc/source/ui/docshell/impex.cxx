@@ -1600,6 +1600,11 @@ bool ScImportExport::Doc2Text( SvStream& rStrm )
     String aCell;
 
     bool bConvertLF = (GetSystemLineEnd() != LINEEND_LF);
+    if ( rStrm.GetStreamCharSet() == RTL_TEXTENCODING_UTF8 )
+    {
+        static const sal_uInt8 aUtf8Bom[3] = { 0xEF, 0xBB, 0xBF };
+        rStrm.Write( aUtf8Bom, sizeof( aUtf8Bom ) );
+    }
 
     for (nRow = nStartRow; nRow <= nEndRow; nRow++)
     {

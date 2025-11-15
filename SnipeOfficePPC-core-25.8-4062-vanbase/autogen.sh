@@ -188,6 +188,13 @@ if (defined $ENV{NOCONFIGURE}) {
         open (my $fh, ">autogen.lastrun") || die "can't create autogen.lastrun";
         close ($fh);
     }
+    # Ensure config.guess exists (needed by configure)
+    if (! -f "./config.guess" && -f "./dmake/config.guess") {
+        system ("cp dmake/config.guess ./config.guess") && die "Error copying config.guess";
+    }
+    if (! -f "./config.sub" && -f "./dmake/config.sub") {
+        system ("cp dmake/config.sub ./config.sub") && die "Error copying config.sub";
+    }
     print "running ./configure with '" . join ("' '", @args), "'\n";
     system ("./configure", @args) && die "Error running configure";
 }
