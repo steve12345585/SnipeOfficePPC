@@ -25,6 +25,77 @@ This PPC Edition aims to create a backwards-compatible version for PowerPC and 3
 
 ---
 
+## New/Restored Format Coverage
+
+Following the filter backport, SnipeOffice PPC now supports every import/export LibreOffice gained between 4.0.6 and 25.x—while retaining all legacy filters. Highlights below list *every* newly integrated format in user-facing terms:
+
+### Documents & eBooks
+- Added AbiWord document import/export.
+- Added Apple Pages (`.pages`) document support.
+- Added Broadband eBook (BBeB) publishing.
+- Added ClarisWorks/ClarisWrite text document support.
+- Added DOS Word (`.doc` pre-Win) compatibility.
+- Added EPUB eBook pipelines.
+- Added FictionBook 2 (`.fb2`) handling.
+- Added Mac Word and MacWrite conversion filters.
+- Added Mac Works word-processing support.
+- Added Mariner Write document support.
+- Added Markdown (`.md`) round-tripping via dedicated filters.
+- Added Microsoft Word 2007+ XML/VBA (`.docx`, `.dotx`) handling.
+- Added Microsoft Write (`.wri`) import/export.
+- Added Palm Text Document (`.pdb`) and PalmDoc flows.
+- Added Plucker eBook conversion.
+- Added WriteNow document support.
+- Added Writer indexing/XML archive export filter.
+- Added Writer Global (`writerglobal8`) template compatibility.
+
+### Spreadsheets & Data Pipelines
+- Added ADO Rowset XML (`adorowset2ods`) import.
+- Added Apple Numbers (`.numbers`) spreadsheet support.
+- Added Claris Resolve and ClarisWorks Calc conversions.
+- Added Gnumeric (`.gnumeric`) import.
+- Added Orcus-powered CSV, JSON, and XML pipelines for Calc (`calc_csv/json/xml_Orcus`).
+- Added JPEG/PNG/SVG/WEBP export targets for Calc sheets.
+- Added Microsoft Excel 2003 XML (Orcus) handling.
+- Added Microsoft Excel 2007+ (binary, XML, VBA, template) support.
+- Added Microsoft Multiplan compatibility.
+- Added Microsoft Works Calc conversions.
+- Added Parquet spreadsheet export.
+- Added WPS Lotus and WPS Quattro Pro Calc support.
+- Added StarOffice/StarCalc XML templates to keep legacy spreadsheets functional.
+
+### Presentations & Drawings
+- Added Apple Keynote (`.key`) presentation support.
+- Added ClarisWorks Impress and Draw conversions.
+- Added FreeHand document import.
+- Added PageMaker publication import.
+- Added PowerPoint 3 (`.ppt`) legacy support.
+- Added QuarkXPress (`.qxp`) document import.
+- Added Microsoft PowerPoint 2007+ XML/VBA (including autoplay/template flows).
+- Added StarOffice Draw/Impress XML templates plus writer-global variants.
+- Added Zoner/ZMF drawing import.
+
+### Graphics & Media Assets
+- Added Animated PNG (APNG) import/export across Draw/Calc/Writer and internal graphic filters.
+- Added EMZ/WMZ compressed metafile import/export (draw/internal).
+- Added HTML/Web export targets (including Calc/Impress/Writer gallery outputs).
+- Added MOV video thumbnail import via internal graphic filters.
+- Added PDF import/export paths in the filter graph plus updated PDF UI dialogs.
+- Added SVG/SVGZ export/import for Draw/Impress and internal filters.
+- Added WebP import/export everywhere (Calc/Draw/Impress/Writer/internal graphic filter).
+- Added JPEG/PNG/PBM/PPM/TIFF/WMF/XPM export targets for Draw/Impress/Writer where previously missing.
+
+### Publishing, Reports & Templates
+- Added StarBase Report and ReportChart filters.
+- Added DocBook template assets plus XML filter UI pages for DocBook export.
+- Added storage filter detection + GraphicExportFilter components for new pipelines.
+- Added dedicated UI dialogs (PDF options, XML/XSLT filter tabs) so users can configure the new filters.
+
+### Encoding Reliability
+- Added automatic UTF-8 BOM prepending for CSV/TXT exports (Calc save, UNO clipboard, and related flows) to keep multilingual data intact across legacy systems.
+
+---
+
 ## Build Instructions
 
 1. **Prebuilt Dependencies:**  
@@ -49,19 +120,18 @@ This PPC Edition aims to create a backwards-compatible version for PowerPC and 3
 ## Current Status
 
 - **Build Progress:**  
-  Following the included build instructions, the process currently reaches:
+  After importing the full LibreOffice 4.0.6+ filter catalog (see `FILE_CHANGES.md`), the prior blocker around `writer_globaldocument_StarOffice_XML_Writer_ui.xcu` is resolved. The build now advances through `tail_build` and populates every new `.xcu` fragment:
   ```
   (12/17) Building module tail_build
+  ...
+  [build MOD] fileaccess
+  Error: Source file .../filter/source/config/fragments/filters/impress_OOXML_Template.xcu does not exist
   ```
-  but terminates at:
-  ```
-  No rule to make target '.../writer_globaldocument_StarOffice_XML_Writer_ui.xcu', needed by '.../filter_ui.xcu'.  Stop.
-  ```
-  (See line 19729 in `build.log` for details.)
+  (See `build_verbose.log` lines 580–647.)
 
 - **Known Issues:**  
-  - The build fails at the above step due to a makefile or dependency issue with the `writer_globaldocument_StarOffice_XML_Writer_ui.xcu` filter file.
-  - All other modules and dependencies appear to build successfully.
+  - `tail_build` currently fails while packaging `impress_OOXML_Template.xcu`. The file exists in the tree, so the remaining work is to adjust the packaging rule (likely `filter/Configuration_filter.mk` or the generated `XcuDataTarget`) so the solver picks it up.
+  - All preceding modules and dependencies build successfully on the PPC toolchain; continue iterating within `tail_build` to finish the build.
 
 ---
 

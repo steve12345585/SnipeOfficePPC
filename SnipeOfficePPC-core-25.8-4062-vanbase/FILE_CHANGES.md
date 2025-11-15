@@ -381,3 +381,9 @@ Long-term maintenance requires us to know exactly which filter capabilities have
 82. `src/libreoffice-help-4.0.6.2.tar.xz`
 83. `src/libvisio-0.0.31.tar.bz2`
 
+---
+
+## Build Status Update
+
+- Importing the complete filter tree resolved the earlier `filter_ui.xcu` dependency on `writer_globaldocument_StarOffice_XML_Writer_ui.xcu`; that asset now exists in `filter/source/config/fragments/filters/` and is copied during the build.
+- The latest build attempt (`build_verbose.log` lines 580–647) progresses through `tail_build` before failing to package `impress_OOXML_Template.xcu`. The file is present under `filter/source/config/fragments/filters/`, so the remaining work is to update the packaging logic (e.g., `filter/Configuration_filter.mk` or downstream `XcuDataTarget` rules) so the solver picks it up.
