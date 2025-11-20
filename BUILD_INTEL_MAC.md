@@ -206,30 +206,34 @@ After running configure, check the output for:
 
 ## Step 6: Build the Project
 
-### Full Build
+**See [BUILD_COMMANDS_MAC107.md](BUILD_COMMANDS_MAC107.md) for comprehensive build commands with logging options.**
 
-Start the build process:
+### Quick Reference
 
+**Quick Build (Incremental):**
 ```bash
-make MD5SUM= V=1 2>&1 | tee build.log
+make -j4 MD5SUM= V=1 2>&1 | tee build_quick.log
 ```
 
-### Parallel Build (Faster)
-
-For multi-core systems, use parallel builds:
-
+**Full Rebuild (Clean):**
 ```bash
-make -j4 MD5SUM= V=1 2>&1 | tee build.log
+make clean && make -j4 MD5SUM= V=1 2>&1 | tee build_full.log
 ```
 
-Adjust `-j4` based on your CPU cores (e.g., `-j8` for 8 cores).
+**Complete Fresh Start:**
+```bash
+rm -rf workdir solver instdir
+./configure --enable-macosx-sdk=10.7 --disable-windows-build --prefix=/usr/local --with-system-zlib
+make -j4 MD5SUM= V=1 2>&1 | tee build_fresh.log
+```
 
 ### Build Time
 
 Expect the build to take several hours depending on your system:
-- **4-core Intel Mac:** 4-6 hours
-- **8-core Intel Mac:** 2-4 hours
-- **Single core:** 8-12+ hours
+- **4-core Intel Mac:** 1-2 hours (full rebuild)
+- **8-core Intel Mac:** 30-60 minutes (full rebuild)
+- **Single core:** 4-6 hours (full rebuild)
+- **Quick builds:** 10-30 minutes (incremental)
 
 ## Step 7: Create the Installer (Optional)
 
