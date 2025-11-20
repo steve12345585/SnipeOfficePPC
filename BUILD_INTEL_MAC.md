@@ -22,9 +22,25 @@ This guide covers building SnipeOffice 25.8 on Intel Macs running OS X 10.7.5 (L
 
 The project includes all necessary source dependencies in the `PPC Dependencies` folder. These are architecture-agnostic and will compile for Intel Macs.
 
-### Option A: Build Dependencies from Source (Recommended)
+### Option A: Automated Installation Script (Easiest)
 
-Open Terminal and navigate to the dependencies folder:
+**Quick Start:** Use the provided installation script:
+
+```bash
+cd /path/to/SnipeOfficePPC
+chmod +x install_prerequisites_mac107.sh
+./install_prerequisites_mac107.sh
+```
+
+The script will:
+- Check for Xcode/Command Line Tools
+- Automatically build and install all dependencies
+- Set up PATH correctly
+- Verify all installations
+
+### Option B: Manual Build Dependencies from Source
+
+If you prefer to build manually, open Terminal and navigate to the dependencies folder:
 
 ```bash
 cd /path/to/SnipeOfficePPC/PPC\ Dependencies
