@@ -41,9 +41,29 @@ autoconf
 
 ## Build Commands
 
+### ⚠️ Important: First Build on Intel Mac
+
+**If this is your first build on an Intel Mac, you MUST do a full clean build.** You cannot use build artifacts (workdir, solver, instdir) from a PPC build because:
+- Object files (.o) are architecture-specific (PowerPC vs x86_64)
+- Compiled libraries are architecture-specific
+- Binaries are architecture-specific
+
+**You can share:**
+- ✅ Source code (same codebase)
+- ✅ Configuration files
+- ✅ Dependencies source packages
+
+**You cannot share:**
+- ❌ `workdir/` directory (compiled objects)
+- ❌ `solver/` directory (compiled libraries)
+- ❌ `instdir/` directory (compiled binaries)
+- ❌ Any `.o`, `.a`, `.dylib`, or executable files
+
+**For first Intel Mac build, use "Complete Fresh Start" below.**
+
 ### Quick Build (Incremental - Recommended for Development)
 
-Use this when you've already built once and just want to rebuild changed components:
+Use this when you've already built once **on the same Intel Mac system** and just want to rebuild changed components:
 
 #### Basic Quick Build with Log
 
@@ -159,23 +179,29 @@ grep -c "Building module" build_quick.log
 
 ## Common Build Scenarios
 
-### Scenario 1: First Build Ever
+### Scenario 1: First Build Ever (or First Build on Intel Mac)
+
+**Important:** If you're building on Intel Mac for the first time, even if you have a PPC build, you need a complete fresh start.
 
 ```bash
 # 1. Install prerequisites (if not done)
+cd /path/to/SnipeOfficePPC
 ./install_prerequisites_mac107.sh
 
 # 2. Navigate to source
 cd SnipeOfficePPC-core-25.8-4062-vanbase
 
-# 3. Bootstrap
+# 3. Remove any PPC build artifacts (if copying from PPC system)
+rm -rf workdir solver instdir
+
+# 4. Bootstrap
 ./bootstrap || (aclocal -I m4 && autoconf)
 
-# 4. Configure
+# 5. Configure for Intel Mac
 ./configure --enable-macosx-sdk=10.7 --disable-windows-build --prefix=/usr/local --with-system-zlib
 
-# 5. Full build with logging
-make -j4 MD5SUM= V=1 2>&1 | tee build_first.log
+# 6. Full build with logging
+make -j4 MD5SUM= V=1 2>&1 | tee build_first_intel.log
 ```
 
 ### Scenario 2: Rebuild After Code Changes
