@@ -175,9 +175,31 @@ The bootstrap script builds `dmake` (the build tool). If you want to try it:
 
 **Important:** For Intel Mac OS X 10.7.5, use the 10.7 SDK instead of 10.5:
 
+**First, verify that `configure` is a script, not a directory:**
+
+```bash
+file configure
+# Should show: configure: Bourne-Again shell script, ASCII text executable
+```
+
+**If `configure` is a directory, remove it and generate the script:**
+
+```bash
+# Remove configure directory if it exists
+rm -rf configure
+
+# Generate configure script using autogen.sh (requires aclocal/autoconf)
+# OR copy from SnipeOfficePPC-core-25.8-4062-vanbase if it exists there
+# See TROUBLESHOOTING_CONFIGURE.md for details
+```
+
+**Then run configure:**
+
 ```bash
 ./configure --enable-macosx-sdk=10.7 --disable-windows-build --prefix=/usr/local --with-system-zlib
 ```
+
+**Note:** If you get "configure is a directory" error, see [TROUBLESHOOTING_CONFIGURE.md](TROUBLESHOOTING_CONFIGURE.md) for solutions.
 
 The build system will automatically detect:
 - **Architecture:** `x86_64` (Intel 64-bit)
