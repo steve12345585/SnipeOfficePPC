@@ -5,6 +5,17 @@
 
 set -e  # Exit on error
 
+# Set up logging
+LOG_FILE="install_prerequisites_$(date +%Y%m%d_%H%M%S).log"
+exec > >(tee -a "$LOG_FILE") 2>&1
+
+echo "=========================================="
+echo "SnipeOffice Prerequisites Installation Log"
+echo "Started: $(date)"
+echo "Log file: $LOG_FILE"
+echo "=========================================="
+echo
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -327,8 +338,18 @@ if [ $VERIFY_FAILED -eq 0 ]; then
     echo
     print_warn "Note: You may need to restart your terminal or run 'source $SHELL_PROFILE'"
     print_warn "      for PATH changes to take effect in new terminal sessions."
+    echo
+    print_info "=========================================="
+    print_info "Installation completed: $(date)"
+    print_info "Full log saved to: $LOG_FILE"
+    print_info "=========================================="
 else
     print_error "Some packages failed verification. Please check the errors above."
+    echo
+    print_error "=========================================="
+    print_error "Installation failed: $(date)"
+    print_error "Error log saved to: $LOG_FILE"
+    print_error "=========================================="
     exit 1
 fi
 
