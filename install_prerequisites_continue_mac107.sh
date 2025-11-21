@@ -36,7 +36,10 @@ echo "Log file: $LOG_FILE"
 echo "=========================================="
 echo
 
-# Find dependencies directory
+# Server URL for dependencies
+DEPS_SERVER="http://dev-www.snipeoffice.org/mac-lion-depends"
+
+# Find or create dependencies directory
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DEPS_DIR=""
 
@@ -47,12 +50,28 @@ elif [ -d "$SCRIPT_DIR/../PPC Dependencies" ]; then
 elif [ -d "./PPC Dependencies" ]; then
     DEPS_DIR="./PPC Dependencies"
 else
-    print_error "Could not find 'PPC Dependencies' directory!"
-    exit 1
+    # Create dependencies directory if it doesn't exist
+    DEPS_DIR="$SCRIPT_DIR/PPC Dependencies"
+    mkdir -p "$DEPS_DIR"
+    print_info "Created dependencies directory: $DEPS_DIR"
 fi
 
 print_info "Using dependencies directory: $DEPS_DIR"
 cd "$DEPS_DIR"
+
+# Function to download file from server if not found locally
+download_if_missing() {
+    local filename=$1
+    if [ ! -f "$filename" ]; then
+        print_info "Downloading $filename from server..."
+        curl -O "$DEPS_SERVER/$filename" || {
+            print_error "Failed to download $filename from $DEPS_SERVER"
+            return 1
+        }
+    else
+        print_info "Found local copy: $filename"
+    fi
+}
 
 # Update PATH for current session
 export PATH="/usr/local/bin:$PATH"
@@ -113,10 +132,13 @@ build_and_install_package() {
         return 0
     fi
     
-    # Otherwise build from scratch
+    # Otherwise build from scratch - download if missing
     if [ ! -f "$archive" ]; then
-        print_error "Archive not found: $archive"
-        return 1
+        print_info "Archive not found locally, downloading from server..."
+        download_if_missing "$archive" || {
+            print_error "Failed to download $archive"
+            return 1
+        }
     fi
     
     print_info "  Extracting $archive..."
@@ -163,6 +185,7 @@ fi
 
 # 1. pkg-config - install if built
 print_info "Checking pkg-config..."
+download_if_missing "pkg-config-0.25.tar.gz"
 if install_built_package "pkg-config" "pkg-config-0.25.tar.gz"; then
     print_info "pkg-config installed"
 else
@@ -190,10 +213,12 @@ fi
 echo
 
 # 3. glib
+download_if_missing "glib-2.16.6.tar.gz"
 build_and_install_package "glib" "glib-2.16.6.tar.gz" "glib-config"
 
 # 4. libIDL
-build_and_install_package "libIDL" "libIDL-0.8.14.tar.gz" ""
+download_if_missing "libIDL-0.8.14.tar.gz"
+build_and_install_package "libIDL" "libIDL-0.8.14.tar.gz" "idl-compiler"
 
 # 5. zip
 print_info "Processing zip..."
@@ -211,9 +236,11 @@ if command -v zip >/dev/null 2>&1; then
                 cd ..
             else
                 cd ..
+                download_if_missing "zip30.tar.gz"
                 build_and_install_package "zip" "zip30.tar.gz" "zip"
             fi
         else
+            download_if_missing "zip30.tar.gz"
             build_and_install_package "zip" "zip30.tar.gz" "zip"
         fi
     fi
@@ -226,10 +253,25 @@ else
             cd ..
         else
             cd ..
+            download_if_missing "zip30.tar.gz"
             build_and_install_package "zip" "zip30.tar.gz" "zip"
         fi
     else
-        build_and_install_package "zip" "zip30.tar.gz" "zip"
+        if [ -d "zip30" ]; then
+            cd zip30
+            if [ -f "zip" ]; then
+                print_info "  Found built zip binary, installing..."
+                sudo cp zip /usr/local/bin/
+                cd ..
+            else
+                cd ..
+                download_if_missing "zip30.tar.gz"
+                build_and_install_package "zip" "zip30.tar.gz" "zip"
+            fi
+        else
+            download_if_missing "zip30.tar.gz"
+            build_and_install_package "zip" "zip30.tar.gz" "zip"
+        fi
     fi
 fi
 
@@ -246,6 +288,7 @@ else
 fi
 
 # 6. doxygen
+download_if_missing "doxygen-1.7.6.1.src.tar.gz"
 build_and_install_package "doxygen" "doxygen-1.7.6.1.src.tar.gz" "doxygen"
 
 # Update PATH in shell profile

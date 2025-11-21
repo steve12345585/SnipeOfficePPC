@@ -73,10 +73,13 @@ build_and_install() {
         fi
     fi
     
-    # Extract archive
+    # Extract archive - download if missing
     if [ ! -f "$archive" ]; then
-        print_error "Archive not found: $archive"
-        return 1
+        print_info "Archive not found locally, downloading from server..."
+        download_if_missing "$archive" || {
+            print_error "Failed to download $archive"
+            return 1
+        }
     fi
     
     print_info "  Extracting $archive..."
@@ -170,7 +173,10 @@ else
 fi
 echo
 
-# Find dependencies directory
+# Server URL for dependencies (HTTP, not HTTPS for OS X 10.7.5 compatibility)
+DEPS_SERVER="http://dev-www.snipeoffice.org/mac-lion-depends"
+
+# Find or create dependencies directory
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DEPS_DIR=""
 
@@ -182,14 +188,28 @@ elif [ -d "$SCRIPT_DIR/../PPC Dependencies" ]; then
 elif [ -d "./PPC Dependencies" ]; then
     DEPS_DIR="./PPC Dependencies"
 else
-    print_error "Could not find 'PPC Dependencies' directory!"
-    print_error "Please run this script from the SnipeOfficePPC directory or specify the path:"
-    print_error "  DEPS_DIR=/path/to/PPC\\ Dependencies $0"
-    exit 1
+    # Create dependencies directory if it doesn't exist
+    DEPS_DIR="$SCRIPT_DIR/PPC Dependencies"
+    mkdir -p "$DEPS_DIR"
+    print_info "Created dependencies directory: $DEPS_DIR"
 fi
 
 print_info "Using dependencies directory: $DEPS_DIR"
 cd "$DEPS_DIR"
+
+# Function to download file from server if not found locally
+download_if_missing() {
+    local filename=$1
+    if [ ! -f "$filename" ]; then
+        print_info "Downloading $filename from server..."
+        curl -O "$DEPS_SERVER/$filename" || {
+            print_error "Failed to download $filename from $DEPS_SERVER"
+            return 1
+        }
+    else
+        print_info "Found local copy: $filename"
+    fi
+}
 
 # Create /usr/local if it doesn't exist
 if [ ! -d "/usr/local" ]; then
@@ -209,28 +229,32 @@ fi
 export PATH="/usr/local/bin:$PATH"
 
 # 1. pkg-config
+download_if_missing "pkg-config-0.25.tar.gz"
 build_and_install "pkg-config" \
     "pkg-config-0.25.tar.gz" \
-    "./configure && make && sudo make install" \
+    "./configure --prefix=/usr/local && make && sudo make install" \
     "pkg-config"
 
 # 2. gettext
+download_if_missing "gettext-0.17.tar.gz"
 build_and_install "gettext" \
     "gettext-0.17.tar.gz" \
-    "./configure && make && sudo make install" \
+    "./configure --prefix=/usr/local && make && sudo make install" \
     "gettext"
 
 # 3. glib
+download_if_missing "glib-2.16.6.tar.gz"
 build_and_install "glib" \
     "glib-2.16.6.tar.gz" \
-    "./configure && make && sudo make install" \
+    "./configure --prefix=/usr/local && make && sudo make install" \
     "glib-config"
 
 # 4. libIDL
+download_if_missing "libIDL-0.8.14.tar.gz"
 build_and_install "libIDL" \
     "libIDL-0.8.14.tar.gz" \
-    "./configure && make && sudo make install" \
-    ""
+    "./configure --prefix=/usr/local && make && sudo make install" \
+    "idl-compiler"
 
 # 5. zip
 print_info "Processing zip..."
@@ -240,12 +264,14 @@ if check_installed "zip" "zip"; then
         print_info "  zip 3.0+ already installed, skipping"
     else
         print_warn "  Old zip version found, installing zip 3.0..."
+        download_if_missing "zip30.tar.gz"
         build_and_install "zip" \
             "zip30.tar.gz" \
             "make -f unix/Makefile generic && sudo cp zip /usr/local/bin/" \
             "zip"
     fi
 else
+    download_if_missing "zip30.tar.gz"
     build_and_install "zip" \
         "zip30.tar.gz" \
         "make -f unix/Makefile generic && sudo cp zip /usr/local/bin/" \
@@ -269,9 +295,10 @@ else
 fi
 
 # 6. doxygen
+download_if_missing "doxygen-1.7.6.1.src.tar.gz"
 build_and_install "doxygen" \
     "doxygen-1.7.6.1.src.tar.gz" \
-    "./configure && make && sudo make install" \
+    "./configure --prefix=/usr/local && make && sudo make install" \
     "doxygen"
 
 # Update PATH in shell profile
