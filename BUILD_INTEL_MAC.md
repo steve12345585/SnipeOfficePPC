@@ -139,7 +139,7 @@ brew install pkg-config gettext glib libidl zip doxygen
 Navigate to the SnipeOffice source directory:
 
 ```bash
-cd /path/to/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase
+cd /path/to/SnipeOfficePPC/SnipeOfficePPC-core-25.8-2
 ```
 
 ### Set Up Environment Variables
@@ -157,24 +157,19 @@ Reload your profile:
 source ~/.bash_profile
 ```
 
-## Step 4: Bootstrap the Build System
+## Step 4: Bootstrap the Build System (Optional)
 
-Run the bootstrap script to prepare the build system:
+**Good News:** The `configure` script already exists in the codebase, so you can skip bootstrap and go straight to Step 5 (Configure).
+
+The bootstrap script builds `dmake` (the build tool). If you want to try it:
 
 ```bash
 ./bootstrap
 ```
 
-If `bootstrap` doesn't exist, try:
-```bash
-./bootstrap.sh
-```
+**If bootstrap fails** (common issues: path errors, missing aclocal/autoconf), you can skip it entirely and proceed directly to running `./configure` - the configure script is already present and ready to use.
 
-Or manually run:
-```bash
-aclocal -I m4
-autoconf
-```
+**Note:** On OS X 10.7.5, `aclocal` and `autoconf` may not be installed by default. Since the configure script already exists, you don't need them unless you're modifying the build system configuration.
 
 ## Step 5: Configure the Build
 

@@ -17,19 +17,25 @@ chmod +x install_prerequisites_mac107.sh
 ### 1. Navigate to Source Directory
 
 ```bash
-cd /path/to/SnipeOfficePPC/SnipeOfficePPC-core-25.8-4062-vanbase
+cd /path/to/SnipeOfficePPC/SnipeOfficePPC-core-25.8-2
 ```
 
-### 2. Bootstrap the Build System
+### 2. Bootstrap the Build System (Optional)
+
+**Note:** If the `configure` script already exists (which it does in this codebase), you can skip bootstrap and go straight to Step 3.
+
+The bootstrap script builds `dmake` (the build tool). If you encounter bootstrap errors, you can try:
 
 ```bash
-# Run bootstrap (if it exists)
+# Option 1: Try bootstrap (builds dmake)
 ./bootstrap
 
-# Or manually run:
-aclocal -I m4
-autoconf
+# Option 2: Skip bootstrap and go straight to configure
+# (configure script already exists, so this should work)
+# Just proceed to Step 3 below
 ```
+
+**If bootstrap fails with path errors**, you can skip it and run configure directly - the configure script is already present in the codebase.
 
 ### 3. Configure the Build
 
@@ -189,13 +195,14 @@ cd /path/to/SnipeOfficePPC
 ./install_prerequisites_mac107.sh
 
 # 2. Navigate to source
-cd SnipeOfficePPC-core-25.8-4062-vanbase
+cd SnipeOfficePPC-core-25.8-2
 
 # 3. Remove any PPC build artifacts (if copying from PPC system)
 rm -rf workdir solver instdir
 
-# 4. Bootstrap
-./bootstrap || (aclocal -I m4 && autoconf)
+# 4. Bootstrap (optional - configure script already exists)
+# Skip if bootstrap fails - just proceed to configure
+# ./bootstrap
 
 # 5. Configure for Intel Mac
 ./configure --enable-macosx-sdk=10.7 --disable-windows-build --prefix=/usr/local --with-system-zlib
