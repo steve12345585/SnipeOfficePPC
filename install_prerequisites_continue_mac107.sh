@@ -169,8 +169,25 @@ else
     build_and_install_package "pkg-config" "pkg-config-0.25.tar.gz" "pkg-config"
 fi
 
-# 2. gettext
-build_and_install_package "gettext" "gettext-0.17.tar.gz" "gettext"
+# 2. gettext - Make sure this is fully installed
+print_info "Processing gettext (required for msgfmt)..."
+if command -v msgfmt >/dev/null 2>&1; then
+    print_info "  msgfmt found, gettext appears installed"
+    GETTEXT_VERSION=$(gettext --version 2>/dev/null | head -n1 || echo "installed")
+    print_info "  Version: $GETTEXT_VERSION"
+else
+    print_info "  msgfmt not found, need to install gettext"
+    build_and_install_package "gettext" "gettext-0.17.tar.gz" "gettext"
+    
+    # Verify msgfmt was installed
+    if ! command -v msgfmt >/dev/null 2>&1; then
+        print_error "msgfmt still not found after installation!"
+        print_error "You may need to reload your PATH: source ~/.bash_profile"
+        print_error "Or check if gettext was installed to /usr/local/bin"
+        exit 1
+    fi
+fi
+echo
 
 # 3. glib
 build_and_install_package "glib" "glib-2.16.6.tar.gz" "glib-config"
