@@ -100,52 +100,62 @@ if [ "$EUID" -ne 0 ] && ! sudo -n true 2>/dev/null; then
 fi
 
 # Check for Xcode/Command Line Tools
-print_info "Checking for Xcode/Command Line Tools..."
+print_info "Checking for compiler (Xcode 4.6.3 should provide this)..."
 
-# On OS X 10.7.5, xcode-select might not work the same way
-# Check for compiler directly first
+# On OS X 10.7.5 with Xcode 4.6.3, check for compiler directly
+# xcode-select might not be configured, but compiler should still work
 HAS_COMPILER=false
+COMPILER=""
+COMPILER_VERSION=""
+
 if command_exists gcc; then
     HAS_COMPILER=true
     COMPILER=$(which gcc)
+    COMPILER_VERSION=$(gcc --version 2>/dev/null | head -n1 || echo "unknown")
 elif command_exists clang; then
     HAS_COMPILER=true
     COMPILER=$(which clang)
+    COMPILER_VERSION=$(clang --version 2>/dev/null | head -n1 || echo "unknown")
 fi
 
 if [ "$HAS_COMPILER" = true ]; then
-    print_info "Compiler found: $COMPILER"
-    COMPILER_VERSION=$($COMPILER --version 2>/dev/null | head -n1 || echo "unknown")
+    print_info "✓ Compiler found: $COMPILER"
     print_info "  Version: $COMPILER_VERSION"
+    
+    # Also check for make
+    if command_exists make; then
+        MAKE_VERSION=$(make --version 2>/dev/null | head -n1 || echo "unknown")
+        print_info "✓ Make found: $(which make)"
+        print_info "  Version: $MAKE_VERSION"
+    else
+        print_warn "Make not found - this may cause issues"
+    fi
+    
     echo
 else
     print_error "No C compiler found (gcc or clang)!"
     echo
-    print_error "For Mac OS X 10.7.5, you need to install Xcode:"
-    print_error "  1. Install Xcode from the Mac App Store (if available)"
-    print_error "  2. Or install Xcode from your Mac OS X installation DVD/disk image"
-    print_error "  3. Or download Xcode 4.x from Apple Developer (if you have an account)"
-    echo
-    print_warn "Note: On OS X 10.7.5, 'xcode-select --install' may not work."
-    print_warn "      You typically need to install the full Xcode package."
-    echo
-    print_info "After installing Xcode:"
-    print_info "  1. Open Xcode and accept the license agreement"
-    print_info "  2. Run this script again"
+    print_error "Even though Xcode 4.6.3 is installed, the compiler is not in PATH."
+    print_error "Try:"
+    print_error "  1. Open Xcode and accept the license agreement"
+    print_error "  2. Check if /usr/bin/gcc exists: ls -l /usr/bin/gcc"
+    print_error "  3. Check if /Applications/Xcode.app exists"
+    print_error "  4. Try: sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer"
     echo
     exit 1
 fi
 
-# Check xcode-select (optional check, compiler is what matters)
+# Optional: Check xcode-select (informational only)
 if command_exists xcode-select; then
     if xcode-select -p >/dev/null 2>&1; then
         XCODE_PATH=$(xcode-select -p)
-        print_info "Xcode path: $XCODE_PATH"
+        print_info "Xcode developer path: $XCODE_PATH"
     else
-        print_warn "xcode-select found but no Xcode path set (this is OK if compiler works)"
+        print_warn "xcode-select not configured (this is OK - compiler works)"
+        print_info "  To configure: sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer"
     fi
 else
-    print_warn "xcode-select not found (this is OK if compiler works)"
+    print_info "xcode-select not available (this is OK for Xcode 4.6.3)"
 fi
 echo
 
