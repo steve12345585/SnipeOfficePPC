@@ -101,20 +101,52 @@ fi
 
 # Check for Xcode/Command Line Tools
 print_info "Checking for Xcode/Command Line Tools..."
-if ! command_exists xcode-select || ! xcode-select -p >/dev/null 2>&1; then
-    print_error "Xcode or Command Line Tools not found!"
-    print_error "Please install Xcode from the Mac App Store or install Command Line Tools:"
-    print_error "  xcode-select --install"
-    exit 1
+
+# On OS X 10.7.5, xcode-select might not work the same way
+# Check for compiler directly first
+HAS_COMPILER=false
+if command_exists gcc; then
+    HAS_COMPILER=true
+    COMPILER=$(which gcc)
+elif command_exists clang; then
+    HAS_COMPILER=true
+    COMPILER=$(which clang)
 fi
 
-if ! command_exists gcc && ! command_exists clang; then
+if [ "$HAS_COMPILER" = true ]; then
+    print_info "Compiler found: $COMPILER"
+    COMPILER_VERSION=$($COMPILER --version 2>/dev/null | head -n1 || echo "unknown")
+    print_info "  Version: $COMPILER_VERSION"
+    echo
+else
     print_error "No C compiler found (gcc or clang)!"
-    print_error "Please install Xcode Command Line Tools"
+    echo
+    print_error "For Mac OS X 10.7.5, you need to install Xcode:"
+    print_error "  1. Install Xcode from the Mac App Store (if available)"
+    print_error "  2. Or install Xcode from your Mac OS X installation DVD/disk image"
+    print_error "  3. Or download Xcode 4.x from Apple Developer (if you have an account)"
+    echo
+    print_warn "Note: On OS X 10.7.5, 'xcode-select --install' may not work."
+    print_warn "      You typically need to install the full Xcode package."
+    echo
+    print_info "After installing Xcode:"
+    print_info "  1. Open Xcode and accept the license agreement"
+    print_info "  2. Run this script again"
+    echo
     exit 1
 fi
 
-print_info "Compiler found: $(which gcc 2>/dev/null || which clang 2>/dev/null)"
+# Check xcode-select (optional check, compiler is what matters)
+if command_exists xcode-select; then
+    if xcode-select -p >/dev/null 2>&1; then
+        XCODE_PATH=$(xcode-select -p)
+        print_info "Xcode path: $XCODE_PATH"
+    else
+        print_warn "xcode-select found but no Xcode path set (this is OK if compiler works)"
+    fi
+else
+    print_warn "xcode-select not found (this is OK if compiler works)"
+fi
 echo
 
 # Find dependencies directory
