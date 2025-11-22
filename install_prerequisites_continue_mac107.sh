@@ -43,15 +43,15 @@ DEPS_SERVER="http://dev-www.snipeoffice.org/mac-lion-depends"
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DEPS_DIR=""
 
-if [ -d "$SCRIPT_DIR/PPC Dependencies" ]; then
-    DEPS_DIR="$SCRIPT_DIR/PPC Dependencies"
-elif [ -d "$SCRIPT_DIR/../PPC Dependencies" ]; then
-    DEPS_DIR="$SCRIPT_DIR/../PPC Dependencies"
-elif [ -d "./PPC Dependencies" ]; then
-    DEPS_DIR="./PPC Dependencies"
+if [ -d "$SCRIPT_DIR/Intel_Dependencies" ]; then
+    DEPS_DIR="$SCRIPT_DIR/Intel_Dependencies"
+elif [ -d "$SCRIPT_DIR/../Intel_Dependencies" ]; then
+    DEPS_DIR="$SCRIPT_DIR/../Intel_Dependencies"
+elif [ -d "./Intel_Dependencies" ]; then
+    DEPS_DIR="./Intel_Dependencies"
 else
     # Create dependencies directory if it doesn't exist
-    DEPS_DIR="$SCRIPT_DIR/PPC Dependencies"
+    DEPS_DIR="$SCRIPT_DIR/Intel_Dependencies"
     mkdir -p "$DEPS_DIR"
     print_info "Created dependencies directory: $DEPS_DIR"
 fi
@@ -200,7 +200,8 @@ if command -v msgfmt >/dev/null 2>&1; then
     print_info "  Version: $GETTEXT_VERSION"
 else
     print_info "  msgfmt not found, need to install gettext"
-    build_and_install_package "gettext" "gettext-0.17.tar.gz" "gettext"
+    download_if_missing "gettext-0.18.3.2.tar.gz"
+    build_and_install_package "gettext" "gettext-0.18.3.2.tar.gz" "gettext"
     
     # Verify msgfmt was installed
     if ! command -v msgfmt >/dev/null 2>&1; then

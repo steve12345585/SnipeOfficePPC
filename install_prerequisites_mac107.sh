@@ -181,15 +181,15 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DEPS_DIR=""
 
 # Check common locations
-if [ -d "$SCRIPT_DIR/PPC Dependencies" ]; then
-    DEPS_DIR="$SCRIPT_DIR/PPC Dependencies"
-elif [ -d "$SCRIPT_DIR/../PPC Dependencies" ]; then
-    DEPS_DIR="$SCRIPT_DIR/../PPC Dependencies"
-elif [ -d "./PPC Dependencies" ]; then
-    DEPS_DIR="./PPC Dependencies"
+if [ -d "$SCRIPT_DIR/Intel_Dependencies" ]; then
+    DEPS_DIR="$SCRIPT_DIR/Intel_Dependencies"
+elif [ -d "$SCRIPT_DIR/../Intel_Dependencies" ]; then
+    DEPS_DIR="$SCRIPT_DIR/../Intel_Dependencies"
+elif [ -d "./Intel_Dependencies" ]; then
+    DEPS_DIR="./Intel_Dependencies"
 else
     # Create dependencies directory if it doesn't exist
-    DEPS_DIR="$SCRIPT_DIR/PPC Dependencies"
+    DEPS_DIR="$SCRIPT_DIR/Intel_Dependencies"
     mkdir -p "$DEPS_DIR"
     print_info "Created dependencies directory: $DEPS_DIR"
 fi
@@ -236,9 +236,9 @@ build_and_install "pkg-config" \
     "pkg-config"
 
 # 2. gettext
-download_if_missing "gettext-0.17.tar.gz"
+download_if_missing "gettext-0.18.3.2.tar.gz"
 build_and_install "gettext" \
-    "gettext-0.17.tar.gz" \
+    "gettext-0.18.3.2.tar.gz" \
     "./configure --prefix=/usr/local && make && sudo make install" \
     "gettext"
 
